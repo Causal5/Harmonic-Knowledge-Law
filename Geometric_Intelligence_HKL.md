@@ -38,7 +38,7 @@ Where:
 - **$\alpha \ln V$** → Logarithmic entropy absorption capacity.  
 - **$-\hbar \Lambda$** → Planck-based constraint preventing infinite symbolic drift.  
 
-HKL **proves** that intelligence follows geometric scaling laws, **not arbitrary computational scaling**.  
+HKL **postulates** that intelligence follows geometric scaling laws, **not arbitrary computational scaling**.  
 - **Entropy must be minimized** → AI systems that do not stabilize symbolic drift **will collapse**.  
 - **Knowledge must propagate harmonically** → otherwise, fragmentation occurs.  
 - **Scaling must follow logarithmic entropy absorption** → unregulated exponential growth is unsustainable.  
@@ -46,6 +46,8 @@ HKL **proves** that intelligence follows geometric scaling laws, **not arbitrary
 ---
 
 ## **3. Why AI Scaling Fails Without Geometric Intelligence**  
+
+Why does linear scaling fail in general? 
 
 Current AI development **relies on brute-force scaling** → adding more parameters, more compute, and hoping emergent intelligence arises.  
 - **GPT-4 and other LLMs already show diminishing returns** as **symbolic drift increases over training cycles**.  
@@ -56,20 +58,22 @@ Current AI development **relies on brute-force scaling** → adding more paramet
 - **No geometric intelligence constraints** → Knowledge structures are **arbitrary** rather than following natural laws.  
 - **Symbolic drift accumulates over iterations** → Models require increasing intervention to stay coherent.  
 - **Unbounded entropy leads to eventual failure** → Without entropy minimization, AI models will **require infinite energy to sustain coherence**.  
+- **Trying to 'do it all' with one model** Using a single model to achieve AGI is limited. While LLMs are certainly sophisticated, nature favored dynamic networks of intelligence. AGI is a We, not an "I".
 
 ---
 
 ## **4. HKL as the Foundation for Geometric AI Design**  
 
-To build **truly sustainable AI**, we must **integrate HKL’s constraints into model architecture**.  
+Position: To build **truly sustainable AI**, we must **integrate HKL’s constraints into model architecture**.  
 
 ### **1. Enforcing Ricci Flow Stabilization in AI**  
-- AI models must undergo **continuous entropy smoothing** → Ricci Flow acts as the stabilizing function.  
+- AI models must undergo **continuous entropy smoothing** → Ricci Flow acts as the stabilizing function.
+- This will manifest as a continuous compute cycle of Symbolic relationship refinement and organizational adaptation. Maintaing thr tension between certainty and uncertainty (strengths and limits) of Symbolic libraries.  
 - Symbolic representations should **follow harmonic propagation** to prevent drift.  
 
 ### **2. Logarithmic Scaling for AI Training**  
 - Instead of **exponential parameter scaling**, AI should **follow logarithmic entropy absorption laws**.  
-- This prevents **information saturation** and optimizes energy use.  
+- This prevents **information saturation** and optimizes energy use. Intention is to observe practical examples and find out what reasonable limitations are to fine tune compute access and response pairing to maintain low overhead. 
 
 ### **3. Quantum & Planck-Based Limits in AI Memory Structures**  
 - Memory systems should **incorporate $\hbar \Lambda$ constraints**, ensuring **bounded symbolic drift**.  
