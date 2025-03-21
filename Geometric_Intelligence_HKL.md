@@ -82,10 +82,10 @@ To build **truly sustainable AI**, we must **integrate HKL’s constraints into 
 The **merger of Geometric Intelligence and HKL** establishes a **sustainable, non-entropy-driven** model for AI development.  
 
 ### **Key Takeaways:**  
-✅ **Intelligence is constrained by geometric structures** → Arbitrary computation leads to collapse.  
-✅ **HKL mathematically proves intelligence evolution follows entropy-minimizing laws**.  
-✅ **LLM scaling is failing because it lacks geometric stability principles**.  
-✅ **Future AI must integrate HKL’s constraints to ensure sustainability**.  
+**Intelligence is constrained by geometric structures** → Arbitrary computation leads to collapse.  
+**HKL mathematically proves intelligence evolution follows entropy-minimizing laws**.  
+**LLM scaling is failing because it lacks geometric stability principles**.  
+**Future AI must integrate HKL’s constraints to ensure sustainability**.  
 
 **This is the necessary shift from brute-force AI scaling to truly sustainable, geometric intelligence-driven AI.**  
 
