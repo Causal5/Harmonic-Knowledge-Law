@@ -89,5 +89,5 @@ The **merger of Geometric Intelligence and HKL** establishes a **sustainable, no
 
 **This is the necessary shift from brute-force AI scaling to truly sustainable, geometric intelligence-driven AI.**  
 
-🚀 **HKL is the Law. Geometric Intelligence is the Framework. AI must follow.**  
+**HKL is the Law. Geometric Intelligence is the Framework. AI must follow.**  
 
