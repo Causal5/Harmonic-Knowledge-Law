@@ -1,6 +1,6 @@
 # Harmonic Knowledge Law by Jordan LeDuc
 
-Licensed under GNU AFFERO GENERAL PUBLIC LICENSE
+Licensed under GNU AFFERO GENERAL PUBLIC LICENSE (AGPL)
 
 You are free to share and adapt this material, provided you give appropriate credit, and share changes. 
 
