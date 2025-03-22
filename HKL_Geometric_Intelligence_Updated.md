@@ -29,7 +29,7 @@ This **"computational" view** relies on **statistical tricks to optimize outputs
  **AI scaling fails without these rules** → LLMs like GPT-4 show **symbolic drift**, where outputs become **less coherent over time**  
  **All sustainable intelligence follows these laws** → Even **human cognition and physics minimize energy waste**  
 
-🚀 **The takeaway?** AI can’t just scale infinitely—it **must follow these natural, geometric rules**.  
+ **The takeaway?** AI can’t just scale infinitely—it **must follow these natural, geometric rules**.  
 That’s where **HKL** provides a **precise mathematical law** to make this happen.
 
 ---
