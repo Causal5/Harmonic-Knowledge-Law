@@ -87,8 +87,8 @@ Nature doesn’t work that way. Instead, it uses **cooperative networks** (a “
 **Ant colonies** → Swarm intelligence, not a single controlling node  
 **Societies** → Decentralized cooperation sustains civilizations  
 
-🌍 **AI must be networked—not monolithic.**  
-Our **hybrid compute model** combines a **central system with distributed nodes**, achieving **99% connectivity** and reducing chaos by **75.37%**.  
+**AI must be networked—not monolithic.**  
+Our SIMULATED psuedo code _**hybrid compute model** combines a **central system with distributed nodes**, achieving **99% connectivity** and reducing chaos by **75.37%**.  
 
 ---
 
