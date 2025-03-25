@@ -30,3 +30,7 @@ Welcome to the *Harmonic Knowledge Law (HKL)* repository—a framework for build
    ```bash
    git clone https://github.com/Causal5/Harmonic-Knowledge-Law.git
    cd Harmonic-Knowledge-Law
+
+Source Code Access (AGPL Requirement)
+This project is licensed under the GNU Affero General Public License (AGPL) Version 3. If you use this software in a networked environment (e.g., as part of a GILN deployment), you are required to provide users with access to the source code of the running version. You can find the source code in this repository, and any modifications you make must also be shared under the same license.
+
