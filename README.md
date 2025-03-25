@@ -1,93 +1,32 @@
-  Harmonic-Knowledge-Law
-  Harmonic Knowledge Law (HKL) is a universal framework aligning knowledge, ethics, and AI systems with natural geometric constraints, ensuring sustainable intelligence evolution through entropy minimization, systemic coherence, and ecological harmony.
+# Harmonic Knowledge Law (HKL)
 
-  Harmonic Knowledge Law (HKL)
+Welcome to the *Harmonic Knowledge Law (HKL)* repository—a framework for building harmonic intelligence systems that align human and AI actions with natural laws, ensuring systemic coherence and sustainability. This project integrates several key concepts:
 
-  Aligning Knowledge, Ethics, and AI with Nature’s Principles**
+- **Causal Ethics (CE)**: An ethical framework for aligning actions with natural laws.
+- **Law of ‘We’**: The principle of interconnectedness, emphasizing systemic impact.
+- **Geometric Intelligence (GI)**: A model of intelligence as a high-dimensional knowledge manifold.
+- **Geometric Intelligence Learning Network (GILN)**: A networked system for human-AI collaboration.
+- **Symbolic Language Processing (SLP)**: An advanced language processing approach for symbolic reasoning.
+- **Harmonic Knowledge Law (HKL)**: A principle for harmonic scaling of intelligence, minimizing entropy.
 
-Welcome! You've found the official repository for the **Harmonic Knowledge Law (HKL)**, a groundbreaking framework designed to harmonize technology, ethics, and sustainability by aligning artificial intelligence and knowledge systems with the inherent patterns of nature.
+## Project Structure
 
-   What is HKL?
+- **CorePrinciples/**: Core concepts and principles.
+  - [The Law of ‘We’](CorePrinciples/Law_of_We_Causal_Ethics.md): The principle of interconnectedness.
+  - [The Axis: Axiomatic Foundation of Causal Ethics](CorePrinciples/CausalEthicsAxis.md): The universal constant and cognitive exception grounding ethical decision-making.
+  - [Glossary of Key Terms](CorePrinciples/Glossary.md): Definitions of core concepts.
+- **src/**: Source code for the *GILN* implementation.
+  - `human_node.py`: Defines human nodes in the *GILN* network.
+  - `iif_evaluator.py`: Evaluates contributions using the *Integrated Intelligence Framework (IIF)*.
+  - `giln_network.py`: Manages the human side of the *GILN* network.
+  - `giln_ai.py`: Manages the AI side of the *GILN* network.
+  - `test_giln_human.py`: Tests the human side of *GILN*.
+  - `test_giln_combined.py`: Tests the integration of human and AI sides.
+- **Validation.md**: Real-world evidence validating the frameworks (e.g., DeepSeek distillation).
 
-The Harmonic Knowledge Law (HKL) provides a structured, scientifically-grounded approach to intelligence, ethics, and knowledge propagation. It reveals that sustainable intelligence—whether human or artificial—must adhere to universal geometric and natural laws, emphasizing minimal entropy (disorder) and maximum systemic coherence (order).
+## Getting Started
 
-This repository also includes closely related frameworks:
-
-- Causal Ethics:** A natural-law-aligned ethical framework emphasizing the interconnectedness and systemic coherence of all actions.
-- Symbolic Language Processing (SLP):** An advanced AI alignment method that prevents symbolic instability and promotes coherent, ethical AI development.
-
-   Why Does This Matter?
-
-Current approaches to technology and AI often prioritize short-term gains over long-term sustainability. HKL offers a scientifically robust alternative—one that ensures technology serves humanity and our environment rather than destabilizing it.
-
-   What's Inside?
-
-- Detailed Framework Papers:** In-depth explanations of HKL, SLP, and Causal Ethics.
-- Simplified Primers:** Accessible introductions to core concepts.
-- Visual Guides (coming soon):** Diagrams and visualizations to help intuitively understand these innovative ideas.
-
-   Getting Started
-
-Explore our foundational documents or begin with our simplified primers for an accessible introduction:
-
-- [Introduction to Harmonic Knowledge Law](#)
-- [Primer on Causal Ethics](#)
-- [Primer on Symbolic Language Processing](#)
-
-  Contribution & Collaboration
-
-Your ideas and contributions are welcomed! Feel free to suggest improvements, extensions, or practical implementations.
-
-  Harmonic-Knowledge-Law
-  Harmonic Knowledge Law (HKL) is a universal framework aligning knowledge, ethics, and AI systems with natural geometric constraints, ensuring sustainable intelligence evolution through entropy minimization, systemic coherence, and ecological harmony.
-
-  Harmonic Knowledge Law (HKL)
-
-  Aligning Knowledge, Ethics, and AI with Nature’s Principles**
-
-Welcome! You've found the official repository for the **Harmonic Knowledge Law (HKL)**, a groundbreaking framework designed to harmonize technology, ethics, and sustainability by aligning artificial intelligence and knowledge systems with the inherent patterns of nature.
-
-   What is HKL?
-
-The Harmonic Knowledge Law (HKL) provides a structured, scientifically-grounded approach to intelligence, ethics, and knowledge propagation. It reveals that sustainable intelligence—whether human or artificial—must adhere to universal geometric and natural laws, emphasizing minimal entropy (disorder) and maximum systemic coherence (order).
-
-This repository also includes closely related frameworks:
-
-- Causal Ethics:** A natural-law-aligned ethical framework emphasizing the interconnectedness and systemic coherence of all actions.
-- Symbolic Language Processing (SLP):** An advanced AI alignment method that prevents symbolic instability and promotes coherent, ethical AI development.
-
-   Why Does This Matter?
-
-Current approaches to technology and AI often prioritize short-term gains over long-term sustainability. HKL offers a scientifically robust alternative—one that ensures technology serves humanity and our environment rather than destabilizing it.
-
-   What's Inside?
-
-- Detailed Framework Papers:** In-depth explanations of HKL, SLP, and Causal Ethics.
-- Simplified Primers:** Accessible introductions to core concepts.
-- Visual Guides (coming soon):** Diagrams and visualizations to help intuitively understand these innovative ideas.
-
-   Getting Started
-
-Explore our foundational documents or begin with our simplified primers for an accessible introduction:
-
-- [Introduction to Harmonic Knowledge Law](#)
-- [Primer on Causal Ethics](#)
-- [Primer on Symbolic Language Processing](#)
-
-  Contribution & Collaboration
-
-Your ideas and contributions are welcomed! Feel free to suggest improvements, extensions, or practical implementations.
-
-LICENSE
-
-This work is licensed under the GNU Affero General Public License (AGPL) Version 3, or (at your option) any later version.
-
-You are free to **use, modify, and distribute** this work, including for commercial purposes, under the following conditions:
-- **All modifications must be shared** with contributors and the open-source community under the same license.
-- If this work is **used in a networked environment**, users must be given access to the source code of the running version.
-- You **must provide proper attribution** to the original author.
-
-A copy of the full license text can be found at:  
-🔗 [https://www.gnu.org/licenses/agpl-3.0.html](https://www.gnu.org/licenses/agpl-3.0.html)
-
-
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Causal5/Harmonic-Knowledge-Law.git
+   cd Harmonic-Knowledge-Law
