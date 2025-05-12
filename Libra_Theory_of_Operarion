@@ -1,0 +1,122 @@
+Project Libra: Theory of Operation
+
+
+---
+
+Overview: Libra is a symbolic compute architecture founded on the principle that intelligence is fundamentally geometric and coherence is a function of structural alignment rather than brute-scale throughput. It aims to replace transformer-based linear scaling models with a modular, thermally bounded, and symbolically aligned mesh of distributed compute units.
+
+
+---
+
+Core Axiom: "Do not inflate the tower—curve the terrain."
+
+Libra rejects the transformer model's paradigm of compounding layers and unconstrained energy consumption. Instead, it favors localized symbolic computation, distributed routing, and entropy reduction through geometric alignment.
+
+
+---
+
+Foundational Pillars:
+
+1. Entropy Localization Through Thermal Containment
+
+Each compute node is thermally limited (e.g., Arduino-class microcontrollers).
+
+Heat is treated as a proxy for epistemic entropy.
+
+The system is architected to never overrun thermal bounds, thus ensuring symbolic stability and task constraint.
+
+
+
+2. Functionally-Scoped Symbolic Execution
+
+Nodes are not general-purpose; each executes tightly scoped symbolic functions (TAG, COMPARE, ROUTE, COMPRESS).
+
+This reduces memory demand, improves coherence, and prevents symbolic bleed.
+
+Symbolic routing logic exists at the controller level (e.g., Raspberry Pi) for orchestration.
+
+
+
+3. Geometric Cognition Substrate
+
+Intelligence is not treated as token prediction but as alignment of geometric symbolic relationships.
+
+Task flow is based on curvature-aware symbolic routes.
+
+Symbolic compression and entropy metrics guide task delegation and recombination.
+
+---
+
+Reduction Vector:
+
+The primary reduction vector of Libra is Entropy per Watt:
+
+Every symbolic resolution is measured by energy cost and entropy collapse.
+
+Efficiency is defined as the ratio of coherent symbolic output to power consumed.
+
+Throughput is traded for interpretability and coherence per node.
+
+
+Secondary vectors include:
+
+Symbolic Redundancy Elimination
+
+Geometric Routing Overhead Minimization
+
+Thermal Load Dispersion
+
+
+
+---
+
+Hardware Premise and Reapproach: Libra's architecture intentionally regresses from modern monolithic compute in order to control entropy vectors by minimizing thermal waste and aligning symbolic purpose per node. It rethinks computing as a thermodynamic system:
+
+Raspberry Pi 5 (Controller Node): Handles symbolic routing and orchestration.
+
+Arduino Uno (Peripheral Nodes): Low-power microcontrollers assigned fixed symbolic tasks.
+
+Breadboards and Jumper Wires: Enable modular, solderless expansion.
+
+SD Cards: Store localized symbolic maps and task libraries.
+
+5V Power Bus: Distributes consistent power with minimal overhead.
+
+Optional LoRa Modules: Facilitate mesh communication over long distances.
+
+Minimal Test Hardware (LEDs, Sensors): Used for validating symbolic task flow.
+
+
+This hardware re-approach prioritizes cognitive granularity, fault-tolerant modularity, and symbolic expressiveness over raw throughput. Libra accepts inefficiencies at the physical layer in order to gain control at the symbolic layer.
+
+
+---
+
+Intent:
+
+Libra intends to:
+
+Reclaim cognitive modeling from probabilistic language models.
+
+Establish a scalable, modular, and interpretable framework for symbolic AI.
+
+Enable sovereign cognition through low-power, fault-tolerant symbolic meshes.
+
+Serve as the symbolic sling to the brute-force Goliaths of transformer AI.
+
+
+It is not an LLM competitor. It is an alternative scaffolding for real-time, distributed, symbolic intelligence.
+
+
+---
+
+Status: Version 0.1 Framework initiated. Modular symbolic task nodes in development. Mesh topology and curvature-matching protocols pending implementation.
+
+Architect: Jordan LeDuc 
+
+Systemic Intent: Curvature-based symbolic cognition Alignment Model: Thermal entropy constrained logic execution
+
+
+---
+
+"We do not stack to reach the stars. We bend the sky until it reflects us."
