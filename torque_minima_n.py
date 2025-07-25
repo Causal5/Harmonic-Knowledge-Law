@@ -1,0 +1,134 @@
+import math
+from typing import List, Tuple
+
+BLOCK_SIZE = 10_000_000  # 10 M integers per block
+
+# ─────────────────────────────  Primes  ──────────────────────────────
+
+def simple_sieve(limit: int) -> List[int]:
+    """Return list of primes ≤ limit (simple sieve)."""
+    sieve = bytearray(b"\x01") * (limit + 1)
+    sieve[:2] = b"\x00\x00"
+    bound = int(math.isqrt(limit)) + 1
+    for p in range(2, bound):
+        if sieve[p]:
+            sieve[p * p : limit + 1 : p] = b"\x00" * ((limit - p * p) // p + 1)
+    return [i for i in range(2, limit + 1) if sieve[i]]
+
+
+def segmented_sieve(limit: int, block: int = BLOCK_SIZE):
+    """Yield primes ≤ limit in memory‑light BLOCK‑sized chunks."""
+    sqrt_lim = int(math.isqrt(limit))
+    base_primes = simple_sieve(sqrt_lim)
+
+    for low in range(2, limit + 1, block):
+        high = min(low + block - 1, limit)
+        size = high - low + 1
+        buf = bytearray(b"\x01") * size
+        for p in base_primes:
+            start = max(p * p, ((low + p - 1) // p) * p)
+            if start > high:
+                continue
+            step = p
+            buf[start - low : size : step] = b"\x00" * ((high - start) // step + 1)
+        for i in range(size):
+            if buf[i]:
+                yield low + i
+
+# ───────────────────── Torque–minimum engine ───────────────────────
+
+def compute_torque_minima(limit: int,
+        block_size: int = BLOCK_SIZE,
+        limit_correction: int = 10_000) -> Tuple[List[int], List[float], float, float, int, List[int]]:
+    """Return minima, corrected values, β, β_std, prime_count, raw drift."""
+
+    psi_nm1 = psi_n = 0.0
+    d2_prev = d2_nm1 = None
+
+    minima: List[int] = []
+    drift_vals: List[int] = []
+    prime_count = 0
+
+    prime_iter = segmented_sieve(limit + limit_correction, block_size)
+    prime_cursor = next(prime_iter, None)          # next prime ≥ n
+    next_prime_for_drift = prime_cursor            # prime used for pairing
+
+    for n in range(2, limit + 1):
+        is_prime = n == prime_cursor
+        if is_prime:
+            prime_count += 1
+            psi_next = psi_n + math.log(n)
+            next_prime_for_drift = prime_cursor    # latch before advancing
+            prime_cursor = next(prime_iter, None)
+        else:
+            psi_next = psi_n
+
+        d2_n = psi_nm1 - 2 * psi_n + psi_next
+
+        if d2_prev is not None and d2_nm1 is not None:
+            if d2_prev > d2_nm1 <= d2_n:           # local minimum at n‑1
+                m = n - 1
+                minima.append(m)
+                if next_prime_for_drift is not None:
+                    drift_vals.append(m - next_prime_for_drift)  # positive gap
+
+        d2_prev, d2_nm1 = d2_nm1, d2_n
+        psi_nm1, psi_n = psi_n, psi_next
+
+    # --- β statistics ---
+    if drift_vals:
+        beta_terms = [d / math.log(m) for d, m in zip(drift_vals, minima)]
+        beta = sum(beta_terms) / len(beta_terms)
+        beta_std = (sum((b - beta) ** 2 for b in beta_terms) / len(beta_terms)) ** 0.5
+    else:
+        beta = beta_std = 1.0
+
+    corrected = [m - beta * math.log(m) for m in minima]
+    return minima, corrected, beta, beta_std, prime_count, drift_vals
+
+# ──────────────────────────────  Main  ───────────────────────────────
+if __name__ == "__main__":
+    LIMIT       = 100_000_000   # upper bound
+    BLOCK       = 10_000_000    # sieve block size
+    LIMIT_CORR  = 10_000        # head‑room so last minimum sees its prime
+
+    minima, corrected, beta, beta_std, prime_cnt, deltas = compute_torque_minima(
+        LIMIT, BLOCK, LIMIT_CORR)
+
+    max_delta = max(deltas) if deltas else 0
+
+    # align true primes list (first minimum aligns to second prime)
+    primes_all = list(segmented_sieve(LIMIT, BLOCK))
+    true_primes = primes_all[1:1 + len(minima)]
+    residuals   = [c - p for c, p in zip(corrected, true_primes)]
+    r_max       = max(abs(r) for r in residuals)
+
+    print(f"Primes analysed : {prime_cnt}")
+    print(f"Torque minima    : {len(minima)}")
+    print(f"β = {beta:.4f} ± {beta_std:.4f}")
+    print(f"|Δn|max  (raw)   : {max_delta}")
+    print(f"|r|max  (β‑corr) : {r_max}")
+
+    # preview
+    for n, c in zip(minima[:20], corrected[:20]):
+        print(f"n={n:<8d}  n_corr={c:.6f}")
+
+    # optional plots
+    try:
+        import numpy as np, matplotlib.pyplot as plt
+        ln_n  = np.log(minima)
+        delta = np.array(deltas)
+        resid = np.array(residuals)
+
+        plt.scatter(ln_n, delta, s=1, alpha=0.5)
+        plt.xlabel("ln(n)"); plt.ylabel("Δn (raw)")
+        plt.title("Raw drift vs ln n")
+        plt.show()
+
+        plt.scatter(ln_n, resid, s=1, alpha=0.5)
+        plt.axhline(0, color="k", lw=.8)
+        plt.xlabel("ln(n)"); plt.ylabel("Residual after β‑corr")
+        plt.title("Residuals (should hug 0)")
+        plt.show()
+    except ModuleNotFoundError:
+        pass
