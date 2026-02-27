@@ -1,6 +1,6 @@
 # Causal Ethics — Master Symbol Registry
 
-## Version 0.1 (Post-AEF + HKL Normalization)
+## Version 0.2 (Dual-Aspect Formalization — Δ-Self 2 Integrated)
 
 ---
 
@@ -11,6 +11,8 @@
 3. Mathematical symbols and implementation identifiers must remain separate namespaces.
 4. All new symbols must be added here before publication use.
 5. These are contextual symbols borrowed from 'real' math and applied as analogs/representations of function within this body of work.
+6. Ontic variables: $\mathcal{M}$ and $m(t)$; informatic variables: $\mathcal{G}(t)$ and $G(t)$ must not be conflated.
+7. Ethical viability is evaluated only in Stability (HKL) and Effort (AEF) namespaces, not inside bridge operators.
 
 ---
 
@@ -42,12 +44,32 @@
 
 # Namespace III — Identity / Geometry (Δ-Self)
 
-| Symbol     | Canonical Meaning                        | Type / Domain     | Notes                         | Introduced In |
-| ---------- | ---------------------------------------- | ----------------- | ----------------------------- | ------------- |
-| $\Delta I$ | Identity deviation vector                | Vector            | Deviation of agent trajectory | Δ-Self        |
-| $M_t$      | Time-indexed macro/memory/state variable | Context-dependent | Requires formalization        | Δ-Self        |
-| $\nabla S$ | Entropy gradient                         | Vector field      | Structural gradient reference | Δ-Self        |
-| $g_{ij}$   | Metric tensor components                 | Matrix            | Geometric structure           | Law of WE     |
+| Symbol                 | Canonical Meaning                     | Type / Domain                                      | Notes                                               | Introduced In  |
+| ---------------------- | ------------------------------------- | -------------------------------------------------- | --------------------------------------------------- | -------------- |
+| $\Delta I$             | Identity deviation vector             | Vector                                             | Deviation of agent trajectory                       | Δ-Self         |
+| $\nabla S$             | Entropy gradient                      | Vector field                                       | Structural gradient reference                       | Δ-Self         |
+| $g_{ij}$               | Metric tensor components              | Matrix                                             | Geometric structure                                 | Law of WE      |
+| $\mathcal{M}$          | Ontic manifold state space            | Differentiable manifold                            | Total causal state space (inaccessible in totality) | Δ-Self 2       |
+| $m(t)$                 | Realized ontic state at time $t$      | Element of $\mathcal{M}$                           | Physical state under causal evolution               | Δ-Self 2       |
+| $\mathcal{G}(t)$       | Agent knowledge graph substrate       | Weighted discrete graph                            | Informatic geometric structure                      | SLP / Δ-Self 2 |
+| $G(t)$                 | Agent internal representation state   | Element of $\mathcal{G}(t)$                        | Structured symbolic state                           | SLP            |
+| $\mu_t$                | Measurement operator                  | $\mathcal{M} \rightarrow \mathcal{O}(t)$           | Horizon-limited, lossy observation                  | Δ-Self 2       |
+| $\varepsilon_t$        | Probabilistic interpretation operator | $\mathcal{O}(t) \rightarrow \Delta(\mathcal{H})$   | Hypothesis distribution encoding (SIP layer)        | SLP            |
+| $\kappa_t$             | Coarse-grain / symbol commit operator | $\Delta(\mathcal{H}) \rightarrow \mathcal{G}(t+1)$ | Equivalence-class resolution into graph             | SLP            |
+| $\alpha_t$             | Ontic realization operator            | $(m(t), a_t) \rightarrow m(t+1)$                   | Physical action realization                         | Law of WE      |
+| $\mathcal{A}_{acc}(t)$ | Accessible feasible action set        | Subset of $\mathcal{A}(t)$                         | Epistemically bounded admissible actions            | Δ-Self 2       |
+
+---
+
+## Dual-Aspect Coexistence Statement
+
+Agents are dual-resident systems embedded in the ontic manifold $\mathcal{M}$ while operating through an internal discrete representational substrate $\mathcal{G}(t)$. Informatic updates occur through the composed mapping:
+
+$$
+\pi_t = \kappa_t \circ \varepsilon_t \circ \mu_t
+$$
+
+Ethical viability is evaluated only after ontic realization via $\alpha_t$ using Stability (HKL) and Effort (AEF) constraints.
 
 ---
 
@@ -79,20 +101,20 @@ These must always appear in code blocks or implementation appendices.
 
 # Collision Log (Resolved)
 
-| Previous Symbol       | Issue                                               | Resolution                            |
-| --------------------- | --------------------------------------------------- | ------------------------------------- |
-| $CI$                  | Collision: Circular Integration vs Causal Integrity | Renamed Circular Integration to $CIR$ |
-| $\Delta S_{absorbed}$ | Multiple absorbed entropy forms                     | Standardized to $\Delta S_{abs}$      |
-| Bare $\Delta$         | Ambiguous delta reference                           | All deltas must specify referent      |
+| Previous Symbol       | Issue                                               | Resolution                                         |
+| --------------------- | --------------------------------------------------- | -------------------------------------------------- |
+| $CI$                  | Collision: Circular Integration vs Causal Integrity | Renamed Circular Integration to $CIR$              |
+| $\Delta S_{absorbed}$ | Multiple absorbed entropy forms                     | Standardized to $\Delta S_{abs}$                   |
+| Bare $\Delta$         | Ambiguous delta reference                           | All deltas must specify referent                   |
+| $M_t$                 | Ambiguous macro/memory/state placeholder            | Removed; replaced with $m(t)$ and $\mathcal{G}(t)$ |
 
 ---
 
 # Pending Audit
 
-* Full Δ-Self symbol disambiguation pass
 * Law of WE mathematical namespace isolation
 * Lagrangian formal namespace consistency check
 
 ---
 
-End of Symbol Registry v0.1
+End of Symbol Registry v0.2
