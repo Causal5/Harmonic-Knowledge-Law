@@ -117,7 +117,7 @@ PAE arises from the unique interaction cognitive agents have with the Second Law
 
 > The total entropy of an isolated system can never decrease over time, and is constant if and only if all processes are reversible.
 
-Cognitive agents, unlike inert matter, probabilistically recognize entropy gradients and energetically deviate from the Principle of Least Action (PLA). This deviation produces agency.
+Cognitive agents, unlike inert matter, probabilistically recognize entropy gradients and energetically deviate from the their own passive cost baseline (PCB). This deviation produces agency.
 
 That deviation introduces energetic discontinuity.
 
