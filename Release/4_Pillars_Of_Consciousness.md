@@ -32,7 +32,7 @@ The symbols used below are contextual analogs borrowed from formal mathematics a
 
 Let:
 
-* $\gamma_{pcb}(t)$ = passive counterfactual baseline trajectory (no deliberative control, no persistent self‑reference, no goal‑conditioned correction).
+* $\gamma_{pcb}(t)$ = passive cost baseline trajectory (no deliberative control, no persistent self‑reference, no goal‑conditioned correction).
 * $\gamma_{act}(t)$ = realized trajectory under agentic influence.
 
 Define deviation:
@@ -47,10 +47,7 @@ $$
 \Delta \gamma(t) \ne 0
 $$
 
-This does not assert violation of the Principle of Least Action (PLA). The PLA describes realized physical trajectories. Here, PLA functions as a **passive baseline placeholder**, not a metaphysical claim about ultimate extremality.
-
-Agency is therefore measurable as deviation from the passive baseline, not violation of physics.
-
+Agency is therefore measurable as deviation from the passive baseline.
 ---
 
 # 2. Self‑Awareness as Recursive Reference
