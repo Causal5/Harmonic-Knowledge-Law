@@ -1,8 +1,24 @@
 # Release Directory Index
 
-`Release/` is the primary publication and working-data directory for the Harmonic Knowledge Law / Causal Ethics project suite.
+`Release/` is the canonical main body of work for the Harmonic Knowledge Law / Causal Ethics / SLP project suite.
 
-This directory currently functions as the main release surface for formal papers, conceptual extensions, symbol registries, and versioned documentation. The root repository README should be treated as a navigation layer; this directory is where the active framework material is concentrated.
+The root repository README is a navigation layer. `CorePrinciples/` is supporting and historical foundation material. `src/` is implementation/experimental material. The active theoretical publication surface is here.
+
+## Start Here
+
+1. [`MANIFEST.md`](MANIFEST.md) — current canonical document map and reading order.
+2. [`ARCHITECTURE.md`](ARCHITECTURE.md) — repository architecture, canonical-directory rules, and migration policy.
+3. [`Causal_Ethics_Master_Symbol_Registry.md`](Causal_Ethics_Master_Symbol_Registry.md) — master symbol registry and namespace rules.
+
+## Organizational Anchors
+
+These folders define the intended stable structure for the body of work. Current canonical files mostly remain at the top level of `Release/` for link stability until a verified migration pass moves exact file contents and repairs references.
+
+- [`Registry/`](Registry/) — symbol registries, namespace controls, terminology discipline.
+- [`Papers/`](Papers/) — formal and semi-formal framework papers.
+- [`HKL/`](HKL/) — Harmonic Knowledge Law, stability, basin, and Lyapunov-style material.
+- [`Delta-Self/`](Delta-Self/) — Δ-Self, identity trajectory, worldline, and irreversible-coordinate material.
+- [`V1.0-FullBranch/`](V1.0-FullBranch/) — versioned branch/export material.
 
 ## Primary Framework Documents
 
@@ -25,33 +41,28 @@ This directory currently functions as the main release surface for formal papers
 - [`V1.0-FullBranch/Docs/Math/README.md`](V1.0-FullBranch/Docs/Math/README.md) — index for mathematical documents in the v1.0 branch material.
 - [`V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md`](V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md) — constancy / anti-relativism mathematical argument.
 
-## Suggested Future Organization
+## Canonical Policy
 
-The current `Release/` folder is usable but beginning to mix final papers, active drafts, identity-model documents, math notes, and registry files. A cleaner future structure would be:
+If a concept appears in multiple places, the `Release/` version is presumed canonical unless a newer document explicitly says otherwise.
+
+Every new repeated theoretical symbol should be added to the master symbol registry before being used across multiple documents.
+
+## Migration Policy
+
+The current structure deliberately avoids moving large theory files through the connector because file moves should preserve exact bytes, repair links, and avoid Unicode path damage.
+
+A later local-git migration should move files into:
 
 ```text
 Release/
-  README.md
   Registry/
-    Causal_Ethics_Master_Symbol_Registry.md
   Papers/
-    Absorbic_Effort_Framework.md
-    fallacy_of_large_scale_absorbic_effort_revised.md
-    continuation_filter_concept_version.md
-    4_Pillars_Of_Consciousness.md
   HKL/
-    HKL_Lyapunov.md
   Delta-Self/
-    ∆-Self_Wordline_Formalization.md
-    The_Δ-Self_Concept.md
-    Δ‑Self_2.md
-    delta_self_extension.md
   V1.0-FullBranch/
-    Docs/
-      Math/
 ```
 
-That migration should be done in a separate branch because moving files will change links and may require repository-wide reference repair.
+The migration should leave compatibility stubs at old paths where external links may exist.
 
 ## Naming Note
 
