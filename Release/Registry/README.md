@@ -1,26 +1,18 @@
 # Registry
 
-This directory is reserved for symbol registries, terminology controls, namespace rules, and cross-document consistency files.
+This directory contains canonical symbol registries, terminology controls, namespace rules, and cross-document consistency files.
 
-## Current Canonical Registry
+## Canonical Registry
 
-The current registry remains at the top level of `Release/` for link stability:
+- [`causal-ethics-master-symbol-registry.md`](causal-ethics-master-symbol-registry.md)
+
+## Legacy / Source Path
+
+The previous top-level path is preserved for safety and historical continuity:
 
 - [`../Causal_Ethics_Master_Symbol_Registry.md`](../Causal_Ethics_Master_Symbol_Registry.md)
 
-## Future Migration Target
-
-When a byte-preserving file migration is performed, the canonical registry should move here using an ASCII-safe path:
-
-```text
-Release/Registry/causal-ethics-master-symbol-registry.md
-```
-
-The symbolic display title should remain inside the document:
-
-```text
-# Causal Ethics — Master Symbol Registry
-```
+The canonical release path is now the file inside this directory.
 
 ## Registry Rules
 
