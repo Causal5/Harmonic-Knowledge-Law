@@ -2,26 +2,37 @@
 
 The **Harmonic Knowledge Law (HKL)** repository contains the active documentation and release materials for the broader Causal Ethics / HKL / Symbolic Language Processing project suite.
 
-The repository is currently document-first. The primary working and publication directory is:
+## Main Body of Work
 
-- [`Release/`](Release/) — primary release surface and current framework data directory.
+The canonical main body of work is:
 
-## Primary Areas
+- [`Release/`](Release/) — the active theoretical, publication, and framework directory.
 
-### Release
+Start there. The root of the repository is only the navigation surface.
 
-[`Release/`](Release/) contains the main body of current framework material, including Causal Ethics, HKL stability language, Δ-Self identity/worldline documents, Absorbic Effort, continuation-filter work, and versioned mathematical materials.
+Recommended entry points:
 
-Start here:
-
-- [`Release/README.md`](Release/README.md) — organized index of the active release directory.
+- [`Release/README.md`](Release/README.md) — primary directory index.
+- [`Release/MANIFEST.md`](Release/MANIFEST.md) — canonical document map and reading order.
+- [`Release/ARCHITECTURE.md`](Release/ARCHITECTURE.md) — repository architecture, canonical rules, and migration policy.
 - [`Release/Causal_Ethics_Master_Symbol_Registry.md`](Release/Causal_Ethics_Master_Symbol_Registry.md) — master symbol registry.
-- [`Release/HKL_Lyapunov.md`](Release/HKL_Lyapunov.md) — HKL / Lyapunov stability framing.
-- [`Release/Absorbic_Effort_Framework.md`](Release/Absorbic_Effort_Framework.md) — absorbic effort framework.
 
-### Core Principles
+## Repository Areas
 
-[`CorePrinciples/`](CorePrinciples/) contains earlier foundational documents and supporting conceptual material.
+### `Release/`
+
+The active body of work. It contains the main Causal Ethics / HKL / SLP theoretical documents, including:
+
+- Causal Ethics symbol and namespace registry.
+- Harmonic Knowledge Law stability material.
+- Δ-Self identity/worldline documents.
+- Absorbic Effort framework material.
+- Continuation-filter / Great Filter style work.
+- Versioned mathematical documents.
+
+### `CorePrinciples/`
+
+Earlier foundational and supporting documents. This directory remains valuable but should be treated as supporting/legacy material unless a document is explicitly promoted into `Release/`.
 
 Representative files:
 
@@ -31,9 +42,9 @@ Representative files:
 - [`CorePrinciples/Glossary.md`](CorePrinciples/Glossary.md)
 - [`CorePrinciples/SLP_Published.md`](CorePrinciples/SLP_Published.md)
 
-### Source Code
+### `src/`
 
-[`src/`](src/) contains implementation-oriented material associated with the Geometric Intelligence Learning Network / Integrated Intelligence Framework experiments.
+Implementation-oriented and experimental material associated with the Geometric Intelligence Learning Network / Integrated Intelligence Framework experiments.
 
 ## Project Concepts
 
@@ -44,9 +55,11 @@ Representative files:
 - **Symbolic Language Processing (SLP)** — symbolic-indexed reasoning and reuse rather than recomputation-heavy language processing.
 - **Δ-Self** — identity modeled as a trajectory/worldline rather than a static state.
 
-## Current Organization Note
+## Canonical Policy
 
-The repository is in transition from an early mixed structure into a release-centered structure. `Release/` is the present primary data directory. Future cleanup should move documents into stable subdirectories and normalize file names, especially Δ-Self files using visually similar Unicode characters.
+If a concept appears in multiple places, the `Release/` version is presumed canonical unless a newer document explicitly states otherwise.
+
+New repeated theoretical symbols should be registered in [`Release/Causal_Ethics_Master_Symbol_Registry.md`](Release/Causal_Ethics_Master_Symbol_Registry.md) before publication use across multiple documents.
 
 ## License
 
