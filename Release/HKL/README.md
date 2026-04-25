@@ -1,23 +1,18 @@
 # HKL
 
-This directory is reserved for Harmonic Knowledge Law materials: stability, basin behavior, Lyapunov-style framing, geometric intelligence, and coherence/scaling analysis.
+This directory contains the canonical release paths for Harmonic Knowledge Law materials: stability, basin behavior, Lyapunov-style framing, geometric intelligence, and coherence/scaling analysis.
 
-## Current Canonical HKL Candidate
+## Canonical HKL Documents
 
-The current HKL file remains at the top level of `Release/` for link stability:
+- [`hkl-lyapunov.md`](hkl-lyapunov.md)
+
+## Legacy / Source Path
+
+The previous top-level path is preserved for safety and historical continuity:
 
 - [`../HKL_Lyapunov.md`](../HKL_Lyapunov.md)
 
-## Future Migration Target
-
-Recommended future structure:
-
-```text
-Release/HKL/
-  hkl-lyapunov.md
-  geometric-intelligence.md
-  basin-stability.md
-```
+The file in this directory is the canonical release path.
 
 ## Scope
 
