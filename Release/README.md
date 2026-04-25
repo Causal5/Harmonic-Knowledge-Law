@@ -36,6 +36,11 @@ The organized subdirectories now contain the canonical release clones. The older
 - [`Delta-Self/delta-self-2.md`](Delta-Self/delta-self-2.md) — additional Δ-Self development file.
 - [`Delta-Self/delta-self-extension.md`](Delta-Self/delta-self-extension.md) — extension material for the Δ-Self model.
 
+### Examples
+
+- [`Examples/`](Examples/) — worked applications of the framework.
+- [`Examples/sahel-worked-example.md`](Examples/sahel-worked-example.md) — canonical slot for the Sahel worked example once the document is available to this branch.
+
 ## Versioned Release Branch Material
 
 - [`V1.0-FullBranch/Docs/Math/README.md`](V1.0-FullBranch/Docs/Math/README.md) — index for mathematical documents in the v1.0 branch material.
