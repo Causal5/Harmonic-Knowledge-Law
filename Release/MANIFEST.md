@@ -14,7 +14,8 @@ A new reader should generally proceed in this order:
 4. Primary framework papers in [`Papers/`](Papers/).
 5. Δ-Self / identity trajectory documents in [`Delta-Self/`](Delta-Self/).
 6. HKL mathematical/stability documents in [`HKL/`](HKL/).
-7. Versioned branch material in [`V1.0-FullBranch/`](V1.0-FullBranch/).
+7. Worked framework applications in [`Examples/`](Examples/).
+8. Versioned branch material in [`V1.0-FullBranch/`](V1.0-FullBranch/).
 
 ## Canonical Documents
 
@@ -30,6 +31,7 @@ A new reader should generally proceed in this order:
 | Δ-Self | The Δ-Self Concept | [`Delta-Self/delta-self-concept.md`](Delta-Self/delta-self-concept.md) | [`The_Δ-Self_Concept.md`](The_%CE%94-Self_Concept.md) | Canonical clone |
 | Δ-Self | Δ-Self 2 | [`Delta-Self/delta-self-2.md`](Delta-Self/delta-self-2.md) | [`Δ‑Self_2.md`](%CE%94%E2%80%91Self_2.md) | Canonical clone |
 | Δ-Self | Delta Self Extension | [`Delta-Self/delta-self-extension.md`](Delta-Self/delta-self-extension.md) | [`delta_self_extension.md`](delta_self_extension.md) | Canonical clone |
+| Examples | Sahel Worked Example | [`Examples/sahel-worked-example.md`](Examples/sahel-worked-example.md) | Pending / not found by connector search | Canonical slot pending document placement |
 | Math | Constancy and Anti-Relativism | [`V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md`](V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md) | Same | Versioned branch material |
 | Math | Math README | [`V1.0-FullBranch/Docs/Math/README.md`](V1.0-FullBranch/Docs/Math/README.md) | Same | Versioned branch index |
 
@@ -56,6 +58,7 @@ If a canonical clone is edited, the corresponding legacy/source path should eith
 4. Greek-symbol filenames are legacy-tolerated but no longer preferred for canonical paths.
 5. Canonical release filenames use lowercase kebab-case ASCII paths.
 6. Originals are preserved until the release structure has stabilized.
+7. Worked examples belong in `Release/Examples/` so applications do not get mixed with framework primitives.
 
 ## Recommended Next Promotion Pass
 
@@ -81,3 +84,4 @@ Promotion means either:
 - Every new theoretical symbol should enter the master registry before repeated publication use.
 - Use lowercase kebab-case filenames for future canonical documents.
 - Use document headings for expressive notation; use paths for stability.
+- Keep worked examples separate from axioms, registries, and theoretical papers.
