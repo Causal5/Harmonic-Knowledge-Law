@@ -6,35 +6,35 @@ The root repository README is a navigation layer. `CorePrinciples/` is supportin
 
 ## Start Here
 
-1. [`MANIFEST.md`](MANIFEST.md) — current canonical document map and reading order.
+1. [`MANIFEST.md`](MANIFEST.md) — canonical document map and reading order.
 2. [`ARCHITECTURE.md`](ARCHITECTURE.md) — repository architecture, canonical-directory rules, and migration policy.
-3. [`Causal_Ethics_Master_Symbol_Registry.md`](Causal_Ethics_Master_Symbol_Registry.md) — master symbol registry and namespace rules.
+3. [`Registry/causal-ethics-master-symbol-registry.md`](Registry/causal-ethics-master-symbol-registry.md) — master symbol registry and namespace rules.
 
-## Organizational Anchors
+## Canonical Release Paths
 
-These folders define the intended stable structure for the body of work. Current canonical files mostly remain at the top level of `Release/` for link stability until a verified migration pass moves exact file contents and repairs references.
+The organized subdirectories now contain the canonical release clones. The older top-level files remain as preserved legacy/source paths.
 
-- [`Registry/`](Registry/) — symbol registries, namespace controls, terminology discipline.
-- [`Papers/`](Papers/) — formal and semi-formal framework papers.
-- [`HKL/`](HKL/) — Harmonic Knowledge Law, stability, basin, and Lyapunov-style material.
-- [`Delta-Self/`](Delta-Self/) — Δ-Self, identity trajectory, worldline, and irreversible-coordinate material.
-- [`V1.0-FullBranch/`](V1.0-FullBranch/) — versioned branch/export material.
+### Registry
 
-## Primary Framework Documents
+- [`Registry/causal-ethics-master-symbol-registry.md`](Registry/causal-ethics-master-symbol-registry.md) — master symbol registry for Causal Ethics / HKL / SLP terminology.
 
-- [`Causal_Ethics_Master_Symbol_Registry.md`](Causal_Ethics_Master_Symbol_Registry.md) — master symbol registry for Causal Ethics / HKL / SLP terminology.
-- [`Absorbic_Effort_Framework.md`](Absorbic_Effort_Framework.md) — absorbic effort / burden framework and related causal-load modeling.
-- [`fallacy_of_large_scale_absorbic_effort_revised.md`](fallacy_of_large_scale_absorbic_effort_revised.md) — critique of macro-scale absorption and centralized burden transfer.
-- [`HKL_Lyapunov.md`](HKL_Lyapunov.md) — HKL stability framing through Lyapunov-style basin language.
-- [`4_Pillars_Of_Consciousness.md`](4_Pillars_Of_Consciousness.md) — consciousness framework document.
-- [`continuation_filter_concept_version.md`](continuation_filter_concept_version.md) — continuation filter / Great Filter style concept framing.
+### Papers
 
-## Δ-Self / Identity Trajectory Documents
+- [`Papers/absorbic-effort-framework.md`](Papers/absorbic-effort-framework.md) — absorbic effort / burden framework and related causal-load modeling.
+- [`Papers/fallacy-of-large-scale-absorbic-effort.md`](Papers/fallacy-of-large-scale-absorbic-effort.md) — critique of macro-scale absorption and centralized burden transfer.
+- [`Papers/continuation-filter.md`](Papers/continuation-filter.md) — continuation filter / Great Filter style concept framing.
+- [`Papers/four-pillars-of-causal-consciousness.md`](Papers/four-pillars-of-causal-consciousness.md) — consciousness framework document.
 
-- [`∆-Self_Wordline_Formalization.md`](%E2%88%86-Self_Wordline_Formalization.md) — worldline formalization of Δ-Self / identity trajectory.
-- [`The_Δ-Self_Concept.md`](The_%CE%94-Self_Concept.md) — conceptual introduction to Δ-Self.
-- [`Δ‑Self_2.md`](%CE%94%E2%80%91Self_2.md) — additional Δ-Self development file.
-- [`delta_self_extension.md`](delta_self_extension.md) — extension material for the Δ-Self model.
+### HKL
+
+- [`HKL/hkl-lyapunov.md`](HKL/hkl-lyapunov.md) — HKL stability framing through Lyapunov-style basin language.
+
+### Δ-Self / Identity Trajectory
+
+- [`Delta-Self/delta-self-worldline-formalization.md`](Delta-Self/delta-self-worldline-formalization.md) — worldline formalization of Δ-Self / identity trajectory.
+- [`Delta-Self/delta-self-concept.md`](Delta-Self/delta-self-concept.md) — conceptual introduction to Δ-Self.
+- [`Delta-Self/delta-self-2.md`](Delta-Self/delta-self-2.md) — additional Δ-Self development file.
+- [`Delta-Self/delta-self-extension.md`](Delta-Self/delta-self-extension.md) — extension material for the Δ-Self model.
 
 ## Versioned Release Branch Material
 
@@ -43,33 +43,12 @@ These folders define the intended stable structure for the body of work. Current
 
 ## Canonical Policy
 
-If a concept appears in multiple places, the `Release/` version is presumed canonical unless a newer document explicitly says otherwise.
+If a concept appears in multiple places, the organized subdirectory path is canonical unless a newer document explicitly says otherwise.
+
+The older top-level files in `Release/` are retained as legacy/source paths for safety and historical continuity. They should not be treated as independently maintained parallel versions.
 
 Every new repeated theoretical symbol should be added to the master symbol registry before being used across multiple documents.
 
-## Migration Policy
-
-The current structure deliberately avoids moving large theory files through the connector because file moves should preserve exact bytes, repair links, and avoid Unicode path damage.
-
-A later local-git migration should move files into:
-
-```text
-Release/
-  Registry/
-  Papers/
-  HKL/
-  Delta-Self/
-  V1.0-FullBranch/
-```
-
-The migration should leave compatibility stubs at old paths where external links may exist.
-
 ## Naming Note
 
-Several Δ-Self files use visually similar Unicode characters, including `∆`, `Δ`, and nonstandard hyphen variants. This is expressive but operationally fragile for links, file systems, and search. A later normalization pass should preserve display titles inside documents while using ASCII-safe file paths such as:
-
-```text
-delta-self-worldline-formalization.md
-delta-self-concept.md
-delta-self-extension.md
-```
+Several legacy Δ-Self files use visually similar Unicode characters, including `∆`, `Δ`, and nonstandard hyphen variants. This is expressive but operationally fragile for links, file systems, and search. Canonical release filenames now use ASCII-safe lowercase kebab-case paths while preserving symbolic notation inside the documents.
