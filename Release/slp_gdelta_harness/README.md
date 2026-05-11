@@ -43,3 +43,12 @@ See core.py inline comments for exact mappings.
 - LLM-integrated SIP reduction
 - Full NetworkX KG relations
 - MCP / tool plugin interfaces
+
+## Plugin Layer (FastAPI + Tool Schema)
+
+Now includes a drop-in HTTP plugin:
+
+```bash
+cd Release/slp_gdelta_harness
+pip install -e ".[plugin]"
+fastapi dev slp_gdelta_harness/app.py
