@@ -1,0 +1,16 @@
+[project]
+name = "slp-gdelta-harness"
+version = "0.1.0"
+description = "SIP-GΔ Symbolic Cognition Harness - Canonical externalized symbolic layer for Harmonic Knowledge Law"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+graph = ["networkx"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["slp_gdelta_harness*"]
+
+[tool.setuptools.package-dir]
+"" = "slp_gdelta_harness"
