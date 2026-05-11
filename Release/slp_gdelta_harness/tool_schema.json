@@ -1,0 +1,27 @@
+{
+  "type": "function",
+  "function": {
+    "name": "slp_gdelta_process_event",
+    "description": "Process any user turn through the full SIP-GΔ Harness (SIP reduction → FRF quarantine → Δ-Self ledger → HKL/AEF gating). Returns symbolic core, commit status, and KG update.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "raw_text": {
+          "type": "string",
+          "description": "Raw natural language input (user turn, document excerpt, etc.)"
+        },
+        "curvature_score": {
+          "type": "number",
+          "description": "Optional: subjective curvature score (0.0–1.0). >0.75 → FRF quarantine",
+          "default": 0.0
+        },
+        "effort": {
+          "type": "number",
+          "description": "Optional: PAE effort value for AEF/ELQ gating",
+          "default": 0.0
+        }
+      },
+      "required": ["raw_text"]
+    }
+  }
+}
