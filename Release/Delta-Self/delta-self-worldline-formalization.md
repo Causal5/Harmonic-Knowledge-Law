@@ -1,288 +1,499 @@
 # Δ-Self Worldline Formalization
-### Bridging State, Coordinate, and Identity in Causal Trajectories
+### Bridging State, Coordinate, Identity, and Operator-Limited Simulation
+
+**Status:** Registry v0.3-aligned integration release candidate.
 
 ---
 
 # Purpose
 
-This document formalizes the conceptual bridge between:
+This document formalizes the bridge between:
 
-- **State**
-- **Realized coordinate**
-- **Trajectory**
-- **Δ-Self**
+- ontic state,
+- realized state-time coordinate,
+- causal trajectory,
+- history-dependent identity,
+- operator-relative models and simulated futures.
 
-The objective is to provide a mathematically structured basis for understanding identity and agency as **trajectory-dependent phenomena**, rather than static state properties.
+Its central claim is limited but consequential:
 
-This section also establishes the **Irreversible Coordinate Theorem**, which prevents identity collapse in cyclic or repeatable systems.
+> State recurrence does not imply coordinate recurrence, because a realized event is indexed by both state and ordered time.
 
----
-
-# 1. Realized Coordinates
-
-Let a system occupy states:
-
-s ∈ S
-
-where **S** is the system state space.
-
-Let time be an ordered parameter:
-
-t ∈ T
-
-with strict ordering:
-
-tₙ₊₁ > tₙ
-
-Define a **realized coordinate** as:
-
-cₙ := (sₙ , tₙ)
-
-Thus a system does not merely move through states, but through **state–time coordinates**.
-
-The realized trajectory is:
-
-γ = { c₀ , c₁ , c₂ , ... }
+The document also distinguishes what a system **is doing** from what an operator **models or simulates** about it.
 
 ---
 
-# 2. Irreversible Coordinate Theorem
+# 0. Registry Inheritance
 
-## Theorem
+This document inherits notation from:
 
-If
+[`../Registry/causal-ethics-master-symbol-registry.md`](../Registry/causal-ethics-master-symbol-registry.md)
 
-tᵢ ≠ tⱼ
+The controlling distinctions are:
 
-then
+- $\mathcal{M}$: operator-independent ontic domain;
+- $S$: bounded system state space;
+- $x(t)\in S$: realized system state;
+- $G_i(t)$: operator $i$'s representational substrate;
+- $m_i(t)$: operator $i$'s epistemic model;
+- $p_i(\gamma\mid m_i(t))$: operator $i$'s simulated trajectory distribution.
 
-(sᵢ , tᵢ) ≠ (sⱼ , tⱼ)
-
-even when
-
-sᵢ = sⱼ.
-
-Therefore **state recurrence does not imply coordinate recurrence**.
-
----
-
-## Proof
-
-Let two realized coordinates be:
-
-cᵢ = (sᵢ , tᵢ)
-
-cⱼ = (sⱼ , tⱼ)
-
-Suppose a state repeats:
-
-sᵢ = sⱼ
-
-but
-
-tᵢ ≠ tⱼ
-
-Then by ordered pair identity:
-
-(sᵢ , tᵢ) ≠ (sⱼ , tⱼ)
-
-Thus repeated states correspond to **distinct realized events**.
-
-∎
+Realized state, epistemic model, and simulated trajectory distribution are not interchangeable.
 
 ---
 
-# 3. Consequences
+# 1. Ontic Domain and Bounded State
 
-## Forward Recurrence
+Let:
 
-A system may evolve:
+$$
+\mathcal{M}
+$$
 
-s₀ → s₁ → s₂ → s₀
+denote the operator-independent causal domain.
 
-But the realized coordinates are:
+Let:
 
-(s₀ , t₀)  
-(s₁ , t₁)  
-(s₂ , t₂)  
-(s₀ , t₃)
+$$
+S
+$$
 
-with
+denote the state space of a bounded system selected for analysis. The system's realized state at time $t$ is:
 
-t₃ > t₀.
+$$
+x(t)\in S.
+$$
 
-Thus recurrence represents **forward-time return**, not reversal.
+$S$ is not identical to $\mathcal{M}$. It is a bounded state description induced over selected degrees of freedom within the wider ontic domain.
 
----
+History and interaction may deform the system's accessible structure. Let:
 
-## Non-Erasable History
+$$
+\Phi_t:S\rightarrow S_{\Phi}(t)
+$$
 
-Define the causal ledger:
-
-Lₙ = (c₀ , c₁ , … , cₙ)
-
-Then
-
-|Lₙ₊₁| = |Lₙ| + 1
-
-Thus recurrence cannot reduce the length of the realized history.
+where $S_{\Phi}(t)$ denotes the history-conditioned accessible state structure. This is an ontic constraint structure, not an observer's belief state.
 
 ---
 
-## Finite State Spaces
+# 2. Realized Coordinates
 
-Even if the state space S is finite, the coordinate space
+Let time be an ordered domain:
 
-C = S × T
+$$
+t\in T
+$$
 
-can produce an arbitrarily long trajectory if time continues.
+with:
 
-Thus:
+$$
+t_{n+1}>t_n.
+$$
 
-Finite states  
-do not imply  
-finite histories.
+Define the $n$th realized coordinate:
 
----
-
-# 4. Trajectory Representation
-
-A system trajectory can be written as:
-
-γ(t) = ( s(t) , t )
-
-Thus identity is not defined by state alone, but by **a curve through realized coordinate space**.
-
----
-
-# 5. Passive Cost Baseline (PCB)
-
-Define the **Passive Cost Baseline trajectory**:
-
-γ_PCB(t)
-
-This represents the trajectory the system would follow if **recursive deviation terms were removed**.
-
-It corresponds to the **passive continuation path** of the system.
-
----
-
-# 6. Δ-Self Definition
-
-Define Δ-Self as deviation from the passive baseline trajectory:
-
-ΔSelf(t) := γ(t) − γ_PCB(t)
-
-This expresses the idea that identity is not simply a state, but a **history of deviation from passive continuation**.
-
----
-
-# 7. Curvature Interpretation
-
-To capture structural reorientation rather than simple displacement, define deviation curvature:
-
-κ_Δ(t) = || γ¨(t) − γ¨_PCB(t) ||
+$$
+c_n:=(x_n,t_n)\in C,
+$$
 
 where:
 
-γ¨(t) = second derivative of the trajectory.
+$$
+C=S\times T.
+$$
+
+The realized trajectory is the ordered sequence:
+
+$$
+\gamma=\{c_0,c_1,c_2,\ldots\}.
+$$
+
+A system therefore does not merely occupy states. It realizes state-time coordinates.
+
+---
+
+# 3. Irreversible Coordinate Theorem
+
+## Theorem
+
+If:
+
+$$
+t_i\ne t_j,
+$$
+
+then:
+
+$$
+(x_i,t_i)\ne(x_j,t_j),
+$$
+
+even when:
+
+$$
+x_i=x_j.
+$$
+
+Therefore:
+
+> State recurrence does not imply coordinate recurrence.
+
+## Proof
+
+Let:
+
+$$
+c_i=(x_i,t_i),\qquad c_j=(x_j,t_j).
+$$
+
+Suppose:
+
+$$
+x_i=x_j
+$$
+
+but:
+
+$$
+t_i\ne t_j.
+$$
+
+By ordered-pair identity:
+
+$$
+(x_i,t_i)\ne(x_j,t_j).
+$$
+
+Thus repeated states correspond to distinct realized events.
+
+$\square$
+
+---
+
+# 4. Consequences
+
+## 4.1 Forward Recurrence
+
+A system may evolve:
+
+$$
+x_0\rightarrow x_1\rightarrow x_2\rightarrow x_0.
+$$
+
+The realized coordinates remain:
+
+$$
+(x_0,t_0),\ (x_1,t_1),\ (x_2,t_2),\ (x_0,t_3)
+$$
+
+with:
+
+$$
+t_3>t_0.
+$$
+
+The return to $x_0$ is a forward-time recurrence, not reversal to the earlier event.
+
+## 4.2 Non-Erasable History
+
+Define the causal ledger through coordinate $n$:
+
+$$
+L_n=(c_0,c_1,\ldots,c_n).
+$$
+
+Then:
+
+$$
+|L_{n+1}|=|L_n|+1.
+$$
+
+Recurrence does not remove prior ledger entries.
+
+## 4.3 Finite State Spaces
+
+Even if $S$ is finite, the coordinate space:
+
+$$
+C=S\times T
+$$
+
+can support an arbitrarily long realized trajectory while ordered time continues.
+
+Therefore finite state cardinality does not imply finite history.
+
+---
+
+# 5. Trajectory Representation
+
+Where a continuous parameterization is appropriate, write:
+
+$$
+\gamma(t)=(x(t),t).
+$$
+
+Identity is therefore not determined by state alone. It is associated with a realized curve or ordered ledger through coordinate space.
+
+This statement does not require that the full ontic state be observable. It requires only that realized events remain historically distinct.
+
+---
+
+# 6. Passive Cost Baseline
+
+Define the Passive Cost Baseline trajectory:
+
+$$
+\gamma_{PCB}(t).
+$$
+
+It represents the trajectory predicted when the document's specified recursive-deviation terms are removed.
+
+PCB is a **descriptive counterfactual baseline**. It is not automatically:
+
+- the least-energy path,
+- the minimum-burden path,
+- the stable path,
+- the ethical path,
+- or the desired path.
+
+Any correspondence between PCB and a stability reference must be argued in the relevant HKL model.
+
+---
+
+# 7. Δ-Self as History-Dependent Deviation
+
+Δ-Self names the historically accumulated deviation of a realized worldline relative to a declared counterfactual baseline.
+
+## 7.1 Linear or Chart-Local Form
+
+Where trajectories are represented in a common vector space or valid local chart, define:
+
+$$
+\Delta_{\gamma,PCB}(t)
+:=
+\gamma(t)-\gamma_{PCB}(t).
+$$
+
+This subtraction is not presumed to be globally valid on an arbitrary manifold.
+
+## 7.2 General Trajectory-Distance Form
+
+Where direct subtraction is not defined, use a declared trajectory-space metric:
+
+$$
+d_{\Gamma}\bigl(\gamma,\gamma_{PCB}\bigr).
+$$
+
+The metric, interval, and weighting of state dimensions must be stated.
+
+## 7.3 Curvature Form
+
+Where both trajectories are twice differentiable within a common representation, define deviation curvature:
+
+$$
+\kappa_{\Delta}(t)
+=
+\left\|
+\ddot\gamma(t)-\ddot\gamma_{PCB}(t)
+\right\|.
+$$
 
 Interpretation:
 
-κ_Δ(t) > 0  
-→ the trajectory is bending away from passive continuation.
+$$
+\kappa_{\Delta}(t)>0
+$$
+
+indicates local reorientation of the realized trajectory relative to the selected passive baseline.
+
+## 7.4 Integrated Deviation
+
+Across $[t_0,t_1]$:
+
+$$
+\|\Delta\mathrm{Self}\|_{[t_0,t_1]}
+=
+\int_{t_0}^{t_1}\kappa_{\Delta}(t)\,dt,
+$$
+
+provided the curvature form and its units are well-defined.
+
+This integral records cumulative reorientation. It does not by itself establish ethical value.
 
 ---
 
-# 8. Integrated Δ-Self
+# 8. Operator-Relative Models and Simulated Futures
 
-The cumulative Δ-Self magnitude across an interval is:
+Let operator $i$ receive horizon-limited observations:
 
-‖ΔSelf‖[t₀,t₁] = ∫ κ_Δ(t) dt
+$$
+\mathcal{M}
+\xrightarrow{\mu_{i,t}}
+\mathcal{O}_i(t).
+$$
 
-This measures **total curvature away from passive baseline** across realized time.
+The operator organizes observations in a representational substrate:
 
----
+$$
+G_i(t),
+$$
 
-# 9. Conceptual Interpretation
+from which the operator constructs an epistemic model:
 
-A system may return to the same **state**,  
-but it cannot return to the same **realized coordinate**.
+$$
+m_i(t).
+$$
 
-Therefore identity is not determined by state alone, but by **its causal trajectory**.
+An internal simulation operator:
 
-Δ-Self represents the **historically accumulated deviation of that trajectory**.
+$$
+\Sigma_i:m_i(t)\rightarrow\Delta(\Gamma_i(t))
+$$
 
----
+produces:
 
-# 10. Relationship to Existing Framework Components
+$$
+p_i(\gamma\mid m_i(t)),
+$$
 
-This formulation stabilizes several concepts already present in the broader framework.
+a normalized probability distribution over the candidate trajectory set $\Gamma_i(t)$.
 
-## Entropy Ledger
+The distinction is:
 
-Each realized coordinate corresponds to a ledger entry.
+$$
+\text{realized trajectory }\gamma
+\ne
+\text{epistemic model }m_i(t)
+\ne
+\text{simulated distribution }p_i(\gamma\mid m_i(t)).
+$$
 
-Recurrence does not remove prior entries.
-
----
-
-## Δ-Self
-
-Δ-Self is the curvature-bearing deviation of the realized trajectory.
-
----
-
-## Passive Cost Baseline (PCB)
-
-PCB provides the reference path used to measure deviation.
-
----
-
-## Principle of Absorbic Effort (PAE)
-
-PAE represents effort applied to maintain trajectory coherence.
-
----
-
-## Observer-Induced Entropy (OIE)
-
-OIE introduces destabilizing perturbations to the trajectory.
+A model may omit an actually reachable path. It may also represent a path that is not physically reachable.
 
 ---
 
-# 11. Preliminary Stability Condition
+# 9. Entourage Effects
 
-A conceptual stability relationship can be expressed as:
+The Entourage method permits networked operators to exchange information, resources, labor, access, and coordination.
 
-PAE ≥ OIE
+Its two channels are distinct.
 
-Meaning corrective effort must exceed destabilizing entropy for trajectory coherence to persist.
+## 9.1 Informational Channel
 
-(This relationship will be expanded in future sections.)
+$$
+\mathfrak{E}^{info}_i(t)
+$$
+
+updates $G_i(t)$, $m_i(t)$, or the support and calibration of $p_i(\gamma\mid m_i(t))$.
+
+This may improve awareness of candidate paths, but total probability remains normalized:
+
+$$
+\sum_{\gamma\in\Gamma_i(t)}
+p_i(\gamma\mid m_i(t))=1
+$$
+
+for a discrete candidate set.
+
+## 9.2 Action-Capacity Channel
+
+$$
+\mathfrak{E}^{act}_i(t)
+$$
+
+updates the operator's accessible action and reachable sets:
+
+$$
+\mathcal{A}_{i,acc}(t),\qquad \mathcal{R}_i(t).
+$$
+
+Shared material or coordination capacity may alter actual reachability only when it changes realized system constraints through action.
+
+Knowing more possible paths and possessing more executable paths are therefore different effects.
 
 ---
 
-# 12. Role of Probability (Deferred Integration)
+# 10. Relationship to HKL and AEF
 
-Probability provides the necessary **freedom of state evolution** required for agency.
+This document defines **what moves through realized coordinate space**.
 
-Without probabilistic freedom, system trajectories would simply follow deterministic continuation from prior coordinates, except when externally perturbed.
+HKL defines the selected stability basin and burden drift associated with that motion.
 
-Agency requires the ability for trajectories to explore multiple possible state transitions.
+AEF defines the corrective effort and destabilizing burden accounting required to remain within that basin.
 
-Formal integration of probability into this framework will occur in later work.
+The relationship is:
+
+```text
+Δ-Self / worldline
+    defines realized trajectory and history
+
+HKL
+    defines stability geometry and burden drift
+
+AEF
+    defines corrective and destabilizing flow accounting
+```
+
+The legacy shorthand:
+
+$$
+PAE\ge OIE
+$$
+
+is not a dimensionally complete equation. It remains only a conceptual parity statement until AEF supplies channel-matched rates, conversion maps, boundaries, and an integration window.
 
 ---
 
-# 13. Summary Statement
+# 11. Probability and Agency
 
-A system can return to what it was.
+An agent may simulate multiple candidate trajectories and select an action from an accessible action set. That is an epistemic and operational claim:
 
-It cannot return to **when it was**.
+$$
+p_i(\gamma\mid m_i(t)),
+\qquad
+\mathcal{A}_{i,acc}(t)\subseteq\mathcal{A}(t).
+$$
 
-Thus identity is not a static state but a **realized worldline**, and Δ-Self measures the cumulative curvature of that worldline away from passive continuation.
+This document does **not** infer from that fact that ontic evolution must be fundamentally indeterministic. It also does not define agency merely as random deviation.
+
+The stronger framework claim is that capable agents can:
+
+1. represent more than one candidate continuation;
+2. evaluate anticipated consequences under bounded knowledge;
+3. select and realize an action;
+4. incur and potentially absorb the resulting thermodynamic and dependency costs.
+
+The causal ledger records the realized result regardless of whether the operator predicted it correctly.
 
 ---
 
-# End of Document
+# 12. Conceptual Interpretation
+
+A system may return to the same state, but it cannot return to the same realized coordinate.
+
+The present coordinate therefore contains an irreversible historical distinction even when selected state variables recur.
+
+Δ-Self does not assert an immutable substance. It identifies identity with historically realized position and deviation along a causal worldline.
+
+---
+
+# 13. Summary
+
+A system can return to what it was under a selected state description.
+
+It cannot return to when it was.
+
+Therefore:
+
+- state is not coordinate;
+- coordinate is not history;
+- history is not an observer model;
+- an observer model is not the realized worldline;
+- simulated possibility is not ontic reachability;
+- trajectory deviation is not automatically ethical value.
+
+Δ-Self is the history-dependent identity construct grounded in those distinctions.
+
+---
+
+End of Δ-Self Worldline Formalization — Registry v0.3 Integration Candidate
