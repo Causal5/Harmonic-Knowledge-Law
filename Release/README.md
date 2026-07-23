@@ -2,7 +2,7 @@
 
 `Release/` is the canonical main body of work for the Harmonic Knowledge Law / Causal Ethics / SLP project suite.
 
-The root repository README is a navigation layer. `CorePrinciples/` is supporting and historical foundation material. `src/` is implementation/experimental material. The active theoretical publication surface is here.
+The root repository README is a navigation layer. `CorePrinciples/` is supporting and historical foundation material. `src/` is implementation and experimental material. `Physics/` holds neutrino-causality and prime/torque working material. The active theoretical publication surface is here.
 
 ## Start Here
 
@@ -12,7 +12,7 @@ The root repository README is a navigation layer. `CorePrinciples/` is supportin
 
 ## Canonical Release Paths
 
-The organized subdirectories now contain the canonical release clones. The older top-level files remain as preserved legacy/source paths.
+Each organized subdirectory is the canonical home for its documents. Older top-level duplicates have been moved into [`archive/`](archive/) for historical continuity; they are not independently maintained.
 
 ### Registry
 
@@ -29,31 +29,41 @@ The organized subdirectories now contain the canonical release clones. The older
 
 - [`HKL/hkl-lyapunov.md`](HKL/hkl-lyapunov.md) — HKL stability framing through Lyapunov-style basin language.
 
-### Δ-Self / Identity Trajectory
+### Delta-Self / Identity Trajectory
 
-- [`Delta-Self/delta-self-worldline-formalization.md`](Delta-Self/delta-self-worldline-formalization.md) — worldline formalization of Δ-Self / identity trajectory.
-- [`Delta-Self/delta-self-concept.md`](Delta-Self/delta-self-concept.md) — conceptual introduction to Δ-Self.
-- [`Delta-Self/delta-self-2.md`](Delta-Self/delta-self-2.md) — additional Δ-Self development file.
-- [`Delta-Self/delta-self-extension.md`](Delta-Self/delta-self-extension.md) — extension material for the Δ-Self model.
+- [`Delta-Self/delta-self-worldline-formalization.md`](Delta-Self/delta-self-worldline-formalization.md) — worldline formalization of Delta-Self / identity trajectory.
+- [`Delta-Self/delta-self-concept.md`](Delta-Self/delta-self-concept.md) — conceptual introduction to Delta-Self.
+- [`Delta-Self/delta-self-2.md`](Delta-Self/delta-self-2.md) — additional Delta-Self development file.
+- [`Delta-Self/delta-self-extension.md`](Delta-Self/delta-self-extension.md) — extension material for the Delta-Self model.
 
 ### Examples
 
-- [`Examples/`](Examples/) — worked applications of the framework.
-- [`Examples/sahel-worked-example.md`](Examples/sahel-worked-example.md) — canonical slot for the Sahel worked example once the document is available to this branch.
+- [`Examples/sahel_worked_example.md`](Examples/sahel_worked_example.md) — Sahel worked example applying the framework.
+
+### SLP GDelta Harness
+
+- [`slp_gdelta_harness/`](slp_gdelta_harness/) — reference harness (code) for SLP GDelta experiments.
 
 ## Versioned Release Branch Material
 
 - [`V1.0-FullBranch/Docs/Math/README.md`](V1.0-FullBranch/Docs/Math/README.md) — index for mathematical documents in the v1.0 branch material.
 - [`V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md`](V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md) — constancy / anti-relativism mathematical argument.
 
+## Assets
+
+- `final_diagram_with_legend_map.png` — framework diagram with legend map.
+- `Re-use SLP compression with Kanji.docx` — SLP compression working note.
+
+## Archive
+
+- [`archive/`](archive/) — older, byte-for-byte duplicates of the documents above, preserved for historical continuity. See [`archive/README.md`](archive/README.md).
+
 ## Canonical Policy
 
-If a concept appears in multiple places, the organized subdirectory path is canonical unless a newer document explicitly says otherwise.
-
-The older top-level files in `Release/` are retained as legacy/source paths for safety and historical continuity. They should not be treated as independently maintained parallel versions.
+If a concept appears in multiple places, the organized subdirectory path is canonical unless a newer document explicitly says otherwise. Files under `archive/` are preserved legacy copies and should not be treated as independently maintained parallel versions.
 
 Every new repeated theoretical symbol should be added to the master symbol registry before being used across multiple documents.
 
 ## Naming Note
 
-Several legacy Δ-Self files use visually similar Unicode characters, including `∆`, `Δ`, and nonstandard hyphen variants. This is expressive but operationally fragile for links, file systems, and search. Canonical release filenames now use ASCII-safe lowercase kebab-case paths while preserving symbolic notation inside the documents.
+Several legacy Delta-Self files use visually similar Unicode characters (the increment sign, the Greek capital delta, and nonstandard hyphen variants). This is expressive but operationally fragile for links, file systems, and search. Canonical release filenames now use ASCII-safe lowercase kebab-case paths while preserving symbolic notation inside the documents.
