@@ -1,0 +1,21 @@
+[project]
+name = "slp-gdelta-harness"
+version = "0.1.0"
+description = "SIP-GΔ Symbolic Cognition Harness - Canonical externalized symbolic layer"
+requires-python = ">=3.9"
+dependencies = ["fastapi", "uvicorn"]
+
+[project.optional-dependencies]
+graph = ["networkx"]
+plugin = ["fastapi", "uvicorn"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["slp_gdelta_harness*"]async def get_tool_schema():
+    """OpenAI-compatible tool definition for LLMs."""
+    with open("slp_gdelta_harness/tool_schema.json") as f:
+        return json.load(f)
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

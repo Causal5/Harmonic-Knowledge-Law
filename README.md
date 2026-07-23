@@ -1,36 +1,66 @@
 # Harmonic Knowledge Law (HKL)
 
-Welcome to the *Harmonic Knowledge Law (HKL)* repository—a framework for building harmonic intelligence systems that align human and AI actions with natural laws, ensuring systemic coherence and sustainability. This project integrates several key concepts:
+The **Harmonic Knowledge Law (HKL)** repository contains the active documentation and release materials for the broader Causal Ethics / HKL / Symbolic Language Processing project suite.
 
-- **Causal Ethics (CE)**: An ethical framework for aligning actions with natural laws.
-- **Law of ‘We’**: The principle of interconnectedness, emphasizing systemic impact.
-- **Geometric Intelligence (GI)**: A model of intelligence as a high-dimensional knowledge manifold.
-- **Geometric Intelligence Learning Network (GILN)**: A networked system for human-AI collaboration.
-- **Symbolic Language Processing (SLP)**: An advanced language processing approach for symbolic reasoning.
-- **Harmonic Knowledge Law (HKL)**: A principle for harmonic scaling of intelligence, minimizing entropy.
+## Main Body of Work
 
-## Project Structure
+The canonical main body of work is:
 
-- **CorePrinciples/**: Core concepts and principles.
-  - [The Law of ‘We’](CorePrinciples/Law_of_We_Causal_Ethics.md): The principle of interconnectedness.
-  - [The Axis: Axiomatic Foundation of Causal Ethics](CorePrinciples/CausalEthicsAxis.md): The universal constant and cognitive exception grounding ethical decision-making.
-  - [Glossary of Key Terms](CorePrinciples/Glossary.md): Definitions of core concepts.
-- **src/**: Source code for the *GILN* implementation.
-  - `human_node.py`: Defines human nodes in the *GILN* network.
-  - `iif_evaluator.py`: Evaluates contributions using the *Integrated Intelligence Framework (IIF)*.
-  - `giln_network.py`: Manages the human side of the *GILN* network.
-  - `giln_ai.py`: Manages the AI side of the *GILN* network.
-  - `test_giln_human.py`: Tests the human side of *GILN*.
-  - `test_giln_combined.py`: Tests the integration of human and AI sides.
-- **Validation.md**: Real-world evidence validating the frameworks (e.g., DeepSeek distillation).
+- [`Release/`](Release/) — the active theoretical, publication, and framework directory.
 
-## Getting Started
+Start there. The root of the repository is only the navigation surface.
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Causal5/Harmonic-Knowledge-Law.git
-   cd Harmonic-Knowledge-Law
+Recommended entry points:
 
-Source Code Access (AGPL Requirement)
-This project is licensed under the GNU Affero General Public License (AGPL) Version 3. If you use this software in a networked environment (e.g., as part of a GILN deployment), you are required to provide users with access to the source code of the running version. You can find the source code in this repository, and any modifications you make must also be shared under the same license.
+- [`Release/README.md`](Release/README.md) — primary directory index.
+- [`Release/MANIFEST.md`](Release/MANIFEST.md) — canonical document map and reading order.
+- [`Release/ARCHITECTURE.md`](Release/ARCHITECTURE.md) — repository architecture, canonical rules, and migration policy.
+- [`Release/Causal_Ethics_Master_Symbol_Registry.md`](Release/Causal_Ethics_Master_Symbol_Registry.md) — master symbol registry.
 
+## Repository Areas
+
+### `Release/`
+
+The active body of work. It contains the main Causal Ethics / HKL / SLP theoretical documents, including:
+
+- Causal Ethics symbol and namespace registry.
+- Harmonic Knowledge Law stability material.
+- Δ-Self identity/worldline documents.
+- Absorbic Effort framework material.
+- Continuation-filter / Great Filter style work.
+- Versioned mathematical documents.
+
+### `CorePrinciples/`
+
+Earlier foundational and supporting documents. This directory remains valuable but should be treated as supporting/legacy material unless a document is explicitly promoted into `Release/`.
+
+Representative files:
+
+- [`CorePrinciples/Law_of_We_Causal_Ethics.md`](CorePrinciples/Law_of_We_Causal_Ethics.md)
+- [`CorePrinciples/Law_of_We_Full.md`](CorePrinciples/Law_of_We_Full.md)
+- [`CorePrinciples/CausalEthicsAxis.md`](CorePrinciples/CausalEthicsAxis.md)
+- [`CorePrinciples/Glossary.md`](CorePrinciples/Glossary.md)
+- [`CorePrinciples/SLP_Published.md`](CorePrinciples/SLP_Published.md)
+
+### `src/`
+
+Implementation-oriented and experimental material associated with the Geometric Intelligence Learning Network / Integrated Intelligence Framework experiments.
+
+## Project Concepts
+
+- **Causal Ethics (CE)** — ethical alignment as a structural relationship between action, burden, consequence, and natural-system constraint.
+- **Law of We** — interconnectedness and non-isolated consequence across agents and systems.
+- **Harmonic Knowledge Law (HKL)** — stability and coherence framing for knowledge/intelligence systems.
+- **Geometric Intelligence (GI)** — intelligence as structured navigation and deformation of a high-dimensional knowledge manifold.
+- **Symbolic Language Processing (SLP)** — symbolic-indexed reasoning and reuse rather than recomputation-heavy language processing.
+- **Δ-Self** — identity modeled as a trajectory/worldline rather than a static state.
+
+## Canonical Policy
+
+If a concept appears in multiple places, the `Release/` version is presumed canonical unless a newer document explicitly states otherwise.
+
+New repeated theoretical symbols should be registered in [`Release/Causal_Ethics_Master_Symbol_Registry.md`](Release/Causal_Ethics_Master_Symbol_Registry.md) before publication use across multiple documents.
+
+## License
+
+This project is licensed under the GNU Affero General Public License (AGPL) Version 3. See [`License.md`](License.md).
