@@ -4,6 +4,8 @@ The **Harmonic Knowledge Law (HKL)** repository contains the active documentatio
 
 All work now lives on a single canonical branch (`main`). Earlier working branches have been consolidated here, and nothing was dropped in the merge.
 
+> **New here? Start with [`START_HERE.md`](START_HERE.md)** — a plain-language, six-idea on-ramp to the whole framework. Prefer a visual? Open the **[interactive map](https://causal5.github.io/Harmonic-Knowledge-Law/)**, where every box links straight to its paper.
+
 ## Main Body of Work
 
 The canonical main body of work is:
@@ -14,6 +16,7 @@ Start there. The root of the repository is only the navigation surface.
 
 Recommended entry points:
 
+- [`START_HERE.md`](START_HERE.md) — plain-language, six-idea on-ramp (best first read).
 - [`Release/README.md`](Release/README.md) — primary directory index.
 - [`Release/MANIFEST.md`](Release/MANIFEST.md) — canonical document map and reading order.
 - [`Release/ARCHITECTURE.md`](Release/ARCHITECTURE.md) — repository architecture, canonical rules, and migration policy.
