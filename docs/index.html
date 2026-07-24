@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Harmonic Knowledge Law — Interactive Map</title>
+<style>
+  :root {
+    --bg: #0d1117; --panel: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --link: #58a6ff;
+    --blue: #1f6feb; --green: #238636; --purple: #8957e5; --grey: #6e7681;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 32px 20px 80px; }
+  header h1 { margin: 0 0 6px; font-size: 28px; }
+  header p.sub { margin: 0 0 18px; color: var(--muted); font-size: 16px; }
+  .toplinks a {
+    display: inline-block; margin-right: 10px; margin-bottom: 18px;
+    padding: 7px 14px; border: 1px solid var(--border); border-radius: 8px;
+    color: var(--text); text-decoration: none; font-size: 14px; background: var(--panel);
+  }
+  .toplinks a:hover { border-color: var(--link); color: var(--link); }
+  h2 { margin: 40px 0 6px; font-size: 20px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  p.note { color: var(--muted); font-size: 14px; margin: 6px 0 16px; }
+  .diagram {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px; overflow: auto;
+  }
+  .diagram .mermaid { text-align: center; }
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; margin: 16px 0 0; font-size: 13px; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 13px; height: 13px; border-radius: 3px; display: inline-block; }
+  .tip { background: rgba(31,111,235,0.08); border: 1px solid rgba(31,111,235,0.35); color: var(--text);
+    border-radius: 8px; padding: 10px 14px; font-size: 14px; margin: 16px 0 0; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--border); padding-top: 16px; }
+  a { color: var(--link); }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h2 class="sr-only">Interactive map of the Harmonic Knowledge Law framework. A six-pillar overview and a full document map. Every box links to its source file on GitHub.</h2>
+  <header>
+    <h1>Harmonic Knowledge Law &mdash; Interactive Map</h1>
+    <p class="sub">Click any box to open its document on GitHub in a new tab. Keep this map open and follow along.</p>
+    <div class="toplinks">
+      <a href="https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/START_HERE.md" target="_blank" rel="noopener">Read: Start Here</a>
+      <a href="https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/MANIFEST.md" target="_blank" rel="noopener">Reading order (Manifest)</a>
+      <a href="https://github.com/Causal5/Harmonic-Knowledge-Law" target="_blank" rel="noopener">Repository</a>
+    </div>
+  </header>
+
+  <p>The framework is really <strong>six ideas</strong> that build on each other, plus one shared vocabulary. Start with the overview, then drop into the full map when you want the individual papers.</p>
+
+  <h2>The six pillars</h2>
+  <p class="note">Read left to right. The purple registry underneath is the dictionary they all share.</p>
+  <div class="diagram">
+    <pre class="mermaid">
+graph LR
+  S["Start Here"]
+  P1["1 &middot; Bounded Knowing"]
+  P2["2 &middot; The Delta-Self"]
+  P3["3 &middot; HKL Stability"]
+  P4["4 &middot; Causal Ethics / AEF"]
+  P5["5 &middot; Scaling &amp; Continuation"]
+  P6["6 &middot; Consciousness &amp; Agency"]
+  REG["Symbol Registry"]
+  S --> P1
+  P1 --> P2 --> P3 --> P4 --> P5
+  P2 --> P6
+  P3 --> P6
+  REG -. anchors .- P2
+  REG -. anchors .- P4
+  click S "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/START_HERE.md" "Start Here guide" _blank
+  click P1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Registry/causal-ethics-master-symbol-registry.md" "Bounded Knowing" _blank
+  click P2 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Delta-Self/delta-self-concept.md" "The Delta-Self" _blank
+  click P3 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/HKL/hkl-lyapunov.md" "HKL Stability" _blank
+  click P4 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/absorbic-effort-framework.md" "Causal Ethics / AEF" _blank
+  click P5 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/continuation-filter.md" "Scaling and Continuation" _blank
+  click P6 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/four-pillars-of-causal-consciousness.md" "Consciousness and Agency" _blank
+  click REG "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Registry/causal-ethics-master-symbol-registry.md" "Symbol Registry" _blank
+  classDef start fill:#1f6feb,stroke:#0b1a33,color:#ffffff;
+  classDef pillar fill:#238636,stroke:#08260f,color:#ffffff;
+  classDef hub fill:#8957e5,stroke:#0b1a33,color:#ffffff;
+  class S start;
+  class P1,P2,P3,P4,P5,P6 pillar;
+  class REG hub;
+    </pre>
+  </div>
+
+  <h2>The full Release map</h2>
+  <p class="note">Every document under the canonical <code>Release/</code> body of work. Click a file to open it.</p>
+  <div class="diagram">
+    <pre class="mermaid">
+graph LR
+  R["Release/"]
+  R --> IDX["README &middot; index"]
+  R --> MAN["MANIFEST &middot; reading order"]
+  R --> ARC["ARCHITECTURE &middot; rules"]
+  R --> REGd["Registry/"]
+  REGd --> REG1["master-symbol-registry"]
+  R --> PAPd["Papers/"]
+  PAPd --> PA1["absorbic-effort-framework"]
+  PAPd --> PA2["fallacy-of-large-scale-absorbic-effort"]
+  PAPd --> PA3["continuation-filter"]
+  PAPd --> PA4["four-pillars-of-causal-consciousness"]
+  R --> HKLd["HKL/"]
+  HKLd --> H1["hkl-lyapunov"]
+  R --> DSd["Delta-Self/"]
+  DSd --> D1["worldline-formalization"]
+  DSd --> D2["concept"]
+  DSd --> D3["delta-self-2"]
+  DSd --> D4["extension"]
+  R --> EXd["Examples/"]
+  EXd --> E1["sahel-worked-example"]
+  R --> V1d["V1.0 Math/"]
+  V1d --> M1["constancy-and-anti-relativism"]
+  R --> HARd["slp_gdelta_harness/ &middot; code"]
+  R --> ARCV["archive/ &middot; legacy"]
+  click IDX "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/README.md" "Release index" _blank
+  click MAN "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/MANIFEST.md" "Manifest" _blank
+  click ARC "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/ARCHITECTURE.md" "Architecture" _blank
+  click REG1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Registry/causal-ethics-master-symbol-registry.md" "Symbol registry" _blank
+  click PA1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/absorbic-effort-framework.md" "Absorbic Effort Framework" _blank
+  click PA2 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/fallacy-of-large-scale-absorbic-effort.md" "Fallacy of Large-Scale Absorbic Effort" _blank
+  click PA3 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/continuation-filter.md" "Continuation Filter" _blank
+  click PA4 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Papers/four-pillars-of-causal-consciousness.md" "Four Pillars of Causal Consciousness" _blank
+  click H1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/HKL/hkl-lyapunov.md" "HKL Lyapunov" _blank
+  click D1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Delta-Self/delta-self-worldline-formalization.md" "Worldline formalization" _blank
+  click D2 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Delta-Self/delta-self-concept.md" "Delta-Self concept" _blank
+  click D3 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Delta-Self/delta-self-2.md" "Delta-Self 2" _blank
+  click D4 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Delta-Self/delta-self-extension.md" "Delta-Self extension" _blank
+  click E1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/Examples/sahel_worked_example.md" "Sahel worked example" _blank
+  click M1 "https://github.com/Causal5/Harmonic-Knowledge-Law/blob/main/Release/V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md" "Constancy and anti-relativism" _blank
+  click HARd "https://github.com/Causal5/Harmonic-Knowledge-Law/tree/main/Release/slp_gdelta_harness" "SLP GDelta harness code" _blank
+  click ARCV "https://github.com/Causal5/Harmonic-Knowledge-Law/tree/main/Release/archive" "Archive of legacy duplicates" _blank
+  classDef root fill:#1f6feb,stroke:#0b1a33,color:#ffffff;
+  classDef dir fill:#238636,stroke:#08260f,color:#ffffff;
+  classDef doc fill:#21262d,stroke:#30363d,color:#e6edf3;
+  classDef archive fill:#6e7681,stroke:#30363d,color:#ffffff,stroke-dasharray:4 3;
+  class R root;
+  class IDX,MAN,ARC,REGd,PAPd,HKLd,DSd,EXd,V1d,HARd dir;
+  class REG1,PA1,PA2,PA3,PA4,H1,D1,D2,D3,D4,E1,M1 doc;
+  class ARCV archive;
+    </pre>
+  </div>
+
+  <div class="legend">
+    <span><i class="swatch" style="background:#1f6feb"></i> Start / root</span>
+    <span><i class="swatch" style="background:#238636"></i> Pillar / folder</span>
+    <span><i class="swatch" style="background:#8957e5"></i> Symbol registry</span>
+    <span><i class="swatch" style="background:#21262d;border:1px solid #30363d"></i> Document</span>
+    <span><i class="swatch" style="background:#6e7681"></i> Archive (superseded)</span>
+  </div>
+
+  <p class="tip">Tip: middle-click (or Ctrl/Cmd-click) a box to open it in a background tab, so you can queue several papers and read them in order without losing the map.</p>
+
+  <footer>
+    Generated from the canonical <code>Release/</code> structure on <code>main</code>.
+    Source of truth: the <a href="https://github.com/Causal5/Harmonic-Knowledge-Law" target="_blank" rel="noopener">repository</a>.
+    Diagram rendering by Mermaid.
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: "base",
+    securityLevel: "loose",
+    themeVariables: { lineColor: "#8b949e", fontFamily: "inherit", fontSize: "14px" },
+    flowchart: { htmlLabels: true, curve: "basis", nodeSpacing: 34, rankSpacing: 58 }
+  });
+</script>
+</body>
+</html>
+
