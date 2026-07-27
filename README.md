@@ -1,10 +1,56 @@
 # Harmonic Knowledge Law (HKL)
 
-The **Harmonic Knowledge Law (HKL)** repository contains the active documentation and release materials for the broader Causal Ethics / HKL / Symbolic Language Processing project suite.
+The **Harmonic Knowledge Law (HKL)** repository contains the active documentation and release materials for the broader Causal Ethics / HKL / Symbolic Language Processing project suite. All work now lives on a single canonical branch (`main`); earlier working branches have been consolidated here with nothing dropped.
 
-All work now lives on a single canonical branch (`main`). Earlier working branches have been consolidated here, and nothing was dropped in the merge.
+## Sitemap
 
-> **New here? Start with [`START_HERE.md`](START_HERE.md)** — a plain-language, six-idea on-ramp to the whole framework. Prefer a visual? Open the **[interactive map](https://causal5.github.io/Harmonic-Knowledge-Law/)**, where every box links straight to its paper.
+The canonical `Release/` body of work at a glance. Prefer to click around? Open the **[interactive map](https://causal5.github.io/Harmonic-Knowledge-Law/)** — every box links to its paper. New to the framework? Read the plain-language **[Start Here](START_HERE.md)** guide. A standalone copy of this map lives in [`SITEMAP.md`](SITEMAP.md).
+
+```mermaid
+graph LR
+  R["Release/ · Canonical Body of Work"]
+
+  R --> IDX["README · Directory Index"]
+  R --> MAN["MANIFEST · Document Map"]
+  R --> ARC["ARCHITECTURE · Canonical Rules"]
+
+  R --> REG["Registry/"]
+  REG --> REG1["causal-ethics-master-symbol-registry.md"]
+
+  R --> PAP["Papers/"]
+  PAP --> P1["absorbic-effort-framework.md"]
+  PAP --> P2["fallacy-of-large-scale-absorbic-effort.md"]
+  PAP --> P3["continuation-filter.md"]
+  PAP --> P4["four-pillars-of-causal-consciousness.md"]
+
+  R --> HKL["HKL/"]
+  HKL --> H1["hkl-lyapunov.md"]
+
+  R --> DS["Delta-Self/"]
+  DS --> D1["delta-self-worldline-formalization.md"]
+  DS --> D2["delta-self-concept.md"]
+  DS --> D3["delta-self-2.md"]
+  DS --> D4["delta-self-extension.md"]
+
+  R --> EX["Examples/"]
+  EX --> E1["sahel_worked_example.md"]
+
+  R --> V1["V1.0-FullBranch/Docs/Math/"]
+  V1 --> M1["constancy-and-anti-relativism.md"]
+
+  R --> HAR["slp_gdelta_harness/ · code"]
+
+  R --> ARCV["archive/ · legacy duplicates (superseded)"]
+
+  classDef root fill:#1f6feb,stroke:#0b1a33,color:#ffffff;
+  classDef dir fill:#238636,stroke:#08260f,color:#ffffff;
+  classDef doc fill:#161b22,stroke:#30363d,color:#e6edf3;
+  classDef archive fill:#6e7681,stroke:#30363d,color:#ffffff,stroke-dasharray:4 3;
+  class R root;
+  class IDX,MAN,ARC,REG,PAP,HKL,DS,EX,V1,HAR dir;
+  class REG1,P1,P2,P3,P4,H1,D1,D2,D3,D4,E1,M1 doc;
+  class ARCV archive;
+```
 
 ## Main Body of Work
 
@@ -17,6 +63,7 @@ Start there. The root of the repository is only the navigation surface.
 Recommended entry points:
 
 - [`START_HERE.md`](START_HERE.md) — plain-language, six-idea on-ramp (best first read).
+- [`SITEMAP.md`](SITEMAP.md) — the map above as a standalone page.
 - [`Release/README.md`](Release/README.md) — primary directory index.
 - [`Release/MANIFEST.md`](Release/MANIFEST.md) — canonical document map and reading order.
 - [`Release/ARCHITECTURE.md`](Release/ARCHITECTURE.md) — repository architecture, canonical rules, and migration policy.
