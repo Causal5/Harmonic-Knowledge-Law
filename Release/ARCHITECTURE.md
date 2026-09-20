@@ -1,114 +1,35 @@
-# Release Architecture
+# Release architecture
 
-`Release/` is the canonical body of work for the Harmonic Knowledge Law / Causal Ethics / SLP project suite.
+`main` is the publication branch. `Release/` is the main research directory. The root README, sitemap, manifest, publication index, and changelog provide navigation and version history.
 
-This repository should be read as a release-centered knowledge system:
+## Directory roles
 
-```text
-Repository root
-  README.md                 Navigation only
-  License.md                License
-  CorePrinciples/           Legacy / supporting foundation material
-  src/                      Experimental implementation material
-  Release/                  Canonical body of work
-```
+| Directory | Role |
+|---|---|
+| [Registry](Registry/README.md) | Current registry plus explicitly named migration drafts |
+| [Papers](Papers/README.md), [HKL](HKL/README.md), [Delta-Self](Delta-Self/README.md) | Established versions of core research documents |
+| [Examples](Examples/README.md) | Applied studies, protocols, and worked examples |
+| [Working](Working/README.md) | Unratified revisions and historical working sources |
+| [Reviews](Reviews/README.md) | Dated audits, status reviews, and publication notes |
+| [archive](archive/README.md) | Frozen legacy copies; some are earlier than current papers |
+| [V1.0-FullBranch](V1.0-FullBranch/) | Earlier versioned mathematical material |
+| [slp_gdelta_harness](slp_gdelta_harness/README.md) | Experimental code |
 
-## Canonical Rule
+## Authority and promotion
 
-When a concept exists in multiple places, the `Release/` version is presumed canonical unless a newer document explicitly states otherwise.
+The current v0.3 registry and current Worldline formalization retain their established roles. The v0.4 registry remains a research draft. A recovered paper's filename, version number, publication date, or presence on `main` does not independently promote it to governing authority.
 
-`CorePrinciples/` should be treated as historical/supporting material, not the active publication surface.
+To promote a revision:
 
-## Current Release Layout
+1. State the intended parent documents, scope, version, and status.
+2. Resolve the applicable audit findings, symbol collisions, units, and inheritance conflicts.
+3. Update affected dependent documents and links together.
+4. Record the decision and resulting paths in the manifest and changelog, preserving earlier versions in Git history or a clearly labeled archive.
 
-The active material currently remains at the top level of `Release/` to avoid breaking links and to preserve exact document content.
+Empirical validation requires its own evidence and evaluation record. A publication checkpoint does not substitute for it.
 
-```text
-Release/
-  README.md
-  ARCHITECTURE.md
-  MANIFEST.md
-  Registry/
-  Papers/
-  HKL/
-  Delta-Self/
-  V1.0-FullBranch/
-  *.md
-```
+## Source preservation and naming
 
-The subdirectories are organizational anchors. They define the intended future location of each class of work while avoiding premature content movement.
+Recovered research bodies are preserved exactly in the 20 September 2026 publication. Editorial status belongs in the publication index and adjacent guides. The [source manifest](publication-sources-2026-09-20.json) records original filenames and checksums.
 
-## Proposed Canonical Categories
-
-### Registry
-
-Symbol tables, naming rules, namespace rules, and cross-document terminology control.
-
-Primary candidate:
-
-- `Causal_Ethics_Master_Symbol_Registry.md`
-
-### Papers
-
-Formal or semi-formal conceptual papers intended for publication, public reading, or external critique.
-
-Primary candidates:
-
-- `Absorbic_Effort_Framework.md`
-- `fallacy_of_large_scale_absorbic_effort_revised.md`
-- `continuation_filter_concept_version.md`
-- `4_Pillars_Of_Consciousness.md`
-
-### HKL
-
-Documents centered on Harmonic Knowledge Law, stability, basin behavior, Lyapunov-style language, and geometric intelligence.
-
-Primary candidate:
-
-- `HKL_Lyapunov.md`
-
-### Delta-Self
-
-Identity trajectory, Δ-Self, worldline, and irreversible-coordinate documents.
-
-Primary candidates:
-
-- `∆-Self_Wordline_Formalization.md`
-- `The_Δ-Self_Concept.md`
-- `Δ‑Self_2.md`
-- `delta_self_extension.md`
-
-### Versioned Branches
-
-Self-contained release snapshots or branch exports.
-
-Primary candidate:
-
-- `V1.0-FullBranch/`
-
-## Migration Policy
-
-A future byte-preserving local git migration should:
-
-1. Move documents into the category folders above.
-2. Normalize filenames to ASCII-safe slugs.
-3. Preserve symbolic display titles inside document headings.
-4. Repair all internal Markdown links.
-5. Leave compatibility stubs at old paths where external links may already exist.
-
-## Filename Policy
-
-For future files, prefer stable ASCII paths:
-
-```text
-delta-self-worldline-formalization.md
-causal-ethics-master-symbol-registry.md
-hkl-lyapunov.md
-absorbic-effort-framework.md
-```
-
-Use Greek symbols and mathematical notation inside document titles and bodies, not necessarily in file paths.
-
-## Why This Matters
-
-The project is conceptually dense. Without an explicit repository architecture, the reader has to infer hierarchy from filenames alone. That creates unnecessary observer-induced entropy: the structure of the repository should reduce cognitive burden before the theory itself begins.
+Use stable ASCII-safe paths for new files, retain mathematical notation inside the documents, and link to existing archive locations rather than inventing compatibility files. Avoid duplicate current-authority claims. Repeated theoretical symbols should be reconciled with the current registry before promotion.

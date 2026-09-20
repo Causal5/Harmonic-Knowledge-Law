@@ -2,16 +2,18 @@
 
 # SIP-GΔ Symbolic Cognition Harness
 
-The canonical externalized symbolic layer implementing SIP reduction, Gödel indexing, FRF quarantine, Δ-Self trajectory ledger, HKL stability basin, and AEF/PAE effort accounting.
+An experimental prototype for an external symbolic layer, intended to explore SIP reduction, Gödel indexing, FRF quarantine, a Δ-Self trajectory ledger, HKL stability, and AEF/PAE effort accounting.
+
+**Status — 20 September 2026:** The current code uses placeholder scoring and incomplete validation/quarantine behavior. It does not establish semantic correctness, empirical HKL/AEF validation, or measured cognition/efficiency gains. See the [project-status review](../Reviews/project-status-2026-09-20.md) and [recovered SLP sources](../Working/slp/README.md).
 
 ## Purpose (per Release/ canonical docs)
 - Provides the 'maguffin' for durable, traceable, recursion-safe symbolic cognition.
 - Local-first bootstrap: JSON ledger + NetworkX KG.
-- Makes non-enterprise models significantly more potent via external symbolic memory.
+- Investigates whether external symbolic memory can improve model performance; measured gains remain to be demonstrated.
 
 ## Installation (git clone bootstrap)
 ```bash
-git clone --branch repo-organization-release-index https://github.com/Causal5/Harmonic-Knowledge-Law.git
+git clone --branch main https://github.com/Causal5/Harmonic-Knowledge-Law.git
 cd Harmonic-Knowledge-Law/Release/slp_gdelta_harness
 pip install -e .
 ```
@@ -52,3 +54,4 @@ Now includes a drop-in HTTP plugin:
 cd Release/slp_gdelta_harness
 pip install -e ".[plugin]"
 fastapi dev slp_gdelta_harness/app.py
+```

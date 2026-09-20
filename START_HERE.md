@@ -1,5 +1,7 @@
 # Start Here
 
+> **Status — 20 September 2026:** This is a conceptual overview of the earlier corpus. Cross-document consistency, operational definitions, and empirical validation remain work in progress. Read the [current publication notes](Release/Reviews/publication-notes-2026-09-20.md) and [publication index](Release/PUBLICATION-INDEX.md), including the Central Valley study and separate v0.4 registry draft. The introductory descriptions below do not override those status distinctions.
+
 **A plain-language on-ramp to the Harmonic Knowledge Law / Causal Ethics / SLP framework.**
 
 If the repository looks like forty separate documents, that is the wrong way to read it. It is really **six ideas** that build on each other, plus one shared vocabulary that keeps them consistent. This page gives you the six ideas in a sentence each and points you to where to go deeper. For the full canonical reading order, see [`Release/MANIFEST.md`](Release/MANIFEST.md).
@@ -99,4 +101,3 @@ Because these six ideas share symbols (Δ, V, PAE, and more), the [master symbol
 ---
 
 *This on-ramp summarizes; it does not replace the papers. The pillar descriptions are written to be edited into your own voice — adjust freely.*
-

@@ -1,69 +1,33 @@
-# Release Directory Index
+# Release directory index
 
-`Release/` is the canonical main body of work for the Harmonic Knowledge Law / Causal Ethics / SLP project suite.
+`Release/` is the main publication directory for Causal Ethics / HKL / Delta-Self / SLP. It contains established papers, working drafts, historical sources, application studies, and reviews. Each document's status matters; presence in this directory alone does not signify adoption or validation.
 
-The root repository README is a navigation layer. `CorePrinciples/` is supporting and historical foundation material. `src/` is implementation and experimental material. `Physics/` holds neutrino-causality and prime/torque working material. The active theoretical publication surface is here.
+## Current entry points
 
-## Start Here
+1. [Publication index — 20 September 2026](PUBLICATION-INDEX.md): recovered Central Valley work and prior research, with exact provenance.
+2. [Publication notes](Reviews/publication-notes-2026-09-20.md): current status and remaining research tasks.
+3. [Manifest](MANIFEST.md): established corpus and reading order.
+4. [Architecture](ARCHITECTURE.md): directory roles and version authority.
+5. [Changelog](../CHANGELOG.md): dated repository changes.
 
-1. [`MANIFEST.md`](MANIFEST.md) — canonical document map and reading order.
-2. [`ARCHITECTURE.md`](ARCHITECTURE.md) — repository architecture, canonical-directory rules, and migration policy.
-3. [`Registry/causal-ethics-master-symbol-registry.md`](Registry/causal-ethics-master-symbol-registry.md) — master symbol registry and namespace rules.
+## Research areas
 
-## Canonical Release Paths
+| Area | Role |
+|---|---|
+| [Registry](Registry/README.md) | Current v0.3 registry; separate v0.4 migration draft |
+| [Papers](Papers/README.md) | Established conceptual papers |
+| [HKL](HKL/README.md) | Stability framework |
+| [Delta-Self](Delta-Self/README.md) | Current Worldline parent and related identity papers |
+| [Examples](Examples/README.md) | Sahel and Central Valley working applications |
+| [Working](Working/README.md) | Separate integration drafts and historical research |
+| [Reviews](Reviews/README.md) | Corpus audit and status assessments |
+| [SLP harness](slp_gdelta_harness/README.md) | Experimental prototype code |
+| [Versioned mathematics](V1.0-FullBranch/Docs/Math/README.md) | Earlier versioned mathematical material |
+| [Archive](archive/README.md) | Preserved legacy copies |
 
-Each organized subdirectory is the canonical home for its documents. Older top-level duplicates have been moved into [`archive/`](archive/) for historical continuity; they are not independently maintained.
+## Existing assets
 
-### Registry
+- [Framework diagram](final_diagram_with_legend_map.png).
+- [Original repository Kanji compression note](Re-use%20SLP%20compression%20with%20Kanji.docx); the distinct recovered working copy is indexed under [SLP research](Working/slp/README.md).
 
-- [`Registry/causal-ethics-master-symbol-registry.md`](Registry/causal-ethics-master-symbol-registry.md) — master symbol registry for Causal Ethics / HKL / SLP terminology.
-
-### Papers
-
-- [`Papers/absorbic-effort-framework.md`](Papers/absorbic-effort-framework.md) — absorbic effort / burden framework and related causal-load modeling.
-- [`Papers/fallacy-of-large-scale-absorbic-effort.md`](Papers/fallacy-of-large-scale-absorbic-effort.md) — critique of macro-scale absorption and centralized burden transfer.
-- [`Papers/continuation-filter.md`](Papers/continuation-filter.md) — continuation filter / Great Filter style concept framing.
-- [`Papers/four-pillars-of-causal-consciousness.md`](Papers/four-pillars-of-causal-consciousness.md) — consciousness framework document.
-
-### HKL
-
-- [`HKL/hkl-lyapunov.md`](HKL/hkl-lyapunov.md) — HKL stability framing through Lyapunov-style basin language.
-
-### Delta-Self / Identity Trajectory
-
-- [`Delta-Self/delta-self-worldline-formalization.md`](Delta-Self/delta-self-worldline-formalization.md) — worldline formalization of Delta-Self / identity trajectory.
-- [`Delta-Self/delta-self-concept.md`](Delta-Self/delta-self-concept.md) — conceptual introduction to Delta-Self.
-- [`Delta-Self/delta-self-2.md`](Delta-Self/delta-self-2.md) — additional Delta-Self development file.
-- [`Delta-Self/delta-self-extension.md`](Delta-Self/delta-self-extension.md) — extension material for the Delta-Self model.
-
-### Examples
-
-- [`Examples/sahel_worked_example.md`](Examples/sahel_worked_example.md) — Sahel worked example applying the framework.
-
-### SLP GDelta Harness
-
-- [`slp_gdelta_harness/`](slp_gdelta_harness/) — reference harness (code) for SLP GDelta experiments.
-
-## Versioned Release Branch Material
-
-- [`V1.0-FullBranch/Docs/Math/README.md`](V1.0-FullBranch/Docs/Math/README.md) — index for mathematical documents in the v1.0 branch material.
-- [`V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md`](V1.0-FullBranch/Docs/Math/constancy-and-anti-relativism.md) — constancy / anti-relativism mathematical argument.
-
-## Assets
-
-- `final_diagram_with_legend_map.png` — framework diagram with legend map.
-- `Re-use SLP compression with Kanji.docx` — SLP compression working note.
-
-## Archive
-
-- [`archive/`](archive/) — older, byte-for-byte duplicates of the documents above, preserved for historical continuity. See [`archive/README.md`](archive/README.md).
-
-## Canonical Policy
-
-If a concept appears in multiple places, the organized subdirectory path is canonical unless a newer document explicitly says otherwise. Files under `archive/` are preserved legacy copies and should not be treated as independently maintained parallel versions.
-
-Every new repeated theoretical symbol should be added to the master symbol registry before being used across multiple documents.
-
-## Naming Note
-
-Several legacy Delta-Self files use visually similar Unicode characters (the increment sign, the Greek capital delta, and nonstandard hyphen variants). This is expressive but operationally fragile for links, file systems, and search. Canonical release filenames now use ASCII-safe lowercase kebab-case paths while preserving symbolic notation inside the documents.
+New filenames use ASCII-safe paths; symbolic notation is preserved inside original documents. See the [source manifest](publication-sources-2026-09-20.json) for recovered filenames and checksums.

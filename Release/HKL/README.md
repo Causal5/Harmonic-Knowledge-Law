@@ -1,25 +1,10 @@
-# HKL
+# Harmonic Knowledge Law
 
-This directory contains the canonical release paths for Harmonic Knowledge Law materials: stability, basin behavior, Lyapunov-style framing, geometric intelligence, and coherence/scaling analysis.
+| Document | Role |
+|---|---|
+| [HKL Lyapunov](hkl-lyapunov.md) | Established repository paper |
+| [HKL Lyapunov v2](../Working/hkl-lyapunov-v2.md) | Separate recovered working draft; reconciliation pending |
+| [Buffer as Temporal Dimension](../Working/buffer-as-temporal-dimension.md) | Related cross-corpus working addendum |
+| [Legacy HKL copy](../archive/HKL_Lyapunov.md) | Frozen historical location |
 
-## Canonical HKL Documents
-
-- [`hkl-lyapunov.md`](hkl-lyapunov.md)
-
-## Legacy / Source Path
-
-The previous top-level path is preserved for safety and historical continuity:
-
-- [`../HKL_Lyapunov.md`](../HKL_Lyapunov.md)
-
-The file in this directory is the canonical release path.
-
-## Scope
-
-HKL documents should focus on:
-
-- Stability criteria.
-- Basin/deviation language.
-- Lyapunov-style burden functions.
-- Coherence under scaling.
-- Relationship between symbolic reuse, geometric intelligence, and entropy reduction.
+Version numbers do not by themselves resolve the parent and symbol conflicts identified in the [audit](../Reviews/slap-v0.4-corpus-audit.md). See [publication notes](../Reviews/publication-notes-2026-09-20.md) and the [Central Valley study](../Examples/central-valley/README.md).

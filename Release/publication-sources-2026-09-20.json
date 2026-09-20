@@ -1,0 +1,257 @@
+{
+  "publication_date": "2026-09-20",
+  "repository": "Causal5/Harmonic-Knowledge-Law",
+  "baseline_commit": "47195b664d0d56a3cf04d0185de93015e3fb9cfd",
+  "scope": "Recovered Causal Ethics II project documents and matching standalone research files; original bodies preserved.",
+  "date_policy": "Publication date records repository availability, not research completion or source authorship date.",
+  "new_source_artifacts": [
+    {
+      "source_filename": "central-valley-worked-example-v0.1.md",
+      "repository_path": "Release/Examples/central-valley/central-valley-worked-example-v0.1.md",
+      "title": "Central Valley freshwater analysis v0.1",
+      "status": "Observed-data working example; HKL quantities not computed",
+      "bytes": 15176,
+      "sha256": "ba0cf7ef9435c8ae402538913bc43730bef1cdd20753ba6c3efc6baaf19b6672",
+      "git_blob_sha": "e441dd384e738d5db801ae089480592047a47c0c",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "temporal-mining-freshwater-protocol-v0.1(2).md",
+      "repository_path": "Release/Examples/central-valley/temporal-mining-freshwater-protocol-v0.1.md",
+      "title": "Temporal Mining freshwater protocol v0.1",
+      "status": "Study protocol; empirical execution pending",
+      "bytes": 10721,
+      "sha256": "cffbd4e1f4d31129dc4ca06ed2d4633dd0130e9000c61237d92b0025a0ada756",
+      "git_blob_sha": "a3d926c37df24883927e4768ec45f0cfc2f03303",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "buffer_temporal_dimension_cross_corpus(3).md",
+      "repository_path": "Release/Working/buffer-as-temporal-dimension.md",
+      "title": "Buffer as Temporal Dimension",
+      "status": "Working addendum; audit corrections pending",
+      "bytes": 22241,
+      "sha256": "b4544dc3c96df783cd4babf9be3347e70fc9cea8da90e9e6a025890fab7d6b3d",
+      "git_blob_sha": "57f17c2ee4a4ebf7ec6c2288022e2bfc0e6d227f",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "causal-ethics-master-symbol-registry-v0.4-draft.md",
+      "repository_path": "Release/Registry/causal-ethics-master-symbol-registry-v0.4-draft.md",
+      "title": "Master Symbol Registry v0.4",
+      "status": "Research draft for authorial ratification; not canonical",
+      "bytes": 45178,
+      "sha256": "2656059b87578560ae5d8747ccc20e7ca206dc0f8aa047d06cfc3ca8a8e88a8a",
+      "git_blob_sha": "52300fd5728b57fa5aab9e31f176a0f1818b03bd",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "slap-v0.4-corpus-audit.md",
+      "repository_path": "Release/Reviews/slap-v0.4-corpus-audit.md",
+      "title": "SLAP v0.4 corpus audit",
+      "status": "Historical audit; source-availability findings may be superseded by this publication",
+      "bytes": 27237,
+      "sha256": "320d4d838e698f150951c32a7c006b50bdfbff9900864d6c26e2a94258e47a95",
+      "git_blob_sha": "97c2ab6eafddc5482a759c533b46b7b9c915d75b",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "HKL_Lyapunov_v2(1).md",
+      "repository_path": "Release/Working/hkl-lyapunov-v2.md",
+      "title": "HKL Lyapunov v2",
+      "status": "Separate working draft; inheritance and notation reconciliation pending",
+      "bytes": 7026,
+      "sha256": "d7a181a837499be7b43f365d54e8650fb2edba40599856aae23605564a981844",
+      "git_blob_sha": "89fbb183a1e60cb525945d51e2306483ddc4a138",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "Absorbic_Effort_Framework_v2(1).md",
+      "repository_path": "Release/Working/absorbic-effort-framework-v2.md",
+      "title": "Absorbic Effort Framework v2",
+      "status": "Separate working draft; inheritance and notation reconciliation pending",
+      "bytes": 8692,
+      "sha256": "67b0308fc18e5f09f810b682c747f2cddfca366dde606ec039ca5d7de2ad76c7",
+      "git_blob_sha": "51d54ce23c217473b3526a5129710fdec31eb59a",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "sahel_addendum_section9_corrected(1).md",
+      "repository_path": "Release/Examples/sahel-logistic-addendum-section9-draft.md",
+      "title": "Sahel logistic-map addendum, section 9",
+      "status": "Recovered draft; contains ratification-pending coefficient section",
+      "bytes": 17089,
+      "sha256": "775d639c4b22da336ec8f2f4d414dcb18520e023dcc457db0233a6450a3b7e34",
+      "git_blob_sha": "c27b60fbf88c95dff6869d8da8d602300de55d5d",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "Delta_Self_Consolidated_v2.1(1).md",
+      "repository_path": "Release/Working/delta-self-consolidated-v2.1.md",
+      "title": "Delta-Self Consolidated v2.1",
+      "status": "Historical formalization; does not replace the current Worldline parent",
+      "bytes": 15018,
+      "sha256": "f1edd6bd10782a597bba4336cd6e60129d71c8bbf1ce42bfacdfca349b830353",
+      "git_blob_sha": "d364e6838547effe892147ee274402d6e88c476b",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "A_Structural_Test_for_Agency.md",
+      "repository_path": "Release/Working/structural-test-for-agency.md",
+      "title": "A Structural Test for Agency",
+      "status": "Research argument; proposed criteria and broad claims require validation",
+      "bytes": 17132,
+      "sha256": "edc6fd7c5d7a01519959fbd9e76a4c3693eb6bd7cfd61bcb86e805f8f70a65b7",
+      "git_blob_sha": "a6d37fc6f066cc6dfafbca7600684061c623506d",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "Enhanced_SLP_DeltaSelf_Research_Report.md",
+      "repository_path": "Release/Working/slp/enhanced-slp-delta-self-research-report.md",
+      "title": "Enhanced SLP / Delta-Self research report",
+      "status": "Historical research review; feasibility claims not independently revalidated",
+      "bytes": 20238,
+      "sha256": "7a4af186b4b66681162286f2df7680833fabb176e050829b54d463d73387b1bb",
+      "git_blob_sha": "69b5db235b2a8789a30f1fdab0ba8a888b85fc3d",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "Gödel Indexing for LLM Symbols.pdf",
+      "repository_path": "Release/Working/slp/godel-indexing-for-llm-symbols.pdf",
+      "title": "Godel indexing and SLP feasibility review",
+      "status": "Historical research review; citations and claims require checking",
+      "bytes": 230301,
+      "sha256": "5fc17b298a2c4ba749dd829c857f9a874704ba5a0d263fcc75825fb23cefc153",
+      "git_blob_sha": "54a0900e663d59ed737add1025b0c8aa76a28e4e",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "SLP - need complete rework",
+      "repository_path": "Release/Working/slp/slp-framework-reconstruction.pdf",
+      "title": "SLP framework reconstruction source",
+      "status": "Source explicitly marked as needing complete rework",
+      "bytes": 166718,
+      "sha256": "78a604053cc4e7207a297576ea80989fb741f80862f7e1eecbde27191c9005e2",
+      "git_blob_sha": "28326c27fe350b0b2628318b369f63370470bcac",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "-WIP- SLP (1).pdf",
+      "repository_path": "Release/Working/slp/source-variants/slp-wip-copy-1.pdf",
+      "title": "SLP WIP source variant",
+      "status": "Historical PDF variant; extracted text matches reconstruction source",
+      "bytes": 166699,
+      "sha256": "97eec2a121898912d3ba7218de89439cf5cc6044469bb883192424b4c6803b15",
+      "git_blob_sha": "4722e92e188b188e9f462abc0bc1bee9375c058b",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "[WIP] SLP.PDF",
+      "repository_path": "Release/Working/slp/source-variants/slp-wip-original.pdf",
+      "title": "SLP WIP original source variant",
+      "status": "Historical PDF variant; extracted text matches reconstruction source",
+      "bytes": 168589,
+      "sha256": "1e6ffb22bdf5e12a6407e5c71f5411dc0e673048a8f8ccbf5f8e8871eaba0817",
+      "git_blob_sha": "a12b83f968f531d99610422a7d44e76d47c45666",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "Re-use SLP compression with Kanji (1).docx",
+      "repository_path": "Release/Working/slp/slp-compression-with-kanji-working.docx",
+      "title": "SLP compression with Kanji working copy",
+      "status": "Distinct source copy; original repository DOCX retained",
+      "bytes": 1093257,
+      "sha256": "3a96bd75d232e4493e74168129a541d2282d537c0cb2fb9927e83593cae8617b",
+      "git_blob_sha": "7585473869e8b3135f24fd4c9bb6490d043a3fb7",
+      "content_preserved_exactly": true
+    },
+    {
+      "source_filename": "Causal-Ethics-Project-Status-2026-09-20.md",
+      "repository_path": "Release/Reviews/project-status-2026-09-20.md",
+      "title": "Project status review, 20 September 2026",
+      "status": "Pre-publication review snapshot; publication-status statements describe the earlier state",
+      "bytes": 19944,
+      "sha256": "e329a46e7df946f96e0de38947f940dbf27da8025a472fe051164f25bfab97d1",
+      "git_blob_sha": "c6afdf05ee3cd373fee35b216d065e210678bb35",
+      "content_preserved_exactly": true
+    }
+  ],
+  "already_published_matches": [
+    {
+      "source_filename": "absorbic-effort-framework.md",
+      "repository_path": "Release/Papers/absorbic-effort-framework.md",
+      "git_blob_sha": "13e1c12ad6ff89c27de82eb00b06e3932cac36ee",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "causal-ethics-master-symbol-registry (1).md",
+      "repository_path": "Release/Registry/causal-ethics-master-symbol-registry.md",
+      "git_blob_sha": "28773141f9c071193c5af4e014ab80ddcfde8da3",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "continuation-filter.md",
+      "repository_path": "Release/Papers/continuation-filter.md",
+      "git_blob_sha": "f6ef38482da31eb8e988d31a172f1240e4bb9bff",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "delta-self-2.md",
+      "repository_path": "Release/Delta-Self/delta-self-2.md",
+      "git_blob_sha": "cd82242089342b1b49aaa0513ef3584f75cb0a66",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "delta-self-concept.md",
+      "repository_path": "Release/Delta-Self/delta-self-concept.md",
+      "git_blob_sha": "531f93ea48086ed4f5538a335f9e1f0fe6b07797",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "delta-self-extension.md",
+      "repository_path": "Release/Delta-Self/delta-self-extension.md",
+      "git_blob_sha": "737475954c84af5af8875cd187e736208c4361a3",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "delta-self-worldline-formalization.md",
+      "repository_path": "Release/Delta-Self/delta-self-worldline-formalization.md",
+      "git_blob_sha": "c2900b2ad790fcacde7dcfcc7294706f95b8ad1b",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "fallacy-of-large-scale-absorbic-effort.md",
+      "repository_path": "Release/Papers/fallacy-of-large-scale-absorbic-effort.md",
+      "git_blob_sha": "db9622f5d216bb0cc24fee9fd569731bed7c49a4",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "four-pillars-of-causal-consciousness.md",
+      "repository_path": "Release/Papers/four-pillars-of-causal-consciousness.md",
+      "git_blob_sha": "3515dfed3f9e6ae99ee0d6f64b94f849794c37b2",
+      "status": "Already present byte-for-byte at the baseline commit"
+    },
+    {
+      "source_filename": "sahel_worked_example (2).md",
+      "repository_path": "Release/Examples/sahel_worked_example.md",
+      "git_blob_sha": "a20c5233ea1c3dafc932f522d83ead843e14cbc4",
+      "status": "Already present byte-for-byte at the baseline commit"
+    }
+  ],
+  "duplicate_source_aliases": [
+    {
+      "source_filename": "temporal-mining-freshwater-protocol-v0.1.md",
+      "repository_path": "Release/Examples/central-valley/temporal-mining-freshwater-protocol-v0.1.md",
+      "status": "Byte-identical recovered duplicate; one publication copy"
+    },
+    {
+      "source_filename": "buffer_temporal_dimension_cross_corpus.md",
+      "repository_path": "Release/Working/buffer-as-temporal-dimension.md",
+      "status": "Byte-identical recovered duplicate; one publication copy"
+    }
+  ],
+  "exclusions": [
+    "Raw conversation exports and unidentified prior discussions",
+    "Third-party reference literature"
+  ]
+}
