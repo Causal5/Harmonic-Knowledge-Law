@@ -1,7 +1,7 @@
 # Δ-Self Worldline Formalization
 ### Bridging State, Coordinate, Identity, and Operator-Limited Simulation
 
-**Status:** Registry v0.3-aligned integration release candidate.
+**Status:** Current parent formalization; Registry v0.3.1 definition reconciliation, 16 October 2026.
 
 ---
 
@@ -208,7 +208,7 @@ $$
 |L_{n+1}|=|L_n|+1.
 $$
 
-Recurrence does not remove prior ledger entries.
+Recurrence does not remove prior ledger entries. This append-only property belongs to the formal historical ledger; it does not imply lossless physical memory. The coordinate theorem follows from ordered-pair identity and does not, by itself, derive thermodynamic irreversibility.
 
 ## 4.3 Finite State Spaces
 
@@ -288,7 +288,7 @@ The metric, interval, and weighting of state dimensions must be stated.
 
 ## 7.3 Curvature Form
 
-Where both trajectories are twice differentiable within a common representation, define deviation curvature:
+Where both trajectories are twice differentiable within a common representation, define the deviation-curvature proxy:
 
 $$
 \kappa_{\Delta}(t)
@@ -304,7 +304,7 @@ $$
 \kappa_{\Delta}(t)>0
 $$
 
-indicates local reorientation of the realized trajectory relative to the selected passive baseline.
+indicates a difference in trajectory acceleration relative to the selected passive baseline in that representation. The proxy is not generally coordinate-invariant geometric curvature and is not an independent cognition test.
 
 ## 7.4 Integrated Deviation
 
@@ -401,10 +401,10 @@ $$
 \mathfrak{E}^{act}_i(t)
 $$
 
-updates the operator's accessible action and reachable sets:
+can update accessible actions and the operator's estimated reachable set over a declared horizon $h$:
 
 $$
-\mathcal{A}_{i,acc}(t),\qquad \mathcal{R}_i(t).
+\mathcal{A}_{i,acc}(t),\qquad \mathcal{R}_i(t;h).
 $$
 
 Shared material or coordination capacity may alter actual reachability only when it changes realized system constraints through action.
@@ -434,13 +434,15 @@ AEF
     defines corrective and destabilizing flow accounting
 ```
 
+The [Extension](delta-self-extension.md) separates actual reachability $\mathcal R^{ont}_\Omega(t;h)$ from the operator's estimate. AEF distinguishes actual expenditure from achieved correction; HKL distinguishes a preferred reference from a viability boundary. Neither supplies a universal equation for epistemic distortion.
+
 The legacy shorthand:
 
 $$
 PAE\ge OIE
 $$
 
-is not a dimensionally complete equation. It remains only a conceptual parity statement until AEF supplies channel-matched rates, conversion maps, boundaries, and an integration window.
+is not a dimensionally complete equation. The current AEF specification uses channel-matched achieved correction, attributed burden, conversion maps, boundaries, and an integration window. Its Absorbic Coverage Ratio is an accounting diagnostic, not a complete ethical or stability test.
 
 ---
 
@@ -451,7 +453,7 @@ An agent may simulate multiple candidate trajectories and select an action from 
 $$
 p_i(\gamma\mid m_i(t)),
 \qquad
-\mathcal{A}_{i,acc}(t)\subseteq\mathcal{A}(t).
+\mathcal{A}_{i,acc}(t)\subseteq\mathcal{A}_\Omega(t).
 $$
 
 This document does **not** infer from that fact that ontic evolution must be fundamentally indeterministic. It also does not define agency merely as random deviation.
@@ -496,4 +498,4 @@ Therefore:
 
 ---
 
-End of Δ-Self Worldline Formalization — Registry v0.3 Integration Candidate
+End of Δ-Self Worldline Formalization — Registry v0.3.1

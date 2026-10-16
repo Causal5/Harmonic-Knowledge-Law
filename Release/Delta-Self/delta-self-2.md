@@ -4,6 +4,8 @@
 
 By: Jordan LeDuc
 
+**Status — 16 October 2026:** Earlier conceptual exposition, interpreted under the [current Worldline](delta-self-worldline-formalization.md) and [Registry v0.3.1](../Registry/causal-ethics-master-symbol-registry.md). A persistent reference is a maintained relation along a worldline, not one unchanged state-time coordinate. Philosophical interpretations here are proposals, not additional consequences of the coordinate theorem.
+
 ---
 
 # 1. The Problem of the “I”
@@ -97,7 +99,7 @@ The Δ-Self position is narrower and more defensible:
 
 * **Ontic lawfulness** (causal constraint) may hold.
 * **Epistemic access** to total state does not hold for embedded agents.
-* Therefore **strict determinism as an academically usable claim about choice is unsubstantiated at the agent’s scope**, because it depends on inaccessible totality.
+* Limited prediction does not decide ontic determinism: an agent can lack a unique foreknown outcome even when its underlying dynamics are deterministic.
 
 In entropy-bearing systems, state change carries irreversible cost and produces ledgered history. The agent is part of that ledger.
 
@@ -169,7 +171,7 @@ It is a bounded structural position that tracks recursive change.
 
 # 8. Relationship to the Formal Model
 
-The symbolic ΔI(t) formalism encodes:
+The current $\Delta\mathrm{Self}$ trajectory formalism, using $d_\Gamma(\gamma,\gamma_{PCB})$ or a defined $\Delta_{\gamma,PCB}$, represents:
 
 * Measurable deviation from passive baseline.
 * Feasibility constraints under energy limits.

@@ -2,6 +2,21 @@
 
 This log records repository changes. Publication dates do not imply scientific validation or the completion of a draft's proposed work.
 
+## 2026-10-16 — Definition reconciliation v0.3.1
+
+- Published a definition decision table and current Registry v0.3.1.
+- Preserved elective PAE; separated intended allocation, expenditure, achieved correction, and attributed OIE burden.
+- Replaced current raw ELQ/AU accounting with defined, boundary-matched ACR and explicit units.
+- Reconciled Worldline, Extension, AEF, HKL, Four Pillars, scaling, and Sahel definitions.
+- Separated reference, passive baseline, and viability boundary; corrected drift, reachability, and first-exit buffer conditions.
+- Added a freshwater definition crosswalk and v0.2 working protocol.
+- Updated reading guides and authority records.
+- Preserved all 17 recovered source artifacts, archived papers, implementation code, and historical audits.
+- Kept the broader v0.4 proposal unpromoted; empirical execution remains open.
+
+See [publication notes](Release/Reviews/publication-notes-2026-10-16.md)
+and [definition decisions](Release/Registry/definition-decisions-2026-10-16.md).
+
 ## 2026-09-20 — Recovered research publication
 
 ### Added

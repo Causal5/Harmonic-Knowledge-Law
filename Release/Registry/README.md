@@ -2,8 +2,12 @@
 
 | Document | Authority |
 |---|---|
-| [Master Symbol Registry v0.3](causal-ethics-master-symbol-registry.md) | Current registry |
-| [Master Symbol Registry v0.4 draft](causal-ethics-master-symbol-registry-v0.4-draft.md) | Research draft for authorial ratification; not yet canonical |
+| [Master Symbol Registry v0.3.1](causal-ethics-master-symbol-registry.md) | Current controlling definitions |
+| [Definition decisions — 16 October 2026](definition-decisions-2026-10-16.md) | Adopted clarifications and unadopted proposals |
+| [Master Symbol Registry v0.4 draft](causal-ethics-master-symbol-registry-v0.4-draft.md) | Preserved broader research proposal; not canonical |
 | [Legacy registry](../archive/Causal_Ethics_Master_Symbol_Registry.md) | Frozen earlier copy |
 
-The v0.4 draft expands the proposed treatment of parent inheritance, effort realization, reachability, buffer, temporal mining, and freshwater applications. Publishing it does not finish the downstream migration. Read the [SLAP audit](../Reviews/slap-v0.4-corpus-audit.md) and [current publication notes](../Reviews/publication-notes-2026-09-20.md).
+The current definition revision preserves the established elective meaning
+of PAE and distinguishes expenditure from effect. The broader v0.4 draft
+does not override it. Read the [publication notes](../Reviews/publication-notes-2026-10-16.md)
+for migration scope and remaining research.
