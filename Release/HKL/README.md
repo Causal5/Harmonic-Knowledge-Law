@@ -2,9 +2,11 @@
 
 | Document | Role |
 |---|---|
-| [HKL Lyapunov](hkl-lyapunov.md) | Established repository paper |
-| [HKL Lyapunov v2](../Working/hkl-lyapunov-v2.md) | Separate recovered working draft; reconciliation pending |
-| [Buffer as Temporal Dimension](../Working/buffer-as-temporal-dimension.md) | Related cross-corpus working addendum |
-| [Legacy HKL copy](../archive/HKL_Lyapunov.md) | Frozen historical location |
+| [HKL burden and viability](hkl-lyapunov.md) | Current Registry v0.3.1 definition specification |
+| [HKL Lyapunov v2](../Working/hkl-lyapunov-v2.md) | Preserved working proposal; superseded for current definitions |
+| [Buffer as Temporal Dimension](../Working/buffer-as-temporal-dimension.md) | Preserved source; use the current registry and crosswalk for definitions |
+| [Freshwater/Buffer crosswalk](../Examples/central-valley/definition-crosswalk-v0.3.1.md) | Boundary, timescale, and transport corrections |
+| [Legacy HKL copy](../archive/HKL_Lyapunov.md) | Frozen historical paper |
 
-Version numbers do not by themselves resolve the parent and symbol conflicts identified in the [audit](../Reviews/slap-v0.4-corpus-audit.md). See [publication notes](../Reviews/publication-notes-2026-09-20.md) and the [Central Valley study](../Examples/central-valley/README.md).
+See [definition decisions](../Registry/definition-decisions-2026-10-16.md)
+and [publication notes](../Reviews/publication-notes-2026-10-16.md).

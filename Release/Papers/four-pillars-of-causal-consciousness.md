@@ -1,117 +1,92 @@
-# The Four‑Pillar Framework of Causal Consciousness
+# The Four-Pillar Framework of Causal Consciousness
 
-## Normalized Edition v1 (Baseline‑Corrected)
+## Definition reconciliation — Registry v0.3.1
 
 By: Jordan LeDuc
 
----
+**Status:** Framework proposal with reconciled definitions, 16 October 2026.
+The pillars organize proposed observable features of agency; they do not
+establish a sufficient test of subjective experience.
 
-# 0. Scope Note
+## 0. Inheritance
 
-The symbols used below are contextual analogs borrowed from formal mathematics and physics. They represent structural relations within this framework and are not claims of literal violation of physical laws.
+Use the [registry](../Registry/causal-ethics-master-symbol-registry.md),
+[Worldline](../Delta-Self/delta-self-worldline-formalization.md),
+[Extension](../Delta-Self/delta-self-extension.md), and
+[HKL](../HKL/hkl-lyapunov.md).
 
----
+| Symbol | Meaning |
+|---|---|
+| $\gamma,\gamma_{PCB}$ | Realized worldline and declared passive counterfactual |
+| $d_\Gamma(\gamma,\gamma_{PCB})$ | Distance under a stated trajectory metric |
+| $\Delta_{\gamma,PCB}$ | Displacement only where subtraction is defined |
+| $G_i,m_i,p_i$ | Representation substrate, model, simulated distribution |
+| $\mathcal A_\Omega,\mathcal A_{i,acc}$ | Physically feasible and agent-accessible actions |
+| $\mathcal R^{ont}_\Omega,\mathcal R_i$ | Actual and estimated reachable continuations |
+| $V_\Omega,V^*_\Omega,V_{max,\Omega}$ | Burden, selected reference, viability boundary |
 
-# Symbol Glossary (Section‑Scoped)
+## 1. Deviation from a declared baseline
 
-| Symbol             | Meaning in this document                   | Type / Domain                                                 | Notes                                              |
-| ------------------ | ------------------------------------------ | ------------------------------------------------------------- | -------------------------------------------------- |
-| $\gamma_{pcb}(t)$  | Passive counterfactual baseline trajectory | Trajectory in state space                                     | No deliberative control, no recursive reference    |
-| $\gamma_{act}(t)$  | Realized agent‑influenced trajectory       | Trajectory in state space                                     | Includes recursive reference and goal conditioning |
-| $\Delta \gamma(t)$ | Trajectory deviation                       | Difference between realized and passive baseline trajectories | Deviation metric                                   |
-| $\mathcal{A}(t)$   | Feasible action set                        | Set of causally admissible actions                            | Constrained by physics and informational horizon   |
-| $\nabla S$         | Entropic‑gradient baseline                 | Vector field                                                  | Passive drift reference                            |
-| $V(t)$             | Systemic burden function                   | $\mathbb{R}_{\ge 0}$                                          | Defined in HKL namespace                           |
-| $\frac{dV}{dt}$    | Stability drift rate                       | $\mathbb{R}$                                                  | Sign indicates basin convergence/divergence        |
-
----
-
-# 1. Consciousness as Baseline‑Relative Deviation
-
-**Consciousness is control‑relative deviation from a passive counterfactual baseline.**
-
-Let:
-
-* $\gamma_{pcb}(t)$ = passive cost baseline trajectory (no deliberative control, no persistent self‑reference, no goal‑conditioned correction).
-* $\gamma_{act}(t)$ = realized trajectory under agentic influence.
-
-Define deviation:
+The first pillar concerns control-relative deviation:
 
 $$
-\Delta \gamma(t) = \gamma_{act}(t) - \gamma_{pcb}(t)
+d_\Gamma(\gamma,\gamma_{PCB})>0.
 $$
 
-Conscious agency is expressed when:
+The removed control terms, environmental inputs, observation window, and
+distance metric must be specified. Nonzero distance alone can result from
+noise, forcing, or non-cognitive control. Attribution to recursive selection
+requires evidence beyond observing a different trajectory.
+
+## 2. Recursive self-comparison
+
+The second pillar concerns persistent reference to the system's prior,
+present, and modeled future states. Its proposed operational features are:
+
+- retained information across transitions;
+- comparison of observations with a model of the system itself;
+- simulation or evaluation of candidate continuations;
+- correction of subsequent action using that comparison.
+
+Substrate $G_i$ stores representations; model $m_i$ encodes selected
+relations; $p_i$ distributes modeled possibilities. Their existence or
+combination does not independently establish phenomenal consciousness.
+
+## 3. Feasible selection and becoming
+
+The third pillar concerns selection and realized redirection within
+physical constraints. The agent-accessible action set satisfies
+$\mathcal A_{i,acc}\subseteq\mathcal A_\Omega$ by definition.
+Simulated candidates can still be infeasible.
+
+PCB is a specified counterfactual, not a universal entropy-gradient field.
+“Becoming” here names history-dependent change through selected action and
+constraint evolution. It does not imply violation of physical law or
+resolve the metaphysical determinism question.
+
+## 4. Viability and consequence
+
+The fourth pillar concerns whether the realized trajectory preserves
+specified dependencies over a declared horizon:
 
 $$
-\Delta \gamma(t) \ne 0
+x(t)\in\mathcal B_{V,\Omega}(t).
 $$
 
-Agency is therefore measurable as deviation from the passive baseline.
----
+Achieved correction and generated burden enter the full AEF accounting.
+Neither raw $PAE\ge OIE$ nor $\dot V\le0$ is a universal cognition threshold.
+A viable system can temporarily increase burden within its margin; a
+declining index can conceal an independent critical failure.
 
-# 2. Self‑Awareness as Recursive Reference
+Viability evaluates continuation, not whether an agent exists: an agent
+can make destabilizing choices. ACR is a coverage diagnostic, not a complete
+ethical judgment.
 
-Self‑awareness emerges when a system models not only external states but its own state and possible future states.
+## 5. Research interpretation
 
-Let $\mathcal{A}(t)$ denote the **feasible action set** — all causally admissible actions available within physical law and the agent’s informational horizon.
-
-Recursive reference allows selection from $\mathcal{A}(t)$ using internal memory, simulation, and correction.
-
-Self‑awareness requires:
-
-* Persistent memory.
-* State comparison across time.
-* Internal modeling of potential deviations.
-
-Without persistence, deviation cannot be tracked.
-Without comparison, choice collapses to reaction.
-
----
-
-# 3. Becoming as Deviation from the Entropic‑Gradient Baseline
-
-In the absence of deliberative correction, systems follow the local entropy gradient $\nabla S$.
-
-Becoming is intentional deviation from this passive entropic‑gradient baseline.
-
-It is not defiance of thermodynamics.
-It is structured redirection under bounded resources.
-
-Deviation requires applied effort and must satisfy feasibility constraints within $\mathcal{A}(t)$.
-
----
-
-# 4. Causal Alignment as Stability Constraint
-
-Deviation alone is not sufficient.
-
-Let $V(t)$ represent systemic burden (HKL basin formalism).
-
-Agentic deviation must remain compatible with basin stability constraints:
-
-$$
-\frac{dV}{dt} \le 0
-$$
-
-Causal alignment ensures that deviation from passive baselines increases coherence rather than destabilization.
-
-Thus:
-
-* The passive baseline describes default drift.
-* The feasible action set describes available degrees of freedom.
-* Causal alignment constrains deviation to remain viable.
-
----
-
-# Structural Position
-
-This framework does not claim that conscious behavior violates physical extremality.
-
-It claims:
-
-Conscious systems generate trajectories that diverge from a passive counterfactual baseline through recursive reference, bounded choice, and energy‑constrained correction.
-
----
-
-End of Four‑Pillars Normalized v1
+The framework proposes a conjunction of baseline-relative control,
+recursive reference, feasible selection, and consequence tracking.
+Tests must specify comparison systems, interventions, alternative
+explanations, and failure criteria before claiming discrimination of
+cognitive from non-cognitive systems. The earlier normalized v1 remains
+available in the [archive](../archive/4_Pillars_Of_Consciousness.md).

@@ -17,7 +17,7 @@
 
 ## Authority and promotion
 
-The current v0.3 registry and current Worldline formalization retain their established roles. The v0.4 registry remains a research draft. A recovered paper's filename, version number, publication date, or presence on `main` does not independently promote it to governing authority.
+Registry v0.3.1 controls definitions; the current Worldline, Extension, HKL, and AEF papers supply the reconciled formal interfaces. See the [definition decisions](Registry/definition-decisions-2026-10-16.md). The broader v0.4 registry remains a research draft. A recovered paper's filename, version number, publication date, or presence on `main` does not independently promote it to governing authority.
 
 To promote a revision:
 

@@ -2,6 +2,8 @@
 
 ## A Structural Avenue Through Fermi’s Paradox
 
+**Definition status — 16 October 2026:** Conceptual hypothesis interpreted under [Registry v0.3.1](../Registry/causal-ethics-master-symbol-registry.md), [HKL](../HKL/hkl-lyapunov.md), and [AEF](absorbic-effort-framework.md). Corrective capacity means capacity to achieve channel-matched burden reduction, not nominal spending or raw PAE. Viability means remaining within declared constraints over a stated horizon; it does not require a nonincreasing burden index at every instant. “Entropy” in the cross-domain discussion denotes burden unless a physical entropy balance is supplied. Universal scaling and centralization claims below are hypotheses to test, not additional registered definitions.
+
 ### Abstract
 
 The Continuation Filter proposes a structural constraint on technologically amplifying civilizations. It does not attempt to mathematically dominate thermodynamics or outcompete established physics. Instead, it offers a systems-level insight:

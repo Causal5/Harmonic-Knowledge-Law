@@ -1,236 +1,315 @@
 # Causal Ethics — Master Symbol Registry
 
-## Version 0.3 — State, Model, Simulation, and Entourage Integration
+## Version 0.3.1 — Definition Reconciliation
 
-**Status:** Integration release candidate. This registry controls notation for all documents revised after v0.3.
+**Status:** Current controlling definitions, 16 October 2026.
 
----
+This revision preserves the conceptual meaning of v0.3 and reconciles its
+measurement vocabulary with the current Worldline, Extension, HKL, and AEF
+papers. The separate v0.4 research draft is not promoted by this revision.
+The [decision record](definition-decisions-2026-10-16.md) identifies adopted
+clarifications and deferred proposals.
 
-# Registry Rules
+## 0. Authority and rules
 
-1. One symbol → one meaning → one namespace.
-2. No bare difference symbols. Every use of $\Delta$ must identify its referent.
-3. Ontic realization, bounded system state, epistemic model, representational substrate, and simulated trajectory distribution are distinct objects.
-4. Mathematical symbols and implementation identifiers remain separate namespaces.
-5. New repeated theoretical symbols must enter this registry before cross-document use.
-6. Every dimensional quantity must declare units. Quantities from different channels may be aggregated only through an explicit normalization or conversion map.
-7. $PAE$ and $OIE$ name a principle and a causal process. Measured rates and accumulated quantities use separate symbols.
-8. A counterfactual baseline is descriptive unless a document separately justifies it as a normative or viability target.
-9. Ethical viability is evaluated through continuity, stability, burden, and effort constraints—not inside observation, projection, or bridge operators.
-10. Symbols borrowed from mathematics and physics are structural analogs unless a document explicitly establishes a physical identity.
+The registry controls notation. [Worldline](../Delta-Self/delta-self-worldline-formalization.md)
+defines realized history and operator-relative representation;
+[Extension](../Delta-Self/delta-self-extension.md) defines reachability;
+[HKL](../HKL/hkl-lyapunov.md) defines burden and viability;
+[AEF](../Papers/absorbic-effort-framework.md) defines effort and effect accounting.
+These are complementary roles, not a derivation of one theory from another.
 
----
+1. One symbol has one meaning in its declared namespace.
+2. Declare the system boundary, channel, units, time interval, and claim status.
+3. A principle, process, stock, rate, accumulation, field, ratio, and model are distinct objects.
+4. Ontic realization, observation, model, representation, and simulation are distinct.
+5. Normalize or convert unlike quantities before aggregation; publish the map.
+6. A counterfactual baseline is descriptive unless a separate argument makes it a target.
+7. Keep physical feasibility separate from the agent's knowledge of it.
+8. Keep intended effort, expended resources, and achieved correction separate.
+9. Include boundary transfers and side effects; local improvement may export burden.
+10. Every difference symbol identifies its referent; direct subtraction needs a common space.
+11. Borrowed physical or mathematical language is an analogy unless the relevant identity and assumptions are established.
+12. Software identifiers do not define theoretical quantities.
 
-# Namespace I — Ontology and Bounded System State
+An application may omit indices only after fixing them unambiguously.
 
-| Symbol | Canonical Meaning | Type / Domain | Notes | Introduced In |
-|---|---|---|---|---|
-| $\mathcal{M}$ | Ontic manifold / operator-independent causal domain | Manifold or general state-bearing domain | Reality is not collapsed into any observer model | CI-A0 / Δ-Self |
-| $S$ | Bounded system state space | State space induced over selected degrees of freedom in $\mathcal{M}$ | $S$ is not identical to $\mathcal{M}$ | Δ-Self |
-| $x(t)$ | Realized system state at time $t$ | $x(t)\in S$ | Ontically realized; never redefined as an observer model | Registry v0.3 |
-| $T$ | Ordered time domain | Totally ordered set or interval | $t_{n+1}>t_n$ for realized ledger entries | Δ-Self |
-| $\Phi_t$ | History-and-interaction deformation operator | $S\rightarrow S_{\Phi}(t)$ | Encodes realized constraint and dependency deformation | Δ-Self extension |
-| $S_{\Phi}(t)$ | History-conditioned accessible state structure | Deformed subset or structure over $S$ | Ontic constraint structure, not an agent belief state | Δ-Self extension |
-| $\mathcal{A}(t)$ | Physically feasible action set | Set | Feasible under current system constraints | Δ-Self |
-| $\alpha_t$ | Ontic realization operator | $(x(t),a_t)\rightarrow x(t+1)$ | Maps selected action and current state into the next realized state | Law of WE / Δ-Self |
+## I. Ontology, state, and boundaries
 
-## Ontic relation
-
-$$
-x(t)\in S,\qquad S\text{ is induced over relevant structure in }\mathcal{M}.
-$$
-
-No operator is assumed to possess complete access to $x(t)$, $S_{\Phi}(t)$, or $\mathcal{M}$.
-
----
-
-# Namespace II — Observation, Representation, and Simulation
-
-| Symbol | Canonical Meaning | Type / Domain | Notes | Introduced In |
-|---|---|---|---|---|
-| $i$ | Operator / agent index | Index | Required whenever a model or representation is observer-relative | Registry v0.3 |
-| $\mathcal{O}_i(t)$ | Observation set available to operator $i$ | Information set | Horizon-limited and lossy | Δ-Self 2 |
-| $\mu_{i,t}$ | Measurement / observation operator | $\mathcal{M}\rightarrow\mathcal{O}_i(t)$ | Does not reproduce the ontic domain in full | Δ-Self 2, revised |
-| $G_i(t)$ | Operator $i$'s representational substrate | Graph, memory, or structured symbolic system | Stores and organizes observations, relations, and commitments | SLP / Δ-Self 2 |
-| $m_i(t)$ | Operator $i$'s epistemic model | Model encoded through $G_i(t)$ | Model of relevant state, dependencies, and constraints; not realized state | Registry v0.3 |
-| $\Gamma_i(t)$ | Candidate trajectory set represented by operator $i$ | Set of trajectories | Support is bounded by model and simulation capacity | Registry v0.3 |
-| $\Sigma_i$ | Internal simulation operator | $m_i(t)\rightarrow\Delta(\Gamma_i(t))$ | Produces a normalized distribution over candidate trajectories | Registry v0.3 |
-| $p_i(\gamma\mid m_i(t))$ | Simulated trajectory distribution | Probability distribution on $\Gamma_i(t)$ | Total probability remains one; support and calibration may change | Registry v0.3 |
-| $\mathcal{A}_{i,acc}(t)$ | Epistemically accessible action set | $\mathcal{A}_{i,acc}(t)\subseteq\mathcal{A}(t)$ | Actions operator $i$ can identify, select, and attempt | Δ-Self 2, revised |
-| $\mathcal{R}_i(t)$ | Operator-estimated reachable set | Set of candidate future states or trajectories | Must not be conflated with actual ontic reachability | Registry v0.3 |
-
-## Epistemic-simulation relation
-
-$$
-\mathcal{M}\xrightarrow{\mu_{i,t}}\mathcal{O}_i(t)
-\longrightarrow G_i(t)
-\longrightarrow m_i(t)
-\xrightarrow{\Sigma_i}p_i(\gamma\mid m_i(t)).
-$$
-
-This chain is epistemic. It does not imply that the operator's probability support exhausts actual reachable futures.
-
----
-
-# Namespace III — Entourage Channels
-
-The **Entourage method** names networked information and resource sharing among operators. Its epistemic and material effects must remain distinct.
-
-| Symbol | Canonical Meaning | Type / Domain | Notes | Introduced In |
-|---|---|---|---|---|
-| $\mathfrak{E}^{info}_i(t)$ | Entourage informational update | Operator on $G_i(t)$ and $m_i(t)$ | May expand support, improve calibration, or reduce model error | Registry v0.3 |
-| $\mathfrak{E}^{act}_i(t)$ | Entourage action-capacity update | Operator on $\mathcal{A}_{i,acc}(t)$ and $\mathcal{R}_i(t)$ | Represents shared material, labor, access, or coordination capacity | Registry v0.3 |
-
-Informational sharing does not by itself create ontic capacity. Material coordination may alter actual reachability only through realized changes to system constraints.
-
----
-
-# Namespace IV — Identity, Coordinate, and Worldline (Δ-Self)
-
-| Symbol | Canonical Meaning | Type / Domain | Notes | Introduced In |
-|---|---|---|---|---|
-| $C$ | Realized coordinate space | $S\times T$ | Coordinate space for realized state-time events | Δ-Self worldline |
-| $c_n$ | $n$th realized coordinate | $c_n=(x_n,t_n)\in C$ | Replaces legacy $(s_n,t_n)$ notation | Registry v0.3 |
-| $\gamma$ | Realized trajectory / worldline | Ordered sequence or curve in $C$ | $\gamma=\{c_0,c_1,\ldots\}$ | Δ-Self worldline |
-| $L_n$ | Causal ledger through coordinate $n$ | Ordered sequence $(c_0,\ldots,c_n)$ | History is append-only in the formalization | Δ-Self worldline |
-| $\gamma_{PCB}(t)$ | Passive Cost Baseline trajectory | Counterfactual trajectory | Continuation absent specified recursive-deviation terms; not automatically optimal or ethical | Δ-Self worldline |
-| $\Delta_{\gamma,PCB}(t)$ | Trajectory deviation from PCB | Difference object or displacement when defined | Use a metric distance when direct subtraction is not defined | Registry v0.3 |
-| $d_{\Gamma}(\gamma,\gamma_{PCB})$ | Trajectory-space distance | $\mathbb{R}_{\ge0}$ | Preferred where trajectories do not form a vector space | Registry v0.3 |
-| $\kappa_{\Delta}(t)$ | Deviation-curvature magnitude | $\mathbb{R}_{\ge0}$ | Measures structural reorientation relative to PCB | Δ-Self worldline |
-| $\Delta\mathrm{Self}(t)$ | Named history-dependent identity-deviation construct | Trajectory-dependent object | Equations should resolve it through registered trajectory or curvature quantities | Δ-Self |
-
-## Irreversible Coordinate Theorem
-
-If $t_i\ne t_j$, then
-
-$$
-(x_i,t_i)\ne(x_j,t_j)
-$$
-
-even when $x_i=x_j$. State recurrence therefore does not imply coordinate recurrence.
-
----
-
-# Namespace V — Stability and Basin Geometry (HKL)
-
-| Symbol | Canonical Meaning | Type / Domain | Notes | Introduced In |
-|---|---|---|---|---|
-| $\mathbf{B}(t)$ | Vector of burden channels | Product space of channel-specific quantities | Preserve channel units before normalization | HKL v2, revised |
-| $B_k(t)$ | $k$th burden component | Channel-specific nonnegative quantity | Examples may include depletion, coordination, thermal, ecological, or model burden | HKL |
-| $N_{\theta}$ | Declared normalization / aggregation map | $\mathbf{B}(t)\rightarrow\mathbb{R}_{\ge0}$ | Must state reference scales, weights, and uncertainty | Registry v0.3 |
-| $w_k$ | Post-normalization weight | $\mathbb{R}_{\ge0}$ | Valid only after components are dimensionless or commensurate | HKL, revised |
-| $V(t)$ | Lyapunov-style aggregate burden function | $\mathbb{R}_{\ge0}$ | Typically $V(t)=N_{\theta}(\mathbf{B}(t))$ | HKL |
-| $V^*(t)$ | Selected viable reference burden profile | $\mathbb{R}_{\ge0}$ | Not universally identical to PCB or minimal action | HKL, revised |
-| $V_{PCB}(t)$ | Burden evaluated along the PCB | $\mathbb{R}_{\ge0}$ | $V_{PCB}(t)=V\vert_{\gamma=\gamma_{PCB}}$; descriptive baseline | Registry v0.3 |
-| $\Delta V(t)$ | Deviation from selected burden reference | $\mathbb{R}$ | $V(t)-V^*(t)$ | HKL |
-| $V_{max}(t)$ | Viability boundary | $\mathbb{R}_{\ge0}$ | Crossing may indicate departure from the selected basin | Registry v0.3 |
-| $\mathcal{B}_V(t)$ | Viable/stable basin | Subset of $S$ | Example definition: $\{x\in S:V(x,t)\le V_{max}(t)\}$ | Registry v0.3 |
-| $\dot V(t)$ | Burden drift rate | Burden per unit time | Sign is interpreted only relative to the selected interval and basin | HKL |
-| $CIR$ | Circular Integration Ratio | $[0,1]$ | Resource reintegration efficiency; application-specific denominator required | HKL |
-
-A PCB may be used to construct a reference, but the correspondence must be argued rather than presumed.
-
----
-
-# Namespace VI — Corrective Effort and Destabilizing Externality (AEF)
-
-## Concept labels
-
-| Term | Canonical Meaning | Status |
+| Symbol | Meaning | Type and restriction |
 |---|---|---|
-| $PAE$ | Principle of Absorbic Effort: elective corrective effort by a capable agent to absorb, prevent, or locally reconcile destabilizing burden | Principle, not a scalar |
-| $OIE$ | Observer-Induced Entropy: the causal process by which agentic action generates, transfers, or amplifies destabilizing burden across dependencies | Process/category, not a scalar |
+| $\mathcal M$ | Operator-independent causal domain | General state-bearing domain; a manifold only where justified |
+| $\Omega$ | Declared system/accounting boundary | Includes selected dependencies and transfers |
+| $S$ | Bounded system state space | Induced over selected degrees of freedom in $\mathcal M$ |
+| $x(t)$ | Realized system state | $x(t)\in S$; not an observer model |
+| $T$ | Ordered time domain | $t_{n+1}>t_n$ for ledger entries |
+| $\Phi_t$ | History-and-interaction deformation operator | $S\rightarrow S_\Phi(t)$ |
+| $S_\Phi(t)$ | History-conditioned ontic constraint structure | Structure over $S$; not a belief state |
+| $\mathcal A_\Omega(t)$ | Physically feasible action set | Physical constraints at the declared boundary |
+| $a_t$ | Realized action | Member of $\mathcal A_\Omega(t)$ |
+| $\alpha_t$ | Realization operator in a declared dynamics model | $(x(t),a_t,S_\Phi(t))\mapsto x(t+\delta t)$; external inputs or stochastic laws must be specified when applicable |
+| $\delta t$ | Declared time increment | Positive time interval |
+| $i,\ k$ | Agent and burden-channel indices | Index sets must be declared |
 
-## Measured quantities
+No operator is assumed to know $\mathcal M$, $x(t)$, or $S_\Phi(t)$ completely.
 
-| Symbol | Canonical Meaning | Type / Units | Notes | Introduced In |
-|---|---|---|---|---|
-| $\dot E_{PAE,k}(t)$ | Applied corrective-effort rate in burden channel $k$ | Declared physical or normalized units per time | Must identify the corrected channel and boundary | Registry v0.3 |
-| $E_{PAE,k}[t_0,t_1]$ | Accumulated corrective effort in channel $k$ | Declared physical or normalized units | Integral of $\dot E_{PAE,k}$ over the interval | Registry v0.3 |
-| $\dot B_{OIE,k}(t)$ | OIE-generated burden rate in channel $k$ | Same channel units per time after conversion | Must include transferred burden where the boundary requires it | Registry v0.3 |
-| $B_{OIE,k}[t_0,t_1]$ | Accumulated OIE burden in channel $k$ | Same channel units after conversion | Integral of $\dot B_{OIE,k}$ | Registry v0.3 |
-| $\lambda_{PAE,k}$ | Corrective coupling coefficient | Conversion map or coefficient | Maps applied effort into reduction of normalized burden channel $k$ | AEF v2, revised |
-| $\lambda_{OIE,k}$ | Destabilizing coupling coefficient | Conversion map or coefficient | Maps agentic perturbation into normalized burden channel $k$ | AEF v2, revised |
-| $\mathcal{F}_{PAE,k}(t)$ | Effective corrective burden-reduction rate | Normalized burden per time | $\lambda_{PAE,k}\dot E_{PAE,k}(t)$ | AEF v2, revised |
-| $\mathcal{F}_{OIE,k}(t)$ | Effective destabilizing burden-generation rate | Normalized burden per time | $\lambda_{OIE,k}\dot B_{OIE,k}(t)$ | AEF v2, revised |
-| $ELQ_{geo}$ | Normalized corrective-to-destabilizing ratio | Dimensionless | Valid only when numerator and denominator are commensurate and boundary-matched | AEF v2, revised |
+## II. Observation, representation, and simulation
 
-Where a scalar ratio is appropriate:
+| Symbol | Meaning | Type and restriction |
+|---|---|---|
+| $\mathcal O_i(t)$ | Observations available to operator $i$ | Horizon-limited information set |
+| $\mu_{i,t}$ | Observation operator | $\mathcal M\rightarrow\mathcal O_i(t)$ |
+| $G_i(t)$ | Representational substrate | Graph, memory, or symbolic/physical storage structure |
+| $m_i(t)$ | Epistemic model encoded through $G_i(t)$ | Model of selected state and dependencies |
+| $\Gamma_i(t)$ | Represented candidate trajectories | May omit feasible paths or include infeasible paths |
+| $\Sigma_i$ | Internal simulation operator | $m_i(t)\rightarrow\Delta(\Gamma_i(t))$ |
+| $p_i(\gamma\mid m_i(t))$ | Simulated trajectory distribution | Normalized; not the set of actual futures |
+| $\mathcal A_{i,acc}(t)$ | Actually feasible actions identifiable and attemptable by $i$ | $\mathcal A_{i,acc}(t)\subseteq\mathcal A_\Omega(t)$; excludes merely imagined impossible actions |
+| $\mathcal R_i(t;h)$ | Operator-estimated reachable set over horizon $h$ | An estimate; need not be a subset of actual reachability |
+| $\widehat\varepsilon^{mdl}_{i,\Omega}$ | Estimated model-mismatch diagnostic | Declared loss against observations; not direct access to ontic error |
+
+The representation chain is
+$\mathcal M\xrightarrow{\mu_{i,t}}\mathcal O_i(t)\rightarrow G_i(t)
+\rightarrow m_i(t)\xrightarrow{\Sigma_i}p_i(\gamma\mid m_i(t))$.
+Total simulated probability remains one when candidate support changes.
+
+## III. Entourage
+
+| Symbol | Meaning | Restriction |
+|---|---|---|
+| $\mathfrak E^{info}_i(t)$ | Information-sharing update | Updates $G_i,m_i,p_i$ |
+| $\mathfrak E^{act}_i(t)$ | Material/action-capacity update | Shared labor, resources, access, or coordination |
+
+Information can reveal an already feasible action. It changes physical capacity
+only through realized changes to constraints, resources, or control.
+
+## IV. Identity, coordinates, and reachability
+
+| Symbol | Meaning | Type and restriction |
+|---|---|---|
+| $C$ | Realized coordinate space | $S\times T$ |
+| $c_n$ | Realized coordinate | $(x_n,t_n)\in C$ |
+| $\gamma$ | Realized worldline | Ordered sequence or curve of coordinates |
+| $L_n$ | Ledger through coordinate $n$ | Ordered sequence $(c_0,\ldots,c_n)$; append-only by construction |
+| $\gamma_{PCB}$ | Passive Cost Baseline | Counterfactual with explicitly removed recursive-control terms |
+| $\Delta_{\gamma,PCB}$ | Trajectory displacement from PCB | Valid only in a common vector space or suitable chart |
+| $d_\Gamma(\gamma,\gamma_{PCB})$ | Trajectory-space distance | Declared metric, interval, weights, and units |
+| $\kappa_\Delta(t)$ | Deviation-curvature proxy | Difference of trajectory accelerations in a declared common representation; not generally coordinate-invariant geometric curvature |
+| $\Delta\mathrm{Self}$ | History-dependent identity-deviation construct | Resolved through registered trajectory quantities |
+| $h$ | Prospective horizon | Nonnegative duration |
+| $\Psi_{t\to t'}$ | Constraint-evolution operator | Updates $S_\Phi$ using realized history and declared inputs |
+| $\mathsf{Reach}_{\alpha,\Psi}$ | Reachability construction | Uses dynamics, constraints, admissible action sequences, and horizon |
+| $\mathcal R^{ont}_\Omega(t;h)$ | Physically reachable continuations | State or trajectory set; the chosen kind must be declared |
+| $\mathcal R^{viab}_\Omega(t;h)$ | Viability-preserving reachable subset | Subset of $\mathcal R^{ont}_\Omega(t;h)$ |
+| $d_S$ | State-space distance | Declared metric or pseudometric and units |
+
+Different times give different coordinates even if states recur:
+$t_i\ne t_j\Rightarrow(x_i,t_i)\ne(x_j,t_j)$.
+This ordered-pair result does not itself establish thermodynamic irreversibility.
+An append-only historical ledger is not a claim that every physical memory is lossless.
+
+## V. HKL burden and viability
+
+| Symbol | Meaning | Type and restriction |
+|---|---|---|
+| $\mathbf B_\Omega(t)$ | Vector of raw burden channels | Channel-specific nonnegative quantities |
+| $B_{k,\Omega}(t)$ | Raw burden in channel $k$ | Native units; distinguish stocks from rates |
+| $N_{k,\theta}$ | Channel normalization | Maps $B_k$ to dimensionless $\beta_k$; declares scale and direction |
+| $\beta_{k,\Omega}(t)$ | Normalized burden | Dimensionless, nonnegative |
+| $N_\theta$ | Aggregation of normalized channels | Declared map to a nonnegative burden index |
+| $w_k$ | Post-normalization weight | Nonnegative, with sensitivity analysis |
+| $V_\Omega(x,t)$ | Lyapunov-style burden function | $N_\theta((\beta_{k,\Omega})_k)$ |
+| $V^*_\Omega(t)$ | Selected viable reference burden | Reference/target, not an exit boundary |
+| $V_{PCB,\Omega}(t)$ | Burden along PCB | Descriptive counterfactual |
+| $V_{max,\Omega}(t)$ | Declared scalar viability boundary | Application-specific threshold |
+| $\Delta V_\Omega(t)$ | Deviation from the reference | $V_\Omega(t)-V^*_\Omega(t)$ |
+| $M_{V,\Omega}(t)$ | Scalar viability margin | $V_{max,\Omega}(t)-V_\Omega(t)$ |
+| $\mathcal B_{V,\Omega}(t)$ | Selected viable region | Example: $\{x:V_\Omega(x,t)\le V_{max,\Omega}(t)\}$, intersected with all hard constraints |
+| $\dot V_\Omega(t)$ | Drift along the realized trajectory | Burden-index units/time |
+
+For a weighted example, $V_\Omega=\sum_k w_k\beta_{k,\Omega}$.
+Raw quantities with incompatible units may not be added.
+Time-varying weights or reference scales contribute to $\dot V$ and must be
+accounted for. No universal identity $V^*=V_{PCB}$ is assumed.
+
+Viability means satisfying the declared constraints over the specified horizon.
+It does not universally require $\dot V\le0$ at every interior point.
+The margin evolves as $\dot M_V=\dot V_{max}-\dot V$.
+Nonpositive drift is a useful sufficient scalar-boundary check when the
+boundary is fixed, the system starts inside, and all other constraints hold.
+It is not a proof of asymptotic stability. The [HKL paper](../HKL/hkl-lyapunov.md)
+states the distinction and counterexamples.
+
+## VI. PAE, OIE, effort, and achieved effect
+
+### Concept labels
+
+| Term | Controlling meaning | Type |
+|---|---|---|
+| PAE | **Principle of Absorbic Effort:** elective corrective effort by a capable agent to absorb, prevent, or locally reconcile destabilizing burden | Principle; not a scalar or unit |
+| OIE | **Observer-Induced Entropy:** the causal process by which agentic action generates, transfers, or amplifies destabilizing burden across dependencies | Process/category; not a scalar or automatically thermodynamic entropy |
+
+PAE retains its v0.3 meaning. Physical expenditure is a property to account
+for in a realized attempt; it does not replace elective corrective orientation.
+“Elective” identifies agent-directed selection and does not require a
+metaphysical conclusion about free will. Delegated mechanisms can implement
+an agent's correction without being classified as cognitive agents themselves.
+
+An attempt can be costly and unsuccessful. Passive recovery is recorded
+separately. Effects on exogenous disturbances are not automatically
+OIE compensation. OIE attribution needs evidence beyond observing a rising
+burden index.
+
+### Measured quantities
+
+| Symbol | Meaning | Type and units |
+|---|---|---|
+| $\dot E_{PAE,i,k}$ | Actual corrective-effort rate | One declared resource unit/time; energy uses J/time |
+| $E_{PAE,i,k}[t_0,t_1]$ | Accumulated expended effort | Integral of $\dot E_{PAE,i,k}$ |
+| $\mathcal Q^{nom}_{PAE}$ | Planned or nominal corrective allocation | Native budget/capacity units; not expended effort |
+| $\dot B^{land}_{PAE,k}$ | Achieved corrective burden-reduction rate | Native burden-channel units/time |
+| $\dot B_{OIE,k}$ | Attributed OIE burden-addition rate | Same burden-channel units/time |
+| $B_{OIE,k}[t_0,t_1]$ | Accumulated attributed OIE burden | Integral of $\dot B_{OIE,k}$ |
+| $\mathcal F^{land}_{PAE,k}$ | Normalized achieved corrective rate | Declared common burden scale/time |
+| $\mathcal F^+_{OIE,k}$ | Normalized OIE-generated burden rate | Same scale/time |
+| $\lambda_{PAE,k}$ | Model-specific effort-to-effect coefficient | Converts one declared effort rate into a specified correction rate |
+| $\lambda_{OIE,k}$ | Perturbation-to-burden conversion coefficient | Needed only when the input is not already in burden units |
+| $N^{rate}_\theta$ | Rate conversion and aggregation map | Declared common scales and weights; not silently the state-normalization map |
+| $\mathrm{ACR}_\Omega[t_0,t_1]$ | Absorbic Coverage Ratio | Matched achieved correction divided by attributed OIE burden |
+
+The boundary $\Omega$ is required even when omitted from table subscripts.
+Different effort channels retain their own units. Money, labor-hours, and
+energy are not interchangeable without an empirical conversion; a resource
+vector is preferable when no defensible common scale exists.
+
+The shorthand $\mathcal F^{land}_{PAE,k}=\lambda_{PAE,k}\dot E_{PAE,k}$
+is a calibrated model, not an identity proving successful correction.
+A simple scalar coefficient may fail under latency, saturation, interference,
+or changing local conditions. Separate model adequacy and physical actuation
+when the application supports that decomposition. The v0.4 homomorphism
+architecture remains a proposal rather than a universal conversion law.
+
+For positive denominator and matched boundary, time window, attribution, and
+conversion map:
 
 $$
-ELQ_{geo}
-=
-\frac{\sum_k \mathcal{F}_{PAE,k}}
-{\sum_k \mathcal{F}_{OIE,k}}.
+\mathrm{ACR}_\Omega[t_0,t_1]=
+\frac{\int_{t_0}^{t_1}N^{rate}_\theta((\dot B^{land}_{PAE,k})_k)\,dt}
+{\int_{t_0}^{t_1}N^{rate}_\theta((\dot B_{OIE,k})_k)\,dt}.
 $$
 
-The denominator, system boundary, integration window, conversion maps, and uncertainty must be stated. $ELQ_{geo}\ge1$ is a local accounting condition, not by itself a complete ethical judgment.
+The numerator counts only correction attributable to the burden channels and
+targets covered by the denominator; report other correction separately.
+Use a positive linear rate map for additive coverage accounting. A different
+nonlinear score requires its own interpretation and cannot inherit that
+accounting meaning. Define zero-denominator cases as undefined; report the
+underlying quantities rather than assigning automatic success.
 
-## Restricted or deprecated quantities
+$\mathrm{ACR}\ge1$ records coverage within this accounting model. It does not
+establish ethical legitimacy, overall viability, complete recovery, or
+non-externalization. Exogenous inputs, passive recovery, transfers, existing
+stocks, and hard constraints still matter.
 
-| Symbol | Status | Rule |
+| Legacy item | Disposition |
+|---|---|
+| $PAE\ge OIE$ | Conceptual shorthand only; use matched measured rates in equations |
+| $ELQ=PAE/\Delta S_{abs}$ | Deprecated: principle and entropy do not form a defined dimensionless ratio |
+| $ELQ_{geo}$ | Legacy coverage label; migrate to ACR only after checking actual quantities and attribution |
+| $AU$ | Reserved/undefined; no “ethical joule” is established |
+| $\Delta S_{abs}$ | Restricted to physical entropy with declared system, sign, and units such as J/K |
+| $\mathcal F_{PAE,k},\mathcal F_{OIE,k}$ | Legacy rate labels; specify achieved effect and attributed source explicitly |
+
+## VII. Buffer and Temporal Mining
+
+These definitions support future application work; they do not promote the
+original Buffer manuscript or assert completed freshwater calculations.
+
+| Symbol | Meaning | Restriction |
 |---|---|---|
-| $\Delta S_{abs}$ | Restricted | Use only for actual entropy with declared thermodynamic units; do not use as a generic cross-domain burden scalar |
-| $ELQ=PAE/\Delta S_{abs}$ | Deprecated | Dimensionless only after an explicit commensuration map; use $ELQ_{geo}$ where justified |
-| $AU$ | Reserved / undefined | Do not use as a physical or accounting unit until a reproducible dimensional definition exists |
+| $\pi$ | Declared continuation scenario | Dynamics, policy, disturbances, and horizon |
+| $\tau^\pi_{buf,\Omega}(t)$ | Time to first exit from the viable region | Scenario-dependent; time or infinity |
+| $\tau^\pi_{rec,\Omega}(t)$ | Time to a separately declared recovery target | Not a negative buffer |
+| $\widehat\tau^{lin}_{buf,\Omega}$ | Local linear estimate of exit time | Positive margin and closing boundary required |
+| $\tau_s$ | Renewal or recovery timescale | Estimated from renewal dynamics |
+| $\tau_d$ | Net depletion time to a declared floor | Scenario-dependent |
+| $\tau_{age}$ | Age/residence-time statistic | Not automatically $\tau_s$ |
+| $\tau_{draw}$ | Gross stock-to-withdrawal timescale | Not net time to exhaustion |
+| $\rho_{TM}$ | Temporal Mining timescale ratio | $\tau_s/\tau_d$ for positive, finite comparable timescales |
+| $\rho_R$ | Reserved application label for a reachability ratio | Distinct from $\rho_{TM}$; no automatic $[0,1]$ bound |
 
----
+$$
+\tau^\pi_{buf,\Omega}(t)=
+\inf\{s\ge0:x^\pi(t+s)\notin\mathcal B_{V,\Omega}(t+s)\}.
+$$
 
-# Namespace VII — Formal Operators and Probability
+If already outside, buffer is zero. If no exit ever occurs under the specified
+scenario, $\inf\varnothing=+\infty$. A finite observation or simulation horizon
+with no exit is right-censored, not evidence of infinite buffer.
 
-| Symbol | Meaning | Rule |
+For positive margin and positive closing rate:
+
+$$
+\widehat\tau^{lin}_{buf,\Omega}
+=\frac{V_{max,\Omega}-V_\Omega}{\dot V_\Omega-\dot V_{max,\Omega}}.
+$$
+
+This is a local linear approximation. An unmodeled hard-constraint crossing
+can occur earlier. Spatial averages do not replace the most vulnerable
+dependency or the whole-system first-exit calculation.
+
+## VIII. Freshwater annex
+
+| Symbol | Meaning | Preferred units |
 |---|---|---|
-| $\Delta_X$ | Difference in referent $X$ | Referent must be explicit |
-| $\partial$ | Partial derivative | Use where differentiability assumptions are stated |
-| $\nabla$ | Gradient operator | The field and metric must be identified |
-| $\sum$ | Summation operator | Summands must be commensurate or explicitly normalized |
-| $\Delta(\Gamma)$ | Probability simplex over trajectory set $\Gamma$ | Distinct from the difference operator by argument and context |
+| $G_W,\ G_{ref},\ G_{min}$ | Recoverable stock, reference stock, operational floor | Volume |
+| $W_g$ | Gross withdrawal rate | Volume/time |
+| $R_n,\ R_m$ | Natural and managed recharge retained in boundary | Volume/time |
+| $Q_{net}$ | Net lateral and connected-water inflow, excluding already counted recharge/withdrawal | Volume/time, signed |
+| $D_W,\ D_{W,crit}$ | Delivered service and critical service requirement | Volume/time |
+| $Q_{alt,firm}$ | Firm alternative supply/capacity | Volume/time |
+| $C_{irr}$ | Irreversible compaction or storage-capacity loss | Declared physical measure |
+| $TM_G$ | Positive net stock depletion | $[-\dot G_W]_+$ |
+| $T_{gap}$ | Firm service-capacity gap | $[D_{W,crit}-Q_{alt,firm}]_+$ |
+| $CIR$ | Circular Integration Ratio | Domain metric; explicit numerator and denominator required |
 
----
+Physical stock-flow accounting precedes normalization:
 
-# Namespace VIII — Implementation Identifiers (Non-Theoretical)
+$$
+\dot G_W=R_n+R_m-W_g+Q_{net},\qquad
+\tau_{draw}=\frac{G_W}{W_g},\qquad
+\widehat\tau_d^{net}=\frac{G_W-G_{min}}{-\dot G_W}.
+$$
 
-Implementation names are not theoretical primitives. Examples:
+The last two estimates require respectively $W_g>0$, and both
+$G_W>G_{min}$ and $-\dot G_W>0$. Nonpositive current depletion does not
+prove indefinite future sustainability. Age, reference, floor, stock loss,
+and permanent capacity loss remain distinct.
 
-- `oie_impact`
-- `hkl_metrics`
-- `V_star`
-- `delta_v`
-- `trajectory_support`
-- `entourage_info_update`
+## IX. Formal operators, FRF, and implementation
 
-They must appear in code blocks, schemas, or implementation appendices and must map explicitly to registered theory symbols when used analytically.
+| Notation | Meaning or restriction |
+|---|---|
+| $\Delta_X$ | Difference in the stated referent $X$ |
+| $\Delta(\Gamma)$ | Probability distributions on $\Gamma$, distinct from subtraction |
+| $[z]_+$ | $\max(0,z)$ |
+| $\widehat X$ | Estimate with method and uncertainty |
+| $\partial,\nabla,\int,\sum$ | Require declared variables, metric/measure where applicable, and compatible units |
 
----
+FRF denotes Forman–Ricci Flow in this project's proposal. Graph curvature,
+contextual storage, retrieval, and admission into objective commitments are
+different operations. Neither curvature nor retrieval establishes truth.
+The SLP harness is a prototype; its identifiers are not theoretical primitives.
+These boundary distinctions are adopted; a completed FRF admission mechanism
+or compression result is not claimed.
 
-# Migration and Collision Log
+## X. Migration and scope
 
-| Legacy symbol or claim | Conflict | v0.3 resolution |
-|---|---|---|
-| $m(t)$ = realized ontic state | Collides with authorial use of $m_i(t)$ as epistemic model | Realized state becomes $x(t)$; epistemic model becomes indexed $m_i(t)$ |
-| $s(t)$ = realized state | Collides with simulation terminology and overuses $S/s$ | Canonical realized state becomes $x(t)$; legacy $s(t)$ is deprecated |
-| $S$ = ontic informational probability manifold | Conflates ontic domain, state space, and probability support | $\mathcal{M}$ is ontic domain; $S$ is bounded system state space; probabilities live on $\Delta(\Gamma_i)$ |
-| $G(t)$ = internal representation | Observer index omitted | Canonical form is $G_i(t)$ |
-| $\Delta I$ | Competes with worldline deviation and Δ-Self notation | Deprecated; use $\Delta_{\gamma,PCB}$, $d_{\Gamma}$, $\kappa_{\Delta}$, or $\Delta\mathrm{Self}$ as appropriate |
-| $V^*$ = least-action envelope = PCB | Treats descriptive passive baseline as universal viability optimum | $V^*$ is a selected viable reference; $V_{PCB}$ is separately registered |
-| $PAE$ as principle and scalar | Type ambiguity | $PAE$ remains the principle; measured quantities use $\dot E_{PAE,k}$ and $E_{PAE,k}$ |
-| $OIE$ as process, field, and scalar | Type ambiguity | $OIE$ remains the causal process; measured quantities use $\dot B_{OIE,k}$ and $B_{OIE,k}$ |
-| $\Delta S_{abs}$ as generic burden | Thermodynamic and dimensional overreach | Restricted to declared physical entropy quantities |
-| $ELQ$ raw ratio | Unit mismatch hidden by notation | Deprecated unless explicitly commensurated; use $ELQ_{geo}$ with declared maps |
-| $CI$ = Circular Integration | Collision with Causal Integrity | Circular Integration remains $CIR$ |
-| Bare $\Delta$ | Ambiguous difference | Every difference must identify its referent |
+Use $x(t)$ for realized state, $m_i(t)$ for model, and $G_i(t)$ for substrate.
+Replace unqualified $\Delta I$, $\gamma_{act}$, and $\gamma_{pcb}$ in current
+formal equations with the registered trajectory objects. Distinguish actual
+from estimated reachability and reference from boundary.
 
----
-
-# Pending Audit
-
-- Propagate $x(t)$, $m_i(t)$, $G_i(t)$, and $p_i(\gamma\mid m_i(t))$ into all canonical Δ-Self files.
-- Reconcile $S_{\Phi}(t)$ and metric notation across Δ-Self extensions.
-- Promote HKL v2 only after replacing the universal PCB/$V^*$ identity with the conditional $V_{PCB}$ relation.
-- Promote AEF v2 only after channel units and normalization maps are explicit.
-- Register Temporal Mining and Continuation Filter reachability symbols during the parent-synthesis pass.
-- Audit Law of WE metric, Lagrangian, and gradient notation before promotion.
-
----
-
-End of Symbol Registry v0.3 — Integration Release Candidate
+The [decision record](definition-decisions-2026-10-16.md) and
+[publication notes](../Reviews/publication-notes-2026-10-16.md) identify which
+papers are reconciled and which recovered sources retain historical wording.
+Earlier files and the v0.4 draft do not override this registry.

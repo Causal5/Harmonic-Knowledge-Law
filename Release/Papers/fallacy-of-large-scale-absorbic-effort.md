@@ -1,199 +1,122 @@
-# The Fallacy of Large-Scale Absorbic Effort: A Causal Ethics Perspective
-
-## I. Introduction
-
-This document addresses the structural limitations of large-scale application of the Principle of Absorbic Effort (PAE). PAE describes the energetic burden placed on cognitive agents (biological or artificial) who attempt to absorb and resolve entropy through interdictive correction. While effective at local scales, this principle fails when scaled beyond the resolution domain of any given agent or collective, due to irreducible constraints in perception, feedback resolution, and causal entanglement.
-
-This analysis is anchored in the Causal Integrity Axiom (CI-A0):
-
-> No constituent can break reality. Only its own dependency chain collapses under entropy if it fails to adapt. The manifold remains.
-
-CI-A0 provides the invariant reference for this paper. Collapse is local. Entropy is universal. Structural failure does not negate the manifold; it reveals violated dependency constraints.
-
-The core claim of this paper is therefore not moral but structural: entropy absorption cannot be globally centralized without destroying locality or externalizing burden. Attempts to scale PAE top-down encounter computational intractability, latency collapse, and structural homogenization. These outcomes are consistent with CI-A0, as centralized systems that fail to adapt locally collapse along their own dependency chains.
-
----
-
-
-## II. Quantification, Falsifiability, and the Thermodynamic Filter
-
-The Principle of Absorbic Effort (PAE) and Observer-Induced Entropy (OIE) are not metaphysical constructs. They are operationalizable through measurable thermodynamic and infrastructural burdens.
-
-At civilizational scale, OIE is not computed as a universal field. It is detected through persistent positive drift in measurable burden functions across critical dependency classes.
-
-Following the HKL Lyapunov Basin formulation:
-
-\[
-V(t) = \sum_k w_k B_k(t)
-\]
-
-Where \(B_k(t)\) represents observable burden terms, including:
-
-- Water displacement and embedded water footprint
-- Entropy concentration gradients
-- Thermal rejection inefficiency
-- Scaling violations
-- Dependency erosion
-
-A civilization exhibits net OIE dominance when:
-
-\[
-\frac{dV}{dt} > 0
-\]
-
-sustained over integration windows.
-
-### Independent Verification of PAE
-
-PAE is independently verifiable as corrective work evidenced by:
-
-- Basin Mass Ratio (BMR) ≥ 1
-- Basin Replenishment Ratio (BRR) ≥ 1
-- Reduction of burden terms without displacement or externalization
-
-All inputs are auditable through:
-
-- Facility telemetry
-- Water throughput records
-- Heat rejection metrics
-- Grid distribution variance
-- Embedded water footprint accounting
-
-No symbolic interpretation is required. These are measurable thermodynamic and infrastructural parameters.
-
----
-
-## Falsifiability Condition
-
-The Fallacy of Large-Scale PAE claims:
-
-> Top-down absorbic systems cannot stably compute and absorb wide-field entropy without homogenizing locality or externalizing burden.
-
-This claim is falsified if a centralized system can:
-
-1. Maintain \( dV/dt \le 0 \)
-2. Preserve local nuance (no structural flattening)
-3. Avoid displacement of burden to external domains
-4. Sustain stability under perturbation
-
-without transitioning into distributed micro-resolution.
-
-If such a system exists and is demonstrably stable under shock, the thesis fails.
-
----
-
-## Observable Prediction: The Thermodynamic Great Filter
-
-Technologically amplified civilizations increase OIE faster than baseline biological systems.
-
-If distributed PAE does not scale proportionally, measurable precursors emerge:
-
-- TWFS rises (hidden water burden)
-- GDS decreases (entropy concentration)
-- ESR declines (dependency fragility)
-- BMR < 1 (shock-fragile buffering)
-
-These signals appear prior to systemic collapse.
-
-The Thermodynamic Great Filter hypothesis therefore predicts:
-
-> Civilizations that fail to distribute entropic absorption at micro-scale nodes will exhibit rising corrective burden drift prior to systemic collapse.
-
-Collapse is local to dependency chains, not universal.
-
----
-
-## Addendum: The Invalid Smoothing Operator
-
-Top-down PAE behaves analogously to an invalid smoothing operator. It reduces apparent curvature by flattening local structure, producing macro-homogeneity while increasing hidden corrective burden elsewhere.
-
-Stability achieved via displacement is invalid under basin stability criteria. Apparent equilibrium that relies on export, concealment, or homogenization of entropy does not constitute genuine absorption.
-
----
-
-## III. Defining the Principle of Absorbic Effort (PAE)
-
-PAE arises from the unique interaction cognitive agents have with the Second Law of Thermodynamics:
-
-> The total entropy of an isolated system can never decrease over time, and is constant if and only if all processes are reversible.
-
-Cognitive agents, unlike inert matter, probabilistically recognize entropy gradients and energetically deviate from the their own passive cost baseline (PCB). This deviation produces agency.
-
-That deviation introduces energetic discontinuity.
-
-PAE is the cost of reconciling that discontinuity.
-
-OIE is the entropic fallout of deviation from passive material behavior.
-
-Thus:
-
-- PAE = corrective entropic effort
-- OIE = entropic consequence of deviation
-
-Cognition is therefore a thermodynamic threshold condition. It introduces disorder and must absorb that disorder to remain coherent.
-
----
-
-## IV. The Fallacy of Scaling PAE
-
-Attempts to scale PAE across large systems encounter structural barriers:
-
-### Field Equation Analog
-
-As in general relativity, computing a live field across vast interacting variables becomes intractable. Systems reduce internal interactions to achieve tractability.
-
-### Computational Bottleneck
-
-Wide-field absorption requires real-time corrective agency. Without bounded locality, latency destroys effectiveness.
-
-### Homogenization by Necessity
-
-Large-scale systems appear to absorb entropy only by flattening complexity and enforcing standardization. This destroys locality.
-
----
-
-## V. Two Modes of Systemic Organization
-
-| Mode | Description | Outcome |
-|------|------------|---------|
-| Centralized Absorbic System | One command structure absorbs entropy at scale | Latency, entropy bottlenecks, collapse under strain |
-| Cellular Causal System | Distributed agents absorb entropy locally | Emergent coherence, resilience, locality preserved |
-
----
-
-## VI. Symbolic Collapse and Anti-Recursion Doctrine
-
-Recursive insight must be captured in structured form to prevent entropic re-spending.
-
-Symbolic collapse enables:
-
-- Stable reference frameworks
-- Inter-agent harmonization
-- Energetic finalization
-
-Structure prevents recurrence. Memory alone does not.
-
----
-
-## Conclusion: Coherence Under CI-A0
-
-Under CI-A0, no civilization collapses the manifold. It collapses its own dependency structure when OIE persistently exceeds PAE.
-
-The only scalable alternative to centralized PAE is a cellular, decentralized system where each node responds to local entropic feedback under shared causal constraints.
-
-Integration emerges from alignment to invariant law, not from centralized absorption. The manifold persists; only misaligned dependency chains fail.
-
-Symbolic capture is not dogma. It is protection from recurrence.
-
-Memory is fallible. Structure is resonance under invariant constraint.
-
----
-
-## Call to Action
-
-Any ethics framework, AI model, or governance system claiming universal reach must first demonstrate local resolution capacity.
-
-Without local absorbic viability, global authority becomes homogenizing force.
-
-Nature scales by resonance, not force.
-
+# The Fallacy of Large-Scale Absorbic Effort
+
+## A Causal Ethics perspective — definition reconciliation
+
+**Status:** Structural hypothesis, Registry v0.3.1, 16 October 2026.
+
+## I. Preserved thesis
+
+The thesis concerns attempts to centralize corrective action beyond the
+resolution and response capacity of the responsible agent or organization.
+It proposes that latency, information loss, homogenization, and displaced
+burden can make apparent large-scale correction fail at local dependencies.
+
+The Causal Integrity framing is retained: a constituent's failure is a
+failure of its dependency structure, not a violation of the wider causal
+domain. This is an organizing premise of the framework.
+
+The universal version of the scaling thesis remains a falsifiable proposal.
+Central administration alone does not establish the mechanism: a centrally
+coordinated program may preserve local sensing, discretion, and execution.
+Distributed systems can also suffer coordination failure and externalization.
+
+## II. Definitions
+
+The [registry](../Registry/causal-ethics-master-symbol-registry.md),
+[Worldline](../Delta-Self/delta-self-worldline-formalization.md),
+[HKL](../HKL/hkl-lyapunov.md), and
+[AEF](absorbic-effort-framework.md) control the terms.
+
+PAE means elective corrective effort by a capable agent to absorb, prevent,
+or locally reconcile destabilizing burden. OIE names the process by which
+agentic action generates, transfers, or amplifies such burden.
+Neither concept is a scalar. Expenditure, capacity, achieved correction,
+and generated burden have separately measured quantities.
+
+Physical corrective work carries resource costs. This does not make every
+burden thermodynamic entropy, every deviation a cognitive act, or every
+local reduction a reduction in total isolated-system entropy.
+PCB is a declared counterfactual, not a universal minimum-energy trajectory.
+
+## III. Operational burden accounting
+
+For channels $k$ and boundary $\Omega$:
+
+$$
+\beta_{k,\Omega}=N_{k,\theta}(B_{k,\Omega}),\qquad
+V_\Omega=N_\theta((\beta_{k,\Omega})_k).
+$$
+
+Raw water, heat, labor, ecological, and coordination quantities retain their
+native units before normalization. Burden growth alone does not identify
+OIE: exogenous disturbances, changing reference scales, delayed effects,
+and transfers must be considered.
+
+Corrective achievement is estimated separately from spent resources.
+Telemetry, throughput records, and intervention comparisons can supply
+evidence if they match the boundary, period, and causal question.
+Legacy BMR, BRR, TWFS, GDS, and ESR labels remain application proposals until
+their numerators, denominators, units, and thresholds are reproducible.
+No universal cutoff follows merely from naming an index.
+
+## IV. Candidate failure mechanisms
+
+| Mechanism | Observable question |
+|---|---|
+| Information loss | Are locally important distinctions omitted from the decision model? |
+| Response latency | Does correction arrive after a relevant physical or operational threshold? |
+| Homogenization | Does a standard intervention remove useful local response options? |
+| Misplacement | Is corrective effort delivered to different places or times from the burden? |
+| Externalization | Does local improvement transfer burden to other dependencies? |
+| Coordination cost | Does interference consume the resources needed for actual correction? |
+
+The “invalid smoothing operator” is an analogy for hiding local damage in
+an improved aggregate. A local burden reduction caused by export is a real
+local change, but it cannot be represented as whole-system absorption.
+The recipient and joint boundary must remain in the accounting.
+
+## V. Falsifiability
+
+The strong thesis is:
+
+> A centralized corrective architecture cannot sustain wide-field viability
+> under the specified heterogeneous disturbances without preserving adequate
+> local resolution or externalizing burden.
+
+A test must define centralization, local resolution, disturbance class,
+viability thresholds, and observation horizon before outcomes are known.
+The strong thesis is contradicted by a qualifying architecture that preserves
+all declared local constraints and response quality, withstands the specified
+perturbations, and does not shift the burden outside the assessed boundary.
+It may not be rescued by relabeling a successful centralized system as
+distributed after the fact.
+
+Use trajectory membership in the declared viable region, together with
+component constraints and transfer accounting. Monotonic $\dot V\le0$ is
+not a universal requirement: finite buffers permit temporary burden growth.
+An aggregate decline is not sufficient if a critical local constraint fails.
+
+## VI. Organization and continuation
+
+| Architecture | Proposed benefit | Failure modes to measure |
+|---|---|---|
+| Concentrated control | Coordination and shared resources | Information loss, latency, correlated errors |
+| Distributed local control | Local feedback and parallel correction | Coordination failures, uneven resources, externalities |
+| Mixed architecture | Shared capacity with local execution | Interface failures and unclear responsibility |
+
+The [Sahel case](../Examples/sahel_worked_example.md) motivates a comparison;
+its framework-specific tests remain to be executed.
+The [Continuation Filter](continuation-filter.md) extends the question to
+technological amplification and dependency preservation.
+
+## VII. Symbolic capture
+
+The original anti-recursion proposal is retained as a research direction:
+reusing checked symbolic structure may reduce repeated work and improve
+coordination. Storage, retrieval, verification, updates, and obsolete
+commitments also have costs. Compare total cost and semantic fidelity against
+baselines rather than treating symbolic capture as automatic energetic finalization.
+
+The [earlier paper](../archive/fallacy_of_large_scale_absorbic_effort_revised.md)
+preserves the original exposition. This revision keeps its scaling question
+while making definitions and test conditions explicit.

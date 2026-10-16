@@ -1,5 +1,11 @@
 # Publication index — 20 September 2026
 
+> **Historical checkpoint.** The status, exact matches, and checksums below
+> describe the [September snapshot](https://github.com/Causal5/Harmonic-Knowledge-Law/tree/8ff4fd947a1380960259a8b72b6c82677507ea33/Release).
+> Current definitions are Registry v0.3.1; see [16 October publication notes](Reviews/publication-notes-2026-10-16.md).
+> Links to established papers may now open revised versions; use the snapshot
+> for exact source comparison.
+
 This checkpoint makes the recovered Central Valley / temporal-decoupling work and earlier project documents available on `main`. It adds **17 source artifacts**: 16 previously recovered working documents or source variants, plus the dated project-status review. Ten recovered files already matched the existing repository byte-for-byte and are linked below.
 
 **Publication status and scientific status are separate.** The existing [v0.3 registry](Registry/causal-ethics-master-symbol-registry.md) remains the current registry. The v0.4 registry is a draft awaiting ratification and downstream reconciliation. This checkpoint does not establish a completed v0.4 release or empirical validation.

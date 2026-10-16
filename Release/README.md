@@ -4,8 +4,8 @@
 
 ## Current entry points
 
-1. [Publication index — 20 September 2026](PUBLICATION-INDEX.md): recovered Central Valley work and prior research, with exact provenance.
-2. [Publication notes](Reviews/publication-notes-2026-09-20.md): current status and remaining research tasks.
+1. [Definition decisions — 16 October 2026](Registry/definition-decisions-2026-10-16.md): current meanings and migration choices.
+2. [Current publication notes](Reviews/publication-notes-2026-10-16.md): changed papers, preservation, and remaining research. The [September index](PUBLICATION-INDEX.md) records the earlier recovered sources.
 3. [Manifest](MANIFEST.md): established corpus and reading order.
 4. [Architecture](ARCHITECTURE.md): directory roles and version authority.
 5. [Changelog](../CHANGELOG.md): dated repository changes.
@@ -14,7 +14,7 @@
 
 | Area | Role |
 |---|---|
-| [Registry](Registry/README.md) | Current v0.3 registry; separate v0.4 migration draft |
+| [Registry](Registry/README.md) | Current v0.3.1 registry; separate v0.4 migration draft |
 | [Papers](Papers/README.md) | Established conceptual papers |
 | [HKL](HKL/README.md) | Stability framework |
 | [Delta-Self](Delta-Self/README.md) | Current Worldline parent and related identity papers |

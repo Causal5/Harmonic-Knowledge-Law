@@ -1,103 +1,142 @@
 # Harmonic Knowledge Law (HKL)
 
-## Lyapunov Basin Formalism
----
+## Burden and viability — Registry v0.3.1
 
-# 1. Purpose
+**Status:** Current definition-level specification, 16 October 2026.
+“Law” identifies the research program; an application must establish its own
+dynamics and evidence.
 
-The Harmonic Knowledge Law (HKL) defines the stability structure governing bounded, interdependent systems. It provides the basin formalism within which corrective effort (AEF) operates.
+## 1. Inheritance and purpose
 
-HKL does not define corrective effort. It defines deviation and stability geometry. Note: Law appelate is contextual to this body of work not a structural claim of reality. 
+The [Worldline](../Delta-Self/delta-self-worldline-formalization.md)
+identifies realized trajectories and observer-relative models.
+The [registry](../Registry/causal-ethics-master-symbol-registry.md)
+controls notation. HKL defines burden and a selected viable region;
+[AEF](../Papers/absorbic-effort-framework.md) accounts for interventions and
+burden flows. No missing Worldline section or universal model-error metric
+is assumed.
 
----
+## 2. Burden construction
 
-# 2. Section-Scoped Symbol Definitions
-
-| Symbol        | Name                        | Meaning in this document                                  | Type / Domain        | Interpretation                 |
-| ------------- | --------------------------- | --------------------------------------------------------- | -------------------- | ------------------------------ |
-| $V(t)$        | Lyapunov Stability Function | Aggregate corrective burden at time $t$                   | $\mathbb{R}_{\ge 0}$ | Basin deviation metric         |
-| $V^*$         | Least-Action Envelope       | Reference equilibrium or minimal viable burden            | $\mathbb{R}_{\ge 0}$ | Stability target               |
-| $\Delta V(t)$ | Basin Deviation             | $V(t) - V^*$                                              | $\mathbb{R}$         | Signed deviation from envelope |
-| $B_k(t)$      | Burden Component            | $k$th stability burden term                               | $\mathbb{R}_{\ge 0}$ | Component destabilization      |
-| $w_k$         | Weight Coefficient          | Weight assigned to burden component $k$                   | $\mathbb{R}_{\ge 0}$ | Relative contribution          |
-| $CIR$         | Circular Integration Ratio  | Fraction of remediated resource successfully reintegrated | $[0,1]$              | Water-cycle efficiency metric  |
-
-**Note:** The previous symbol $CI$ (Circular Integration) has been renamed to $CIR$ to avoid collision with Causal Integrity (CI-A0).
-
----
-
-# 3. Core Stability Relation
-
-The Lyapunov-style stability function is defined as:
+For boundary $\Omega$, let $B_{k,\Omega}$ be a nonnegative raw burden in
+channel $k$. Preserve its units and uncertainty. Define
 
 $$
-V(t) = \sum_k w_k B_k(t)
+\beta_{k,\Omega}=N_{k,\theta}(B_{k,\Omega}),\qquad
+V_\Omega=N_\theta((\beta_{k,\Omega})_k).
 $$
 
-Where each $B_k(t)$ represents a distinct destabilizing burden term.
-
----
-
-# 4. Stability Condition
-
-Define basin deviation:
+Channel maps specify reference scales, direction, thresholds, and uncertainty.
+The aggregation map acts on the normalized channels. One possible choice is
 
 $$
-\Delta V(t) = V(t) - V^*
+V_\Omega=\sum_k w_k\beta_{k,\Omega},\qquad w_k\ge0.
 $$
 
-Stability requires:
+A weighted sum does not permit compensation for violating a separately
+declared hard constraint. Retain the component vector alongside the aggregate.
+Model mismatch can be a channel with an operational loss function; it is not
+universally the primary burden, nor an unmeasured difference between an
+internal graph metric and the total ontic geometry.
+
+## 3. Three distinct reference objects
+
+| Symbol | Role | Interpretation |
+|---|---|---|
+| $V^*_\Omega(t)$ | Selected viable reference | A target or comparison profile |
+| $V_{PCB,\Omega}(t)$ | Burden along $\gamma_{PCB}$ | Descriptive counterfactual |
+| $V_{max,\Omega}(t)$ | Selected viability boundary | Threshold for the specified model |
+
+The first two may coincide in a particular justified model. They are not
+identical by definition. Neither is a universal least-action envelope.
+
+Reference deviation and boundary margin answer different questions:
 
 $$
-\frac{dV}{dt} \le 0
+\Delta V_\Omega=V_\Omega-V^*_\Omega,\qquad
+M_{V,\Omega}=V_{max,\Omega}-V_\Omega.
 $$
 
-Interpretation:
+Being above a preferred target does not itself mean crossing a viability boundary.
 
-* $\frac{dV}{dt} < 0$: corrective drift toward stability.
-* $\frac{dV}{dt} = 0$: marginal equilibrium.
-* $\frac{dV}{dt} > 0$: destabilizing divergence.
+## 4. Viability, drift, and stability
 
----
+Define a viable region, for example,
 
-# 5. Structural Interpretation
+$$
+\mathcal B_{V,\Omega}(t)=
+\{x\in S:V_\Omega(x,t)\le V_{max,\Omega}(t)\}
+\cap\{\text{declared hard constraints}\}.
+$$
 
-HKL formalizes the geometry of deviation within bounded systems.
+Viability over an interval means the trajectory remains in this region.
+The region is not automatically a basin of attraction. An attractor,
+dynamics, and attraction property require separate specification.
+Along a differentiable trajectory,
 
-* $V(t)$ measures accumulated systemic burden.
-* $V^*$ represents the least-action envelope under structural constraints.
-* $\Delta V(t)$ quantifies deviation from the stability basin.
+$$
+\dot M_{V,\Omega}=\dot V_{max,\Omega}-\dot V_\Omega.
+$$
 
-HKL therefore provides the state-space structure within which:
+Increasing burden consumes a fixed scalar margin; it need not cause an exit.
+For example, $V(t)=1+0.25\sin t$ stays below $V_{max}=2$ for all time although
+$\dot V$ is positive on some intervals. Thus $\dot V\le0$ is not a universal
+necessary condition for viability.
 
-* Absorbic Effort (AEF) determines required corrective input.
-* Law of WE determines macro-scale coordination constraints.
+Conversely, declining burden is insufficient with a faster shrinking
+boundary. Over $0\le t\le2$, let $V(t)=2-t$ and $V_{max}(t)=3-2t$.
+The margin is $1-t$: it reaches zero at $t=1$ and becomes negative afterward,
+despite $\dot V=-1$.
 
-HKL defines *where the basin is*.
-AEF defines *what it costs to remain inside it*.
+For an absolutely continuous scalar burden and fixed boundary, initial
+membership plus $\dot V\le0$ almost everywhere is sufficient to preserve
+the scalar inequality over the interval. It does not protect unmodeled
+constraints or prove asymptotic convergence. For a moving boundary, use the
+margin and a justified invariance analysis; a pointwise slope alone does not
+settle stochastic, discontinuous, or unmodeled future behavior.
 
----
+Use **Lyapunov-style burden function** until an application demonstrates
+the required positivity, target set, dynamics, regularity, and derivative
+conditions for a Lyapunov argument. A constant burden index is not by itself
+evidence of equilibrium.
 
-# 6. Namespace Clarification
+## 5. Effect accounting
 
-HKL symbols belong to the **Stability / Basin Namespace**.
+AEF provides channel-matched achieved correction and burden-generation rates.
+A favorable ACR covers only its declared OIE accounting. Exogenous
+disturbances, passive recovery, delayed effects, and boundary transfers also
+enter the burden dynamics.
 
-They must not be conflated with:
+When $V=\sum_k w_kB_k/s_k$ with fixed positive scales $s_k$ and fixed weights,
+$\dot V=\sum_k(w_k/s_k)\dot B_k$. For nonlinear or time-varying maps,
+differentiate the complete normalization and aggregation. A derivative of
+an arbitrary index is not automatically a conserved physical flux.
 
-* Effort Accounting symbols ($PAE$, $OIE$, $\Delta S_{abs}$)
-* Identity/Geometry symbols ($\Delta I$, $g_{ij}$, $\nabla S$)
-* Implementation identifiers (code-level metrics)
+## 6. Buffer
 
----
+For a declared continuation scenario $\pi$:
 
-# 7. Normalization Changes Executed in v1
+$$
+\tau^\pi_{buf,\Omega}(t)
+=\inf\{s\ge0:x^\pi(t+s)\notin\mathcal B_{V,\Omega}(t+s)\}.
+$$
 
-* Renamed Circular Integration symbol $CI$ to $CIR$
-* Standardized use of $V^*$ for least-action envelope
-* Standardized $\Delta V(t)$ for basin deviation
-* Inserted explicit glossary block
-* Clarified stability vs corrective-effort separation
+No exit over an unlimited specified scenario gives infinity; no observed exit
+before a finite horizon gives a censored lower bound. If already outside,
+buffer is zero. With positive margin and positive locally constant closing rate,
 
----
+$$
+\widehat\tau^{lin}_{buf,\Omega}
+=\frac{M_{V,\Omega}}{\dot V_\Omega-\dot V_{max,\Omega}}.
+$$
 
-End of HKL Normalized v1
+This estimates a scalar-boundary exit. A hard physical threshold may fail
+earlier. Recovery time to a desired target is a separate quantity.
+
+## 7. Scope and migration
+
+This specification replaces the current paper's universal least-action
+reference, raw cross-unit sum, and necessary-monotonic-drift wording.
+The recovered [v2 draft](../Working/hkl-lyapunov-v2.md) remains a historical
+proposal and does not override these definitions. CIR is an application
+metric with its own denominator, not a universal stability primitive.

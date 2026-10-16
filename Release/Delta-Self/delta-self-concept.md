@@ -4,6 +4,8 @@
 
 By: Jordan LeDuc
 
+**Status — 16 October 2026:** Earlier conceptual exposition, interpreted under the [current Worldline](delta-self-worldline-formalization.md) and [Registry v0.3.1](../Registry/causal-ethics-master-symbol-registry.md). A persistent reference is a maintained relation along a worldline, not one unchanged state-time coordinate. Philosophical interpretations here are proposals, not additional consequences of the coordinate theorem.
+
 ---
 
 # 1. The Problem of the “I”
@@ -144,7 +146,7 @@ It is a bounded structural position that tracks recursive change.
 
 # 8. Relationship to the Formal Model
 
-The symbolic ΔI(t) formalism encodes:
+The current $\Delta\mathrm{Self}$ trajectory formalism, using $d_\Gamma(\gamma,\gamma_{PCB})$ or a defined $\Delta_{\gamma,PCB}$, represents:
 
 * Measurable deviation from passive baseline.
 * Feasibility constraints under energy limits.
