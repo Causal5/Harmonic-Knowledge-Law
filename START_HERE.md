@@ -1,8 +1,9 @@
 # Start Here
 
-**Current definition revision: 16 October 2026, Registry v0.3.1.**
-Start with the [decision table](Release/Registry/definition-decisions-2026-10-16.md)
-for the exact changes, or read this introduction for the main relationships.
+**Current definition revision: 30 October 2026, Registry v0.3.2** (additive to v0.3.1).
+Start with the [16 October decision table](Release/Registry/definition-decisions-2026-10-16.md)
+for the reconciliation and the [30 October record](Release/Registry/definition-decisions-2026-10-30.md)
+for the additions, or read this introduction for the main relationships.
 
 ## 1. Bounded knowing
 

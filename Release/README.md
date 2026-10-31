@@ -14,7 +14,7 @@
 
 | Area | Role |
 |---|---|
-| [Registry](Registry/README.md) | Current v0.3.1 registry; separate v0.4 migration draft |
+| [Registry](Registry/README.md) | Current v0.3.2 registry; separate v0.4 migration draft |
 | [Papers](Papers/README.md) | Established conceptual papers |
 | [HKL](HKL/README.md) | Stability framework |
 | [Delta-Self](Delta-Self/README.md) | Current Worldline parent and related identity papers |
