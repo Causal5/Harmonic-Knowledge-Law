@@ -1,14 +1,21 @@
 # Causal Ethics — Master Symbol Registry
 
-## Version 0.3.1 — Definition Reconciliation
+## Version 0.3.2 — Additive definitions from worked examples
 
-**Status:** Current controlling definitions, 16 October 2026.
+**Status:** Current controlling definitions, 30 October 2026.
 
-This revision preserves the conceptual meaning of v0.3 and reconciles its
+Version 0.3.2 adds sink impairment, correction type, OIE temporal class,
+renewal coverage, corrective dependency, coupled renewal, and target type
+(§VI.1, §VII.1, and the note in §V). It changes no v0.3.1 definition; papers
+reconciled to v0.3.1 remain valid. The
+[30 October decision record](definition-decisions-2026-10-30.md) gives the
+reasons and the worked example that exposed each gap.
+
+Version 0.3.1 preserved the conceptual meaning of v0.3 and reconciled its
 measurement vocabulary with the current Worldline, Extension, HKL, and AEF
-papers. The separate v0.4 research draft is not promoted by this revision.
-The [decision record](definition-decisions-2026-10-16.md) identifies adopted
-clarifications and deferred proposals.
+papers. The separate v0.4 research draft is not promoted by either revision.
+The [16 October decision record](definition-decisions-2026-10-16.md) identifies
+those adopted clarifications and deferred proposals.
 
 ## 0. Authority and rules
 
@@ -140,6 +147,12 @@ boundary is fixed, the system starts inside, and all other constraints hold.
 It is not a proof of asymptotic stability. The [HKL paper](../HKL/hkl-lyapunov.md)
 states the distinction and counterexamples.
 
+**Target type (v0.3.2).** Declare each viability target as a *function target*,
+met by any adequate source of the function, or a *dependency target*, met only
+by a specified dependency. For a dependency target, composition and renewal
+channels are hard constraints; a substitute supplying the same aggregate
+service cannot offset them.
+
 ## VI. PAE, OIE, effort, and achieved effect
 
 ### Concept labels
@@ -219,6 +232,50 @@ stocks, and hard constraints still matter.
 | $\Delta S_{abs}$ | Restricted to physical entropy with declared system, sign, and units such as J/K |
 | $\mathcal F_{PAE,k},\mathcal F_{OIE,k}$ | Legacy rate labels; specify achieved effect and attributed source explicitly |
 
+### VI.1 Passive removal, sink impairment, and correction type (v0.3.2)
+
+| Symbol | Meaning | Type and units |
+|---|---|---|
+| $\dot B_{pass,k}$ | Realized passive removal (as in AEF) | Channel units/time |
+| $\dot B^{cf}_{pass,k}$ | Passive removal with the impairing OIE process absent | Modeled counterfactual; method declared |
+| $\dot B^{0}_{pass,k}$ | Passive removal with the impairing process present and correction absent | Modeled or pre-intervention reference |
+| $\dot B^{imp}_{OIE,k}$ | Sink-impairment OIE rate | $\dot B^{cf}_{pass,k}-\dot B^{0}_{pass,k}$; classed as impairment when positive |
+| $\dot B^{gen}_{OIE,k}$ | Direct OIE burden generation | The v0.3.1 $\dot B_{OIE,k}$ |
+| $\dot B^{land,sub}_{PAE,k}$ | Substituting landed correction | Removal supplied directly by the intervention |
+| $\dot B^{land,rest}_{PAE,k}$ | Pathway-restoring landed correction | $\dot B_{pass,k}-\dot B^{0}_{pass,k}$ when causally attributable |
+| $c_{OIE}$ | OIE temporal class | *pulse*, *persistent*, or *self-propagating* |
+| $h_{attr}$ | Attribution horizon for self-propagating OIE | Declared duration; at least two values reported |
+| $\mathrm{ACR}^{ext}_\Omega[t_0,t_1]$ | Extended Absorbic Coverage Ratio | Attributed form: substituting plus restoring correction over generation plus impairment; the v0.3.1 ACR is unchanged |
+
+By construction
+$\dot B_{pass,k}=\dot B^{cf}_{pass,k}-\dot B^{imp}_{OIE,k}+\dot B^{land,rest}_{PAE,k}$.
+The AEF burden balance may be written in a *realized* form (direct generation
+$\dot B^{gen}_{OIE,k}$, substituting correction only, realized $\dot B_{pass,k}$) or
+an *attributed* form (generation plus impairment, both kinds of landed
+correction, counterfactual $\dot B^{cf}_{pass,k}$). The two are equal term for
+term. Use one form per analysis; never subtract realized passive removal while
+also adding impairment. In the realized form, pathway-restoring effects are
+already inside $\dot B_{pass,k}$ and are not added to landed correction.
+
+The v0.3.1 ACR above is unchanged. Where sink impairment is declared, also
+report the extended coverage ratio, which uses the attributed rates:
+
+$$
+\mathrm{ACR}^{ext}_\Omega[t_0,t_1]=
+\frac{\int_{t_0}^{t_1}N^{rate}_\theta\left(\left(\dot B^{land,sub}_{PAE,k}+\dot B^{land,rest}_{PAE,k}\right)_k\right)dt}
+{\int_{t_0}^{t_1}N^{rate}_\theta\left(\left(\dot B^{gen}_{OIE,k}+\dot B^{imp}_{OIE,k}\right)_k\right)dt}.
+$$
+
+All ACR conditions apply unchanged. With no declared impairment it equals the
+v0.3.1 ACR; with impairment declared, the v0.3.1 ACR covers direct generation
+only and is reported alongside it.
+
+OIE remains a process. A persistent source's burden-generation rates may form a
+continuous, spatially extended rate field; the process is what is attributed and
+what removal ends. For self-propagating OIE, burden after $h_{attr}$ is reported
+separately as exogenous burden with provenance, and each further introduction,
+escapement, or release is a new OIE event.
+
 ## VII. Buffer and Temporal Mining
 
 These definitions support future application work; they do not promote the
@@ -256,6 +313,37 @@ $$
 This is a local linear approximation. An unmodeled hard-constraint crossing
 can occur earlier. Spatial averages do not replace the most vulnerable
 dependency or the whole-system first-exit calculation.
+
+### VII.1 Renewal coverage and corrective dependency (v0.3.2)
+
+| Symbol | Meaning | Restriction |
+|---|---|---|
+| $R^{nat}_{s}$ | Natural renewal rate of a stock | Same units and window as $L_s$ |
+| $R^{man}_{s}$ | Managed renewal rate (managed recharge, stocking) | Same units and window |
+| $L_{s}$ | Gross loss rate from the stock | Withdrawal, mortality, predation, other losses |
+| $\eta^{nat}_{TM}$ | Natural renewal coverage | $R^{nat}_s/L_s$ for $L_s>0$; zero allowed |
+| $\eta^{tot}_{TM}$ | Total renewal coverage | $(R^{nat}_s+R^{man}_s)/L_s$ for $L_s>0$ |
+| — | Renewal status (exclusive) | *Net mining* ($\eta^{tot}_{TM}<1$), *substituted* ($\eta^{nat}_{TM}<1\le\eta^{tot}_{TM}$), or *covered* ($\eta^{nat}_{TM}\ge1$) |
+| — | Severed flag (independent) | Set when $\eta^{nat}_{TM}=0$ apart from declared episodic events; occurs with *net mining* or *substituted*, never *covered* |
+| $\pi_{cont},\ \pi_{stop}$ | Scenarios continuing or ending corrective expenditure | Identical except for the declared stop time |
+
+Renewal coverage is a screen, not a viability result. With $L_s=W_g$ and
+$R^{nat}_s+R^{man}_s=R_n+R_m$, $\eta^{tot}_{TM}=1/X_R$ of the freshwater protocol.
+$\rho_{TM}$ is used only where both timescales are positive and finite; severed
+renewal is reported through $\eta^{nat}_{TM}$. Episodic renewal is reported as an
+event count and a window-averaged rate.
+
+A system is **correctively dependent** over horizon $h$ when
+$\tau^{\pi_{stop}}_{buf,\Omega}$ is finite within $h$ and shorter than
+$\tau^{\pi_{cont}}_{buf,\Omega}$ by a declared margin, and the difference arises from
+$\dot B^{imp}_{OIE,k}>0$ in a declared channel. The *substituted* status is a
+screening indication only. Correction is *pathway-restoring* when its effect on
+renewal or impairment persists after expenditure ends, and *substituting* when
+it supplies renewal or removal only while expenditure continues.
+
+**Coupled renewal.** A renewal term declares its dependence on its own stock and
+on any other stocks it requires (for example, host fish), with the dependency
+graph published. Density-dependent reproduction is not assumed without evidence.
 
 ## VIII. Freshwater annex
 
@@ -309,7 +397,9 @@ Replace unqualified $\Delta I$, $\gamma_{act}$, and $\gamma_{pcb}$ in current
 formal equations with the registered trajectory objects. Distinguish actual
 from estimated reachability and reference from boundary.
 
-The [decision record](definition-decisions-2026-10-16.md) and
+The [16 October decision record](definition-decisions-2026-10-16.md) and
 [publication notes](../Reviews/publication-notes-2026-10-16.md) identify which
 papers are reconciled and which recovered sources retain historical wording.
-Earlier files and the v0.4 draft do not override this registry.
+The [30 October decision record](definition-decisions-2026-10-30.md) records the
+additive v0.3.2 definitions, their established-concept counterparts, and the
+reference tank model. Earlier files and the v0.4 draft do not override this registry.

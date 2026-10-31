@@ -6,7 +6,7 @@ The [publication index](Release/PUBLICATION-INDEX.md) is the complete map of the
 |---|---|---|
 | Publication history | [Changelog](CHANGELOG.md) | Dated repository changes |
 | Main research corpus | [Release index](Release/README.md), [manifest](Release/MANIFEST.md) | Established papers and reading order |
-| Symbols | [Registry](Release/Registry/README.md) | Current v0.3.1 and separate v0.4 draft |
+| Symbols | [Registry](Release/Registry/README.md) | Current v0.3.2 and separate v0.4 draft |
 | Identity | [Delta-Self](Release/Delta-Self/README.md) | Worldline parent and related documents |
 | Stability | [HKL](Release/HKL/README.md) | Lyapunov framing and related drafts |
 | Framework papers | [Papers](Release/Papers/README.md) | Effort, scaling, continuation, consciousness |

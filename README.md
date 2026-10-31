@@ -2,7 +2,9 @@
 
 This repository contains the Causal Ethics, Harmonic Knowledge Law, Delta-Self, and Symbolic Language Processing research program. The main publication branch is `main`. The established corpus, working drafts, historical sources, reviews, and experimental code are indexed separately by status.
 
-**Latest publication: 16 October 2026 — Definition reconciliation.** Registry v0.3.1 and the core papers now separate principle, expenditure, achieved correction, and viability. Start with the [definition decisions](Release/Registry/definition-decisions-2026-10-16.md) and [publication notes](Release/Reviews/publication-notes-2026-10-16.md). The [September publication index](Release/PUBLICATION-INDEX.md) preserves the recovered source record; the [changelog](CHANGELOG.md) tracks both checkpoints.
+**Latest publication: 30 October 2026 — Registry v0.3.2.** Additive definitions from the [Ohio–Mississippi mussel worked example](Release/Examples/ohio-mississippi-mussels/README.md): sink impairment, OIE temporal classes, renewal coverage, and corrective dependency. See the [30 October decision record](Release/Registry/definition-decisions-2026-10-30.md).
+
+**16 October 2026 — Definition reconciliation.** Registry v0.3.1 and the core papers now separate principle, expenditure, achieved correction, and viability. Start with the [definition decisions](Release/Registry/definition-decisions-2026-10-16.md) and [publication notes](Release/Reviews/publication-notes-2026-10-16.md). The [September publication index](Release/PUBLICATION-INDEX.md) preserves the recovered source record; the [changelog](CHANGELOG.md) tracks both checkpoints.
 
 ## Start reading
 
@@ -21,7 +23,7 @@ This repository contains the Causal Ethics, Harmonic Knowledge Law, Delta-Self, 
 
 | Area | Contents |
 |---|---|
-| [Registry](Release/Registry/README.md) | Current v0.3.1 symbol registry and the separate v0.4 draft |
+| [Registry](Release/Registry/README.md) | Current v0.3.2 symbol registry and the separate v0.4 draft |
 | [Papers](Release/Papers/README.md) | Absorbic Effort, continuation, scaling, and consciousness papers |
 | [HKL](Release/HKL/README.md) | Stability and Lyapunov framing |
 | [Delta-Self](Release/Delta-Self/README.md) | Identity, coordinates, ledger, and Worldline formalization |

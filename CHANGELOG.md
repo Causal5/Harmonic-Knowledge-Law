@@ -2,6 +2,15 @@
 
 This log records repository changes. Publication dates do not imply scientific validation or the completion of a draft's proposed work.
 
+## 2026-10-30 — Registry v0.3.2 (additive)
+
+- Added the [Ohio–Mississippi freshwater-mussel worked example](Release/Examples/ohio-mississippi-mussels/README.md), revision 3.1, as a source-qualified illustration.
+- Published the [30 October decision record](Release/Registry/definition-decisions-2026-10-30.md) and Registry v0.3.2.
+- Registered sink impairment with realized and attributed balance forms and an extended coverage ratio (the v0.3.1 ACR is unchanged); substituting and pathway-restoring correction; OIE temporal classes and an attribution horizon; rate-form renewal coverage, exclusive renewal statuses, and an independent severed flag; corrective dependency; coupled renewal; and function versus dependency targets.
+- Retained the v0.3.1 wording that OIE is a process; persistent sources may produce spatially extended rate fields.
+- Recorded established counterparts (extinction debt, relaxation, functional extinction, invalid stock, apparent competition, critical slowing down) and a reference tank model with a reproducible figure.
+- Added a v0.3.2 note to AEF §5. No v0.3.1 definition changed; papers reconciled to v0.3.1 remain valid.
+
 ## 2026-10-16 — Definition reconciliation v0.3.1
 
 - Published a definition decision table and current Registry v0.3.1.

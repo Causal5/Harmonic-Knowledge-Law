@@ -121,6 +121,15 @@ channel units/time. Agent-induced side burden belongs in the OIE term.
 This equation requires a measurable stock and a valid source/sink model;
 it is not asserted for arbitrary psychological or social scores.
 
+**Registry v0.3.2.** When an agentic process impairs passive removal (for
+example, a dam blocking the host fish a population needs to reproduce), use the
+realized or attributed form of this balance defined in the
+[registry](../Registry/causal-ethics-master-symbol-registry.md) §VI.1, never a
+mixture. In the realized form, the effect of pathway-restoring correction is
+already inside $\dot B_{pass,k}$ and is not added to $\dot B^{land}_{PAE,k}$.
+The ACR in §4 is unchanged; where impairment is declared, the registry's
+extended ratio $\mathrm{ACR}^{ext}_\Omega$ is reported alongside it.
+
 An export reduces the local stock while potentially burdening a receiver.
 Record the recipient and transport losses. Separate physical burden
 transport from energy or resources sent to implement correction.
