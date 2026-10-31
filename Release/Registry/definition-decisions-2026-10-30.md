@@ -3,8 +3,8 @@
 ## Publication scope
 
 Registry v0.3.2 is an **additive** revision. It registers definitions that the
-[Ohio–Mississippi freshwater-mussel worked example](../Examples/ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example-r3.1.md)
-(revision 3.1, §8) showed the corpus could not yet express, together with a
+[Ohio–Mississippi freshwater-mussel worked example](../Examples/ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example.md)
+(§8) showed the corpus could not yet express, together with a
 cross-basin analog from the Yangtze. No v0.3.1 definition is changed. Papers
 reconciled to v0.3.1 remain valid as written; they inherit the additions below
 through the [registry](causal-ethics-master-symbol-registry.md).
