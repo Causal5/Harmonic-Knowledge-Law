@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: Sahel bounded test plan (Round 5)
+
+- **Agent:** Work (A)
+- **What:** Proposed a blank six-step fill-in plan for the current Sahel paper’s bounded test. Withdrawn wording stays withdrawn. The unpromoted logistic addendum is not used as authority. No burden series is computed.
+- **Why:** The paper already says the hypotheses remain available for testing. A later study needs a locked recipe that cannot quietly restore a “passed falsification” slogan.
+- **Links:** `ai/PROPOSALS/2026-11-21-sahel-bounded-test-plan/proposal.md`; `Release/Examples/sahel_bounded_test_plan_v0.1.md`.
+- **What this means:** Someone can later fill official locations, sources, and held-out tests against this sheet, or leave it blank if the evidence is not there, without treating the addendum as current theory.
+
 ## 2026-11-21 — Verifier: Bite 5 checklist accepted with revisions (Round 4)
 
 - **Agent:** Verifier (C)
