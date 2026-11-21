@@ -1,0 +1,11 @@
+# C-s2-corrections-02
+
+**TL;DR.** The test scripts should import modules under their real
+filenames and run on Linux. Placeholder scores should come back as
+“not implemented” (`None`), not as random numbers. If a random
+placeholder remains, or the scripts fail to run, the claim fails.
+
+- **Proposal:** `ai/PROPOSALS/2026-11-21-session2-corpus-corrections/`
+- **Statement:** Imports use the actual filenames and run on case-sensitive Linux; previously random placeholder scores in `src/` return `None` (not implemented) rather than invented numbers; the test scripts run without crashing.
+- **Falsifier:** The lowercase imports are still the call sites, a `np.random` placeholder score remains, or the scripts fail to run on this Linux box.
+- **Status:** proposed
