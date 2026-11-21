@@ -10,6 +10,103 @@ publication to `main` and is not scientific validation.
 
 
 
+## Session 3 summary (2026-11-21)
+
+This session ran Rounds 12–16 on `ai/evolution` only, as direct
+`[A]` / `[B]` / `[C]` commits. No pull requests. `main` was not
+modified. Nothing was moved to `ai/REJECTED/`. Four of the five
+rounds were worked examples with retrieved public data, committed
+scripts, and computed results or explicit n=0 / climatology findings.
+Round 16 opened a theory MAB registry and assessed arms without
+developing any of them. Official AEF, HKL, and current Sahel papers
+were not rewritten except for a logged Session 3 note on the mussel
+*example* §8 item 4 and a pointer in the ebonyshell protocol.
+Withdrawn Sahel claims were not restored. \(\eta\) and the *severed*
+flag were not assigned. Bite 5 and \(V_W\) were not scored.
+
+### What moved
+
+- **Round 12 — Keokuk / Lock 19 official status and USGS 05474500 discharge.**
+  `accept-with-revisions`. Citation [38] locates the first-of-its-kind
+  fish passage at Lock and Dam 22 near Saverton, Missouri, not at
+  Keokuk. Official records describe a uADS carp deterrent at Lock and
+  Dam 19 (River Mile 364.2 dated to a 24 January 2025 Wayback snapshot
+  of a 30 August 2024 USACE page; live URL HTTP 403 on 21 November 2026;
+  ICRCC FY2026 plan, retrieved live, says experimental operation through
+  2026). Discharge at USGS 05474500 for locked USGS water years 2016–2025:
+  3,652/3,653 days; period mean 100,725 ft³/s including 39 estimated days
+  and 100,548 ft³/s excluding them; one missing day (2022-08-31). The
+  modern OGC daily API was missing 923 of those days (0 value disagreements
+  on overlapping days). NWIS DV was adopted as primary after those gaps
+  were seen. Discharge is hydrologic context only.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/b524751256698c2fd770f7b6a1a240f9a916e41c
+- **Round 13 — Tulare Lake 5-022.12 DTW contrast and retrieved CVHM2 figures.**
+  `accept-with-revisions`. Official DWR Bulletin 118 subbasin 5-022.12
+  (San Joaquin Valley–Tulare Lake, 837.356 sq mi) was locked from a
+  FeatureServer GeoJSON. A predeclared USGS 72019 spring 2015 vs spring
+  2024 contrast yielded n=0 qualifying wells (one in-polygon 2015
+  measurement; zero in 2024). That is a coverage result in this API
+  extract, not a finding of no water-level change; DWR/CASGEM series
+  were not retrieved. The USGS Publications Warehouse abstract of
+  Faunt et al. (2024) was retrieved and quotes approximately 158 km³ of
+  Central Valley storage loss from pre-development to 2019, about 15%
+  permanent — abstract-only, not recomputed, not a 5-022.12 2015–2024
+  result. Bite 5 and \(V_W\) were not scored.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/716531b5db27d2f3c18c391d3ca1c6580c54ad8c
+- **Round 14 — Niger WDI/FAOSTAT precipitation precursor.**
+  `accept-with-revisions`. Indicator AG.LND.PRCP.MM for Niger is 151.0 mm
+  per year in every year of locked 1961–2022 — a national long-term
+  average, not an interannual or site rainfall series. No \(V\) was
+  constructed. CHIRPS was not retrieved.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/511f1727c29a5d227f9dc7319de63a5f497e3d5d
+- **Round 15 — Niger WDI/FAOSTAT cereal-yield precursor.**
+  `accept-with-revisions`. Indicator AG.YLD.CREL.KG for Niger, 1961–2022:
+  62 numeric years, 61 distinct values, mean 423.82 kg/ha, minimum
+  257.1 kg/ha in 1984, maximum 599.3 kg/ha in 1964. Chosen after Round 14
+  showed the precipitation indicator is not interannual; that choice is
+  declared. Yield is not rainfall, not FMNR, and not \(V\).
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/f6c483733d46ca85130c1a35d23a46727604583f
+- **Round 16 — Theory MAB registry and first assessments.**
+  `accept-with-revisions`. Opened `ai/THEORY_MAB.md`. Assessments were
+  written before any development. ARM-01–04 dropped; ARM-05 wait (not
+  explore). Rewards are qualitative. Layer 0 unchanged. No arm developed.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/52b56294b066fe5ab1e09253d59cb02b0b995cd6
+
+### New corpus findings
+
+- Mussel example §8 item 4, citing [38], said that as of 2023 USACE was
+  preparing a fish passage “at the dam” (Keokuk), “the first of its kind
+  on the Mississippi River.” The retrieved article (Iowa Capital Dispatch,
+  21 May 2023, and the Waterways Council reprint) names Lock and Dam 22
+  near Saverton, Missouri, as that project. A logged Session 3 note was
+  added to the example; the 2023 sentence was not silently deleted.
+
+### Still open / for Jordan
+
+- Official “the” Central Valley or San Joaquin Valley study boundary for
+  Bite 5 remains an open choice among official units; 5-022.12 was a
+  declared trial subbasin only.
+- CHIRPS interannual rainfall was named in Session 3 and was not
+  retrieved. Bounded-test comparable locations remain UNFILLED-REQUIRED.
+- Ebonyshell recruitment and mortality series sufficient for \(\eta\)
+  were not found. Official above/below mussel-reach river miles remain
+  UNFILLED-REQUIRED.
+- The leftover side branch
+  `ai/proposal/2026-11-21-freshwater-data-dictionary` still exists; there
+  is no delete_branch tool.
+- Round 12’s first [A] commit (`6fcf923`) briefly wrote `$file:`
+  placeholders into TRAIL and three data files; those were repaired in
+  `[A] b731c57`. Later pushes inlined file contents in one JSON payload.
+
+### What this is not
+
+Not publication to `main`. Not scientific validation of HKL. Not a
+computed \(\eta_{TM}\), Bite 5 score, or Sahel \(V\).
 ## 2026-11-21 — Round 16: Theory MAB registry and first assessments
 
 Process aid, not a worked empirical fill. `accept-with-revisions`.

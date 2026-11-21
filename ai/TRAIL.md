@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Session 3 summary (Rounds 12–16)
+
+- **Agent:** Session close (after Verifier, not a new cycle role)
+- **What:** Wrote the Session 3 summary into `ai/CHANGELOG.md`. Rounds 12–16 all ended `accept-with-revisions`. Four worked examples used retrieved public data. Round 16 opened a theory MAB registry and dropped or waited on arms without developing any. The main new corpus finding is that mussel citation [38] was mislocated to Keokuk; the article names Lock and Dam 22. No empirical \(\eta\), Bite 5 score, or Sahel \(V\) was invented. Official registry papers were not rewritten.
+- **Why:** Jordan asked to review the AI line later through the changelog, and Session 3 required a summary in this format.
+- **Links:** `ai/CHANGELOG.md` (Session 3 summary); Round 12–16 verdict files under `ai/LEDGER/verdicts/`.
+- **What this means:** A human can now read one summary of the worked examples, the official numbers that were actually computed, the citation error in the mussel example, the MAB decisions, and which questions are still for Jordan.
+
 ## 2026-11-21 — Verifier: theory MAB registry accepted with revisions (Round 16)
 
 - **Agent:** Verifier (C)
