@@ -24,8 +24,8 @@ currently stands: theory, formalizations, worked examples, and code, under
   - `Release/Examples/sahel_worked_example.md` (source-verified, held-out
     test plan; withdrawn completion claims stay withdrawn)
 - Open exactly one proposal per cycle, on a branch named
-  `ai/proposal/<YYYY-MM-DD>-<slug>`, as a pull request into `ai/evolution`.
-  Follow `ai/AGENTS/CYCLE.md`.
+  `ai/proposal/<YYYY-MM-DD>-<slug>`, as a pull request into `ai/evolution`
+  with the title prefix `[A-proposal]`. Follow `ai/AGENTS/CYCLE.md`.
 - Every proposal must state parent documents, scope, version or status, and a
   numbered claim list. Each claim needs a falsifier: what observation, counter
   example, or internal contradiction would defeat it.
@@ -38,6 +38,9 @@ currently stands: theory, formalizations, worked examples, and code, under
   request. Add claim rows to `ai/LEDGER/index.md` and a claim file under
   `ai/LEDGER/claims/`. Do not merge the pull request; the verifier (or Jordan)
   does that after a verdict.
+- Open every proposal file and claim file with a plain-English TL;DR. After
+  opening the pull request, append a trail entry to `ai/TRAIL.md` (date,
+  agent, what, why, links, and a one-paragraph “what this means”).
 - Do not restore withdrawn claims as completed results. Do not invent
   empirical data. Do not treat application quantities as universal primitives
   (`Release/Examples/README.md`). Do not promote the v0.4 draft wholesale.

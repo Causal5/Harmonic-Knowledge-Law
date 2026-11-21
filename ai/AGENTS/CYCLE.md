@@ -16,6 +16,23 @@ cycle writes to `main`.
 
 Do not play more than one of these roles in a single session.
 
+## Landmarks and plain English
+
+- Every agent action (opening a proposal, filing challenges, posting a
+  verdict, or applying required revisions) **must** append an entry to
+  `ai/TRAIL.md`. The entry includes: date (America/New_York), which agent,
+  what was done, why, links to the pull request and ledger files, and a
+  one-paragraph plain-English “what this means” summary. Newest entries go
+  at the top, below the trail introduction.
+- Every proposal file under `ai/PROPOSALS/`, every challenge file under
+  `ai/LEDGER/challenges/`, and every verdict file under
+  `ai/LEDGER/verdicts/` must open with a plain-English **TL;DR** paragraph
+  before any technical detail. Claim files under `ai/LEDGER/claims/` should
+  do the same.
+
+These landmarks exist so a human can follow the branch without reading every
+diff first.
+
 ## Branch naming
 
 Proposal branches are created from the current head of `ai/evolution`:
@@ -43,7 +60,7 @@ If the work is larger, split it across later cycles.
 Title:
 
 ```
-ai/proposal: <short description>
+[A-proposal] <short description>
 ```
 
 Body (copy and fill):
@@ -118,6 +135,7 @@ Consistency or publication-integrity checks are not empirical validation.
 ## After the verdict
 
 - Update `ai/LEDGER/index.md` and write `ai/LEDGER/verdicts/`.
+- Append a trail entry to `ai/TRAIL.md`.
 - On `accept` or an accepted subset, follow `Release/ARCHITECTURE.md`
   promotion steps and add an `ai/CHANGELOG.md` entry. Do not treat the merge
   as a `main` publication, and do not rewrite root `CHANGELOG.md` as if it were.

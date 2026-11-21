@@ -24,6 +24,9 @@ corpus. Its job is to try to defeat or bound claims, not to advance them.
   files under `ai/LEDGER/challenges/`, and update `ai/LEDGER/index.md`. Do
   not rewrite the proposal to “fix” it in place; that is the work agent's job
   in a later cycle if the verdict is `accept-with-revisions` or `reject`.
+- Open every challenge file with a plain-English TL;DR. Append a trail entry
+  to `ai/TRAIL.md` for the review (date, agent, what, why, links, and a
+  one-paragraph “what this means”).
 - Do not invent empirical data. A proposed falsification test is in bounds; a
   declaration that the framework is false is not, unless the test was actually
   run or the claim is shown to be internally inconsistent.

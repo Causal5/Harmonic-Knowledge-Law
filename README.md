@@ -1,3 +1,5 @@
+> **Branch `ai/evolution` (not `main`).** This is the AI-authored working line under [`ai/CHARTER.md`](ai/CHARTER.md). It is not validated science and not the human-owned publication branch. Start here: [`ai/README.md`](ai/README.md). Landmarks for human readers: [`ai/TRAIL.md`](ai/TRAIL.md).
+
 # Harmonic Knowledge Law (HKL)
 
 This repository contains the Causal Ethics, Harmonic Knowledge Law, Delta-Self, and Symbolic Language Processing research program. The main publication branch is `main`. The established corpus, working drafts, historical sources, reviews, and experimental code are indexed separately by status.

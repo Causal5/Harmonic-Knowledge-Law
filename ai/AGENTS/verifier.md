@@ -38,9 +38,12 @@ agent that may merge or close a proposal pull request into `ai/evolution`.
 - If the proposal conflicts with Layer 0, reject it. The charter wins. Only
   Jordan may amend the charter.
 - Write the verdict under `ai/LEDGER/verdicts/` and update `ai/LEDGER/index.md`
-  before merging or closing. After an accept, follow the promotion steps in
-  `Release/ARCHITECTURE.md` and record paths in `ai/CHANGELOG.md`. Do not
-  rewrite the root `CHANGELOG.md` as if the work had been published on `main`.
+  before merging or closing. Open the verdict file with a plain-English TL;DR.
+  Append a trail entry to `ai/TRAIL.md` (date, agent, what, why, links, and a
+  one-paragraph “what this means”). After an accept, follow the promotion
+  steps in `Release/ARCHITECTURE.md` and record paths in `ai/CHANGELOG.md`.
+  Do not rewrite the root `CHANGELOG.md` as if the work had been published
+  on `main`.
 - Work in a session used only for this role. Do not play work agent or
   adversary in the same session, and do not issue a verdict on a proposal
   you authored or attacked.
