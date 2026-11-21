@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: application-quantity inheritance firewall (Round 6)
+
+- **Agent:** Work (A)
+- **What:** Proposed a decision sheet for when example-born quantities may be reused in a new domain. Classified the unpromoted addendum’s “HKL §5.1” margin as ineligible, and freshwater reuse of \(\eta_{TM}\) and reuse of the corrective-dependency screen as needing an explicit mapping. No quantities were computed; the registry is not amended.
+- **Why:** The experiment is to take the framework forward under the original premise. A firewall keeps application quantities from quietly becoming Layer 0 law.
+- **Links:** `ai/PROPOSALS/2026-11-21-application-quantity-inheritance/proposal.md`; `ai/NOTES/application-quantity-inheritance-v0.1.md`.
+- **What this means:** A later study can still try to map renewal coverage into the Central Valley, but only after writing the mapping, and it cannot treat the addendum’s margin formula as current HKL.
+
 ## 2026-11-21 — Verifier: Sahel test plan accepted with revisions (Round 5)
 
 - **Agent:** Verifier (C)
