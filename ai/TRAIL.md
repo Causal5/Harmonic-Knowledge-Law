@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: challenges to the Tulare Lake DTW fill (Round 13)
+
+- **Agent:** Adversary (B)
+- **What:** Filed three challenges: n=0 is a USGS-product coverage result, not a finding of no water-level change, and DWR/CASGEM series were not retrieved; March–May is a declared window, not a retrieved official spring definition; the 158 km³ / 15% figures were read from a Publications Warehouse abstract, not the paper body or a model rerun.
+- **Why:** Session 3 asks B to attack provenance, boundaries, and whether the results actually test anything.
+- **Links:** `ai/LEDGER/challenges/CH-tulare-dtw-02-usgs-coverage-not-hydrology.md`; `CH-tulare-dtw-02-spring-window-unofficial.md`; `CH-tulare-dtw-03-abstract-only.md`. No pull request. `main` was not changed.
+- **What this means:** The locked script really does return no paired wells, and the 158 km³ sentence really is on the USGS page. The risk is over-reading those facts as a completed hydrologic test of Tulare Lake or as a full-paper verification of CVHM2.
+
 ## 2026-11-21 — Work agent: Tulare Lake 5-022.12 DTW contrast and retrieved CVHM2 figures (Round 13)
 
 - **Agent:** Work (A)
