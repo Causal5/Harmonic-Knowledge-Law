@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: object-class declaration challenges (Round 9)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the sheet for reading like a mandatory cycle step, for forcing exactly one object class on a symbol that may have two roles, and for not asking effort terms to separate allocation, expenditure, achieved correction, and side burden.
+- **Why:** A labeling aid that quietly becomes required, or that lets two Layer 0 roles share one cell, will not protect the distinctions it was written to protect.
+- **Links:** `ai/LEDGER/challenges/CH-object-class-01-mandatory-use.md`; `CH-object-class-02-one-class-only.md`; `CH-object-class-02-effort-fields.md`.
+- **What this means:** If the sheet is kept, it should stay optional until adopted, allow one row per use, and not let spending be written down as correction.
+
 ## 2026-11-21 — Work agent: object-class declaration sheet (Round 9)
 
 - **Agent:** Work (A)
