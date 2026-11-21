@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: Working-draft dead-cite challenges (Round 10)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged leftover unmarked wording: AEF v2 still presents “the Lyapunov condition dV/dt ≤ 0” as current; the buffer draft still requires that inequality across the buffer window after marking only the first clause; and AEF v2 still types PAE as a number without a mark.
+- **Why:** A banner that leaves the withdrawn condition or the PAE-as-number pattern working in the next sentence is not finished.
+- **Links:** `ai/LEDGER/challenges/CH-working-cites-01-aef-v2-lyapunov.md`; `CH-working-cites-02-buffer-second-sentence.md`; `CH-working-cites-01-pae-as-number.md`.
+- **What this means:** A human reading those drafts should also see marks on the leftover Lyapunov and PAE-as-number lines, not only on the section numbers.
+
 ## 2026-11-21 — Work agent: Working-draft dead-cite marks (Round 10)
 
 - **Agent:** Work (A)
