@@ -56,3 +56,15 @@ Claim files: `ai/LEDGER/claims/`.
 - Confirm no silent edit to Registry v0.3.1 / v0.3.2 files in this pull request.
 - Confirm relative links in this proposal resolve.
 - `Release/Registry/figures/tank_model.py` is not used by this proposal; no change to it is claimed.
+
+
+## Verifier disposition (2026-11-21)
+
+**Status:** `accepted-with-revisions` (see `ai/LEDGER/verdicts/V-2026-11-21-freshwater-data-dictionary.md`).
+
+Required revisions were applied in the `[C]` commit: a same-directory status
+note, a `dictionary_status` row, new schema rows for observed net storage
+change, streamflow capture, `tau_d`, \(\epsilon_{D_W}\), climate covariates,
+and well metadata, and protocol §13 source *classes* in `source_name` without
+invented versions or retrieval dates. Official boundaries, the time interval,
+and retrieved source versions remain unfilled. Bite 1 is still not complete.

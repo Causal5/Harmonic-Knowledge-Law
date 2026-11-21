@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verification agent: accept-with-revisions (Round 1)
+
+- **Agent:** Verifier (C)
+- **What:** Ran mechanical checks on the box (protocol §4 fidelity, invented-data scan, registry-file identity vs `c9e1277`, link checks, and a corpus run of `tank_model.py`). Posted verdict `accept-with-revisions` and applied the required fixes in this same commit: a status row and same-directory note so the Bite 1 filename is not mistaken for a finished deliverable; new schema rows for observed net storage change, streamflow capture, and `tau_d`; protocol §13 source *classes* without invented versions; and residual schema rows for `\epsilon_{D_W}`, climate covariates, and well metadata.
+- **Why:** Two of the adversary’s hits landed on the substance of the schema, and the official filename could mislead. The proposal still does what it claimed not to overclaim: it is not a finished study and not a validation of the framework.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-freshwater-data-dictionary.md`; `Release/Examples/central-valley/freshwater_data_dictionary_v0.2.csv`; `Release/Examples/central-valley/freshwater_data_dictionary_v0.2.NOTES.md`; `ai/LEDGER/index.md`; `ai/CHANGELOG.md`. Parent commits: [A] https://github.com/Causal5/Harmonic-Knowledge-Law/commit/cb3ea10655f6106fd2d0bc683860f4a574f8bb73 and [B] https://github.com/Causal5/Harmonic-Knowledge-Law/commit/8f21e7017bd2cd4d77585bb58ce233d1b44dd91b
+- **What this means:** The branch now has a clearer spreadsheet of what has to be collected, with the dangerous gaps filled as empty rows rather than left implicit. Nobody has picked a map boundary or downloaded a time series yet. That is the next human or later-cycle job, and it still needs real official sources.
+
 ## 2026-11-21 — Adversarial agent: challenges to the freshwater dictionary (Round 1)
 
 - **Agent:** Adversary (B)

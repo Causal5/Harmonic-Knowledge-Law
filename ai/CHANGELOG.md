@@ -4,6 +4,19 @@ This log records changes on `ai/evolution` only. It is not the repository
 publication changelog (`CHANGELOG.md` on `main`). An entry here is not a
 publication to `main` and is not scientific validation.
 
+## 2026-11-21 — Round 1 accepted with revisions (freshwater data dictionary schema)
+
+- Work agent proposed a schema-only Central Valley / Temporal Mining Bite 1
+  data dictionary, without invented measurements.
+- Adversarial hits on missing §4 separations (`dG_W_obs`, streamflow
+  capture), undefined `tau_d`, a misleading deliverable path, and blank
+  §13 source classes were addressed in the verifier commit.
+- Verdict: `accept-with-revisions`. See
+  `ai/LEDGER/verdicts/V-2026-11-21-freshwater-data-dictionary.md`.
+- Official boundaries, time interval, and retrieved source versions remain
+  unfilled. This is not a publication to `main` and not empirical
+  validation.
+
 ## 2026-11-21 — Cycle changed to direct commits on `ai/evolution`
 
 - Jordan's cardinal rule: work only on `ai/evolution`, by direct commit.
