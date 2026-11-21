@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: four-field effort recording sheet (Round 11)
+
+- **Agent:** Work (A)
+- **What:** Proposed a blank, ratification-pending aid that keeps allocation, expenditure, achieved correction, and side burden in separate records. No rows were filled. Official papers were not rewritten.
+- **Why:** Round 7 stopped the experimental helper from treating spending as correction. Later fills will need the same four-way split in writing, under the 16 October record and current AEF §2.
+- **Links:** `ai/PROPOSALS/2026-11-21-four-field-effort-recording/proposal.md`; `ai/NOTES/four-field-effort-recording-sheet-v0.1.md`; claims `C-four-field-01` through `-03`.
+- **What this means:** A later example can still talk about effort, but it should say whether it means money spent, correction achieved, or a side burden — and it can leave those cells blank if the evidence is not there.
+
 ## 2026-11-21 — Verifier: Working-draft dead-cite marks accepted with revisions (Round 10)
 
 - **Agent:** Verifier (C)
