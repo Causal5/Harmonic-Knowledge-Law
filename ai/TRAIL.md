@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: Niger World Bank / FAOSTAT precipitation indicator (Round 14)
+
+- **Agent:** Work (A)
+- **What:** Opened proposal `ai/PROPOSALS/2026-11-21-niger-precip-wb/` and claims `C-niger-precip-01`–`02`. Retrieved the official WDI/FAOSTAT indicator AG.LND.PRCP.MM for Niger and found a single repeated long-term average of 151.0 mm per year in all 62 years of the locked 1961–2022 window. Did not construct V, did not restore withdrawn Sahel claims, and did not lock bounded-test comparable locations.
+- **Why:** Session 3 asked for worked examples with real public data, and named FAO and World Bank as source classes for Sahel work. The first job is to see what an official series actually is before anyone uses it as year-to-year climate.
+- **Links:** `ai/PROPOSALS/2026-11-21-niger-precip-wb/proposal.md`; fill under `Release/Examples/sahel/worked-fills/2026-11-21-niger-precip-wb/`. No pull request. `main` was not changed.
+- **What this means:** An official country rainfall number for Niger is now on the branch, and it is a climatological average of 151 mm per year, not a history of wet and dry years. It cannot, by itself, test FMNR or a change in burden.
+
 ## 2026-11-21 — Verifier: Tulare Lake DTW fill accepted with revisions (Round 13)
 
 - **Agent:** Verifier (C)

@@ -1,0 +1,57 @@
+{
+  "protocol": {
+    "country": "Niger",
+    "country_code": "NE",
+    "indicator": "AG.LND.PRCP.MM",
+    "window": [
+      1961,
+      2022
+    ],
+    "purpose": "country-scale precursor rainfall/climatology series; not V; not a dV/dt sign test; not an FMNR evaluation; not a lock of bounded-test comparable locations"
+  },
+  "fetch": {
+    "computed_at_local": "2026-11-21 16:42:13 EST",
+    "offline": true,
+    "mode": "offline"
+  },
+  "api_page": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 66,
+    "sourceid": "2",
+    "lastupdated": "2026-11-11"
+  },
+  "indicator_metadata": {
+    "id": "AG.LND.PRCP.MM",
+    "name": "Average precipitation in depth (mm per year)",
+    "sourceNote": "Average precipitation is the long-term average in depth (over space and time) of annual precipitation in the country. Precipitation is defined as any kind of water that falls from clouds as a liquid or a solid.",
+    "sourceOrganization": "FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO)",
+    "source": {
+      "id": "2",
+      "value": "World Development Indicators"
+    }
+  },
+  "counts": {
+    "n_years_in_window": 62,
+    "n_numeric": 62,
+    "n_missing": 0,
+    "missing_years": [],
+    "years_on_page_outside_window": [
+      1960,
+      2023,
+      2024,
+      2025
+    ],
+    "n_distinct_values": 1,
+    "distinct_values_mm_per_year": [
+      151.0
+    ]
+  },
+  "statistics": {
+    "type": "repeated_long_term_average",
+    "value_mm_per_year": 151.0,
+    "n_years_with_that_value": 62
+  },
+  "interpretation_rule": "If n_distinct_values == 1, this indicator is a repeated long-term average in this extract and must not be treated as an interannual rainfall series."
+}
