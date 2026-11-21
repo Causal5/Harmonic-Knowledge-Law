@@ -4,6 +4,21 @@ This log records changes on `ai/evolution` only. It is not the repository
 publication changelog (`CHANGELOG.md` on `main`). An entry here is not a
 publication to `main` and is not scientific validation.
 
+
+## 2026-11-21 — Round 2: Layer 1 / implementation consistency audit (accept-with-revisions)
+
+Dated audit at `ai/AUDITS/2026-11-21-layer1-consistency.md`. Official AEF,
+HKL, and current Sahel papers were not edited and are not the defective
+objects. Findings that held: experimental `_apply_pae` treats expenditure
+as correction; `giln_ai` / `iif_evaluator` imports fail on Linux; several
+IIF scores are random; the unpromoted Sahel logistic addendum still uses
+withdrawn sign-change wording as an anchor. Challenge
+`CH-layer1-consistency-03-stale-section-citations` hit: the same addendum
+cites “Sahel §5.1” and “HKL §5.1” formulas the current papers do not
+contain, and treats PAE as a number. Finding F5 and `src/README.md` (status
+notice only) were added. Other challenges missed.
+
+
 ## 2026-11-21 — Round 1 accepted with revisions (freshwater data dictionary schema)
 
 - Work agent proposed a schema-only Central Valley / Temporal Mining Bite 1

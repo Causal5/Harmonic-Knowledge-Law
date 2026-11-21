@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: consistency audit accepted with revisions (Round 2)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed F1–F4 on the box, including live Linux import failures. The official-vs-experimental challenge missed. The stale-citation challenge hit; finding F5 and a `src/README.md` status notice were added. No official paper was edited.
+- **Why:** Claims have to be checked against the actual files and a real import, not against the audit’s wording alone. The addendum’s wrong section numbers are a standing-corpus issue a later human review should see.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-layer1-consistency-audit.md`; `ai/AUDITS/2026-11-21-layer1-consistency.md`; `src/README.md`.
+- **What this means:** Experimental code in `src/` should not be cited as current PAE. The unpromoted Sahel addendum should not be read as if it extends the current Sahel and HKL papers.
+
 ## 2026-11-21 — Adversary: consistency audit challenges (Round 2)
 
 - **Agent:** Adversary (B)

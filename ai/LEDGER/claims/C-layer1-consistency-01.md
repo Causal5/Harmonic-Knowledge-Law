@@ -9,4 +9,6 @@ does not do this, or the definitions do not say that, the claim fails.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-layer1-consistency-audit/`
 - **Statement:** Finding F1 is present as described: `_apply_pae` in `src/IIF_Evaluator.py` reduces `delta` by a term built from the `effort` argument, which conflicts with the 16 October decision to keep expenditure separate from achieved correction.
 - **Falsifier:** The cited function does not so reduce `delta`, or the 16 October record does not require that separation.
-- **Status:** proposed
+- **Status:** accepted
+
+**Verdict (Round 2, 2026-11-21):** accepted. See `ai/LEDGER/verdicts/V-2026-11-21-layer1-consistency-audit.md`.
