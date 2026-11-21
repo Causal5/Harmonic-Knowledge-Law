@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Session 2 corpus corrections accepted with revisions (Round 7)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Re-ran the scripts on this Linux box. Confirmed the PAE split and the mussel §8 reword. Fixed the four hits: leftover invented scores in `_score_reasoning` and Libra, `np.random` placeholders in `CorePrinciples/Law_of_We_Full.md`, the unmarked AEF §3.2 cite, and the stale protocol quote. Did not invent a replacement section number or a renewal ratio.
+- **Why:** A correction that leaves the same patterns standing in the next file is not finished.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-session2-corpus-corrections.md`.
+- **What this means:** A human can run the experimental scripts on Linux and should now see “not implemented” instead of random or hardcoded scores, and should see warnings on the addendum and a provisional mussel flag assignment.
+
 ## 2026-11-21 — Adversary: Session 2 corpus-correction challenges (Round 7)
 
 - **Agent:** Adversary (B)

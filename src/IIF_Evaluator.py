@@ -124,7 +124,8 @@ class IIFEvaluator:
         return tags
 
     def _score_reasoning(self, contribution, node):
-        return min(len(node.connections) / 10, 1.0)
+        """Not implemented. Returns None; connection count is not a reasoning score."""
+        return NOT_IMPLEMENTED
 
     def _score_foresight(self, contribution):
         """Not implemented. Returns None; does not invent a score."""

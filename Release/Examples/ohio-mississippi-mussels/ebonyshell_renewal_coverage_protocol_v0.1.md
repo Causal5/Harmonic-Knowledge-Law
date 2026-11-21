@@ -20,17 +20,16 @@ steps); worked example §8 (source-qualified illustration).
 The decision record states that no field \(\eta_{TM}\) has been computed
 for the mussel case, and that computing \(\eta^{nat}_{TM}\) for ebonyshell
 above and below Keokuk would be the first application, if recruitment
-data exist. The worked example §8 already *qualitatively* says natural
-renewal coverage above Keokuk after 1913 is “effectively zero” apart from
-rare passage such as 1986, “so the population carries the registry’s
-*severed* flag,” while net-mining versus substituted “is not measured
-here.” This protocol does **not** treat that qualitative statement as a
-computed result. The “so … severed” assignment in the current example is
-an uncomputed status assignment, and it sits in tension with the decision
-record’s statement that no field \(\eta_{TM}\) has been computed. This
-protocol does not rewrite the example body. The ratios and the flag
-remain to be filled from declared series, or left unfilled if the series
-cannot be obtained.
+data exist. The worked example §8 item 3 was reworded in the Round 7
+correction cycle. The qualitative host-access narrative is now marked
+provisional only; it is not a computed ratio and does **not** by itself
+assign the registry’s *severed* flag. The earlier “so the population
+carries the registry’s *severed* flag” wording is superseded. This
+protocol does **not** treat the qualitative narrative as a computed
+result, and it does not invent a renewal ratio. The flag assignment
+remains pending a computed \(\eta^{nat}_{TM}\) on this locked
+protocol. The ratios and the flag remain to be filled from declared
+series, or left unfilled if the series cannot be obtained.
 
 Yangtze sturgeon material in the example is a cross-basin analog and is
 outside this protocol’s boundary.

@@ -8,4 +8,6 @@ in place. No new section numbers are made up to replace them.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-session2-corpus-corrections/`
 - **Statement:** The Sahel logistic addendum carries a status banner stating the withdrawal and stale section cites, and the dead cites are marked in place without invented replacement section numbers.
 - **Falsifier:** The banner is missing, a listed dead cite is left unmarked in the body, or a new section number is invented as a replacement.
-- **Status:** proposed
+- **Status:** accepted-with-revisions
+
+**Verdict (Round 7, 2026-11-21):** accepted-with-revisions. Banner and most in-place marks held; no replacement section numbers were invented. CH-s2-corrections-03-unmarked-aef-32 hit: the remaining body cite of AEF §3.2 is now marked. See `ai/LEDGER/verdicts/V-2026-11-21-session2-corpus-corrections.md`.

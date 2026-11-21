@@ -8,4 +8,6 @@ does, the claim fails.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-session2-corpus-corrections/`
 - **Statement:** `_apply_pae` records expenditure separately from achieved correction and does not reduce `delta` by a term built from effort, in line with the 16 October record and current AEF §2.
 - **Falsifier:** The helper still subtracts a term built from effort from `delta`, or it fails to record expenditure and correction as separate fields.
-- **Status:** proposed
+- **Status:** accepted
+
+**Verdict (Round 7, 2026-11-21):** accepted. CH-s2-corrections-01-pae-separation missed: `_apply_pae(2.5, effort=10.0)` left delta at 2.5 and recorded expenditure 10.0 separately from achieved_correction (None). See `ai/LEDGER/verdicts/V-2026-11-21-session2-corpus-corrections.md`.

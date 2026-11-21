@@ -166,7 +166,7 @@ $$
 x_{n+1} = R^{\log}_t \, x_n (1 - x_n)
 $$
 
-This is the defining feature of Approach 2. HKL burden, AEF effort accounting, Δ-Self reachability, and OIE/PAE coupling are not inserted into the recurrence as extra terms; they determine $R^{\log}_t$, and the logistic map then propagates the resulting viability state. HKL defines stability through $V(t) = \sum_k w_k B_k(t)$ with stability requiring $dV/dt \le 0$ (HKL §5); AEF defines the effort accounting layer with $\lambda_{PAE}$, $\lambda_{OIE}$ as the effort↔geometry bridge (AEF §3.2, §5). Approach 2 respects those namespaces by keeping them strictly upstream of the logistic recurrence.
+This is the defining feature of Approach 2. HKL burden, AEF effort accounting, Δ-Self reachability, and OIE/PAE coupling are not inserted into the recurrence as extra terms; they determine $R^{\log}_t$, and the logistic map then propagates the resulting viability state. HKL defines stability through $V(t) = \sum_k w_k B_k(t)$ with stability requiring $dV/dt \le 0$ (HKL §5); AEF defines the effort accounting layer with $\lambda_{PAE}$, $\lambda_{OIE}$ as the effort↔geometry bridge (AEF §3.2, §5) **[DEAD CITE: current AEF has no §3.2 heading; no replacement section is invented here]**. Approach 2 respects those namespaces by keeping them strictly upstream of the logistic recurrence.
 
 ---
 

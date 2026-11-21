@@ -7,7 +7,7 @@ the framework. Several helpers that used to invent numbers now return
 `None` (not implemented), and expenditure is recorded separately from
 correction.
 
-**Status (ai/evolution, 2026-11-21, Round 7 patch, proposed).**
+**Status (ai/evolution, 2026-11-21, Round 7, accepted-with-revisions).**
 
 - The root `README.md` already lists `src/` as experimental implementation
   material.
@@ -19,6 +19,7 @@ correction.
   placeholder scores in `GILN_AI.py`, `giln_network.py`, and
   `Libra_Model.py`, now return `None` (not implemented). Initial `hrs`
   arrays are `None`, not zeros pretending to be scores.
+- Round 7 verifier revisions: `_score_reasoning` now returns `None` (connection count is not a reasoning score). `Libra_Model` no longer invents EGR, GDS, or an entropy score from hardcoded constants or string length.
 - Imports use the actual filenames: `from GILN_AI import GILNNetworkAI`
   and `from IIF_Evaluator import IIFEvaluator`. Test scripts print `None
   (not implemented)` instead of crashing on missing scores.

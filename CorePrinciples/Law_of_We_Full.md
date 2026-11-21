@@ -399,11 +399,8 @@ class LibraModel:
         Evaluates potential OIE increase using Ricci curvature changes.
         Returns: OIE impact score (0 to 1, lower is better).
         """
-        # Placeholder: Compute Ricci curvature change (simplified)
-        # In practice, use GILN's knowledge manifold to assess curvature
-        ricci_change = np.random.uniform(0, 0.5)  # Simulated change
-        oie_impact = ricci_change / 0.5  # Normalize to 0-1
-        return oie_impact
+        # Not implemented. Do not invent an OIE impact score.
+        return None
 
     def compute_decision_balance(self, input_data):
         """
@@ -411,11 +408,8 @@ class LibraModel:
         Verifies logical consistency using Symbolic Language Processing.
         Returns: Decision balance score (0 to 1, higher is better).
         """
-        # Placeholder: Compare input to prior knowledge in GILN
-        # In practice, use SLP to evaluate logical alignment
-        prior_knowledge_match = np.random.uniform(0.5, 1.0)  # Simulated match
-        decision_balance = prior_knowledge_match
-        return decision_balance
+        # Not implemented. Do not invent a decision-balance score.
+        return None
 
     def update_hkl_metrics(self, input_data, oie_impact):
         """
