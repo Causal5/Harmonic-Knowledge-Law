@@ -7,6 +7,17 @@ publication to `main` and is not scientific validation.
 
 
 
+
+## 2026-11-21 — Round 5: Sahel bounded test plan (accept-with-revisions)
+
+Blank six-step plan at `Release/Examples/sahel_bounded_test_plan_v0.1.md`.
+Withdrawn Sahel §5 wording was not restored; the unpromoted logistic
+addendum is not used as authority; no series were computed. Challenges
+that hit: lock the local-regulation variable list before step 5; declare
+comparability dimensions; allow retrieval of primaries the current paper
+already points to. The current Sahel paper body was not edited.
+
+
 ## 2026-11-21 — Round 4: HKL Bite 5 falsification checklist (accept-with-revisions)
 
 Blank score sheet at

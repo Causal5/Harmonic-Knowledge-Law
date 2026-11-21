@@ -7,4 +7,6 @@ is skipped or a new kind of quantity appears, the claim fails.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-sahel-bounded-test-plan/`
 - **Statement:** The plan restates the current paper’s six steps in order, forbids constructing \(V\) before step 6, and adds no new primitive.
 - **Falsifier:** A step is omitted or reordered, \(V\) is constructed earlier, or a new primitive appears.
-- **Status:** proposed
+- **Status:** accepted-with-revisions
+
+**Verdict (Round 5, 2026-11-21):** accepted-with-revisions. See `ai/LEDGER/verdicts/V-2026-11-21-sahel-bounded-test-plan.md`. Comparability dimensions and local-regulation list locks added.

@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Sahel test plan accepted with revisions (Round 5)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the plan is blank of series and does not restore withdrawn wording. Added locked comparability dimensions, a locked local-regulation variable list, and a clarified primary-source rule. Linked the plan from `Release/Examples/README.md`. Did not edit the current Sahel paper.
+- **Why:** A test that leaves “comparable” and the treatment variables open can be filled after seeing the answer.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-sahel-bounded-test-plan.md`; `Release/Examples/sahel_bounded_test_plan_v0.1.md`.
+- **What this means:** Later Sahel work can fill official locations and sources against this sheet, or leave it blank, without treating the addendum as current theory or bringing back a “passed falsification” slogan.
+
 ## 2026-11-21 — Adversary: Sahel test-plan challenges (Round 5)
 
 - **Agent:** Adversary (B)
