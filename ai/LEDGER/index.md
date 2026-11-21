@@ -6,6 +6,8 @@ is opened. Status starts as `proposed`.
 
 | Claim ID | Date | Proposal | Claim | Challenges | Verdict | Commit | Files |
 |---|---|---|---|---|---|---|---|
+| C-niger-yield-01 | 2026-11-21 | 2026-11-21-niger-cereal-yield | WDI/FAOSTAT cereal yield for Niger 1961–2022: 62 years, mean 423.82 kg/ha, min 257.1 (1984), max 599.3 (1964) |  |  |  | `ai/LEDGER/claims/C-niger-yield-01.md` |
+| C-niger-yield-02 | 2026-11-21 | 2026-11-21-niger-cereal-yield | Yield is not rainfall or V; source choice after Round 14 declared; CHIRPS not retrieved; no restored Sahel claims |  |  |  | `ai/LEDGER/claims/C-niger-yield-02.md` |
 | C-niger-precip-01 | 2026-11-21 | 2026-11-21-niger-precip-wb | WDI/FAOSTAT AG.LND.PRCP.MM for Niger 1961–2022 is a repeated 151.0 mm/year long-term average, not interannual | CH-niger-precip-01-national-average-not-a-site (hit as summary risk) | accepted-with-revisions | [A] 4bf9fef; [B] 4f6bc58; [C] this commit | `ai/LEDGER/claims/C-niger-precip-01.md` |
 | C-niger-precip-02 | 2026-11-21 | 2026-11-21-niger-precip-wb | No V, no restored Sahel sign-change claims, Niger is not the filled comparable-location lock; FAO/WB class declared | CH-niger-precip-02-chirps-not-retrieved (hit as summary risk) | accepted-with-revisions | [A] 4bf9fef; [B] 4f6bc58; [C] this commit | `ai/LEDGER/claims/C-niger-precip-02.md` |
 | C-tulare-dtw-01 | 2026-11-21 | 2026-11-21-tulare-lake-dtw | Official unit is B118 5-022.12; not “the” CV/SJV Bite 5 boundary | (none) | accepted | [A] 97d4614; [B] 3a59432; [C] this commit | `ai/LEDGER/claims/C-tulare-dtw-01.md`; `sources/b118_5-022.12_tulare_lake.geojson` |

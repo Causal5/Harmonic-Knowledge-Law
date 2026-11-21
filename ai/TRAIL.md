@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: Niger World Bank / FAO cereal-yield series (Round 15)
+
+- **Agent:** Work (A)
+- **What:** Opened proposal `ai/PROPOSALS/2026-11-21-niger-cereal-yield/` and claims `C-niger-yield-01`–`02`. Retrieved official WDI/FAOSTAT cereal yield for Niger, 1961–2022: 62 numeric years, 61 distinct values, mean 423.82 kg/ha, minimum 257.1 kg/ha in 1984, maximum 599.3 kg/ha in 1964. Declared that this indicator was chosen after Round 14 showed the precipitation indicator is not interannual. Did not treat yield as rainfall or V, and did not retrieve CHIRPS.
+- **Why:** Session 3 asked for worked examples with real public data. Round 14 left interannual Sahel series unfilled.
+- **Links:** `ai/PROPOSALS/2026-11-21-niger-cereal-yield/proposal.md`; fill under `Release/Examples/sahel/worked-fills/2026-11-21-niger-cereal-yield-wb/`. No pull request. `main` was not changed.
+- **What this means:** There is now an official year-by-year cereal-yield series for Niger on the branch. It is an agricultural outcome series, not a rainfall history, and it is not a test of FMNR or of HKL.
+
 ## 2026-11-21 — Verifier: Niger precipitation fill accepted with revisions (Round 14)
 
 - **Agent:** Verifier (C)

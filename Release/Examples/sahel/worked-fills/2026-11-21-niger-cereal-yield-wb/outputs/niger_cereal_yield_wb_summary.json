@@ -1,0 +1,120 @@
+{
+  "protocol": {
+    "country": "Niger",
+    "country_code": "NE",
+    "indicator": "AG.YLD.CREL.KG",
+    "window": [
+      1961,
+      2022
+    ],
+    "purpose": "country-scale precursor agricultural-outcome series; not V; not a dV/dt sign test; not an FMNR evaluation; not a lock of bounded-test comparable locations"
+  },
+  "fetch": {
+    "computed_at_local": "2026-11-21 16:44:59 EST",
+    "offline": true,
+    "mode": "offline"
+  },
+  "api_page": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 66,
+    "sourceid": "2",
+    "lastupdated": "2026-11-11"
+  },
+  "indicator_metadata": {
+    "id": "AG.YLD.CREL.KG",
+    "name": "Cereal yield (kg per hectare)",
+    "sourceNote": "Cereal yield, measured as kilograms per hectare of harvested land, includes wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat, and mixed grains. Production data on cereals relate to crops harvested for dry grain only. Cereal crops harvested for hay or harvested green for food, feed, or silage and those used for grazing are excluded. The FAO allocates production data to the calendar year in which the bulk of the harvest took place. Most of a crop harvested near the end of a year will be used in the following year.",
+    "sourceOrganization": "FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), uri: https://www.fao.org/faostat/en/#data/QCL, publisher: Food and Agriculture Organization of the United Nations (FAO)",
+    "source": {
+      "id": "2",
+      "value": "World Development Indicators"
+    }
+  },
+  "counts": {
+    "n_years_in_window": 62,
+    "n_numeric": 62,
+    "n_missing": 0,
+    "missing_years": [],
+    "years_on_page_outside_window": [
+      1960,
+      2023,
+      2024,
+      2025
+    ],
+    "n_distinct_values": 61,
+    "distinct_values_mm_per_year": [
+      257.1,
+      267.9,
+      287.7,
+      289.2,
+      291.0,
+      309.2,
+      310.3,
+      312.3,
+      323.9,
+      326.2,
+      326.5,
+      333.2,
+      341.5,
+      346.4,
+      352.7,
+      360.5,
+      362.8,
+      380.1,
+      386.0,
+      389.5,
+      390.2,
+      394.0,
+      394.4,
+      400.3,
+      401.9,
+      406.0,
+      407.7,
+      415.6,
+      417.6,
+      418.9,
+      422.9,
+      423.4,
+      424.8,
+      425.0,
+      429.5,
+      431.3,
+      431.5,
+      436.6,
+      446.8,
+      447.0,
+      449.6,
+      457.4,
+      467.5,
+      475.2,
+      493.7,
+      494.8,
+      496.2,
+      496.5,
+      501.5,
+      505.2,
+      520.3,
+      536.5,
+      541.9,
+      547.8,
+      551.3,
+      551.8,
+      554.8,
+      559.8,
+      560.1,
+      571.3,
+      599.3
+    ]
+  },
+  "statistics": {
+    "type": "interannual",
+    "mean": 423.81774193548387,
+    "min": 257.1,
+    "max": 599.3,
+    "min_year": 1984,
+    "max_year": 1964
+  },
+  "interpretation_rule": "If n_distinct_values == 1, this indicator is a repeated long-term average in this extract and must not be treated as an interannual rainfall series."
+}
