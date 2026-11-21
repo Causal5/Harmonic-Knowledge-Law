@@ -9,6 +9,110 @@ publication to `main` and is not scientific validation.
 
 
 
+
+## Session 1 summary (2026-11-21)
+
+This session ran Rounds 2–6 on `ai/evolution` only, after Round 1, as
+direct `[A]` / `[B]` / `[C]` commits. No pull requests. `main` was not
+modified. Nothing was moved to `ai/REJECTED/`. No empirical series,
+field \(\eta_{TM}\), \(V_W\), or Sahel burden score was computed or
+invented. Official papers were not rewritten.
+
+### What moved
+
+- **Round 1 (already on the branch before this five-run):** freshwater
+  Bite 1 schema-only data dictionary, accepted-with-revisions.
+- **Round 2 — Layer 1 / implementation consistency audit.**
+  `accept-with-revisions`. Dated audit at
+  `ai/AUDITS/2026-11-21-layer1-consistency.md` and a status notice at
+  `src/README.md`. C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/e69a892ba7792140ee275d0f5158bf2d3c67311a
+- **Round 3 — Ebonyshell renewal-coverage protocol.**
+  `accept-with-revisions`. Blank preregistration sheet at
+  `Release/Examples/ohio-mississippi-mussels/ebonyshell_renewal_coverage_protocol_v0.1.md`.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/d71a7ebb3f8c34840d631205df43e40d74617288
+- **Round 4 — HKL Bite 5 falsification checklist.**
+  `accept-with-revisions`. Blank score sheet at
+  `Release/Examples/central-valley/hkl_bite5_falsification_checklist_v0.1.md`.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/b3c67662f81f6d5af55ccc6a8431eca0fbc8349b
+- **Round 5 — Sahel bounded test plan.**
+  `accept-with-revisions`. Blank six-step plan at
+  `Release/Examples/sahel_bounded_test_plan_v0.1.md`. Withdrawn §5
+  wording was not restored. C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/dbb11e9f0432bda886e53c086f2e091d7b47dcd7
+- **Round 6 — Application-quantity inheritance firewall.**
+  `accept-with-revisions`. Ratification-pending branch note at
+  `ai/NOTES/application-quantity-inheritance-v0.1.md`. C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/8352550bfab6366518f4e9ffd52df59a50f3497d
+
+### What was rejected
+
+No proposal in this session was rejected or filed under `ai/REJECTED/`.
+Every later-round verdict was `accept-with-revisions`, except some
+individual claims accepted as written. Negative scientific results were
+not produced, because no empirical test was run.
+
+### Errors B found in the original human corpus
+
+These are in-tree issues, not defects invented by A:
+
+1. **Experimental PAE helper.** `src/IIF_Evaluator.py` `_apply_pae`
+   subtracts a term built from an `effort` argument from an error score.
+   That treats expenditure as successful correction, which the 16 October
+   record and current AEF paper reject. The root README already lists
+   `src/` as experimental. A status notice was added; function bodies
+   were not patched.
+2. **Import names and random scores.** `from giln_ai import …` and
+   `from iif_evaluator import …` do not match `GILN_AI.py` /
+   `IIF_Evaluator.py`. On Linux those lowercase imports raised
+   `ModuleNotFoundError`. Several `_score_*` methods return
+   `np.random.uniform(0.5, 1.0)` and cannot be evidence for the
+   framework.
+3. **Unpromoted Sahel logistic addendum.** It still uses the withdrawn
+   “measurably flipped sign” wording as an empirical / falsification
+   anchor. It cites “Sahel §5.1” (an OIE integral) and “HKL §5.1” (a
+   basin-maintenance margin \(M(t)\)) that the *current* Sahel and HKL
+   papers do not contain; the margin formula resembles superseded
+   `Release/Working/hkl-lyapunov-v2.md`. It treats PAE as a number in
+   \(\lambda_{PAE}(t)\,PAE(t)\). The addendum was already labeled
+   unpromoted; its body was not edited in this session.
+4. **Mussel worked example §8.** The example says ebonyshell natural
+   renewal coverage above Keokuk after 1913 is “effectively zero … so
+   the population carries the registry’s *severed* flag,” while the
+   30 October remaining-work list says no field \(\eta_{TM}\) has been
+   computed. That is an uncomputed status assignment in the original
+   example. The new protocol refuses to treat it as a measured ratio
+   and does not rewrite the example body.
+
+Current official AEF, HKL, and Sahel *papers* were not found to be
+internally inconsistent with the 16 / 30 October records on the points
+checked.
+
+### Open questions
+
+- Official Central Valley / San Joaquin boundary IDs, hydrologic year,
+  time interval, and retrieved source versions (Round 1 residuals)
+  still need evidence before Bite 5 can be scored.
+- Ebonyshell \(\eta_{TM}\) above and below Keokuk, and the Keokuk fish-
+  passage test, remain unfilled; construction status as of October 2026
+  was already recorded as unconfirmed.
+- The Sahel six-step plan remains blank: locations, sources, series,
+  and a locked held-out score are still `needs-evidence`.
+- Whether Jordan wants the mussel example’s qualitative severed sentence
+  reworded, or a banner on the logistic addendum, is left to him.
+- Whether to repair `src/` imports and `_apply_pae` is later work.
+- The inheritance-firewall status words are ratification-pending and
+  must not be treated as official registry vocabulary unless he adopts
+  them.
+- After Round 1, Jordan deleted
+  `ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/` with the message
+  “New rule verified.” Later rounds still opened proposals under
+  `ai/PROPOSALS/` as `CYCLE.md` requires. He may want to confirm whether
+  accepted proposal files should be removed after the verdict.
+
+
 ## 2026-11-21 — Round 6: application-quantity inheritance firewall (accept-with-revisions)
 
 Branch-local note at `ai/NOTES/application-quantity-inheritance-v0.1.md`.

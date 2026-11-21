@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Session 1 summary (Rounds 2–6)
+
+- **Agent:** Session close (after Verifier, not a new cycle role)
+- **What:** Wrote the Session 1 summary into `ai/CHANGELOG.md`. Rounds 2–6 all ended `accept-with-revisions`. Nothing was rejected. No empirical quantities were invented. Strongest corpus findings: experimental `_apply_pae` treats expenditure as correction; Linux imports fail and some scores are random; the unpromoted Sahel addendum cites current-paper section numbers those papers do not have; the mussel example assigns the severed flag without a computed \(\eta_{TM}\).
+- **Why:** Jordan asked to review the AI line later through the changelog, and to hear where the adversary found errors in the original corpus.
+- **Links:** `ai/CHANGELOG.md` (Session 1 summary); Round 2–6 verdict files under `ai/LEDGER/verdicts/`.
+- **What this means:** A human can now read one summary of what moved, what was left blank on purpose, and which standing-corpus tensions are still sitting in the original files.
+
 ## 2026-11-21 — Verifier: inheritance firewall accepted with revisions (Round 6)
 
 - **Agent:** Verifier (C)
