@@ -8,4 +8,6 @@ missing or a new cutoff appears, the claim fails.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-hkl-bite5-falsification-checklist/`
 - **Statement:** The checklist separates Temporal Mining §10 items 1–5 from HKL incremental-value checks, records HKL §4 / §6.1 not-failures, and adds no new primitive or universal cutoff.
 - **Falsifier:** Those blocks are mixed or omitted, or a new primitive or cutoff is introduced.
-- **Status:** proposed
+- **Status:** accepted-with-revisions
+
+**Verdict (Round 4, 2026-11-21):** accepted-with-revisions. See `ai/LEDGER/verdicts/V-2026-11-21-hkl-bite5-falsification-checklist.md`. Fired/needs-evidence columns and hard-threshold lock added.

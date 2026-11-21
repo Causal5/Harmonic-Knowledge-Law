@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Bite 5 checklist accepted with revisions (Round 4)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the sheet is blank of scores. Applied a held-out metric-class rule, fired / did not fire / needs-evidence columns, and a locked hard-threshold list. Linked the sheet from the Central Valley README. Did not edit the v0.2 protocol or the HKL paper.
+- **Why:** Leaving “any predeclared function” and an unsplit “weaken / reject” column would have let later work pick the test after seeing the index.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-hkl-bite5-falsification-checklist.md`; `Release/Examples/central-valley/hkl_bite5_falsification_checklist_v0.1.md`.
+- **What this means:** Bite 5 can still only be run after official study bounds and the locked metric and thresholds exist; missing evidence stays `needs-evidence`, not a pass.
+
 ## 2026-11-21 — Adversary: Bite 5 checklist challenges (Round 4)
 
 - **Agent:** Adversary (B)

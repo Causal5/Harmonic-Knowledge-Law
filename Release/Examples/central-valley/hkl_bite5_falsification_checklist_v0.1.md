@@ -9,9 +9,10 @@ HKL (for example, burden going up for a while under a still-adequate
 margin). Every check is unfilled. No weights, scores, or cutoffs are
 chosen here.
 
-**Status:** proposed. Parents: `temporal-mining-freshwater-protocol-v0.2.md`
-§6, §6.1, §10, and Bite 5; `Release/HKL/hkl-lyapunov.md` §3–§4, §6;
-Round 1 dictionary residuals remain open.
+**Status:** accepted-with-revisions (Round 4). Parents:
+`temporal-mining-freshwater-protocol-v0.2.md` §6, §6.1, §10, and Bite 5;
+`Release/HKL/hkl-lyapunov.md` §3–§4, §6; Round 1 dictionary residuals
+remain open.
 
 ## 1. What this is not
 
@@ -22,24 +23,26 @@ UNFILLED-REQUIRED from Round 1. Those must be filled with evidence before
 any check below can be scored. A blank check is reported as
 `needs-evidence`, not as a pass.
 
-No new primitive and no new universal cutoff are adopted. Protocol §10
-item 6 (“a simpler water-budget model explains and predicts as well as or
-better”) is left with its comparison *metric* UNFILLED-REQUIRED: the
-metric family must be named after the protocol’s own held-out outcomes
-and locked **before** \(V_W\) is fit. Choosing the metric after seeing
-which index wins is itself a weakening of the test, not a result.
+No new primitive and no new universal cutoff are adopted.
+
+Protocol §10 says the Temporal Mining interpretation is “weakened or
+rejected” if listed conditions hold. This sheet does **not** invent a
+split between “weaken” and “reject.” It only records whether each
+condition fired. The protocol’s unsplit wording still governs what that
+firing means.
 
 ## 2. Three report columns
 
 Each check is later marked with exactly one of:
 
-- **Hold** — the named condition was tested and did not fire.
-- **Weaken / reject** — the named condition fired, as defined in §10 or
-  below.
+- **Fired** — the named condition was tested and held.
+- **Did not fire** — the named condition was tested and did not hold.
 - **Needs-evidence** — the official series or a required predeclaration
   is not yet available.
 
-Do not mark “hold” merely because a horizon has not been reached.
+Do not mark “did not fire” merely because a horizon has not been reached
+(see NF-2). Do not use a combined “weaken / reject” mark as if those were
+already two different, defined verdicts.
 
 ## 3. Block A — Temporal Mining interpretation (protocol §10 items 1–5)
 
@@ -55,32 +58,49 @@ whether \(V_W\) is a good index.
 | TM-5 | Firm substitution and demand reduction close the transition gap before thresholds are crossed | UNFILLED |
 
 “Materially” and “fully accounted” remain as in the protocol; this sheet
-does not replace them with a new number.
+does not replace them with a new number. If a condition fires, report
+that firing; do not relabel it as a newly defined “reject” or “weaken.”
 
 ## 4. Block B — HKL operationalization (protocol §10 item 6, Bite 5, HKL §4)
 
 HKL receives incremental support only if \(V_W\) adds predictive or
 diagnostic value beyond its individual hydrologic variables and beyond a
-simpler water-budget model. The following are predeclared failure or
-weakening modes for that claim. None is scored here.
+simpler water-budget model.
+
+**Required predeclarations (all UNFILLED-REQUIRED; lock before any
+Block B check is scored):**
+
+- Normalization, weight sets to be tested, viable set, and held-out
+  periods (already required by protocol Bite 5 and HKL-1).
+- **Comparison metric class:** a *held-out score* on the outcomes already
+  named in protocol §6 — storage, head, subsidence, transition-gap, and
+  ecological outcomes. The specific score (for example, how those
+  outcomes are combined) remains UNFILLED-REQUIRED, but it must be a
+  held-out score on that named list. An in-sample score, a function that
+  drops the named outcomes, or a metric changed after seeing which model
+  won is recorded as HKL-2 firing. No numeric metric value is chosen here.
+- **Hard-threshold list:** the declared hard physical thresholds that
+  HKL-4 will use. Locked before HKL-4 is marked; not chosen after seeing
+  \(V_W\).
 
 | ID | Predeclared condition | Result |
 |---|---|---|
 | HKL-1 | Normalization, weights, thresholds, viable set, and held-out periods were not locked before \(V_W\) was compared with baselines | UNFILLED |
-| HKL-2 | The comparison metric (UNFILLED-REQUIRED; must be a predeclared function of the held-out outcomes already named in protocol §6: storage, head, subsidence, transition-gap, and ecological outcomes) was chosen after seeing which model won | UNFILLED |
-| HKL-3 | On the locked metric and locked held-out windows, a simpler water-budget or unaggregated-component model predicts as well as or better than \(V_W\) | UNFILLED |
-| HKL-4 | A favorable component of \(V_W\) was allowed to erase a declared hard physical threshold | UNFILLED |
+| HKL-2 | The comparison metric was in-sample, was not a held-out score on the named §6 outcomes, or was chosen or changed after seeing which model won | UNFILLED |
+| HKL-3 | On the locked held-out metric and locked held-out windows, a simpler water-budget or unaggregated-component model predicts as well as or better than \(V_W\) | UNFILLED |
+| HKL-4 | A favorable component of \(V_W\) was allowed to erase a threshold on the locked hard-threshold list | UNFILLED |
 | HKL-5 | Unaggregated components were not reported beside \(V_W\) | UNFILLED |
 | HKL-6 | Several defensible weight sets were not tested, or only the best-looking set was reported | UNFILLED |
 
 If HKL-3 fires, that is the protocol’s own weakening or rejection of
-incremental HKL support. It is not a rejection of the raw hydrologic
-observations.
+incremental HKL support (still using the protocol’s unsplit wording). It
+is not a rejection of the raw hydrologic observations.
 
 ## 5. Block C — Not-failures (do not treat these as rejects by themselves)
 
 Current HKL §4 and protocol §6.1 already say that some patterns are *not*
-automatic failures. Recording them as rejects would be a procedure error.
+automatic failures. Recording them as if a Block A or B condition had
+fired would be a procedure error.
 
 | ID | Pattern that is not, by itself, a failed operationalization |
 |---|---|
@@ -90,7 +110,8 @@ automatic failures. Recording them as rejects would be a procedure error.
 | NF-4 | Using “Lyapunov-style burden function” without claiming a completed Lyapunov theorem |
 
 NF-3 is a *misreading to avoid*, not a hydrologic observation. NF-2 must
-not be scored as “hold” on safety.
+not be scored as “did not fire” on a safety claim, and must not be scored
+as proven safety.
 
 Also do not identify \(V_W^*\) with \(V_{PCB}\) or with \(V_{max}\) by
 definition (HKL §3).
@@ -98,6 +119,6 @@ definition (HKL §3).
 ## 6. Reporting rule
 
 Bite 5 may be reported only after Blocks A and B are marked, including
-`needs-evidence` where official inputs are still missing. Success and
-failure must be reported in the same format. This checklist is not itself
-that report.
+`needs-evidence` where official inputs or required predeclarations are
+still missing. Success and failure must be reported in the same format.
+This checklist is not itself that report.

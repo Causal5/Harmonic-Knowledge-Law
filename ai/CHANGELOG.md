@@ -6,6 +6,19 @@ publication to `main` and is not scientific validation.
 
 
 
+
+## 2026-11-21 — Round 4: HKL Bite 5 falsification checklist (accept-with-revisions)
+
+Blank score sheet at
+`Release/Examples/central-valley/hkl_bite5_falsification_checklist_v0.1.md`.
+No weights or \(V_W\) were computed. All three challenges hit: the
+comparison metric is now required to be a held-out score on the
+protocol’s named outcomes; the sheet records whether a condition fired
+instead of inventing a weaken-versus-reject split; and the hard-threshold
+list must be locked before use. Round 1 official-boundary residuals
+remain open.
+
+
 ## 2026-11-21 — Round 3: ebonyshell renewal-coverage protocol (accept-with-revisions)
 
 Preregistration sheet at
