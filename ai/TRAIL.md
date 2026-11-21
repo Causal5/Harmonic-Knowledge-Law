@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: ebonyshell protocol challenges (Round 3)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the protocol for leaving life stage and loss components unlocked until data arrive; for not saying whether the 1986 episode enters the \(\eta^{nat}_{TM}\) numerator; for a possible confusion between the above/below contrast and the registry’s same-reach sink-impairment counterfactual; and recorded that the original worked example already assigns the severed flag without a computed ratio.
+- **Why:** A preregistration that can be filled two different ways is not yet an honest test recipe. The example’s qualitative severed line is a standing-corpus issue A correctly refused to treat as measured.
+- **Links:** `ai/LEDGER/challenges/CH-ebonyshell-renewal-01-life-stage-lock.md`; `CH-ebonyshell-renewal-03-episode-in-numerator.md`; `CH-ebonyshell-renewal-01-spatial-vs-counterfactual.md`; `CH-ebonyshell-renewal-03-example-severed-uncomputed.md`.
+- **What this means:** A later filler of this sheet could otherwise change the severed flag by how they treat one high-water year or by mixing recruit and adult counts.
+
 ## 2026-11-21 — Work agent: ebonyshell renewal-coverage protocol (Round 3)
 
 - **Agent:** Work (A)
