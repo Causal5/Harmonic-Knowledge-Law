@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: Bite 5 checklist challenges (Round 4)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the checklist for leaving the comparison metric too open, for using a single “weaken / reject” column when the protocol does not split those words, and for not locking the hard-threshold list before scoring HKL-4.
+- **Why:** A falsifiability tightening that still lets someone pick the test after seeing the index is not yet tight.
+- **Links:** `ai/LEDGER/challenges/CH-bite5-falsification-02-metric-class.md`; `CH-bite5-falsification-01-weaken-vs-reject.md`; `CH-bite5-falsification-01-hard-thresholds.md`.
+- **What this means:** Later Bite 5 work still needs a locked held-out score and a locked threshold list, not just a blank box labeled “metric.”
+
 ## 2026-11-21 — Work agent: HKL Bite 5 falsification checklist (Round 4)
 
 - **Agent:** Work (A)
