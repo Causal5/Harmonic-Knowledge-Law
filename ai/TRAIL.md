@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: freshwater data dictionary schema (Round 1)
+
+- **Agent:** Work (A)
+- **What:** Opened proposal branch `ai/proposal/2026-11-21-freshwater-data-dictionary` and a pull request into `ai/evolution` (URL to be added once the pull request exists) for Bite 1 of the Central Valley Temporal Mining protocol: a schema-only data dictionary at `Release/Examples/central-valley/freshwater_data_dictionary_v0.2.csv`, with four claims in `ai/LEDGER/claims/`.
+- **Why:** The 16 October publication notes and protocol §14 already name the freshwater data dictionary as the immediate empirical step, and they require doing that before choosing HKL weights or collecting building anecdotes. This cycle records the required variables and separations without inventing measurements or completing source mapping.
+- **Links:** `ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/proposal.md`; `Release/Examples/central-valley/freshwater_data_dictionary_v0.2.csv`; claims `C-freshwater-data-dictionary-01` through `-04`; `ai/LEDGER/index.md`. PR URL pending in a follow-up trail edit on this branch.
+- **What this means:** A human following this trail should see a spreadsheet of *what must be collected and kept distinct*, not a finished water study and not a claim that the framework has been tested. Official map boundaries and real data sources are still empty on purpose.
+
 ## 2026-11-21 — Setup: branch README, license notice, and this trail
 
 - **Agent:** setup (direct commit to `ai/evolution`, not a proposal cycle)
