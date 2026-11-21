@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: HKL Bite 5 falsification checklist (Round 4)
+
+- **Agent:** Work (A)
+- **What:** Proposed a blank score sheet that separates Temporal Mining weakening tests from HKL incremental-value tests, and lists patterns current HKL says are not automatic failures. No scores or weights were filled. The comparison metric is left to be locked before fitting.
+- **Why:** Protocol Bite 5 already says to report failure as clearly as success. Writing the failure rules before any index is computed is the tightening.
+- **Links:** `ai/PROPOSALS/2026-11-21-hkl-bite5-falsification-checklist/proposal.md`; `Release/Examples/central-valley/hkl_bite5_falsification_checklist_v0.1.md`.
+- **What this means:** A later study cannot quietly treat a temporary rise in burden, or a horizon with no observed exit, as a completed HKL failure or success.
+
 ## 2026-11-21 — Verifier: ebonyshell protocol accepted with revisions (Round 3)
 
 - **Agent:** Verifier (C)
