@@ -1,6 +1,6 @@
 # Worked fill: Niger country precipitation indicator (World Bank / FAOSTAT)
 
-**Status:** proposed (Round 14 / Session 3). Country-scale precursor only. Not a construction of \(V\). Not a restoration of withdrawn Sahel completion or sign-change claims. Not a lock of comparable locations for the bounded test.
+**Status:** accepted-with-revisions (Round 14 / Session 3). Country-scale precursor only. Not a construction of \(V\). Not a restoration of withdrawn Sahel completion or sign-change claims. Not a lock of comparable locations for the bounded test.
 
 **Retrieval date:** 2026-11-21, America/New_York. WDI `lastupdated` 2026-11-11.
 
@@ -32,3 +32,13 @@ Years 1960 and 2023–2025 appear on the API page without a numeric value in thi
 - It does not evaluate FMNR or the Great Green Wall.
 - It does not fill step 1 comparable locations, and it does not treat the Republic of Niger as a substitute for those locations.
 - It is not a CHIRPS series.
+
+## Verifier revisions (Round 14)
+
+The verifier re-ran `scripts/summarize_niger_precip_wb.py --offline` on 21 November 2026 and reproduced a single distinct value of 151.0 mm per year in all 62 years of 1961–2022. The World Bank API URL returned HTTP 200 the same day.
+
+Revisions, keeping points A already stated and forbidding later over-reading:
+
+- 151.0 mm per year is a **country-wide long-term average**, not rainfall at an FMNR site and not a southern-Sahel site climatology. Niger’s north–south gradient is not resolved by this indicator.
+- CHIRPS was not retrieved. Interannual rainfall and the bounded test’s comparable locations and environmental-setting fields remain unfilled. This cycle did not complete Sahel climate data collection.
+

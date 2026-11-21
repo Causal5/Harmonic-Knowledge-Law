@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Niger precipitation fill accepted with revisions (Round 14)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Re-ran the official-indicator script offline and reproduced 151.0 mm per year in all 62 years. Confirmed the World Bank API returns HTTP 200. Applied wording so 151 mm cannot be used as a site rainfall value and so the cycle cannot be described as having filled interannual Sahel rainfall. Did not construct V or restore withdrawn claims.
+- **Why:** Session 3 requires C to re-run scripts, check that sources resolve, and apply revisions in the same verdict commit.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-niger-precip-wb.md`; fill under `Release/Examples/sahel/worked-fills/2026-11-21-niger-precip-wb/`; [A] `4bf9fef`; [B] `4f6bc58`. No pull request. `main` was not changed.
+- **What this means:** There is now an official FAO/World Bank precipitation figure for Niger on the branch, and it is a single long-term average. A year-to-year rainfall history, including CHIRPS, is still outstanding.
+
 ## 2026-11-21 — Adversary: challenges to the Niger precipitation fill (Round 14)
 
 - **Agent:** Adversary (B)

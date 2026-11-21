@@ -2,7 +2,7 @@
 
 **TL;DR.** This cycle retrieves a real official FAO/World Bank precipitation indicator for Niger and computes what it actually is: a repeated long-term average of 151.0 mm per year for 1961–2022, not an interannual rainfall series. It does not construct \(V\) and does not restore withdrawn Sahel claims.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** Session 3, Round 14.
 

@@ -10,6 +10,20 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-21 — Round 14: Niger WDI/FAOSTAT precipitation precursor
+
+Worked example with a retrieved official series. `accept-with-revisions`.
+World Bank WDI indicator AG.LND.PRCP.MM for Niger, sourced from
+FAOSTAT, is 151.0 mm per year in every year of the locked 1961–2022
+window — a long-term national average, not an interannual rainfall
+series, and not a site or southern-Sahel climatology. No \(V\) was
+constructed; withdrawn Sahel claims were not restored; comparable
+locations remain UNFILLED-REQUIRED. CHIRPS was not retrieved. The
+verifier re-ran the script and checked that the API resolves.
+C commit: this commit.
+Fill: `Release/Examples/sahel/worked-fills/2026-11-21-niger-precip-wb/`.
+Verdict: `ai/LEDGER/verdicts/V-2026-11-21-niger-precip-wb.md`.
+
 ## 2026-11-21 — Round 13: Tulare Lake 5-022.12 DTW contrast and retrieved CVHM2 figures
 
 Worked example with retrieved public records. `accept-with-revisions`.

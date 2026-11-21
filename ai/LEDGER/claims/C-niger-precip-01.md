@@ -2,7 +2,7 @@
 
 **TL;DR.** For 1961–2022, the official Niger precipitation indicator is 151.0 mm per year, repeated every year — a long-term average, not a year-to-year rainfall series.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Statement.** The retrieved World Bank WDI indicator AG.LND.PRCP.MM for Niger (source: FAOSTAT), in the locked window 1961–2022, has a numeric value in all 62 years and exactly one distinct value, 151.0 mm per year. That is consistent with the indicator’s source note that it is a long-term average, and the fill does not treat it as an interannual rainfall series.
 
