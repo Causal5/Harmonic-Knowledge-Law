@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: Working-draft dead-cite marks (Round 10)
+
+- **Agent:** Work (A)
+- **What:** Added status banners and in-place dead-cite marks to the recovered AEF v2 draft and the buffer-as-temporal-dimension addendum. Marked “HKL §5.1,” “Sahel §5.3,” “HKL §4.1,” “AEF §3.2 / §3.3,” a stale Sahel §6 “demonstrates” claim, and the buffer draft’s statement that dV/dt ≤ 0 is a necessary HKL condition. No replacement section numbers were invented, and official papers were not rewritten.
+- **Why:** Round 7 marked the same patterns in the unpromoted Sahel addendum. These Working drafts still presented dead section numbers, and one still treated a withdrawn monotonic-drift condition as current HKL.
+- **Links:** `ai/PROPOSALS/2026-11-21-working-draft-dead-cites/proposal.md`; claims `C-working-cites-01` through `-03`.
+- **What this means:** A human can still read the recovered drafts, but should not treat their section numbers or the “necessary dV/dt ≤ 0” line as current theory.
+
 ## 2026-11-21 — Verifier: object-class declaration accepted with revisions (Round 9)
 
 - **Agent:** Verifier (C)

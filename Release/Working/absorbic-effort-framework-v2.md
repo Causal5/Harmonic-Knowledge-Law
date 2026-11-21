@@ -1,5 +1,10 @@
 # Absorbic Ethics Framework (AEF)
 
+> **Status (ai/evolution, 2026-11-21, Round 10, proposed).** Working / preserved proposal. Not current AEF or HKL authority. Current definitions are in `Release/Papers/absorbic-effort-framework.md` and `Release/HKL/hkl-lyapunov.md`. Citations below that do not match those current papers are marked **[DEAD CITE]** in place. No replacement section numbers are invented here.
+> - “HKL §5.1” — current HKL has no §5.1; §5 is “Effect accounting.”
+> Version numbers inside this draft do not supersede Registry v0.3.1 or the reconciled core papers (`Release/Working/README.md`).
+
+
 ## v2 — Aligned to Δ-Self Worldline Formalization
 ---
 
@@ -9,7 +14,7 @@ The Absorbic Ethics Framework (AEF) formalizes corrective effort required to off
 
 AEF operates as the applied accounting layer over a stability formalism (HKL Lyapunov basin structure). It does not define stability itself; it defines effort required to preserve it.
 
-**Inheritance:** AEF elaborates the effort dynamics introduced in Δ-Self §13 ($\frac{d}{dt}\mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}$) and the basin maintenance inequality derived in HKL §5.1. Specifically, AEF provides the accounting structure that determines whether the Lyapunov condition $\frac{dV}{dt} \le 0$ is satisfied.
+**Inheritance:** AEF elaborates the effort dynamics introduced in Δ-Self §13 ($\frac{d}{dt}\mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}$) and the basin maintenance inequality derived in HKL §5.1 **[DEAD CITE: current HKL has no §5.1; no replacement section is invented here]**. Specifically, AEF provides the accounting structure that determines whether the Lyapunov condition $\frac{dV}{dt} \le 0$ is satisfied.
 
 ---
 
@@ -181,7 +186,7 @@ They must not be conflated with:
 # 8. Normalization Changes Executed in v2
 
 * All v1 changes retained ($\Delta S_{abs}$ standardization, symbol scoping, model-dependent clarification)
-* Added inheritance statement linking AEF to Δ-Self §13 and HKL §5.1
+* Added inheritance statement linking AEF to Δ-Self §13 and HKL §5.1 **[DEAD CITE: current HKL has no §5.1]**
 * Added §3.2: Geometric interpretation of ELQ via coupling coefficients
 * Introduced $\lambda_{PAE}$ and $\lambda_{OIE}$ as bridge operators (effort → geometry)
 * Derived $ELQ_{geo}$ constraint and symmetric/asymmetric coupling cases
