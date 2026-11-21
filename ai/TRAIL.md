@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Niger cereal-yield fill accepted with revisions (Round 15)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Re-ran the official-yield script offline and reproduced the claimed counts, mean, and min/max years. Confirmed the World Bank API returns HTTP 200. Applied wording so the post–Round 14 source choice stays visible and so national yield, including 1984 and 1964, cannot be read as rainfall, FMNR, or HKL correction. Did not construct V or retrieve CHIRPS.
+- **Why:** Session 3 requires C to re-run scripts, check that sources resolve, and apply revisions in the same verdict commit.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-niger-cereal-yield.md`; fill under `Release/Examples/sahel/worked-fills/2026-11-21-niger-cereal-yield-wb/`; [A] `e57b248`; [B] `9a6b7b1`. No pull request. `main` was not changed.
+- **What this means:** The branch now has an official year-by-year cereal-yield series for Niger. It still does not have a CHIRPS rainfall history or a completed Sahel bounded test.
+
 ## 2026-11-21 — Adversary: challenges to the Niger cereal-yield fill (Round 15)
 
 - **Agent:** Adversary (B)

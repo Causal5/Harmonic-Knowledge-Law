@@ -10,6 +10,20 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-21 — Round 15: Niger WDI/FAOSTAT cereal-yield precursor
+
+Worked example with a retrieved official interannual series.
+`accept-with-revisions`. WDI indicator AG.YLD.CREL.KG for Niger, sourced
+from FAOSTAT QCL, 1961–2022: 62 numeric years, 61 distinct values, mean
+423.82 kg/ha, minimum 257.1 kg/ha in 1984, maximum 599.3 kg/ha in 1964.
+The indicator was chosen after Round 14 showed the official precipitation
+indicator is not interannual; that choice stays declared. Yield is not
+rainfall, not an FMNR result, and not \(V\). CHIRPS was not retrieved.
+The verifier re-ran the script and checked that the API resolves.
+C commit: this commit.
+Fill: `Release/Examples/sahel/worked-fills/2026-11-21-niger-cereal-yield-wb/`.
+Verdict: `ai/LEDGER/verdicts/V-2026-11-21-niger-cereal-yield.md`.
+
 ## 2026-11-21 — Round 14: Niger WDI/FAOSTAT precipitation precursor
 
 Worked example with a retrieved official series. `accept-with-revisions`.

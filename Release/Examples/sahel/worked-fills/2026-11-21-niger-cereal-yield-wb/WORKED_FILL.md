@@ -1,6 +1,6 @@
 # Worked fill: Niger country cereal yield (World Bank / FAOSTAT QCL)
 
-**Status:** proposed (Round 15 / Session 3). Country-scale precursor agricultural-outcome series only. Not rainfall. Not \(V\). Not an FMNR or Great Green Wall evaluation. Not a lock of comparable locations.
+**Status:** accepted-with-revisions (Round 15 / Session 3). Country-scale precursor agricultural-outcome series only. Not rainfall. Not \(V\). Not an FMNR or Great Green Wall evaluation. Not a lock of comparable locations.
 
 **Retrieval date:** 2026-11-21, America/New_York. WDI `lastupdated` 2026-11-11.
 
@@ -33,3 +33,13 @@ This indicator was selected after Round 14 showed that the official precipitatio
 - Not rainfall, not CHIRPS, not \(V\), not a restored sign-change or “passed falsification” claim.
 - A low-yield year such as 1984 is not attributed here to policy, drought, or architecture.
 - Niger is not the filled comparable-location lock.
+
+## Verifier revisions (Round 15)
+
+The verifier re-ran `scripts/summarize_niger_cereal_yield_wb.py --offline` on 21 November 2026 and reproduced 62 numeric years, 61 distinct values, mean 423.8177 kg/ha (reported as 423.82), minimum 257.1 kg/ha in 1984, and maximum 599.3 kg/ha in 1964. The World Bank API URL returned HTTP 200 the same day.
+
+Revisions:
+
+- The post–Round 14 indicator choice stays declared and is not to be described later as the unique official agricultural outcome for the Sahel test.
+- National cereal yield, including the 1984 minimum and 1964 maximum, remains an official country agricultural-outcome series. It is not rainfall, not an FMNR-site result, and not HKL correction.
+

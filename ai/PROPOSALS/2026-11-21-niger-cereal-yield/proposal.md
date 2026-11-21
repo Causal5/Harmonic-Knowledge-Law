@@ -2,7 +2,7 @@
 
 **TL;DR.** After Round 14 showed the official precipitation indicator is a repeated climatology, this cycle retrieves official FAO/WDI cereal yield for Niger, 1961–2022: an interannual series with mean 423.82 kg/ha, minimum 257.1 kg/ha in 1984, and maximum 599.3 kg/ha in 1964. It is not rainfall, not \(V\), and not an FMNR test.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** Session 3, Round 15.
 

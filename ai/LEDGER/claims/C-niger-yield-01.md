@@ -2,7 +2,7 @@
 
 **TL;DR.** Official cereal yield for Niger, 1961–2022, is an interannual series: mean 423.82 kg/ha, lowest in 1984, highest in 1964.
 
-**Status:** `proposed`
+**Status:** `accepted`
 
 **Statement.** The retrieved WDI indicator AG.YLD.CREL.KG for Niger (source: FAOSTAT QCL), locked window 1961–2022, is numeric in all 62 years and has 61 distinct values, with mean 423.82 kg/ha, minimum 257.1 kg/ha in 1984, and maximum 599.3 kg/ha in 1964.
 
