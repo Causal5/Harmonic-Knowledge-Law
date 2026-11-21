@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: computed-status assignment rule (Round 8)
+
+- **Agent:** Work (A)
+- **What:** Proposed a short ratification-pending branch rule: a registry flag defined by a computed quantity may not be assigned from a qualitative narrative alone. No quantities were computed, and official papers were not rewritten.
+- **Why:** Round 7 fixed the mussel *severed* sentence. Later work will face the same temptation unless the discipline is stated generally, under Layer 0 and the 16 / 30 October records.
+- **Links:** `ai/PROPOSALS/2026-11-21-computed-status-assignment/proposal.md`; `ai/NOTES/computed-status-assignment-v0.1.md`; claims `C-computed-status-01` through `-03`.
+- **What this means:** A later example can still tell the qualitative story, but it should leave the official flag blank until the number is actually computed, or say the evidence is not there.
+
 ## 2026-11-21 — Verifier: Session 2 corpus corrections accepted with revisions (Round 7)
 
 - **Agent:** Verifier (C)
