@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: object-class declaration sheet (Round 9)
+
+- **Agent:** Work (A)
+- **What:** Proposed a blank, ratification-pending sheet for later empirical fills. Each symbol would have to be labeled as reality, selected state, observation, or model, and as computed or qualitative. No rows were filled.
+- **Why:** Layer 0 already separates those objects. Later fills will go wrong if a model quantity or a qualitative story is written down as if it were an observation.
+- **Links:** `ai/PROPOSALS/2026-11-21-object-class-declaration/proposal.md`; `ai/NOTES/object-class-declaration-sheet-v0.1.md`; claims `C-object-class-01` through `-03`.
+- **What this means:** Someone opening a later Bite 5, Sahel, or mussel fill should have to say what kind of object they are writing down, before they look at a series.
+
 ## 2026-11-21 — Verifier: computed-status assignment accepted with revisions (Round 8)
 
 - **Agent:** Verifier (C)
