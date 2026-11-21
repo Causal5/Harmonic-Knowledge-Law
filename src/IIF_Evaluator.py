@@ -16,6 +16,11 @@
 
 import numpy as np
 
+# Explicit sentinel for scores and corrections that are not implemented.
+# Do not substitute a random or placeholder number.
+NOT_IMPLEMENTED = None
+
+
 class IIFEvaluator:
     def __init__(self):
         self.dimensions = ["reasoning", "foresight", "creativity", "impact", "adaptability", "coherence", "efficiency"]
@@ -23,7 +28,9 @@ class IIFEvaluator:
         self.sigma = 1.0
 
     def evaluate_contribution(self, contribution, node, effort=0.0):
-        scores = []
+        if contribution not in node.metadata:
+            node.metadata[contribution] = {}
+
         reasoning = self._score_reasoning(contribution, node)
         foresight = self._score_foresight(contribution)
         creativity = self._score_creativity(contribution)
@@ -35,47 +42,84 @@ class IIFEvaluator:
         node.hrs = scores
 
         delta = self._calculate_delta(contribution, coherence, efficiency)
-        adjusted_delta = self._apply_pae(delta, effort, impact)
-        systemic_coherence = self._calculate_systemic_coherence(adjusted_delta)
-        scores[5] = systemic_coherence
+        pae_record = self._apply_pae(delta, effort, achieved_correction=NOT_IMPLEMENTED)
+        systemic_coherence = self._calculate_systemic_coherence(pae_record["delta"])
+        if systemic_coherence is not NOT_IMPLEMENTED:
+            scores[5] = systemic_coherence
         node.hrs = scores
 
         causal_tags = self._infer_causal_tags(contribution, foresight, impact)
-        node.metadata[contribution]["causal_tags"] = causal_tags
-        node.metadata[contribution]["delta"] = adjusted_delta
-        node.metadata[contribution]["systemic_coherence"] = systemic_coherence
-        hkl_ai_score = self._calculate_hkl_ai_score(efficiency, impact, systemic_coherence)
-        node.metadata[contribution]["hkl_ai_score"] = hkl_ai_score
+        meta = node.metadata[contribution]
+        meta["causal_tags"] = causal_tags
+        meta["delta"] = pae_record["delta"]
+        meta["systemic_coherence"] = systemic_coherence
+        meta["hkl_ai_score"] = self._calculate_hkl_ai_score(efficiency, impact, systemic_coherence)
+        meta["expenditure"] = pae_record["expenditure"]
+        meta["achieved_correction"] = pae_record["achieved_correction"]
+        meta["side_burden"] = pae_record["side_burden"]
+        meta["pae_record"] = pae_record
         return scores
 
     def _calculate_delta(self, contribution, coherence, efficiency):
-        delta = np.sqrt((1 - coherence)**2 + (1 - efficiency)**2)
-        return delta
+        if coherence is None or efficiency is None:
+            return NOT_IMPLEMENTED
+        try:
+            return np.sqrt((1 - coherence)**2 + (1 - efficiency)**2)
+        except TypeError:
+            return NOT_IMPLEMENTED
 
-    def _apply_pae(self, delta, effort, impact):
-        """Apply Principle of Absorbic Effort, amplifying effect based on impact."""
-        # Base effectiveness of effort
-        k = 0.1
-        # Amplify effort based on systemic impact (free radical behavior)
-        # Higher impact means effort is more effective at reducing Δ
-        amplification = 1 + impact  # Impact in [0, 1], so amplification in [1, 2]
-        f_e = k * effort * amplification
-        adjusted_delta = max(delta - f_e, 0)
-        return adjusted_delta
+    def _apply_pae(self, delta, effort, achieved_correction=None):
+        """Record expenditure separately from achieved correction.
+
+        Per Registry definition-decisions-2026-10-16 and current AEF §2:
+        a costly attempt can fail; expenditure alone does not establish
+        corrective orientation or reduce a burden/error score. This helper
+        does not subtract effort from delta.
+        """
+        if achieved_correction is None:
+            achieved_correction = NOT_IMPLEMENTED
+        return {
+            "expenditure": effort,
+            "achieved_correction": achieved_correction,
+            "side_burden": NOT_IMPLEMENTED,
+            "delta": delta,
+            "note": (
+                "expenditure is recorded separately from achieved correction; "
+                "a costly attempt can fail; expenditure does not reduce delta"
+            ),
+        }
 
     def _calculate_systemic_coherence(self, delta):
-        return np.exp(- (delta**2) / (self.sigma**2))
+        if delta is None:
+            return NOT_IMPLEMENTED
+        try:
+            return np.exp(- (delta**2) / (self.sigma**2))
+        except TypeError:
+            return NOT_IMPLEMENTED
 
     def _calculate_hkl_ai_score(self, efficiency, impact, coherence):
-        return round((0.4 * efficiency) + (0.3 * impact) + (0.3 * coherence), 2)
+        if efficiency is None or impact is None or coherence is None:
+            return NOT_IMPLEMENTED
+        try:
+            return round((0.4 * efficiency) + (0.3 * impact) + (0.3 * coherence), 2)
+        except TypeError:
+            return NOT_IMPLEMENTED
 
     def _infer_causal_tags(self, contribution, foresight_score, impact_score):
         tags = []
-        if foresight_score > 0.7:
-            tags.append("effect: systemic coherence")
-        if impact_score > 0.7:
-            tags.append("cause: high systemic impact")
-        if "entropy" in contribution.lower():
+        if foresight_score is not None:
+            try:
+                if foresight_score > 0.7:
+                    tags.append("effect: systemic coherence")
+            except TypeError:
+                pass
+        if impact_score is not None:
+            try:
+                if impact_score > 0.7:
+                    tags.append("cause: high systemic impact")
+            except TypeError:
+                pass
+        if isinstance(contribution, str) and "entropy" in contribution.lower():
             tags.append("effect: entropy reduction")
         return tags
 
@@ -83,19 +127,25 @@ class IIFEvaluator:
         return min(len(node.connections) / 10, 1.0)
 
     def _score_foresight(self, contribution):
-        return np.random.uniform(0.5, 1.0)
+        """Not implemented. Returns None; does not invent a score."""
+        return NOT_IMPLEMENTED
 
     def _score_creativity(self, contribution):
-        return np.random.uniform(0.5, 1.0)
+        """Not implemented. Returns None; does not invent a score."""
+        return NOT_IMPLEMENTED
 
     def _score_impact(self, contribution, node):
-        return np.random.uniform(0.5, 1.0)
+        """Not implemented. Returns None; does not invent a score."""
+        return NOT_IMPLEMENTED
 
     def _score_adaptability(self, contribution):
-        return np.random.uniform(0.5, 1.0)
+        """Not implemented. Returns None; does not invent a score."""
+        return NOT_IMPLEMENTED
 
     def _score_coherence(self, contribution, node):
-        return np.random.uniform(0.5, 1.0)
+        """Not implemented. Returns None; does not invent a score."""
+        return NOT_IMPLEMENTED
 
     def _score_efficiency(self, contribution):
-        return np.random.uniform(0.5, 1.0)
+        """Not implemented. Returns None; does not invent a score."""
+        return NOT_IMPLEMENTED

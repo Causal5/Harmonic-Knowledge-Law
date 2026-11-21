@@ -16,6 +16,15 @@
 
 from giln_network import GILNNetwork
 
+def _fmt(value, spec=".3f"):
+    if value is None:
+        return "None (not implemented)"
+    try:
+        return format(value, spec)
+    except (TypeError, ValueError):
+        return repr(value)
+
+
 def main():
     giln = GILNNetwork()
     giln.add_human_node("user1", "Causal Ethics framework", effort=0.5)
@@ -29,9 +38,9 @@ def main():
         hkl_ai_score = node.metadata[latest_contribution]["hkl_ai_score"]
         delta = node.metadata[latest_contribution]["delta"]
         systemic_coherence = node.metadata[latest_contribution]["systemic_coherence"]
-        print(f"User {user_id} HRS: {hrs}, SRI: {sri}, HKL-AI Score: {hkl_ai_score}")
+        print(f"User {user_id} HRS: {hrs}, SRI: {_fmt(sri)}, HKL-AI Score: {hkl_ai_score}")
         print(f"  Latest Contribution: {latest_contribution}")
-        print(f"  Delta: {delta:.3f}, Systemic Coherence: {systemic_coherence:.3f}")
+        print(f"  Delta: {_fmt(delta)}, Systemic Coherence: {_fmt(systemic_coherence)}")
         print(f"  Causal Tags: {node.metadata[latest_contribution]['causal_tags']}")
 
 if __name__ == "__main__":

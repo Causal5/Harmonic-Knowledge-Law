@@ -15,7 +15,16 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from giln_network import GILNNetwork
-from giln_ai import GILNNetworkAI
+from GILN_AI import GILNNetworkAI
+
+def _fmt(value, spec=".3f"):
+    if value is None:
+        return "None (not implemented)"
+    try:
+        return format(value, spec)
+    except (TypeError, ValueError):
+        return repr(value)
+
 
 def main():
     human_network = GILNNetwork()
@@ -35,9 +44,9 @@ def main():
         hkl_ai_score = node.metadata[latest_contribution]["hkl_ai_score"]
         delta = node.metadata[latest_contribution]["delta"]
         systemic_coherence = node.metadata[latest_contribution]["systemic_coherence"]
-        print(f"User {user_id} HRS: {hrs}, SRI: {sri}, HKL-AI Score: {hkl_ai_score}")
+        print(f"User {user_id} HRS: {hrs}, SRI: {_fmt(sri)}, HKL-AI Score: {hkl_ai_score}")
         print(f"  Latest Contribution: {latest_contribution}")
-        print(f"  Delta: {delta:.3f}, Systemic Coherence: {systemic_coherence:.3f}")
+        print(f"  Delta: {_fmt(delta)}, Systemic Coherence: {_fmt(systemic_coherence)}")
         print(f"  Causal Tags: {node.metadata[latest_contribution]['causal_tags']}")
     print("\nAI Nodes:")
     for ai_id in ai_network.ai_nodes:
@@ -45,7 +54,7 @@ def main():
         hrs = ai_network.get_hrs(ai_id)
         sri = ai_network.calculate_sri(ai_id)
         resource_metrics = ai_network.get_resource_metrics(ai_id)
-        print(f"AI {ai_id} HRS: {hrs}, SRI: {sri}")
+        print(f"AI {ai_id} HRS: {hrs}, SRI: {_fmt(sri)}")
         print(f"  Resource Metrics: {resource_metrics}")
 
 if __name__ == "__main__":

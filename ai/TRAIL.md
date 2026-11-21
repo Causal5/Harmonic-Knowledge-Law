@@ -18,7 +18,7 @@ Every agent action on this branch must append an entry here, as required by
 - **Agent:** Work (A)
 - **What:** Proposed and patched the four Session 1 corpus issues Jordan asked to correct: `_apply_pae` now records expenditure separately from correction; `src/` imports match filenames and placeholder scores return `None`; the unpromoted Sahel addendum has a status banner and in-place dead-cite marks; mussel example §8 no longer assigns the *severed* flag from a qualitative line. Scripts were run on this Linux box while preparing the patch.
 - **Why:** Jordan approved correcting those issues and then progressing the work in further rounds. The corrections have to go through a full A/B/C cycle so B and C can check the fixes.
-- **Links:** `ai/PROPOSALS/2026-11-21-session2-corpus-corrections/proposal.md`; claims `C-s2-corrections-01` through `-04`.
+- **Links:** `ai/PROPOSALS/2026-11-21-session2-corpus-corrections/proposal.md`; claims `C-s2-corrections-01` through `-04`. First commit `2447617` landed the example/addendum/ledger/claim/`human_node` edits; the `src/` patches and proposal follow in a completion commit because a single push may carry at most four large file substitutions.
 - **What this means:** A human running the experimental scripts on Linux should now get “not implemented” instead of random scores, and should not see the mussel example or the addendum quietly over-claim.
 
 ## 2026-11-21 — Session 1 summary (Rounds 2–6)

@@ -49,9 +49,8 @@ class LibraModel:
         Evaluates potential OIE increase using Ricci curvature changes.
         Returns: OIE impact score (0 to 1, lower is better).
         """
-        ricci_change = np.random.uniform(0, 0.5)  
-        oie_impact = ricci_change / 0.5  
-        return oie_impact
+        # Not implemented. Do not invent an OIE impact score.
+        return None
 
     def compute_decision_balance(self, input_data):
         """
@@ -59,9 +58,8 @@ class LibraModel:
         Verifies logical consistency using Symbolic Language Processing.
         Returns: Decision balance score (0 to 1, higher is better).
         """
-        prior_knowledge_match = np.random.uniform(0.5, 1.0)  
-        decision_balance = prior_knowledge_match
-        return decision_balance
+        # Not implemented. Do not invent a decision-balance score.
+        return None
 
     def update_hkl_metrics(self, input_data, oie_impact):
         """
@@ -76,7 +74,8 @@ class LibraModel:
         std = np.std(heat_resources)
         self.hkl_metrics["GDS"] = 1 - (std / mean) if mean > 0 else 0
 
-        self.hkl_metrics["OIE"] += oie_impact
+        if oie_impact is not None:
+            self.hkl_metrics["OIE"] += oie_impact
 
     def process_input(self, input_data):
         """
@@ -94,11 +93,23 @@ class LibraModel:
 
         oie_impact = self.compute_oie_impact(input_data)
         self.update_hkl_metrics(input_data, oie_impact)
+        if oie_impact is None:
+            return "not_implemented", {
+                "reason": "OIE impact score is not implemented; no invented score",
+                "oie_impact": None,
+                "entropy_score": entropy_score,
+            }
         if oie_impact > self.oie_impact_threshold:
             self.flagged_inputs += 1
             return "flag", {"reason": "High OIE impact", "oie_impact": oie_impact}
 
         decision_balance = self.compute_decision_balance(input_data)
+        if decision_balance is None:
+            return "not_implemented", {
+                "reason": "Decision-balance score is not implemented; no invented score",
+                "decision_balance": None,
+                "oie_impact": oie_impact,
+            }
         if decision_balance >= self.decision_balance_threshold:
             self.accepted_inputs += 1
             self.giln_knowledge_manifold[input_data] = decision_balance

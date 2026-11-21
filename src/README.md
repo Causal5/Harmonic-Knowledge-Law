@@ -3,23 +3,26 @@
 **TL;DR.** This folder is experimental code. It is not an official
 implementation of current Absorbic Effort, HKL, or the 16 October / 30
 October definitions. Do not cite scores from these files as evidence for
-the framework.
+the framework. Several helpers that used to invent numbers now return
+`None` (not implemented), and expenditure is recorded separately from
+correction.
 
-**Status (ai/evolution, 2026-11-21, audit
-`ai/AUDITS/2026-11-21-layer1-consistency.md`).**
+**Status (ai/evolution, 2026-11-21, Round 7 patch, proposed).**
 
 - The root `README.md` already lists `src/` as experimental implementation
   material.
-- `IIF_Evaluator.py` defines `_apply_pae`, which subtracts a term built
-  from an `effort` argument from an error score. Current definitions keep
-  expenditure and achieved correction separate: a costly attempt can fail.
-- Several `_score_*` methods return `np.random.uniform(0.5, 1.0)`. Those
-  values are not measurements.
-- Imports such as `from giln_ai import GILNNetworkAI` and
-  `from iif_evaluator import IIFEvaluator` do not match the filenames
-  `GILN_AI.py` and `IIF_Evaluator.py`. On a case-sensitive Linux check
-  (2026-11-21) those lowercase imports failed with `ModuleNotFoundError`.
+- `IIF_Evaluator._apply_pae` now records `expenditure` separately from
+  `achieved_correction` (default `None` / not implemented) and does **not**
+  subtract effort from `delta`. That follows the 16 October 2026 decision
+  record and current AEF §2: a costly attempt can fail.
+- The previously random `_score_*` methods, and other `np.random`
+  placeholder scores in `GILN_AI.py`, `giln_network.py`, and
+  `Libra_Model.py`, now return `None` (not implemented). Initial `hrs`
+  arrays are `None`, not zeros pretending to be scores.
+- Imports use the actual filenames: `from GILN_AI import GILNNetworkAI`
+  and `from IIF_Evaluator import IIFEvaluator`. Test scripts print `None
+  (not implemented)` instead of crashing on missing scores.
 
-No function bodies are patched in this notice. A later cycle may repair
-imports or rewrite the helpers against the current registry; that work is
-not done here.
+These scripts can be run, but their numeric “HKL-AI” outputs are not
+measurements. A later cycle may implement real scorers against the
+current registry; that work is not done here.
