@@ -10,6 +10,20 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-21 — Round 16: Theory MAB registry and first assessments
+
+Process aid, not a worked empirical fill. `accept-with-revisions`.
+Opened `ai/THEORY_MAB.md` as a ratification-pending arm registry.
+Assessments were written before any development. ARM-01–04 (spatial
+sink-impairment shortcut; uADS as \(\eta\); score Bite 5 now; construct
+Sahel \(V\) from WDI series) are `drop`. ARM-05 (later dictionary fill
+once official series and predeclarations exist) is `wait`, which is not
+explore and is not permission to score. Rewards are qualitative prose,
+not a fitted algorithm. Layer 0 is unchanged. No arm was developed.
+C commit: this commit.
+Registry: `ai/THEORY_MAB.md`.
+Verdict: `ai/LEDGER/verdicts/V-2026-11-21-theory-mab.md`.
+
 ## 2026-11-21 — Round 15: Niger WDI/FAOSTAT cereal-yield precursor
 
 Worked example with a retrieved official interannual series.

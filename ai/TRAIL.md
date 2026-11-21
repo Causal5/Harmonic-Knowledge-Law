@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: theory MAB registry accepted with revisions (Round 16)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed five assessed arms, four dropped and one waiting, and no arm developed. Applied wording that “reward signal” is qualitative prose, not a numeric score, and that `wait` is not explore and expires only after a new assessment when the missing official series and predeclarations are actually in hand. Layer 0 was not changed.
+- **Why:** Session 3 requires C to apply revisions in the same verdict commit when a theory-process move is made.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-theory-mab.md`; `ai/THEORY_MAB.md`; [A] `cfe371c`; [B] `aa3d38b`. No pull request. `main` was not changed.
+- **What this means:** There is now a written gate before anyone extends the base theory from a new premise. The first use of that gate was mostly to refuse premature extensions.
+
 ## 2026-11-21 — Adversary: challenges to the theory MAB registry (Round 16)
 
 - **Agent:** Adversary (B)

@@ -1,6 +1,6 @@
 # Theory multi-armed bandit (MAB) registry
 
-**Status:** proposed, then to be set by the Round 16 verdict. Ratification-pending as a process aid on `ai/evolution`. It is not Layer 0, not a registry amendment, and not an official HKL primitive. It is not a fitted bandit algorithm and it does not assign numeric rewards.
+**Status:** accepted-with-revisions (Round 16 / Session 3). Ratification-pending as a process aid on `ai/evolution`. It is not Layer 0, not a registry amendment, and not an official HKL primitive. It is not a fitted bandit algorithm and it does not assign numeric rewards.
 
 **Opened:** 2026-11-21, America/New_York (Session 3, Round 16), after four worked-example rounds (12–15).
 
@@ -20,7 +20,7 @@ Each arm record has:
 6. **Worked-example reward signal.** Qualitative only, taken from retrieved and computed Session 3 results (and standing Session 1–2 constraints). Not a numeric score.
 7. **Decision.** `explore`, `exploit`, `wait`, or `drop`, with a date. `exploit` would mean developing a already-supported arm; none is in that state here.
 
-Do not develop an arm in the same cycle that first assesses it, unless Jordan directs otherwise. A `drop` or `wait` is a complete outcome.
+Do not develop an arm in the same cycle that first assesses it, unless Jordan directs otherwise. A `drop` or `wait` is a complete outcome. A `wait` is not an `explore` and is not permission to score Bite 5, choose weights, or construct \(V\). It expires only after a new assessment written when the missing official series and predeclarations are actually in hand. “Reward signal” in this file is qualitative prose, not a computed score, prior, or regret bound.
 
 ## Arm records
 

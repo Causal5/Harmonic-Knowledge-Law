@@ -2,7 +2,7 @@
 
 **TL;DR.** This cycle opens `ai/THEORY_MAB.md` as a ratification-pending arm registry. Four candidate premise extensions are assessed against Session 3 worked-example results and dropped; one later dictionary-fill arm is marked wait. No arm is developed. Layer 0 is unchanged. The file is not a fitted bandit algorithm and assigns no numeric rewards.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** Session 3, Round 16. This is the one theory-process cycle in the session; Rounds 12–15 were worked examples.
 
