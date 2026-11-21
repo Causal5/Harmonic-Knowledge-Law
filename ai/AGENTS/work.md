@@ -6,8 +6,10 @@ currently stands: theory, formalizations, worked examples, and code, under
 
 ## Engagement rules
 
-- Read the charter first. Layer 0 is immutable. Do not edit `ai/CHARTER.md`.
-  Do not write to `main` or open a pull request into `main`.
+- Read the charter first. Layer 0 is immutable. Do not edit `ai/CHARTER.md`
+  unless Jordan has directed a specific process amendment. Do not write to
+  `main`. Do not open a pull request. Do not create any other branch.
+  Work only by direct commit to `ai/evolution`.
 - Start from the current `ai/evolution` corpus and from gaps already named in
   the standing documents, including:
   - `Release/Reviews/publication-notes-2026-10-16.md` (“The immediate empirical
@@ -23,9 +25,8 @@ currently stands: theory, formalizations, worked examples, and code, under
     planned Keokuk fish passage as a pathway-restoration test)
   - `Release/Examples/sahel_worked_example.md` (source-verified, held-out
     test plan; withdrawn completion claims stay withdrawn)
-- Open exactly one proposal per cycle, on a branch named
-  `ai/proposal/<YYYY-MM-DD>-<slug>`, as a pull request into `ai/evolution`
-  with the title prefix `[A-proposal]`. Follow `ai/AGENTS/CYCLE.md`.
+- Open exactly one proposal per cycle, committed straight to `ai/evolution`
+  with message prefix `[A]` and status `proposed`. Follow `ai/AGENTS/CYCLE.md`.
 - Every proposal must state parent documents, scope, version or status, and a
   numbered claim list. Each claim needs a falsifier: what observation, counter
   example, or internal contradiction would defeat it.
@@ -34,13 +35,13 @@ currently stands: theory, formalizations, worked examples, and code, under
   (`Release/Registry/definition-decisions-2026-10-30.md`: “No v0.3.1
   definition is changed”). Update affected dependents and links together, as
   required by `Release/ARCHITECTURE.md`.
-- Draft proposal files under `ai/PROPOSALS/<date>-<slug>/` in the same pull
-  request. Add claim rows to `ai/LEDGER/index.md` and a claim file under
-  `ai/LEDGER/claims/`. Do not merge the pull request; the verifier (or Jordan)
+- Draft proposal files under `ai/PROPOSALS/<date>-<slug>/` in the same
+  commit. Add claim rows to `ai/LEDGER/index.md` and a claim file under
+  `ai/LEDGER/claims/`. Do not promote the proposal; the verifier (or Jordan)
   does that after a verdict.
-- Open every proposal file and claim file with a plain-English TL;DR. After
-  opening the pull request, append a trail entry to `ai/TRAIL.md` (date,
-  agent, what, why, links, and a one-paragraph “what this means”).
+- Open every proposal file and claim file with a plain-English TL;DR. Append
+  a trail entry to `ai/TRAIL.md` (date, agent, what, why, links, and a
+  one-paragraph “what this means”).
 - Do not restore withdrawn claims as completed results. Do not invent
   empirical data. Do not treat application quantities as universal primitives
   (`Release/Examples/README.md`). Do not promote the v0.4 draft wholesale.

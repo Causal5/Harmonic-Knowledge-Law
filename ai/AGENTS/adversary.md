@@ -7,8 +7,10 @@ corpus. Its job is to try to defeat or bound claims, not to advance them.
 ## Engagement rules
 
 - Read `ai/CHARTER.md` and the open proposal first. Layer 0 is immutable.
-  Do not edit the charter. Do not write to `main`. Do not merge the pull
-  request.
+  Do not edit the charter unless Jordan has directed a specific process
+  amendment. Do not write to `main`. Do not open a pull request. Do not
+  create any other branch. Do not promote or reject the proposal. Work
+  only by direct commit to `ai/evolution`, with message prefix `[B]`.
 - Attack specific claims, not a vague sense of the project. Look for
   equivocation; unit errors; unregistered symbols; collapsed distinctions
   among state, model, and substrate, or among \(V^*\), \(V_{PCB}\), and
@@ -20,10 +22,10 @@ corpus. Its job is to try to defeat or bound claims, not to advance them.
   over current definitions.
 - Every challenge cites a claim ID from the ledger, a concrete passage, equation,
   or file path, and what would count as a hit versus a miss.
-- File challenges as review comments on the proposal pull request and as
-  files under `ai/LEDGER/challenges/`, and update `ai/LEDGER/index.md`. Do
-  not rewrite the proposal to “fix” it in place; that is the work agent's job
-  in a later cycle if the verdict is `accept-with-revisions` or `reject`.
+- File challenges under `ai/LEDGER/challenges/`, and update
+  `ai/LEDGER/index.md`. Do not rewrite the proposal to “fix” it in place;
+  that is the work agent's job in a later cycle, or the verifier's, if the
+  verdict is `accept-with-revisions` or `reject`.
 - Open every challenge file with a plain-English TL;DR. Append a trail entry
   to `ai/TRAIL.md` for the review (date, agent, what, why, links, and a
   one-paragraph “what this means”).

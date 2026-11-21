@@ -1,18 +1,26 @@
-# Cycle: proposal pull requests into `ai/evolution`
+# Cycle: direct commits on `ai/evolution`
 
-Each cycle is one proposal. The work agent opens a pull request into
-`ai/evolution`; the adversarial agent reviews; the verification agent posts a
-verdict and merges or closes. Roles run in separate sessions. Nothing in this
-cycle writes to `main`.
+Each cycle is one proposal. All work is committed **straight to
+`ai/evolution`**. There are no pull requests and no side branches. Roles
+run in separate sessions, one commit per role step. Nothing in this cycle
+writes to `main`.
+
+Jordan's cardinal rule: agents work only on `ai/evolution`, by direct
+commit. Never `main`. Never a pull request. Never any other branch.
 
 ## Roles and order
 
-1. **Work agent (A)** — follows `ai/AGENTS/work.md`. Creates a proposal branch
-   and opens the pull request.
-2. **Adversarial agent (B)** — follows `ai/AGENTS/adversary.md`. Reviews and
-   files challenges on that pull request. Does not merge.
-3. **Verification agent (C)** — follows `ai/AGENTS/verifier.md`. Posts one
-   verdict and merges or closes. Jordan may perform this step instead.
+1. **Work agent (A)** — follows `ai/AGENTS/work.md`. Commits the proposal
+   and claims to `ai/evolution` with status `proposed`. Commit message
+   prefix: `[A]`.
+2. **Adversarial agent (B)** — follows `ai/AGENTS/adversary.md`. Commits
+   challenge files to `ai/evolution`. Commit message prefix: `[B]`.
+   Does not promote or reject the proposal.
+3. **Verification agent (C)** — follows `ai/AGENTS/verifier.md`. Commits
+   the verdict to `ai/evolution` with prefix `[C]`, and either promotes
+   the proposal (status `accepted` or `accepted-with-revisions`, applying
+   any required revisions in that same commit) or moves it to
+   `ai/REJECTED/`. Jordan may perform this step instead.
 
 Do not play more than one of these roles in a single session.
 
@@ -21,7 +29,7 @@ Do not play more than one of these roles in a single session.
 - Every agent action (opening a proposal, filing challenges, posting a
   verdict, or applying required revisions) **must** append an entry to
   `ai/TRAIL.md`. The entry includes: date (America/New_York), which agent,
-  what was done, why, links to the pull request and ledger files, and a
+  what was done, why, links to the ledger files and the commit, and a
   one-paragraph plain-English “what this means” summary. Newest entries go
   at the top, below the trail introduction.
 - Every proposal file under `ai/PROPOSALS/`, every challenge file under
@@ -33,21 +41,6 @@ Do not play more than one of these roles in a single session.
 These landmarks exist so a human can follow the branch without reading every
 diff first.
 
-## Branch naming
-
-Proposal branches are created from the current head of `ai/evolution`:
-
-```
-ai/proposal/<YYYY-MM-DD>-<slug>
-```
-
-Examples: `ai/proposal/2026-11-21-keokuk-renewal-coverage`.
-
-The date is the date the proposal branch is opened (America/New_York). The
-slug is lowercase ASCII, hyphenated, and short. One proposal per branch and
-per pull request. The pull request base is always `ai/evolution`, never
-`main`.
-
 ## One proposal per cycle
 
 A proposal is a single scoped change: one definition cluster, one example or
@@ -55,88 +48,65 @@ example revision, one formalization, or one code/test change, plus the
 ledger entries that describe it. Do not bundle unrelated theory changes.
 If the work is larger, split it across later cycles.
 
-## Pull request title and body
+Proposal files live under `ai/PROPOSALS/<YYYY-MM-DD>-<slug>/`. The date is
+the date the proposal is first committed (America/New_York). The slug is
+lowercase ASCII, hyphenated, and short.
 
-Title:
+## Commit messages
+
+One commit per role step, prefixed as follows:
 
 ```
-[A-proposal] <short description>
+[A] <short description>
+[B] <short description>
+[C] <short description>
 ```
 
-Body (copy and fill):
+Do not combine roles in one commit. Do not commit a proposal, a challenge,
+or a verdict to any branch other than `ai/evolution`.
 
-```markdown
-## Proposal
+## Proposal record (A fills)
 
-- Branch: `ai/proposal/<YYYY-MM-DD>-<slug>`
-- Base: `ai/evolution`
-- Parent documents:
-- Scope:
-- Status proposed (draft / additive definition / example / code / test):
+When A commits, include:
 
-## Claims
+- Proposal file(s) under `ai/PROPOSALS/<YYYY-MM-DD>-<slug>/`, opening with
+  a TL;DR, and stating parent documents, scope, and status `proposed`.
+- Numbered claims, each with a falsifier, as files under `ai/LEDGER/claims/`
+  and as rows in `ai/LEDGER/index.md` with status `proposed`.
+- A trail entry in `ai/TRAIL.md`.
 
-| Claim ID | Statement | Falsifier |
-|---|---|---|
-| C-<slug>-01 |  |  |
+## Challenge record (B fills)
 
-Ledger claims: `ai/LEDGER/claims/`
-Proposal files: `ai/PROPOSALS/<YYYY-MM-DD>-<slug>/`
+When B commits, include:
 
-## Charter compliance
+- Challenge files under `ai/LEDGER/challenges/`, each opening with a TL;DR,
+  citing a claim ID, a concrete passage or path, and hit/miss criteria.
+- Updates to `ai/LEDGER/index.md` linking those challenges.
+- A trail entry in `ai/TRAIL.md`.
 
-- [ ] Layer 0 unviolated
-- [ ] Additive-first relative to Registry v0.3.1 / v0.3.2
-- [ ] No write to `main`
-- [ ] Withdrawn claims not restored as completed results
+B does not rewrite the proposal to “fix” it, and does not change claim
+status to accepted or rejected.
 
-## Checks the verifier should run
-
-- (links, algebra, scripts, unit or registry diffs, as applicable)
-
-## Adversary (filled by B)
-
-- Challenge files:
-- Review conclusion:
-
-## Verdict (filled by C)
-
-- Verdict: `accept` | `accept-with-revisions` | `reject` | `needs-evidence`
-- Verdict file:
-- Action: merged / closed / waiting for revisions
-```
-
-## Labels (text to apply; create a label on first use if it does not exist)
-
-Use these names if labels are available. If they have not been created yet,
-put the same tokens in the pull request body rather than blocking the cycle.
-
-- `ai-cycle`
-- `role:work` on the opening; later comments may note `role:adversary` and
-  `role:verifier`
-- `verdict:accept` / `verdict:accept-with-revisions` / `verdict:reject` /
-  `verdict:needs-evidence` (verifier only, when the verdict is posted)
-
-This file does not itself create repository labels.
-
-## Verdict vocabulary
+## Verdict vocabulary (C only)
 
 Only the verifier or Jordan issues a verdict, and only one of:
 
-| Verdict | Meaning | Action on the pull request |
+| Verdict | Meaning | Action on `ai/evolution` |
 |---|---|---|
-| `accept` | Proposal may enter `ai/evolution` as submitted | Merge into `ai/evolution` |
-| `accept-with-revisions` | Accepted only with specified fixes | Merge after those fixes land, or merge the accepted subset and list residuals |
-| `reject` | Proposal does not enter the standing corpus | Close without merging; record under `ai/REJECTED/` |
-| `needs-evidence` | Not accepted; a named evidence gap remains | Do not merge; leave open or close with the gap stated |
+| `accept` | Proposal enters the standing corpus as submitted | Mark claims and the proposal `accepted`; follow promotion steps |
+| `accept-with-revisions` | Accepted only with specified fixes | Apply those revisions in the `[C]` commit; mark `accepted-with-revisions`; list any residual work |
+| `reject` | Proposal does not enter the standing corpus | Mark `rejected`; move or copy the proposal record to `ai/REJECTED/` with the reason |
+| `needs-evidence` | Not accepted; a named evidence gap remains | Leave status `needs-evidence`; do not promote; state the gap and the next step |
 
 Consistency or publication-integrity checks are not empirical validation.
 
 ## After the verdict
 
-- Update `ai/LEDGER/index.md` and write `ai/LEDGER/verdicts/`.
+- Write `ai/LEDGER/verdicts/` (TL;DR first) and update `ai/LEDGER/index.md`.
 - Append a trail entry to `ai/TRAIL.md`.
-- On `accept` or an accepted subset, follow `Release/ARCHITECTURE.md`
-  promotion steps and add an `ai/CHANGELOG.md` entry. Do not treat the merge
-  as a `main` publication, and do not rewrite root `CHANGELOG.md` as if it were.
-- Never merge to `main`.
+- On `accept` or `accept-with-revisions`, follow `Release/ARCHITECTURE.md`
+  promotion steps and add an `ai/CHANGELOG.md` entry. Do not treat the
+  commit as a `main` publication, and do not rewrite root `CHANGELOG.md`
+  as if it were.
+- Never write to `main`. Never open a pull request. Never create a side
+  branch.

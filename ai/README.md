@@ -11,35 +11,38 @@ structural agents under [`CHARTER.md`](CHARTER.md). The charter's Layer 0
 premise is immutable; Layer 1 (Registry v0.3.2 and the reconciled papers)
 may be extended only through the cycle in [`AGENTS/CYCLE.md`](AGENTS/CYCLE.md).
 
-This branch is **not validated science**. Publication or a merge into
+This branch is **not validated science**. Publication or a commit on
 `ai/evolution` is not empirical validation, and adopting a definition is not
 evidence that a hypothesis is true. Those limits are already stated in
 `Release/Reviews/publication-notes-2026-10-16.md` and `ai/CHARTER.md`.
 
 This branch is **not** the human-owned main line. `main` remains Jordan's
 publication branch (GitHub: [Causal5](https://github.com/Causal5)). Agents
-must not write to `main` or open pull requests into `main`. Charter
+work **only** on `ai/evolution`, by direct commit. They must not write to
+`main`, open pull requests, or create other branches. Charter Layer 0
 amendments are only by Jordan.
 
 ## How the three agents work
 
-Each cycle is one proposal, as a pull request **into** `ai/evolution`:
+Each cycle is one proposal, committed straight to `ai/evolution`:
 
 1. **Work agent (A)** — [`AGENTS/work.md`](AGENTS/work.md) — advances the
    framework from where this branch stands (theory, examples, code) under
-   the charter. Opens a branch `ai/proposal/<date>-<slug>` and a pull
-   request titled with the prefix `[A-proposal]`.
+   the charter. Commits a proposal and claims with status `proposed`.
+   Message prefix: `[A]`.
 2. **Adversarial agent (B)** — [`AGENTS/adversary.md`](AGENTS/adversary.md)
-   — probes weaknesses, fallacies, and falsifiers. Reviews the pull request
-   and files challenges. Does not merge.
+   — probes weaknesses, fallacies, and falsifiers. Commits challenge files.
+   Message prefix: `[B]`. Does not promote or reject.
 3. **Verification agent (C)** — [`AGENTS/verifier.md`](AGENTS/verifier.md)
-   — checks claims, math, code, and examples; posts one verdict
+   — checks claims, math, code, and examples; commits one verdict
    (`accept`, `accept-with-revisions`, `reject`, or `needs-evidence`);
-   merges or closes. Jordan may do this step instead.
+   promotes the proposal or moves it to `ai/REJECTED/`. Message prefix:
+   `[C]`. Jordan may do this step instead.
 
-Roles run in separate sessions. Every agent action appends an entry to
-[`TRAIL.md`](TRAIL.md), the breadcrumb log for human readers. Every
-proposal, challenge, and verdict file starts with a plain-English TL;DR.
+Roles run in separate sessions, one commit per role step. Every agent
+action appends an entry to [`TRAIL.md`](TRAIL.md), the breadcrumb log for
+human readers. Every proposal, challenge, and verdict file starts with a
+plain-English TL;DR.
 
 ## Where to start reading
 

@@ -153,8 +153,8 @@ The v0.4 draft must not be promoted wholesale.
 It does not mean:
 
 - Editing this charter, or changing Layer 0.
-- Writing to `main`, opening a pull request into `main`, or treating an
-  AI-branch merge as a publication to `main`.
+- Writing to `main`, opening a pull request, creating a side branch, or
+  treating an `ai/evolution` commit as a publication to `main`.
 - Silently rewriting a v0.3.1 definition.
 - Treating a new symbol or application quantity as a universal law because it
   appeared in an example.
@@ -183,11 +183,25 @@ On this branch, also append the ledger verdict and an entry in
 `ai/CHANGELOG.md`. Do not silently rewrite the root `CHANGELOG.md` as if the
 work had been published on `main`.
 
+## Process
+
+All cycle work is a direct commit to `ai/evolution`, as specified in
+`ai/AGENTS/CYCLE.md`. There are no pull requests and no side branches.
+Jordan directed this process rule on 21 November 2026. It does not change
+Layer 0.
+
+- The work agent commits a proposal and claims with status `proposed`
+  (message prefix `[A]`).
+- The adversarial agent commits challenge files (message prefix `[B]`).
+- The verification agent commits one verdict (message prefix `[C]`) and
+  either promotes the proposal (applying any required revisions) or moves
+  it to `ai/REJECTED/`. Jordan may perform the verdict step.
+
 ## Ownership
 
 - `main` is human-owned (Jordan / Causal5). Agents never write to it.
-- `ai/evolution` is the only branch agents may revise as the standing AI corpus.
-- Proposal work uses short-lived branches `ai/proposal/<date>-<slug>` whose
-  pull requests target `ai/evolution`, as specified in `ai/AGENTS/CYCLE.md`.
-- Only the verification agent, or Jordan, may merge or close those pull
-  requests after a written verdict.
+- `ai/evolution` is the only branch agents may revise as the standing AI
+  corpus, and the only branch they may commit to.
+- Agents must not open pull requests or create other branches.
+- Only the verification agent, or Jordan, may promote a proposal or move
+  it to `ai/REJECTED/` after a written verdict.

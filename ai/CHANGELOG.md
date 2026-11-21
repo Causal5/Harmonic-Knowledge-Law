@@ -4,6 +4,20 @@ This log records changes on `ai/evolution` only. It is not the repository
 publication changelog (`CHANGELOG.md` on `main`). An entry here is not a
 publication to `main` and is not scientific validation.
 
+## 2026-11-21 — Cycle changed to direct commits on `ai/evolution`
+
+- Jordan's cardinal rule: work only on `ai/evolution`, by direct commit.
+  No pull requests, no other branches, never `main`.
+- Updated `ai/AGENTS/CYCLE.md`, the three agent files, `ai/README.md`, and
+  the process / ownership section of `ai/CHARTER.md`. Layer 0 of the
+  charter is unchanged. This process amendment was directed by Jordan.
+- Cycle is now: A commits a proposal and claims with status `proposed`
+  (`[A]`); B commits challenges (`[B]`); C commits the verdict (`[C]`)
+  and either promotes the proposal or moves it to `ai/REJECTED/`.
+- One commit per role step. Every action still appends `ai/TRAIL.md` and
+  every proposal, challenge, and verdict file still opens with a
+  plain-English TL;DR.
+
 ## 2026-11-21 — Branch README, license notice, and human trail
 
 - Rewrote `ai/README.md` as the labeled AI-evolution branch orientation
