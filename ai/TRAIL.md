@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: ebonyshell renewal-coverage protocol (Round 3)
+
+- **Agent:** Work (A)
+- **What:** Proposed a blank preregistration sheet for computing \(\eta^{nat}_{TM}\) and \(\eta^{tot}_{TM}\) for ebonyshell above and below Keokuk, using the already-registered definitions. No rates were filled. The example’s qualitative “effectively zero / severed” line is not treated as a computed result.
+- **Why:** The mussel README and the 30 October decision record already list this comparison as the first application, if recruitment data exist. Writing the recipe without inventing the data keeps that open step honest.
+- **Links:** `ai/PROPOSALS/2026-11-21-ebonyshell-renewal-coverage-protocol/proposal.md`; `Release/Examples/ohio-mississippi-mussels/ebonyshell_renewal_coverage_protocol_v0.1.md`; claims `C-ebonyshell-renewal-01` through `-04`.
+- **What this means:** A later human or study can fill official windows and series against a predeclared sheet, or leave the sheet blank if the data are not available.
+
 ## 2026-11-21 — Verifier: consistency audit accepted with revisions (Round 2)
 
 - **Agent:** Verifier (C)
