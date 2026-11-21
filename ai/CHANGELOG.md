@@ -10,6 +10,25 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-21 — Round 13: Tulare Lake 5-022.12 DTW contrast and retrieved CVHM2 figures
+
+Worked example with retrieved public records. `accept-with-revisions`.
+Official DWR Bulletin 118 subbasin 5-022.12 (San Joaquin Valley–Tulare
+Lake, 837.356 sq mi) was locked from a live FeatureServer GeoJSON.
+A predeclared USGS 72019 spring 2015 vs spring 2024 contrast yields
+n=0 qualifying wells (one in-polygon 2015 measurement; zero in 2024).
+That is a coverage result in this API extract, not a finding of no
+water-level change; DWR/CASGEM series were not retrieved. The USGS
+Publications Warehouse abstract of Faunt et al. (2024) was retrieved
+and quotes approximately 158 km³ of Central Valley storage loss from
+pre-development to 2019, about 15% permanent — abstract-only, not
+recomputed, not a 5-022.12 2015–2024 result. Bite 5 and V_W were not
+scored. The verifier re-ran the script and checked that the pubs page
+and FeatureServer query resolve.
+C commit: this commit.
+Fill: `Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/`.
+Verdict: `ai/LEDGER/verdicts/V-2026-11-21-tulare-lake-dtw.md`.
+
 ## 2026-11-21 — Round 12: Keokuk / Lock 19 official status and USGS 05474500 discharge
 
 Worked example with retrieved public records, not a blank template.

@@ -2,7 +2,7 @@
 
 **TL;DR.** The study unit is the official DWR Tulare Lake subbasin 5-022.12, not a claim about “the” Central Valley boundary.
 
-**Status:** `proposed`
+**Status:** `accepted`
 
 **Statement.** The locked official spatial unit is DWR Bulletin 118 subbasin 5-022.12 (San Joaquin Valley–Tulare Lake), retrieved as GeoJSON from DWR’s `i08_B118_CA_GroundwaterBasins` FeatureServer on 21 November 2026. The fill does not present this subbasin as “the” official Central Valley or San Joaquin Valley boundary for Bite 5.
 

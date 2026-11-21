@@ -2,7 +2,7 @@
 
 **TL;DR.** This cycle locks an official Bulletin 118 subbasin, queries real USGS field measurements, and computes a paired spring 2015 vs 2024 depth-to-water change. The result is n=0 qualifying wells. The cycle also retrieves, but does not recompute, Faunt et al. (2024)’s published “approximately 158 km³” Central Valley storage-loss figure from the USGS Publications Warehouse. It does not score Bite 5 or \(V_W\).
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** Session 3, Round 13.
 

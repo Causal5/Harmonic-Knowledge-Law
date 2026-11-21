@@ -1,6 +1,6 @@
 # Worked fill: Bulletin 118 Tulare Lake (5-022.12) spring DTW contrast, and retrieved CVHM2 storage-loss figures
 
-**Status:** proposed (Round 13 / Session 3). Not a Bite 5 score. Not a \(V_W\) computation. Not an independent rerun of CVHM2.
+**Status:** accepted-with-revisions (Round 13 / Session 3). Not a Bite 5 score. Not a \(V_W\) computation. Not an independent rerun of CVHM2.
 
 **Retrieval date:** 2026-11-21, America/New_York. See `retrieval_log.md`.
 
@@ -42,3 +42,14 @@ These are published model outputs plus historical approximations, for a Central 
 - No independent CVHM2 run.
 - No invented 2015–2024 water-level change.
 - No Sahel claim is touched. No base-theory or MAB arm is opened here.
+
+## 5. Verifier revisions (Round 13)
+
+The verifier re-ran `scripts/compute_tulare_lake_spring_dtw.py --offline` on 21 November 2026 and reproduced n=0 qualifying wells (one in-polygon spring 2015 72019 value; zero spring 2024 values). The committed GeoJSON is subbasin 5-022.12, SAN JOAQUIN VALLEY - TULARE LAKE, 837.356 square miles. https://pubs.usgs.gov/publication/70253177 and the DWR FeatureServer query both returned HTTP 200 the same day, and the excerpt still contains the 158 km³ and “About 15%” sentences.
+
+Revisions, which mostly keep language A already had and must not be dropped later:
+
+- n=0 is an absence of qualifying USGS 72019 field-measurement pairs in this API extract. It is **not** a measured finding that Tulare Lake water levels were unchanged from 2015 to 2024. DWR/CASGEM/SGMA water-level series were not retrieved.
+- March–May remains a declared convention, not a retrieved official DWR or USGS spring-season definition.
+- The 158 km³ and “about 15%” figures remain abstract-only quotations from the USGS Publications Warehouse record of Faunt et al. (2024). They were not read from the paper body or supplement, were not recomputed, must not be turned into a more precise product such as 23.7 km³, and must not be applied as a 5-022.12 2015–2024 result.
+

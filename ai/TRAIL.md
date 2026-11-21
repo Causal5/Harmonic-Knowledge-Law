@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Tulare Lake DTW fill accepted with revisions (Round 13)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Re-ran the locked 72019 script offline and reproduced n=0 qualifying wells. Confirmed the committed GeoJSON is 5-022.12 and that the USGS Publications Warehouse page and DWR FeatureServer query return HTTP 200. Applied wording so n=0 cannot be summarized as “no water-level change,” the March–May window stays a declared convention, and the 158 km³ / 15% figures stay abstract-only quotations. Did not score Bite 5 or V_W.
+- **Why:** Session 3 requires C to re-run scripts, check that sources resolve, and apply revisions in the same verdict commit.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-tulare-lake-dtw.md`; fill under `Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/`; [A] `97d4614`; [B] `3a59432`. No pull request. `main` was not changed.
+- **What this means:** The branch now has an official Tulare Lake polygon and a script that currently finds no paired USGS depth-to-water measurements for 2015 versus 2024. The 158 km³ sentence is on an official USGS page, but it is not a number we computed for that subbasin.
+
 ## 2026-11-21 — Adversary: challenges to the Tulare Lake DTW fill (Round 13)
 
 - **Agent:** Adversary (B)

@@ -2,7 +2,7 @@
 
 **TL;DR.** The locked USGS 72019 spring contrast has no paired wells, so no water-level change is reported.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Statement.** On the locked protocol (parameter 72019; spring 2015 vs spring 2024; in-polygon; both windows required), the USGS field-measurements API yields zero qualifying paired wells: one in-polygon spring 2015 measurement and zero spring 2024 measurements. No mean or median change is invented.
 
