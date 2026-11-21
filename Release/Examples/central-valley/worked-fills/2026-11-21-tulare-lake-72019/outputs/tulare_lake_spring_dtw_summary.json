@@ -1,0 +1,79 @@
+{
+  "protocol": {
+    "subbasin_number": "5-022.12",
+    "parameter_code": "72019",
+    "spring_2015": [
+      "2015-03-01",
+      "2015-05-31"
+    ],
+    "spring_2024": [
+      "2024-03-01",
+      "2024-05-31"
+    ],
+    "delta_definition": "median DTW spring 2024 minus median DTW spring 2015; positive = deeper water table in 2024",
+    "purpose": "observed head-change field for a locked official subbasin; not V_W; not Bite 5; not a basin storage volume"
+  },
+  "fetch": {
+    "computed_at_local": "2026-11-21 16:37:43 EST",
+    "offline": false,
+    "bbox_used_for_api": [
+      -119.97861867876085,
+      35.77577063107174,
+      -119.4745689943781,
+      36.488987106404515
+    ],
+    "subbasin": {
+      "Basin_Subbasin_Number": "5-022.12",
+      "Basin_Subbasin_Name": "SAN JOAQUIN VALLEY - TULARE LAKE",
+      "Basin_Name": "SAN JOAQUIN VALLEY",
+      "Area_SqMiles": 837.356,
+      "Area_Acres": 535907,
+      "OBJECTID": 315,
+      "Comments": "Adjusted northern boundary to Fresno/Kings Co boundary and to South Fork Kings River; adjusted southern boundary to Kern Co bnd; adjusted eastern boundary as per basin boundary modification request."
+    },
+    "mode": "live",
+    "n_fetched_features": 1
+  },
+  "chunk_meta": [
+    {
+      "year": 2015,
+      "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/field-measurements/items?f=json&parameter_code=72019&bbox=-119.97861867876085%2C35.77577063107174%2C-119.4745689943781%2C36.488987106404515&datetime=2015-03-01%2F2015-06-01&limit=10000&offset=0",
+      "http_status": 200,
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/field-measurements/items?f=json&parameter_code=72019&bbox=-119.97861867876085%2C35.77577063107174%2C-119.4745689943781%2C36.488987106404515&datetime=2015-03-01%2F2015-06-01&limit=10000&offset=0",
+      "numberReturned": 1,
+      "feature_count": 1,
+      "api_timeStamp": "2026-11-21T21:37:45.245504Z",
+      "offset": 0
+    },
+    {
+      "year": 2024,
+      "url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/field-measurements/items?f=json&parameter_code=72019&bbox=-119.97861867876085%2C35.77577063107174%2C-119.4745689943781%2C36.488987106404515&datetime=2024-03-01%2F2024-06-01&limit=10000&offset=0",
+      "http_status": 200,
+      "final_url": "https://api.waterdata.usgs.gov/ogcapi/v0/collections/field-measurements/items?f=json&parameter_code=72019&bbox=-119.97861867876085%2C35.77577063107174%2C-119.4745689943781%2C36.488987106404515&datetime=2024-03-01%2F2024-06-01&limit=10000&offset=0",
+      "numberReturned": 0,
+      "feature_count": 0,
+      "api_timeStamp": "2026-11-21T21:37:47.092218Z",
+      "offset": 0
+    }
+  ],
+  "counts": {
+    "n_features_fetched_or_loaded": 1,
+    "skipped_no_xy": 0,
+    "skipped_outside_polygon": 0,
+    "skipped_bad_date": 0,
+    "skipped_non_numeric": 0,
+    "skipped_other_window_inside_poly": 0,
+    "wells_inside_poly_with_any_kept_measurement": 1,
+    "wells_only_spring2015": 1,
+    "wells_only_spring2024": 0,
+    "n_qualifying_both_windows": 0,
+    "units_all_inside_poly_measurements": {
+      "ft": 1
+    },
+    "approval_all_inside_poly_measurements": {
+      "Approved": 1
+    },
+    "units_qualifying_wells": {}
+  },
+  "change_2024_minus_2015": null
+}

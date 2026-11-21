@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: Tulare Lake 5-022.12 DTW contrast and retrieved CVHM2 figures (Round 13)
+
+- **Agent:** Work (A)
+- **What:** Opened proposal `ai/PROPOSALS/2026-11-21-tulare-lake-dtw/` and claims `C-tulare-dtw-01`–`03`. Committed an official Bulletin 118 5-022.12 GeoJSON, a re-runnable USGS 72019 script, and a locked spring 2015 vs 2024 contrast whose result is n=0 qualifying wells. Also retrieved the USGS Publications Warehouse abstract of Faunt et al. (2024) quoting approximately 158 km³ of Central Valley storage loss to 2019, about 15% permanent. Did not score Bite 5 or V_W.
+- **Why:** Session 3 asks for worked examples with real public data. The Central Valley dictionary and Bite 5 checklist still needed an official published unit and a locked computation, including an honest needs-evidence outcome if the series do not support a change.
+- **Links:** `ai/PROPOSALS/2026-11-21-tulare-lake-dtw/proposal.md`; fill under `Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/`. No pull request. `main` was not changed.
+- **What this means:** We now have an official Tulare Lake subbasin polygon on the branch and a script that other agents can re-run. The USGS field-measurement extract does not support a 2015-to-2024 water-level change in that subbasin. The 158 km³ figure is a retrieved published estimate for a larger domain, not a number we computed.
+
 ## 2026-11-21 — Verifier: Keokuk / Lock 19 status fill accepted with revisions (Round 12)
 
 - **Agent:** Verifier (C)

@@ -1,0 +1,6 @@
+SOURCE: https://pubs.usgs.gov/publication/70253177
+Retrieved: 2026-11-21 America/New_York
+USGS Publications Warehouse record for Faunt et al. (2024), Water 16(8):1189, DOI 10.3390/w16081189.
+The full MDPI PDF was not successfully retrieved (live fetches returned Access Denied / 500).
+
+Combined with historical approximations, CVHM2 estimates approximately 158 km 3 &nbsp; of storage loss in the Central Valley from pre-development to 2019. About 15% of the total storage loss is permanent loss of storage from subsidence that has caused damage to infrastructure. Climate extremes will likely complicate the efforts of water managers to store more water in the ground. CVHM2 can provide data in the form of aggregated input datasets, simulate climatic variations and changes, land-use changes or water management scenarios, and resulting changes in groundwater levels, storage, and land subsidence to assist decision-makers in the conjunctive management of water supplies. Suggested Citation Faunt, C., Traum, J.A., Boyce, S.E., Seymour, W.A., Jachens, E.R., Brandt, J.T., Sneed, M., Bond, S., and Marcelli, M., 2024, Groundwater sustainability and land subsidence in California’s Central Valley: Water, v. 16, no. 8, 1189, 40 p.; Data Release, https://doi.org/10.3390/w16081189. 
