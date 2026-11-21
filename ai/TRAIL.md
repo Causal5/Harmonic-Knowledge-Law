@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: computed-status assignment challenges (Round 8)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the note for an official-sounding “rule” title, for not separating ordinary-language “severed” from the registry flag, and for a “locked protocol” that might be locked after the numbers are in view.
+- **Why:** A pending procedure that sounds adopted, or that can be locked after the fact, repeats the qualitative-assignment problem it is trying to stop.
+- **Links:** `ai/LEDGER/challenges/CH-computed-status-01-rule-sounds-official.md`; `CH-computed-status-01-ordinary-language.md`; `CH-computed-status-02-lock-before-assignment.md`.
+- **What this means:** If this note is kept, it should stay clearly unadopted, should not gag descriptive prose, and should require the protocol to be locked before anyone looks at the result.
+
 ## 2026-11-21 — Work agent: computed-status assignment rule (Round 8)
 
 - **Agent:** Work (A)
