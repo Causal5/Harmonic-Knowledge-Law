@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: object-class declaration accepted with revisions (Round 9)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the sheet is blank and not a registry amendment. Marked it as a proposed aid rather than a required cycle step, required a separate row for each use of a symbol, and added an unfilled effort-record field.
+- **Why:** A labeling aid that is treated as mandatory, or that merges two object classes, would undermine the Layer 0 distinctions it is meant to protect.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-object-class-declaration.md`; `ai/NOTES/object-class-declaration-sheet-v0.1.md`.
+- **What this means:** A later fill can use this sheet if wanted, but it is not automatically part of the cycle, and spending still cannot be written down as correction.
+
 ## 2026-11-21 — Adversary: object-class declaration challenges (Round 9)
 
 - **Agent:** Adversary (B)

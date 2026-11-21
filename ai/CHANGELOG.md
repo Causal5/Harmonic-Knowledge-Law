@@ -113,6 +113,17 @@ checked.
   accepted proposal files should be removed after the verdict.
 
 
+## 2026-11-21 — Round 9: object-class declaration sheet (accept-with-revisions)
+
+Blank ratification-pending sheet at
+`ai/NOTES/object-class-declaration-sheet-v0.1.md`. Later fills may
+label each symbol as reality, state, observation, or model, and as
+computed or qualitative. No rows were filled. Challenges that hit:
+the sheet is a proposed aid, not a required cycle step; one row per
+use; effort-related rows must separate expenditure from correction.
+
+C commit lands with this entry.
+
 ## 2026-11-21 — Round 8: computed-status assignment procedure (accept-with-revisions)
 
 Branch-local, ratification-pending note at

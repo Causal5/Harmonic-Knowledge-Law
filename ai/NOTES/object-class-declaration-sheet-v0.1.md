@@ -14,10 +14,11 @@ Layer 0 / `START_HERE.md` and the 16 October record.
 
 ## When to use
 
-Use this sheet when opening a later fill of the freshwater dictionary,
-the Bite 5 checklist, the Sahel bounded test, or the ebonyshell
-protocol. It does not replace those sheets. It does not assign a
-computed flag (see `ai/NOTES/computed-status-assignment-v0.1.md`).
+This sheet is a **proposed aid** for a later fill of the freshwater
+dictionary, the Bite 5 checklist, the Sahel bounded test, or the
+ebonyshell protocol. It is not a `CYCLE.md` or charter requirement
+unless Jordan adopts it. It does not replace those sheets. It does not
+assign a computed flag (see `ai/NOTES/computed-status-assignment-v0.1.md`).
 
 ## Required declarations (all unfilled here)
 
@@ -27,12 +28,16 @@ Lock the following *before* inspecting or filling the associated series:
 |---|---|
 | Study or sheet this declaration belongs to | UNFILLED-REQUIRED |
 | Symbol or reported quantity | UNFILLED-REQUIRED |
-| Object class (exactly one): reality / selected system state / observation / agent’s model | UNFILLED-REQUIRED |
-| Reporting mode (exactly one): computed on a pre-locked protocol / qualitative-provisional / not-implemented / needs-evidence | UNFILLED-REQUIRED |
+| Object class (exactly one **per row**): reality / selected system state / observation / agent’s model | UNFILLED-REQUIRED |
+| Reporting mode (exactly one per row): computed on a pre-locked protocol / qualitative-provisional / not-implemented / needs-evidence | UNFILLED-REQUIRED |
 | If computed: protocol path and lock date (lock precedes inspection) | UNFILLED-REQUIRED or N/A |
 | If qualitative-provisional: the computed status or flag it does **not** assign | UNFILLED-REQUIRED or N/A |
+| If effort-related: allocation / expenditure / achieved correction / side burden (exactly one); otherwise N/A | UNFILLED-REQUIRED or N/A |
 | Units, if any, before normalization | UNFILLED-REQUIRED or N/A |
 | Official source version, if any | UNFILLED-REQUIRED or needs-evidence |
+
+If the same symbol is used in more than one Layer 0 role, declare each
+use on its own row. Do not collapse two classes into one cell.
 
 Rows may be added. No row is filled in v0.1.
 
