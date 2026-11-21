@@ -7,4 +7,6 @@ parameters are used as if they were data, the claim fails.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-ebonyshell-renewal-coverage-protocol/`
 - **Statement:** The protocol computes no rates or ratios and invents no empirical values; filled numeric cells remain UNFILLED-REQUIRED or “not computed.”
 - **Falsifier:** A numeric \(\eta\), rate, or status assignment appears as a computed result, or illustrative tank-model parameters are used as data.
-- **Status:** proposed
+- **Status:** accepted
+
+**Verdict (Round 3, 2026-11-21):** accepted. See `ai/LEDGER/verdicts/V-2026-11-21-ebonyshell-renewal-coverage-protocol.md`.

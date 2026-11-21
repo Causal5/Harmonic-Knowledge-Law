@@ -9,9 +9,9 @@ trickle, and the planned fish passage as a later test of pathway
 restoration. Every rate, window, and official source version is left
 unfilled. No ratio is computed here.
 
-**Status:** proposed preregistration. Not an empirical validation, not an
-HKL score, and not a new primitive. Parent definitions:
-`Release/Registry/definition-decisions-2026-10-30.md` §3–§6;
+**Status:** accepted-with-revisions (Round 3). Not an empirical
+validation, not an HKL score, and not a new primitive. Parent
+definitions: `Release/Registry/definition-decisions-2026-10-30.md` §3–§6;
 `Release/Examples/ohio-mississippi-mussels/README.md` (open empirical
 steps); worked example §8 (source-qualified illustration).
 
@@ -22,14 +22,26 @@ for the mussel case, and that computing \(\eta^{nat}_{TM}\) for ebonyshell
 above and below Keokuk would be the first application, if recruitment
 data exist. The worked example §8 already *qualitatively* says natural
 renewal coverage above Keokuk after 1913 is “effectively zero” apart from
-rare passage such as 1986, and therefore carries the *severed* flag, while
-net-mining versus substituted “is not measured here.” This protocol does
-**not** treat that qualitative statement as a computed result. The ratios
-and the flag remain to be filled from declared series, or left unfilled
-if the series cannot be obtained.
+rare passage such as 1986, “so the population carries the registry’s
+*severed* flag,” while net-mining versus substituted “is not measured
+here.” This protocol does **not** treat that qualitative statement as a
+computed result. The “so … severed” assignment in the current example is
+an uncomputed status assignment, and it sits in tension with the decision
+record’s statement that no field \(\eta_{TM}\) has been computed. This
+protocol does not rewrite the example body. The ratios and the flag
+remain to be filled from declared series, or left unfilled if the series
+cannot be obtained.
 
 Yangtze sturgeon material in the example is a cross-basin analog and is
 outside this protocol’s boundary.
+
+The above/below comparison in this sheet is a **spatial contrast**. It is
+not automatically the registry’s sink-impairment term
+\(\dot B^{imp}_{OIE}\), which is a *same-reach counterfactual*
+(recruitment with the dam absent versus present and no correction).
+Habitat, harvest history, and other differences between the two units
+can disagree for reasons other than the dam. This sheet does not estimate
+that impairment term.
 
 ## 2. Comparison units
 
@@ -37,8 +49,22 @@ Declare two spatial units, using the same stock and the same units:
 
 | Unit ID | Stock | Spatial extent | Official boundary source |
 |---|---|---|---|
-| EBONY-ABOVE-KEOKUK | Ebonyshell (declare the scientific name and life stage with the data) | Upstream of Lock and Dam 19 / Keokuk dam, exact river miles UNFILLED-REQUIRED | UNFILLED-REQUIRED |
-| EBONY-BELOW-KEOKUK | Same stock and life stage | Downstream of the dam, exact river miles UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+| EBONY-ABOVE-KEOKUK | Ebonyshell (scientific name and life stage locked before any rate is filled) | Upstream of Lock and Dam 19 / Keokuk dam, exact river miles UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+| EBONY-BELOW-KEOKUK | Same locked stock and life stage | Downstream of the dam, exact river miles UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+
+**Life-stage and loss-component lock (required before filling rates).**
+Choose, and write on the sheet, the scientific name and the life stage
+whose rates will be used (for example, successful recruitment into a
+declared juvenile class, or a declared adult class). Both units use that
+same locked choice. Also list, before totals are filled, which of the
+following are included in \(L_{s}\): harvest, mortality of the declared
+life stage, mortality of other stages, predation on which stage, and any
+other declared loss. \(R^{nat}_{s}\), \(R^{man}_{s}\), and \(L_{s}\) must
+be rates of that same locked stock. Do not mix a recruit numerator with
+an adult-only denominator, or the reverse. The worked example already
+notes that black carp predation can reach both recruits and adults; those
+components, if used, must be attributed to the locked stage or listed
+separately.
 
 The dam is a barrier on the host-fish pathway, not automatically a wall
 for every adult mussel. Do not treat skipjack herring coverage as a
@@ -52,9 +78,9 @@ Over one common window \([t_0,t_1]\) and in the same units, record:
 | Symbol | Meaning | Value in this protocol |
 |---|---|---|
 | \([t_0,t_1]\) | Common observation window | UNFILLED-REQUIRED |
-| \(R^{nat}_{s}\) | Natural renewal rate (successful recruitment into the declared life stage) | UNFILLED-REQUIRED |
+| \(R^{nat}_{s}\) | Natural renewal rate (successful recruitment into the declared life stage), excluding declared episodic events under the default rule in §4 | UNFILLED-REQUIRED |
 | \(R^{man}_{s}\) | Managed renewal rate (stocking or managed translocation into that life stage) | UNFILLED-REQUIRED (may be recorded as 0 if a source shows none) |
-| \(L_{s}\) | Gross loss rate from that same stock (mortality, harvest, predation, other losses — not a net change) | UNFILLED-REQUIRED |
+| \(L_{s}\) | Gross loss rate from that same locked stock (the predeclared loss components — not a net change) | UNFILLED-REQUIRED |
 
 For \(L_s>0\):
 
@@ -94,6 +120,15 @@ the primary sources to consult) is recorded as an **event count and a
 window-averaged rate**, not as continuous renewal. Additional episodes,
 if documented later, are added the same way. Do not invent a continuous
 upstream trickle from a single cited high-water event.
+
+**Default inclusion rule.** Declared episodic window-averaged rates are
+reported in the episodic-events row. They are **not** included in the
+\(R^{nat}_{s}\) that enters \(\eta^{nat}_{TM}\) and the severed test.
+The severed test uses that exclusive numerator. If a later filler uses a
+different inclusion rule, they must declare it explicitly and must not
+treat a single episode as continuous renewal. Window choice still
+matters for the non-episodic series; it must be locked before rates are
+filled, not chosen to produce a preferred flag.
 
 ## 5. Coupled renewal, targets, and screens
 
@@ -146,17 +181,20 @@ or by treating “effectively zero” as a measured numerator.
 
 | Field | EBONY-ABOVE-KEOKUK | EBONY-BELOW-KEOKUK |
 |---|---|---|
-| Scientific name and life stage | UNFILLED-REQUIRED | same |
+| Scientific name and life stage (locked before rates) | UNFILLED-REQUIRED | same locked choice |
+| \(L_{s}\) component list (locked before rates) | UNFILLED-REQUIRED | same convention |
 | Official boundary / river miles | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
-| Window \([t_0,t_1]\) | UNFILLED-REQUIRED | same window |
-| \(R^{nat}_{s}\) | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+| Window \([t_0,t_1]\) (locked before rates) | UNFILLED-REQUIRED | same window |
+| \(R^{nat}_{s}\) (default: excludes declared episodes) | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
 | \(R^{man}_{s}\) | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
 | \(L_{s}\) | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
 | \(\eta^{nat}_{TM}\) | not computed | not computed |
 | \(\eta^{tot}_{TM}\) | not computed | not computed |
 | Renewal status | not assigned | not assigned |
 | Severed flag | not assigned | not assigned |
-| Episodic events (count, window-averaged rate) | 1986 passage: rate UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+| Episodic events (count, window-averaged rate; default not in \(R^{nat}_{s}\)) | 1986 passage: rate UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+| Alternate episode-inclusion rule, if any | none declared (default stands) | none declared (default stands) |
 | Dependency graph | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
 | Source versions | UNFILLED-REQUIRED | UNFILLED-REQUIRED |
+| Sink-impairment \(\dot B^{imp}_{OIE}\) | not estimated by this sheet | not estimated by this sheet |
 | Fish-passage monitoring result | not run | not run |

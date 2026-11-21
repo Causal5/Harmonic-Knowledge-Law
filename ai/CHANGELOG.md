@@ -5,6 +5,21 @@ publication changelog (`CHANGELOG.md` on `main`). An entry here is not a
 publication to `main` and is not scientific validation.
 
 
+
+## 2026-11-21 — Round 3: ebonyshell renewal-coverage protocol (accept-with-revisions)
+
+Preregistration sheet at
+`Release/Examples/ohio-mississippi-mussels/ebonyshell_renewal_coverage_protocol_v0.1.md`.
+No rates, ratios, or statuses were computed. Challenges that hit:
+life stage and loss components were not locked before data arrive;
+inclusion of the 1986 episode in the \(\eta^{nat}_{TM}\) numerator was
+unspecified. Both were fixed. The above/below contrast is not the
+registry’s sink-impairment counterfactual (challenge missed; disclaimer
+added). The original worked example’s qualitative “effectively zero /
+severed” assignment remains an uncomputed status in the standing corpus
+and was recorded, not rewritten.
+
+
 ## 2026-11-21 — Round 2: Layer 1 / implementation consistency audit (accept-with-revisions)
 
 Dated audit at `ai/AUDITS/2026-11-21-layer1-consistency.md`. Official AEF,

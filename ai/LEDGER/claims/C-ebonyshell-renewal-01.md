@@ -9,4 +9,6 @@ primitive appears, the claim fails.
 - **Proposal:** `ai/PROPOSALS/2026-11-21-ebonyshell-renewal-coverage-protocol/`
 - **Statement:** The protocol declares the registered quantities \(R^{nat}_{s}\), \(R^{man}_{s}\), \(L_{s}\), \(\eta^{nat}_{TM}\), \(\eta^{tot}_{TM}\), the three exclusive statuses, the independent severed flag, and an above/below-Keokuk comparison on a common window in consistent units, without adding a new primitive or a new universal cutoff.
 - **Falsifier:** A required registered element is missing, a new primitive or cutoff is introduced, or the two units are not specified as a common-window comparison.
-- **Status:** proposed
+- **Status:** accepted-with-revisions
+
+**Verdict (Round 3, 2026-11-21):** accepted-with-revisions. See `ai/LEDGER/verdicts/V-2026-11-21-ebonyshell-renewal-coverage-protocol.md`. Life-stage/loss lock and spatial-contrast disclaimer added.

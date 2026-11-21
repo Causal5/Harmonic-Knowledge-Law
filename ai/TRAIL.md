@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: ebonyshell protocol accepted with revisions (Round 3)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the sheet is blank of computed rates. Applied a life-stage/loss lock, a default rule that the 1986 episode stays out of the \(\eta^{nat}_{TM}\) numerator, a spatial-versus-impairment disclaimer, and a corpus note on the worked example’s uncomputed severed wording. Linked the protocol from the mussel README. Did not edit the example body or the registry.
+- **Why:** A recipe that can be filled two ways is not yet a fair test. The example’s qualitative severed line is a standing-corpus tension a later human review should see.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-ebonyshell-renewal-coverage-protocol.md`; `Release/Examples/ohio-mississippi-mussels/ebonyshell_renewal_coverage_protocol_v0.1.md`.
+- **What this means:** Someone can later fill official series against a locked convention, or leave the sheet blank if the data are not available, without pretending the example had already computed the ratio.
+
 ## 2026-11-21 — Adversary: ebonyshell protocol challenges (Round 3)
 
 - **Agent:** Adversary (B)

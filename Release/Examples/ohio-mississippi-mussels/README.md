@@ -3,6 +3,7 @@
 | Document | Status |
 |---|---|
 | [Worked example](ohio-mississippi-mussels-worked-example.md) | Source-qualified illustration; not an empirical validation or HKL score |
+| [Ebonyshell renewal-coverage protocol v0.1](ebonyshell_renewal_coverage_protocol_v0.1.md) | Preregistration sheet; no rates computed (accepted-with-revisions, Round 3) |
 
 The example traces commercial shell harvest, the 1913 Keokuk dam and its
 obstruction of skipjack herring (host fish for ebonyshell and elephant-ear
