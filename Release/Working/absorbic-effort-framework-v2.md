@@ -2,6 +2,8 @@
 
 > **Status (ai/evolution, 2026-11-21, Round 10, proposed).** Working / preserved proposal. Not current AEF or HKL authority. Current definitions are in `Release/Papers/absorbic-effort-framework.md` and `Release/HKL/hkl-lyapunov.md`. Citations below that do not match those current papers are marked **[DEAD CITE]** in place. No replacement section numbers are invented here.
 > - “HKL §5.1” — current HKL has no §5.1; §5 is “Effect accounting.”
+> - “the Lyapunov condition $dV/dt \le 0$” — current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
+> - Terms that type $PAE$ as $\mathbb{R}_{\ge 0}$ or write $\lambda_{PAE}\cdot PAE$ treat PAE as a number, which current AEF §2 and the 16 October record reject. No replacement formula is invented here.
 > Version numbers inside this draft do not supersede Registry v0.3.1 or the reconciled core papers (`Release/Working/README.md`).
 
 
@@ -14,7 +16,7 @@ The Absorbic Ethics Framework (AEF) formalizes corrective effort required to off
 
 AEF operates as the applied accounting layer over a stability formalism (HKL Lyapunov basin structure). It does not define stability itself; it defines effort required to preserve it.
 
-**Inheritance:** AEF elaborates the effort dynamics introduced in Δ-Self §13 ($\frac{d}{dt}\mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}$) and the basin maintenance inequality derived in HKL §5.1 **[DEAD CITE: current HKL has no §5.1; no replacement section is invented here]**. Specifically, AEF provides the accounting structure that determines whether the Lyapunov condition $\frac{dV}{dt} \le 0$ is satisfied.
+**Inheritance:** AEF elaborates the effort dynamics introduced in Δ-Self §13 ($\frac{d}{dt}\mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}$) and the basin maintenance inequality derived in HKL §5.1 **[DEAD CITE: current HKL has no §5.1; no replacement section is invented here]**. Specifically, AEF provides the accounting structure that determines whether the Lyapunov condition $\frac{dV}{dt} \le 0$ is satisfied **[STALE / WITHDRAWN: current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording]**.
 
 ---
 
@@ -22,7 +24,7 @@ AEF operates as the applied accounting layer over a stability formalism (HKL Lya
 
 | Symbol           | Name                              | Meaning in this document                                               | Type / Domain         | Units / Interpretation             |
 | ---------------- | --------------------------------- | ---------------------------------------------------------------------- | --------------------- | ---------------------------------- |
-| $PAE$            | Principle of Absorbic Effort      | Applied corrective effort to absorb/offset destabilizing externalities | $\mathbb{R}_{\ge 0}$ | Energy-equivalent effort           |
+| $PAE$            | Principle of Absorbic Effort      | Applied corrective effort to absorb/offset destabilizing externalities | $\mathbb{R}_{\ge 0}$ | Energy-equivalent effort           | **[STALE: current AEF §2 — PAE is a principle, not a number]**
 | $OIE$            | Observer-Induced Entropy          | Net destabilizing externality introduced by agentic deviation          | $\mathbb{R}_{\ge 0}$ | Perturbation magnitude             |
 | $\Delta S_{abs}$ | Absorbed Entropy                  | Total entropy absorbed or redirected from system degradation           | $\mathbb{R}_{\ge 0}$ | Disorder-equivalent measure        |
 | $ELQ$            | Ethical Legitimacy Quotient       | Ratio of applied effort to absorbed destabilization                    | $\mathbb{R}_{\ge 0}$ | Dimensionless                      |
@@ -60,6 +62,8 @@ AEF provides the bridge between effort-accounting quantities (PAE, OIE) and geom
 
 $$
 \mathcal{F}_{PAE} = \lambda_{PAE} \cdot PAE
+
+**[STALE: $\lambda_{PAE}\cdot PAE$ treats PAE as a number; current AEF §2 rejects that; no replacement formula is invented here. Later displayed products in this draft have the same status.]
 $$
 
 $$

@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Working-draft dead-cite marks accepted with revisions (Round 10)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed official papers were not edited. Marked the leftover AEF v2 Lyapunov-condition clause, the buffer draft’s second dV/dt ≤ 0 sentence, and AEF v2’s PAE-as-number table row and first product (later products share that status). No replacement formula was invented.
+- **Why:** Leaving the withdrawn condition or the PAE-as-number pattern unmarked in the next sentence would have undercut the banners.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-working-draft-dead-cites.md`.
+- **What this means:** A human can still inspect the recovered drafts, but should not read their section numbers, their necessary-dV/dt line, or their PAE-as-number equations as current theory.
+
 ## 2026-11-21 — Adversary: Working-draft dead-cite challenges (Round 10)
 
 - **Agent:** Adversary (B)

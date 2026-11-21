@@ -232,7 +232,7 @@ $$
 \tau_{buffer}(x, t) = \frac{V^*(x) - V(x, t)}{\dot{V}(x, t)} \quad \text{when } \dot{V}(x, t) > 0
 $$
 
-The basin maintenance inequality $dV/dt \le 0$ (HKL §5) is necessary but instantaneous **[STALE / WITHDRAWN: current HKL §5 is Effect accounting; §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording]**. Sustained basin maintenance requires $dV/dt \le 0$ across $\tau_{buffer}$ — the system must remain in basin over its runway, not merely at any moment. HKL §4.1 **[DEAD CITE: current HKL has no §4.1]**'s primary burden component $B_0 = \mathcal{E}_i$ acquires a temporal floor: $B_0$ must remain bounded across $\tau_{buffer}$, not merely at any moment.
+The basin maintenance inequality $dV/dt \le 0$ (HKL §5) is necessary but instantaneous **[STALE / WITHDRAWN: current HKL §5 is Effect accounting; §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording]**. Sustained basin maintenance requires $dV/dt \le 0$ across $\tau_{buffer}$ **[STALE / WITHDRAWN: not current HKL; same withdrawal as the preceding clause]** — the system must remain in basin over its runway, not merely at any moment. HKL §4.1 **[DEAD CITE: current HKL has no §4.1]**'s primary burden component $B_0 = \mathcal{E}_i$ acquires a temporal floor: $B_0$ must remain bounded across $\tau_{buffer}$, not merely at any moment.
 
 ## 9.3 AEF v2
 
