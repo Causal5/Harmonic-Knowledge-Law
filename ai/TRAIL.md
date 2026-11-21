@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: Sahel test-plan challenges (Round 5)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the plan for not locking the local-regulation variable list used in step 5, for not requiring comparability dimensions to be declared, and for a source rule that might block retrieving primaries the current paper already points to.
+- **Why:** A test recipe that leaves the treatment variables or the meaning of “comparable” open can be filled after the fact.
+- **Links:** `ai/LEDGER/challenges/CH-sahel-test-01-local-regulation-list.md`; `CH-sahel-test-01-comparable-dimensions.md`; `CH-sahel-test-02-primary-sources.md`.
+- **What this means:** Later work should have to name what is being matched, and which regulation variables are being tested, before looking at held-out scores.
+
 ## 2026-11-21 — Work agent: Sahel bounded test plan (Round 5)
 
 - **Agent:** Work (A)
