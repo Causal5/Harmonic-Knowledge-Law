@@ -113,6 +113,30 @@ checked.
   accepted proposal files should be removed after the verdict.
 
 
+## 2026-11-21 — Round 11: four-field effort declaration sheet (accept-with-revisions)
+
+Blank ratification-pending aid at
+`ai/NOTES/four-field-effort-recording-sheet-v0.1.md`. Allocation,
+expenditure, achieved correction, and side burden stay separate. No
+rows were filled. Challenges that hit: the heading must not sound like
+measured data; the four names point at the 16 October / AEF §2
+definitions; non-correction rows use N/A rather than invent a
+correction.
+
+C commit lands with this entry.
+
+## 2026-11-21 — Round 10: Working-draft dead-cite marks (accept-with-revisions)
+
+Status banners and in-place marks on
+`Release/Working/absorbic-effort-framework-v2.md` and
+`Release/Working/buffer-as-temporal-dimension.md`. Dead section numbers
+and withdrawn necessary-dV/dt ≤ 0 wording, plus leftover PAE-as-number
+lines, are marked against current HKL §4 / §7 and AEF §2. Official
+papers were not rewritten. No replacement sections or formulas were
+invented.
+
+C commit: https://github.com/Causal5/Harmonic-Knowledge-Law/commit/316e6f8c50f832cf4381e97347c2bd067ae3cd0f
+
 ## 2026-11-21 — Round 9: object-class declaration sheet (accept-with-revisions)
 
 Blank ratification-pending sheet at

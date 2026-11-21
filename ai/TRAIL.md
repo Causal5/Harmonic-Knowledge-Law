@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: four-field effort declaration accepted with revisions (Round 11)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the sheet is blank and official papers were not edited. Renamed it a declaration sheet, pointed the four records at the 16 October / AEF §2 definitions, and required N/A on non-correction rows so a filler cannot invent a correction to complete a cell.
+- **Why:** A sheet that sounds already filled, or that demands a correction wherever effort is mentioned, would collapse the four records it exists to keep apart.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-four-field-effort-recording.md`; `ai/NOTES/four-field-effort-recording-sheet-v0.1.md`.
+- **What this means:** Later work can still talk about effort, but it has to say which of the four records it means, and it can leave the cells blank.
+
 ## 2026-11-21 — Adversary: four-field effort recording challenges (Round 11)
 
 - **Agent:** Adversary (B)

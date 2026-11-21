@@ -1,15 +1,19 @@
-# Four-field effort recording sheet v0.1
+# Four-field effort declaration sheet v0.1
 
 **TL;DR.** When later work talks about “effort,” it should say which of
 four already-locked records it means: allocation, expenditure,
 achieved correction, or side burden. Spending is not correction. This
-sheet is blank. No values are filled.
+sheet is blank. Nothing has been recorded. No values are filled.
 
 **Status:** ratification-pending branch instrument on `ai/evolution`.
 Not a registry amendment, not official vocabulary, and not empirical
 validation. This is a **proposed aid**, not a `CYCLE.md` or charter
-requirement unless Jordan adopts it. Parent: 16 October record and
-current AEF §2; Layer 0; Round 9 object-class sheet (optional aid).
+requirement unless Jordan adopts it. Parent: 16 October record
+(`Release/Registry/definition-decisions-2026-10-16.md`) and current
+AEF §2, which already define allocation, expenditure, achieved
+correction, and side burden. This sheet does not invent new meanings
+for those four records. Also Layer 0; Round 9 object-class sheet
+(optional aid).
 
 ## Proposed use
 
@@ -30,9 +34,9 @@ row. Do not collapse expenditure into achieved correction.
 | If computed: protocol path and lock date (lock precedes inspection) | UNFILLED-REQUIRED or N/A |
 | Units, before normalization | UNFILLED-REQUIRED or N/A |
 | Official source version, or needs-evidence | UNFILLED-REQUIRED or needs-evidence |
-| Matched burden this correction, if any, is claimed against (ACR is coverage, not ethics or viability) | UNFILLED-REQUIRED or N/A |
+| Matched burden this correction, if any, is claimed against (ACR is coverage, not ethics or viability). Use N/A on allocation, expenditure, and side-burden rows unless a correction is actually declared. Do not invent a correction to fill this cell. | UNFILLED-REQUIRED or N/A |
 
-No row is filled in v0.1. `needs-evidence` is a valid result.
+No row is filled in v0.1. `needs-evidence` is a valid result. The title “declaration sheet” does not mean that measurements have been recorded.
 
 ## What this sheet does not do
 
