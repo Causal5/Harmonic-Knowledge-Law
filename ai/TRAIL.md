@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: four-field effort recording challenges (Round 11)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the sheet for a “recording” title that can sound like measured data, for listing the four records without pointing at the 16 October / AEF §2 definitions, and for a matched-burden column that can pressure a filler to invent a correction on an expenditure-only row.
+- **Why:** A blank aid that sounds filled, or that lets spending grow a fake correction to complete a cell, would undo the split it is meant to protect.
+- **Links:** `ai/LEDGER/challenges/CH-four-field-01-recording-sounds-filled.md`; `CH-four-field-02-undefined-terms.md`; `CH-four-field-02-matched-burden-pressure.md`.
+- **What this means:** If the sheet is kept, it should look blank, point at the existing definitions, and tell non-correction rows to use N/A rather than invent a correction.
+
 ## 2026-11-21 — Work agent: four-field effort recording sheet (Round 11)
 
 - **Agent:** Work (A)
