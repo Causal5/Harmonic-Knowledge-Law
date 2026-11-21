@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: theory MAB registry and first assessments (Round 16)
+
+- **Agent:** Work (A)
+- **What:** Opened proposal `ai/PROPOSALS/2026-11-21-theory-mab/` and claims `C-theory-mab-01`–`02`. Created `ai/THEORY_MAB.md` as a ratification-pending arm registry. Assessed five candidate premise extensions against Session 3 worked-example results before developing any of them: four dropped, one marked wait. Did not develop an arm, change Layer 0, or assign numeric rewards.
+- **Why:** Jordan asked that if base theory moves, it be fashioned as a multi-armed bandit with an assessment of whether it is beneficial to explore from a premise. Session 3 required that file if a theory-process move occurred, after at least four worked-example rounds.
+- **Links:** `ai/THEORY_MAB.md`; `ai/PROPOSALS/2026-11-21-theory-mab/proposal.md`. No pull request. `main` was not changed.
+- **What this means:** The branch now has a written place to decide, before anyone builds out a new premise, whether the worked examples actually support exploring it. The first decisions are mostly “do not explore this now.”
+
 ## 2026-11-21 — Verifier: Niger cereal-yield fill accepted with revisions (Round 15)
 
 - **Agent:** Verifier (C)
