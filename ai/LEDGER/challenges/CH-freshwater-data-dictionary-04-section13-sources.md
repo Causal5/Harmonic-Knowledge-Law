@@ -1,0 +1,9 @@
+# CH-freshwater-data-dictionary-04-section13-sources
+
+**TL;DR.** The protocol already names the agencies whose products should be used (USGS, California DWR, and the High Plains reports). The source column is blank even of those already-named candidate classes. Filling a class name is not inventing a download. This challenge is aimed at claim 04 and at whether the instrument is ready for Bite 1.
+
+- **Claim:** C-freshwater-data-dictionary-04
+- **Passage:** Protocol §13, “Initial Source Stack,” names USGS Central Valley groundwater, subsidence, InSAR, GPS, extensometer, and model products; California DWR SGMA Data Viewer, basin water budgets, Bulletin 118, and groundwater-condition updates; and USGS High Plains water-level and storage-change reports. It also says: “Government estimates remain model outputs with uncertainty. Preserve version, retrieval date, method, resolution, and revision history.” Claim 04 treats source mappings as unfilled required fields. The proposal says the §13 stack “names candidate agencies, not retrieved versions.”
+- **Challenge:** Leaving `source_name` empty is not required in order to avoid inventing a version or retrieval date. The protocol has already named candidate source classes. Recording those classes in `source_name`, while leaving `source_version` and `retrieval_date` unfilled, would still be a citation of §13, not a fake download. As written, the dictionary looks less mapped than the protocol already allows, and it is easier to forget those candidates later.
+- **Hit:** `source_name` is blank of even the candidate classes already listed in §13, so the required source-mapping field is emptier than the parent document supports.
+- **Miss:** The challenge fails if those §13 classes are already recorded as unfilled-version candidates, or if the proposal had a stated reason that recording the class names would itself invent a source mapping.

@@ -1,0 +1,9 @@
+# CH-freshwater-data-dictionary-01-scope-residue
+
+**TL;DR.** Claim 01 is narrowly about the protocol’s core variable table, and on that narrow reading it may survive. But Bite 1 also has to define a hydrologic year, missing-data rules, and uncertainty, and the minimum dataset also asks for climate covariates and well metadata. Those are not in the spreadsheet as variables, only as empty columns or not at all. This does not automatically kill claim 01; it bounds what the dictionary can be used for.
+
+- **Claim:** C-freshwater-data-dictionary-01 (scope bound; also relevant to C-freshwater-data-dictionary-04)
+- **Passage:** Protocol §12 Bite 1 requires defining “hydrologic year, units, missing-data rules, and uncertainty,” not only providing columns for them. Protocol §5 uses a declared \(\epsilon_{D_W}\) in the service-stability condition. Protocol §11 minimum dataset item 2 asks for “Groundwater levels with well metadata,” and item 5 asks for “Surface-water deliveries and climate covariates.”
+- **Challenge:** The CSV has empty columns for hydrologic year, missing-data rule, and uncertainty; it does not *define* those rules. It has no row for \(\epsilon_{D_W}\), climate covariates, or well metadata. Because claim 01’s statement is limited to §4 core series plus stated separations, these gaps may not falsify 01 as written. They do show that the schema is not yet a complete Bite 1 instrument even aside from unfilled official boundaries.
+- **Hit (on 01):** Only if the verifier reads “separations required by §4, §6.1, §7” so broadly that missing \(\epsilon_{D_W}\) or the failure to define (not merely columnize) Bite 1 rules contradicts claim 01.
+- **Miss (on 01):** If claim 01 is read narrowly, as its text allows. The gaps should still be recorded as residual work against completeness of Bite 1, next to claim 04.

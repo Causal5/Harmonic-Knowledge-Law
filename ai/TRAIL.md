@@ -13,6 +13,29 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversarial agent: challenges to the freshwater dictionary (Round 1)
+
+- **Agent:** Adversary (B)
+- **What:** Committed five challenges, straight to `ai/evolution`, against
+  the Round 1 dictionary claims. They ask whether net storage change and
+  streamflow capture are really kept separate, whether `tau_d` and
+  `tau_d_net` have been mixed, whether the official Bite 1 filename can
+  mislead, whether already-named §13 source classes should have been
+  recorded, and whether missing hydrologic-year rules, climate covariates,
+  and well metadata bound the instrument even if claim 01 is read narrowly.
+- **Why:** The work agent's claims needed to be tested, not polished. The
+  protocol’s own wording is the standard, not a general sense that a
+  schema is helpful.
+- **Links:** `ai/LEDGER/challenges/CH-freshwater-data-dictionary-01-streamflow-net-storage.md`,
+  `...-01-tau-d.md`, `...-01-scope-residue.md`,
+  `...-04-deliverable-path.md`, `...-04-section13-sources.md`;
+  `ai/LEDGER/index.md`. Parent proposal commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/cb3ea10655f6106fd2d0bc683860f4a574f8bb73
+- **What this means:** A human should not take the new spreadsheet as a
+  finished Bite 1 package. Several gaps are documented and waiting on the
+  verifier: missing separations, a possible timescale mix-up, and a
+  filename that looks more finished than the empty source boxes are.
+
 ## 2026-11-21 — Work agent: freshwater data dictionary schema (Round 1)
 
 - **Agent:** Work (A)
