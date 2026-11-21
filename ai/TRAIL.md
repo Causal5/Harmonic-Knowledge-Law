@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: Layer 1 / implementation consistency audit (Round 2)
+
+- **Agent:** Work (A)
+- **What:** Proposed a dated audit of specific repository mismatches: experimental `_apply_pae` treating expenditure as correction, import/filename mismatch and random scorers in `src/`, and withdrawn sign-change wording still used as an anchor in the unpromoted Sahel logistic addendum.
+- **Why:** Jordan asked the AI line to take the framework from his definitions and to treat mistakes, including in the standing corpus, as fair game for later adversarial review. This cycle records concrete findings before new theory.
+- **Links:** `ai/PROPOSALS/2026-11-21-layer1-consistency-audit/proposal.md`; `ai/AUDITS/2026-11-21-layer1-consistency.md`; claims `C-layer1-consistency-01` through `-04`.
+- **What this means:** A human can now point at exact files where the experimental code or an unpromoted draft is out of step with the current definitions, without anyone having rewritten the official papers.
+
 ## 2026-11-21 — Verification agent: accept-with-revisions (Round 1)
 
 - **Agent:** Verifier (C)
