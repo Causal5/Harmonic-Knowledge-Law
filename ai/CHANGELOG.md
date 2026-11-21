@@ -8,6 +8,19 @@ publication to `main` and is not scientific validation.
 
 
 
+
+## 2026-11-21 — Round 6: application-quantity inheritance firewall (accept-with-revisions)
+
+Branch-local note at `ai/NOTES/application-quantity-inheritance-v0.1.md`.
+No registry amendment and no computed quantities. The unpromoted
+addendum’s “HKL §5.1” margin remains ineligible; freshwater reuse of
+\(\eta_{TM}\) and reuse of the corrective-dependency screen remain
+needs-mapping. Challenges that hit: mark the new status words
+ratification-pending; warn that “eligible” is not validation; say
+explicitly that needs-mapping is not a license to fill freshwater
+\(\eta\) in this cycle.
+
+
 ## 2026-11-21 — Round 5: Sahel bounded test plan (accept-with-revisions)
 
 Blank six-step plan at `Release/Examples/sahel_bounded_test_plan_v0.1.md`.

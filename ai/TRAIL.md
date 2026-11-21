@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: inheritance firewall accepted with revisions (Round 6)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the note does not amend the registry or compute quantities. Marked the new status words ratification-pending, warned that “eligible” is not validation, and stated that T1 does not license a freshwater \(\eta\) filling in this cycle.
+- **Why:** A firewall that sounds like official vocabulary would have undermined its own purpose.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-application-quantity-inheritance.md`; `ai/NOTES/application-quantity-inheritance-v0.1.md`.
+- **What this means:** Application quantities still cannot quietly become universal law on this branch, and this session did not sneak a Central Valley coverage number into the dictionary.
+
 ## 2026-11-21 — Adversary: inheritance-firewall challenges (Round 6)
 
 - **Agent:** Adversary (B)

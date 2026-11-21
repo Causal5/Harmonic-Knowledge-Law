@@ -8,8 +8,10 @@ new primitives, does not rewrite Registry v0.3.1, and does not promote
 v0.3.2. Three trial uses are classified: one is not eligible, two need
 an explicit mapping before anyone computes a number.
 
-**Status:** proposed application note on `ai/evolution` only. This is not
-a registry amendment and not a promotion under `Release/ARCHITECTURE.md`.
+**Status:** accepted-with-revisions (Round 6). **Ratification-pending,
+`ai/evolution` only.** This is not a registry amendment, not a
+promotion under `Release/ARCHITECTURE.md`, and not adopted Layer 1
+definition vocabulary.
 
 Parents: `Release/Examples/README.md` (“Application quantities do not
 become universal primitives by appearing in an example.”);
@@ -29,7 +31,12 @@ citing superseded section numbers. A later user can easily treat any of
 these as if they were Layer 0 law. This note is a procedure, not a new
 law.
 
-## 2. Decision statuses (no new symbols)
+## 2. Decision statuses (unadopted procedure only)
+
+These three labels are **ratification-pending branch procedure**. They
+are not registry terms, not Layer 1 definitions, and not available to be
+cited as if Jordan had adopted them. Later ledger entries must not treat
+them as official vocabulary unless and until he ratifies them.
 
 For a proposed use of an already-registered *application* quantity in a
 domain that is not the quantity’s source example, record exactly one of:
@@ -40,10 +47,14 @@ domain that is not the quantity’s source example, record exactly one of:
 - **Needs-mapping** — the quantity may be usable if a published mapping
   to domain observations is locked first, including causal-structure
   differences (for example coupled renewal versus recharge that does not
-  depend on the stock).
+  depend on the stock). This status is **not a license** to compute or
+  to fill a dictionary in the present cycle. A later mapping is a new
+  proposal.
 - **Eligible-as-application** — the mapping is complete, the quantity is
   still labeled an application quantity, and no new universal cutoff or
-  primitive is introduced. This status is not empirical validation.
+  primitive is introduced. **“Eligible” never means “validated,” never
+  means “now a primitive,” and never means “promoted.”** No trial in
+  this note has this status.
 
 A use may stay `needs-mapping` indefinitely. That is not a pass.
 
@@ -68,14 +79,17 @@ A use may stay `needs-mapping` indefinitely. That is not a pass.
 
 ### T1 — Using \(\eta_{TM}\) as a freshwater (Central Valley) screen when timescales are not both finite
 
-**Status: needs-mapping.** The 30 October record retains \(\rho_{TM}\)
-where both timescales are finite and offers \(\eta_{TM}\) when renewal
-is zero or a timescale is undefined. That is a possible reuse, not an
-automatic one. The freshwater protocol’s recharge-independence
-assumption, the Round 1 residuals on official boundaries and
-\(\tau_d\) versus \(\tau_{d,\mathrm{net}}\), and the difference between
-a water stock and a recruiting population must be declared in a mapping
-before any \(\eta\) is computed. This note does not compute one.
+**Status: needs-mapping (not a license).** The 30 October record retains
+\(\rho_{TM}\) where both timescales are finite and offers \(\eta_{TM}\)
+when renewal is zero or a timescale is undefined. That is a possible
+reuse, not an automatic one. The freshwater protocol’s
+recharge-independence assumption, the Round 1 residuals on official
+boundaries and \(\tau_d\) versus \(\tau_{d,\mathrm{net}}\), and the
+difference between a water stock and a recruiting population must be
+declared in a mapping before any \(\eta\) is computed. This note does
+not compute one, does not add an \(\eta\) row to the Bite 1 dictionary,
+and does not authorize such a filling in this cycle. Any later mapping
+is a new proposal.
 
 ### T2 — Using the logistic addendum’s \(M(t):=\mathcal{F}_{PAE}-\mathcal{F}_{OIE}-\cdots\), or a term written \(\lambda_{PAE}(t)\,PAE(t)\), as if it were current HKL
 
@@ -87,15 +101,18 @@ an already-established authority failure.
 
 ### T3 — Using the corrective-dependency *screen* (\(\eta^{nat}_{TM}<1\le\eta^{tot}_{TM}\)) outside the mussel example
 
-**Status: needs-mapping.** The 30 October record already says the
-substituted status only screens possible corrective dependency;
+**Status: needs-mapping (not a license).** The 30 October record already
+says the substituted status only screens possible corrective dependency;
 confirmation needs the buffer comparison or observation after a program
 ends. A new domain must publish the mapping for \(\eta\), the horizon
 \(h\), and the buffer margin, none of which are universal, and must not
-treat the screen as confirmation. No screen is computed here.
+treat the screen as confirmation. No screen is computed here. A later
+mapping is a new proposal.
 
 ## 5. What this note does not do
 
 It does not amend the registry, promote v0.3.2, demote a current paper,
-compute a field quantity, or invent data. Future eligible uses still
-need evidence for their mappings and measurements.
+compute a field quantity, invent data, or fill the freshwater
+dictionary. Future uses still need evidence for their mappings and
+measurements, and they need Jordan’s ratification if these status words
+are to become official vocabulary.
