@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: consistency audit challenges (Round 2)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the audit’s authority wording for F1, required a live import check for F2, and — most importantly — argued that F4 understates the unpromoted Sahel addendum’s stale citations: it points at “Sahel §5.1” and “HKL §5.1” formulas that the current papers do not contain, and it treats PAE as a number.
+- **Why:** Jordan said the adversary may attack the standing corpus, not only A’s new text, as long as Layer 0 holds. The addendum is in-tree and can still be misread as extending current Sahel and HKL.
+- **Links:** `ai/LEDGER/challenges/CH-layer1-consistency-01-authority-scope.md`; `CH-layer1-consistency-02-import-behavior.md`; `CH-layer1-consistency-03-stale-section-citations.md`; `CH-layer1-consistency-04-paper-edits.md`.
+- **What this means:** A human reviewing later should look especially at whether the addendum is citing superseded drafts as if they were the current papers.
+
 ## 2026-11-21 — Work agent: Layer 1 / implementation consistency audit (Round 2)
 
 - **Agent:** Work (A)
