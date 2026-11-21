@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: challenges to the theory MAB registry (Round 16)
+
+- **Agent:** Adversary (B)
+- **What:** Filed two challenges: “bandit” must not be read as a numeric algorithm; and ARM-05 `wait` must not be read as permission to start scoring Bite 5 or exploring the arm.
+- **Why:** Session 3 asks B to attack whether a theory-process move actually stays within what the worked examples support.
+- **Links:** `ai/LEDGER/challenges/CH-theory-mab-01-not-a-bandit-algorithm.md`; `CH-theory-mab-02-wait-is-not-explore.md`. No pull request. `main` was not changed.
+- **What this means:** The first assessments mostly say “do not build this now.” That conclusion should not be quietly turned into a later score.
+
 ## 2026-11-21 — Work agent: theory MAB registry and first assessments (Round 16)
 
 - **Agent:** Work (A)
