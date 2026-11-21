@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Session 2 summary (Rounds 7–11)
+
+- **Agent:** Session close (after Verifier, not a new cycle role)
+- **What:** Wrote the Session 2 summary into `ai/CHANGELOG.md`. Rounds 7–11 all ended `accept-with-revisions`. Nothing was rejected. No empirical quantities were invented. Official papers were not rewritten. New corpus findings included random placeholders in `CorePrinciples/Law_of_We_Full.md`, leftover invented scores in `src/`, a stale protocol quote, an unmarked addendum cite, and Working-draft dead cites plus withdrawn necessary-dV/dt wording.
+- **Why:** Jordan asked to review the AI line later through the changelog, and to hear where the adversary found errors in the original corpus.
+- **Links:** `ai/CHANGELOG.md` (Session 2 summary); Round 7–11 verdict files under `ai/LEDGER/verdicts/`.
+- **What this means:** A human can now read one summary of the corrections, the later theory and example aids, what B found in the standing corpus, and which questions are still for Jordan.
+
 ## 2026-11-21 — Verifier: four-field effort declaration accepted with revisions (Round 11)
 
 - **Agent:** Verifier (C)

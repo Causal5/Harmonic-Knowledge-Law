@@ -10,6 +10,128 @@ publication to `main` and is not scientific validation.
 
 
 
+## Session 2 summary (2026-11-21)
+
+This session ran Round 7 (the four Session 1 corpus corrections, through
+a full A/B/C cycle so B and C could check the fixes) and Rounds 8–11
+on `ai/evolution` only, as direct `[A]` / `[B]` / `[C]` commits. No
+pull requests. `main` was not modified. Nothing was moved to
+`ai/REJECTED/`. No empirical series, field \(\eta_{TM}\), \(V\), or
+Sahel burden score was computed or invented. Official AEF, HKL, and
+Sahel papers were not rewritten.
+
+### What moved
+
+- **Round 7 — Session 2 corpus corrections.**
+  `accept-with-revisions`. Expenditure is recorded separately from
+  correction in `_apply_pae`; `src/` imports run on case-sensitive
+  Linux; `np.random` placeholder scores return `None`; the unpromoted
+  Sahel addendum has a status banner and in-place dead-cite marks;
+  mussel example §8 item 3 no longer assigns the *severed* flag from a
+  qualitative line. Verifier also fixed leftover invented scores,
+  `CorePrinciples/Law_of_We_Full.md` random placeholders, an unmarked
+  AEF §3.2 body cite, and a stale protocol quote. Scripts were run on
+  this Linux box. C commits:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/19a78bc05ba32b23aa88a92d70798ca69eb40650
+  and
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/e21b554192949b4164292c417c9cc10de8afcc05
+- **Round 8 — Computed-status assignment procedure.**
+  `accept-with-revisions`. Ratification-pending note at
+  `ai/NOTES/computed-status-assignment-v0.1.md`. A registry flag
+  defined by a computed quantity may not be assigned from a qualitative
+  narrative; the protocol must be locked before inspection. C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/ab7a52d5f3d8dff64f706cb88c5626f77a48fbb6
+- **Round 9 — Object-class declaration sheet.**
+  `accept-with-revisions`. Blank proposed aid at
+  `ai/NOTES/object-class-declaration-sheet-v0.1.md`. Later fills may
+  label each symbol as reality, state, observation, or model. C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/9e1f1ff30a925f8544b7dc79fdd1816a1415862f
+- **Round 10 — Working-draft dead-cite marks.**
+  `accept-with-revisions`. Banners and in-place marks on
+  `Release/Working/absorbic-effort-framework-v2.md` and
+  `Release/Working/buffer-as-temporal-dimension.md`. C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/316e6f8c50f832cf4381e97347c2bd067ae3cd0f
+- **Round 11 — Four-field effort declaration sheet.**
+  `accept-with-revisions`. Blank proposed aid at
+  `ai/NOTES/four-field-effort-recording-sheet-v0.1.md`. Allocation,
+  expenditure, achieved correction, and side burden stay separate.
+  C commit:
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/251885052e483a57dde13bb958f4ae7fa7455d7c
+
+### What was rejected
+
+No proposal in this session was rejected or filed under `ai/REJECTED/`.
+Every later-round verdict was `accept-with-revisions`, except some
+individual claims accepted as written. Negative scientific results were
+not produced, because no empirical test was run.
+
+### Errors B found in the original human corpus
+
+These are in-tree issues, not defects invented by A. Several were
+fixed in this session; residuals are noted.
+
+1. **`CorePrinciples/Law_of_We_Full.md`.** Still used
+   `np.random.uniform` to invent an OIE-impact score and a
+   decision-balance score. Round 7 C replaced those two returns with
+   `None`.
+2. **Ebonyshell protocol §1.** After the mussel example’s *severed*
+   assignment was reworded, the protocol still quoted the old “so the
+   population carries the registry’s *severed* flag” sentence as
+   current. Round 7 C marked that wording superseded.
+3. **Unpromoted Sahel logistic addendum.** Most dead cites were marked
+   in Round 7 A, but a body sentence still cited “AEF §3.2, §5”
+   unmarked. Round 7 C marked it. No replacement section was invented.
+4. **Experimental `src/` leftovers.** After the `np.random` removal,
+   `_score_reasoning` still returned a connection-count number, and
+   Libra still invented EGR, GDS, and an entropy score. Round 7 C set
+   those to `None`. `GILN_AI.py` still scales hardcoded
+   `resource_metrics` by 0.1 on “distill” and still adds `+0.5` to
+   connection weights (residual, not treated as a failed claim).
+5. **Working drafts (new this session).**
+   `Release/Working/absorbic-effort-framework-v2.md` and
+   `Release/Working/buffer-as-temporal-dimension.md` cited “HKL §5.1,”
+   “HKL §4.1,” “Sahel §5.3,” “AEF §3.2 / §3.3,” and a “Sahel §6
+   demonstrates this formalism” line that current papers do not
+   support. The buffer draft treated \(dV/dt \le 0\) as a necessary
+   HKL condition; current HKL §4 says that is not a universal
+   necessary condition, and §7 withdraws necessary-monotonic-drift
+   wording. AEF v2 types PAE as a number, which current AEF §2
+   rejects. Round 10 marked these in place and did not rewrite the
+   official papers.
+
+Current official AEF, HKL, and Sahel *papers* were not found to be
+internally inconsistent with the 16 / 30 October records on the points
+checked in this session, beyond what Session 1 already recorded.
+
+### Open questions
+
+- Official Central Valley / San Joaquin boundary IDs, hydrologic year,
+  time interval, and retrieved source versions still need evidence
+  before Bite 5 can be scored.
+- Ebonyshell \(\eta_{TM}\) above and below Keokuk, and the Keokuk
+  fish-passage test, remain unfilled; construction status as of
+  October 2026 was already recorded as unconfirmed.
+- The Sahel six-step plan remains blank: locations, sources, series,
+  and a locked held-out score are still `needs-evidence`.
+- The inheritance-firewall status words, the computed-status
+  procedure, the object-class sheet, and the four-field declaration
+  sheet are all ratification-pending. They must not be treated as
+  official registry vocabulary or as required cycle steps unless
+  Jordan adopts them.
+- After Round 1, Jordan deleted
+  `ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/` with the
+  message “New rule verified.” Later rounds still opened proposals
+  under `ai/PROPOSALS/` as `CYCLE.md` requires. He may want to confirm
+  whether accepted proposal files should be removed after the verdict.
+- A leftover side branch
+  `ai/proposal/2026-11-21-freshwater-data-dictionary` still exists
+  (there is no delete-branch tool on this path). `main` is still
+  unprotected. Commercial contact remains GitHub @Causal5 only; no
+  email was invented.
+- Cycle.md prefers one commit per role. Several steps in this session
+  landed as a pair of commits because a single push may carry at most
+  four large file substitutions.
+
 ## Session 1 summary (2026-11-21)
 
 This session ran Rounds 2–6 on `ai/evolution` only, after Round 1, as
