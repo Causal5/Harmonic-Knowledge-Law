@@ -2,7 +2,7 @@
 
 **TL;DR.** This cycle is a worked example with retrieved public records, not a blank template. Citation [38] describes a first-of-its-kind fish passage at Lock and Dam 22 near Saverton, Missouri, not at the Keokuk dam. Official USACE and ICRCC records for Lock and Dam 19 (River Mile 364.2) describe an underwater acoustic carp deterrent installed in FY21 and run experimentally through 2026. Daily mean discharge at USGS 05474500 was computed for a locked window (USGS water years 2016–2025). No ebonyshell recruitment series was found, so \(\eta\) and the *severed* flag stay unassigned. The example’s 2023 “fish passage at the dam” wording is proposed for a logged correction after verification.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** Session 3, Round 12.
 

@@ -2,7 +2,7 @@
 
 **TL;DR.** Official records for Lock and Dam 19 describe a carp-deterrent acoustic system, not a fish passage at Keokuk. Renewal ratios and the *severed* flag are not assigned.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Statement.** Official retrieved USACE and ICRCC records describe the current project at Lock and Dam 19, Keokuk, Iowa, River Mile 364.2, as an Underwater Acoustic Deterrent System installed in FY21, operated experimentally through 2026, with final reporting expected in 2027 — not a pathway-restoring fish passage at Keokuk. In this cycle, \(\eta^{nat}_{TM}\), \(\eta^{tot}_{TM}\), and the *severed* flag remain unassigned; fish-passage monitoring remains not run; official above/below mussel-reach river miles remain UNFILLED-REQUIRED.
 

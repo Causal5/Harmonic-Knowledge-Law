@@ -162,10 +162,18 @@ observations are:
 3. Classification of the passage as *pathway-restoring* only if natural
    renewal rises in a way that is expected to persist after passage
    operations are attributed; stocking remains *substituting*.
-4. Construction and operating status remain UNFILLED-REQUIRED. The
-   worked example already notes that construction status as of October
-   2026 has not been confirmed. This protocol does not update that
-   status and does not invent a monitoring result.
+4. Construction and operating status at Keokuk were filled, with
+   provenance notes, in the Session 3 worked fill
+   `worked-fills/2026-11-21-ld19-status/` (Round 12, accepted with
+   revisions). Official records retrieved 21 November 2026 describe a
+   uADS (carp deterrent) at Lock and Dam 19, not a pathway-restoring
+   fish passage at Keokuk; River Mile 364.2 and the FY21 / 2027
+   reporting language are dated to a 24 January 2025 Wayback snapshot
+   of the USACE Lock 19 Acoustic Study page, because the live page
+   returned Access Denied that day. Official above/below mussel-reach
+   river miles remain UNFILLED-REQUIRED (the dam mile is not a reach
+   boundary). Fish-passage monitoring remains not run. This protocol
+   does not invent a monitoring result or a recruitment series.
 
 ## 7. Sources and uncertainty
 

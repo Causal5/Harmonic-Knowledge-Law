@@ -1,6 +1,6 @@
 # Worked fill: Lock and Dam 19 / Keokuk official status, citation [38], and USGS 05474500 discharge
 
-**Status:** proposed (Round 12 / Session 3). Ratification-pending as a fill of the ebonyshell protocol and mussel example. Not a computation of \(\eta_{TM}\). Not empirical validation of HKL. Freshwater reuse of \(\eta_{TM}\) remains needs-mapping under `ai/NOTES/application-quantity-inheritance-v0.1.md`.
+**Status:** accepted-with-revisions (Round 12 / Session 3). Ratification-pending as a fill of the ebonyshell protocol and mussel example. Not a computation of \(\eta_{TM}\). Not empirical validation of HKL. Freshwater reuse of \(\eta_{TM}\) remains needs-mapping under `ai/NOTES/application-quantity-inheritance-v0.1.md`.
 
 **Retrieval date:** 2026-11-21, America/New_York. See `retrieval_log.md` for URLs, versions, hashes, and access notes.
 
@@ -87,3 +87,16 @@ These figures do not measure host passage, mussel recruitment, or sink-impairmen
 - It does not restore any withdrawn Sahel claim.
 - It does not promote an application quantity into a universal primitive.
 - It does not move base theory and does not open a multi-armed-bandit arm.
+
+## 6. Verifier revisions (Round 12)
+
+The verifier re-ran `scripts/compute_keokuk_discharge.py --offline` on 21 November 2026 against the committed RDB and reproduced the claimed NWIS DV counts and means (3,652/3,653 days; period mean 100,725 ft³/s; missing date 2022-08-31). Cited URLs were checked the same day: Iowa Capital Dispatch, Waterways Council, DVIDS 559287, the USGS water-year page, the Wayback Lock 19 snapshot, and the ICRCC FY2026 PDF all returned HTTP 200. The live USACE Lock 19 URL returned HTTP 403 (Access Denied; body length 556), confirming A’s live-fetch note. The ICRCC PDF `Content-Length` was 9,279,079 bytes, matching the logged size.
+
+Required revisions, now reflected in this fill and in the example/protocol notes:
+
+1. River Mile 364.2, the FY21 install date, and “final reporting expected in 2027” are dated to the 24 January 2025 Wayback snapshot of the USACE page, not to a live official page on 21 November 2026. The ICRCC FY2026 plan, retrieved live, corroborates experimental uADS operation at Lock No. 19 through 2026 only.
+2. Lock and Dam 22 construction “expected to continue through 2027” is attributed to the 2 March 2026 DVIDS story (Story ID 559287). The official project page named there was not fetched.
+3. The locked items were site, parameter, statistic, and window. NWIS Daily Values was adopted as the primary service *after* the OGC API daily collection showed 923 missing days, including almost all of water year 2018, and a cross-check showed those gaps were a service difference (0 value disagreements on 2,730 overlapping days).
+4. Period mean including 39 estimated (`A:e`) days: 100,725 ft³/s (n=3,652). Period mean excluding them: 100,548 ft³/s (n=3,613). Water-year means both ways are in `outputs/usgs_05474500_annual_means_including_and_excluding_estimated.csv`. The largest gap is WY2016 (110,377 including / 109,893 excluding; 31 estimated days).
+5. Discharge remains hydrologic context only. It is not an HKL test.
+

@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: Keokuk / Lock 19 status fill accepted with revisions (Round 12)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Re-ran the discharge script offline against the committed RDB and reproduced the claimed counts and means. Confirmed that the cited Iowa Capital Dispatch, Waterways Council, DVIDS, water-year, Wayback, and ICRCC URLs return HTTP 200, and that the live USACE Lock 19 page still returns 403. Applied a Session 3 note to mussel example §8 item 4 and a protocol pointer, with B’s dating, DVIDS attribution, source-choice, estimated-day, and “not an HKL test” revisions. Did not assign \(\eta\) or the *severed* flag.
+- **Why:** Session 3 requires C to re-run scripts and check that sources resolve, and to apply revisions in the same verdict commit.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-keokuk-ld19-status.md`; worked fill under `Release/Examples/ohio-mississippi-mussels/worked-fills/2026-11-21-ld19-status/`; [A] `6fcf923` / repair `b731c57`; [B] `3e2f352`. No pull request. `main` was not changed.
+- **What this means:** The standing mussel example now records that citation [38] was about Lock and Dam 22, and that the official project at Keokuk in the retrieved records is an acoustic deterrent. River flow at the Keokuk gage has been summarized, but mussel renewal still has not been computed.
+
 ## 2026-11-21 — Adversary: challenges to the Keokuk / Lock 19 worked fill (Round 12)
 
 - **Agent:** Adversary (B)

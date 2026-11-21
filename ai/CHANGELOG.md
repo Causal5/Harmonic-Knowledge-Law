@@ -10,6 +10,29 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-21 — Round 12: Keokuk / Lock 19 official status and USGS 05474500 discharge
+
+Worked example with retrieved public records, not a blank template.
+`accept-with-revisions`. Citation [38] locates the first-of-its-kind
+fish passage at Lock and Dam 22 near Saverton, Missouri, not at
+Keokuk. Official USACE (Wayback 24 January 2025 of a page published
+30 August 2024; live URL HTTP 403 on 21 November 2026) and ICRCC
+FY2026 records describe a uADS carp deterrent at Lock and Dam 19
+(River Mile 364.2 in the snapshot; experimental operation through
+2026 in the live ICRCC plan). Discharge at USGS 05474500 for locked
+USGS water years 2016–2025: 3,652/3,653 days, period mean 100,725
+ft³/s including 39 estimated days and 100,548 ft³/s excluding them;
+one missing day (2022-08-31). The modern OGC daily API was missing
+923 of those days; values agreed on all overlapping days. NWIS DV
+was adopted as primary after those gaps were seen. Discharge is
+hydrologic context only; \(\eta\) and the *severed* flag were not
+assigned. A logged Session 3 note was added to mussel example §8
+item 4. Verifier re-ran the script and checked that cited sources
+resolve.
+C commit: this commit.
+Fill: `Release/Examples/ohio-mississippi-mussels/worked-fills/2026-11-21-ld19-status/`.
+Verdict: `ai/LEDGER/verdicts/V-2026-11-21-keokuk-ld19-status.md`.
+
 ## Session 2 summary (2026-11-21)
 
 This session ran Round 7 (the four Session 1 corpus corrections, through
