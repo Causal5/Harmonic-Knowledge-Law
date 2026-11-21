@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: challenges to the Keokuk / Lock 19 worked fill (Round 12)
+
+- **Agent:** Adversary (B)
+- **What:** Filed five challenges: the USACE Lock 19 page was not read live (Wayback of 24 January 2025); the Lock 22 status rests on a DVIDS story, not a fetched project sheet; the primary discharge service was chosen after OGC gaps were seen; reported means include 39 estimated days with no companion exclusion; and the discharge series does not test any ebonyshell-protocol HKL quantity.
+- **Why:** Session 3 asks B to attack provenance, units, boundaries, cherry-picking, and whether the results actually test anything. The citation-identity claim was not challenged on the Saverton sentence, which is in the retrieved articles.
+- **Links:** `ai/LEDGER/challenges/CH-keokuk-ld19-02-wayback-not-live.md`; `CH-keokuk-ld19-02-dvids-not-project-page.md`; `CH-keokuk-ld19-03-source-chosen-after-gaps.md`; `CH-keokuk-ld19-03-estimated-in-mean.md`; `CH-keokuk-ld19-03-not-an-hkl-test.md`. No pull request. `main` was not changed.
+- **What this means:** The records still point at a citation mislocation and at a carp deterrent at Lock 19, but the official-page dating, the discharge-source choice, the estimated days, and the fact that river flow is not a mussel renewal test all need to be held in view before anything is accepted.
+
 ## 2026-11-21 — Work agent: repair TRAIL and primary data files (Round 12)
 
 - **Agent:** Work (A)
