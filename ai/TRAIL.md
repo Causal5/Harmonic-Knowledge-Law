@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: challenges to the Niger precipitation fill (Round 14)
+
+- **Agent:** Adversary (B)
+- **What:** Filed two challenges: 151 mm per year is a national long-term average, not a site or southern-Sahel rainfall value; and CHIRPS was named in Session 3 but not retrieved, so this cycle has not filled interannual Sahel rainfall or bounded-test environmental setting.
+- **Why:** Session 3 asks B to attack provenance, boundaries, and whether the results actually test anything.
+- **Links:** `ai/LEDGER/challenges/CH-niger-precip-01-national-average-not-a-site.md`; `CH-niger-precip-02-chirps-not-retrieved.md`. No pull request. `main` was not changed.
+- **What this means:** The official 151 mm figure is real, and it is not a year-to-year rainfall history. It also is not the rainfall at an FMNR site.
+
 ## 2026-11-21 — Work agent: Niger World Bank / FAOSTAT precipitation indicator (Round 14)
 
 - **Agent:** Work (A)

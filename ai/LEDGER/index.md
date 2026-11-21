@@ -6,8 +6,8 @@ is opened. Status starts as `proposed`.
 
 | Claim ID | Date | Proposal | Claim | Challenges | Verdict | Commit | Files |
 |---|---|---|---|---|---|---|---|
-| C-niger-precip-01 | 2026-11-21 | 2026-11-21-niger-precip-wb | WDI/FAOSTAT AG.LND.PRCP.MM for Niger 1961–2022 is a repeated 151.0 mm/year long-term average, not interannual |  |  |  | `ai/LEDGER/claims/C-niger-precip-01.md` |
-| C-niger-precip-02 | 2026-11-21 | 2026-11-21-niger-precip-wb | No V, no restored Sahel sign-change claims, Niger is not the filled comparable-location lock; FAO/WB class declared |  |  |  | `ai/LEDGER/claims/C-niger-precip-02.md` |
+| C-niger-precip-01 | 2026-11-21 | 2026-11-21-niger-precip-wb | WDI/FAOSTAT AG.LND.PRCP.MM for Niger 1961–2022 is a repeated 151.0 mm/year long-term average, not interannual | CH-niger-precip-01-national-average-not-a-site |  |  | `ai/LEDGER/claims/C-niger-precip-01.md` |
+| C-niger-precip-02 | 2026-11-21 | 2026-11-21-niger-precip-wb | No V, no restored Sahel sign-change claims, Niger is not the filled comparable-location lock; FAO/WB class declared | CH-niger-precip-02-chirps-not-retrieved |  |  | `ai/LEDGER/claims/C-niger-precip-02.md` |
 | C-tulare-dtw-01 | 2026-11-21 | 2026-11-21-tulare-lake-dtw | Official unit is B118 5-022.12; not “the” CV/SJV Bite 5 boundary | (none) | accepted | [A] 97d4614; [B] 3a59432; [C] this commit | `ai/LEDGER/claims/C-tulare-dtw-01.md`; `sources/b118_5-022.12_tulare_lake.geojson` |
 | C-tulare-dtw-02 | 2026-11-21 | 2026-11-21-tulare-lake-dtw | Locked 72019 spring 2015 vs 2024 contrast: 0 qualifying wells; no invented change | CH-tulare-dtw-02-usgs-coverage-not-hydrology (hit as summary risk); CH-tulare-dtw-02-spring-window-unofficial (miss) | accepted-with-revisions | [A] 97d4614; [B] 3a59432; [C] this commit | `ai/LEDGER/claims/C-tulare-dtw-02.md` |
 | C-tulare-dtw-03 | 2026-11-21 | 2026-11-21-tulare-lake-dtw | Faunt et al. 2024 abstract retrieved: ~158 km3 CV storage loss to 2019, ~15% permanent; not recomputed; not Bite 5 | CH-tulare-dtw-03-abstract-only (hit as summary risk) | accepted-with-revisions | [A] 97d4614; [B] 3a59432; [C] this commit | `ai/LEDGER/claims/C-tulare-dtw-03.md` |
