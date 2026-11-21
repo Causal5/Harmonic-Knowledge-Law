@@ -13,6 +13,31 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Work agent: freshwater data dictionary schema (Round 1)
+
+- **Agent:** Work (A)
+- **What:** Committed the Bite 1 data dictionary schema straight to
+  `ai/evolution` (status `proposed`). The file contents were first drafted
+  on the discarded side-branch commit
+  `6ca9701f75af4131ab37017004deda63bd64683e` and are landed here as a
+  direct `[A]` commit, with no pull request. Added
+  `Release/Examples/central-valley/freshwater_data_dictionary_v0.2.csv`,
+  the proposal note, four claim files, and ledger rows.
+- **Why:** The 16 October publication notes and protocol §14 already name
+  the freshwater data dictionary as the immediate empirical step, and they
+  require doing that before choosing HKL weights or collecting building
+  anecdotes. This cycle records the required variables and separations
+  without inventing measurements or completing source mapping.
+- **Links:** `ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/proposal.md`;
+  `Release/Examples/central-valley/freshwater_data_dictionary_v0.2.csv`;
+  claims `C-freshwater-data-dictionary-01` through `-04`;
+  `ai/LEDGER/index.md`. Source draft commit (side branch, not this line):
+  https://github.com/Causal5/Harmonic-Knowledge-Law/commit/6ca9701f75af4131ab37017004deda63bd64683e
+- **What this means:** A human following this trail should see a spreadsheet
+  of *what must be collected and kept distinct*, not a finished water study
+  and not a claim that the framework has been tested. Official map
+  boundaries and real data sources are still empty on purpose.
+
 ## 2026-11-21 — Setup: cycle is direct commits only
 
 - **Agent:** setup (direct commit to `ai/evolution`; process change directed by Jordan)
