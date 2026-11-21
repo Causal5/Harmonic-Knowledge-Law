@@ -113,6 +113,18 @@ checked.
   accepted proposal files should be removed after the verdict.
 
 
+## 2026-11-21 — Round 8: computed-status assignment procedure (accept-with-revisions)
+
+Branch-local, ratification-pending note at
+`ai/NOTES/computed-status-assignment-v0.1.md`. A registry flag defined
+by a computed quantity may not be assigned from a qualitative
+narrative. No quantities were computed. Challenges that hit: the
+heading must not read as adopted official vocabulary; ordinary-language
+uses of the same word are out of scope; the protocol must be locked
+before the series are inspected.
+
+C commit lands with this entry.
+
 ## 2026-11-21 — Round 7: Session 2 corpus corrections (accept-with-revisions)
 
 Patched `_apply_pae` so expenditure is recorded separately from

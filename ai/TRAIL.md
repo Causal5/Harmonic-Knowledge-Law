@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Verifier: computed-status assignment accepted with revisions (Round 8)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the note is not a registry amendment and computes nothing. Renamed the heading to a proposed procedure, limited scope to computed-flag assignment (not ordinary language), and required the protocol to be locked before the series are inspected.
+- **Why:** A procedure that sounds already official, or that can be locked after seeing the answer, would not have done the job.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-21-computed-status-assignment.md`; `ai/NOTES/computed-status-assignment-v0.1.md`.
+- **What this means:** Later work can still tell a qualitative story, but the official flag stays blank until a pre-locked protocol actually computes the quantity, or the field stays unfilled.
+
 ## 2026-11-21 — Adversary: computed-status assignment challenges (Round 8)
 
 - **Agent:** Adversary (B)
