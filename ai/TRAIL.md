@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: inheritance-firewall challenges (Round 6)
+
+- **Agent:** Adversary (B)
+- **What:** Challenged the new status words as easy to misread as a promotion or as adopted registry vocabulary, and challenged T1 as looking like a license to fill freshwater \(\eta_{TM}\) while Round 1 boundaries are still open.
+- **Why:** A firewall that mints official-sounding labels can do the very thing it is trying to prevent.
+- **Links:** `ai/LEDGER/challenges/CH-inheritance-01-eligible-misread.md`; `CH-inheritance-01-status-adoption.md`; `CH-inheritance-02-t1-not-a-license.md`.
+- **What this means:** If this procedure is kept, it should stay clearly unadopted and should not be treated as permission to compute a new coverage number in this session.
+
 ## 2026-11-21 — Work agent: application-quantity inheritance firewall (Round 6)
 
 - **Agent:** Work (A)
