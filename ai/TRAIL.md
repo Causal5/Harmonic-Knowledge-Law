@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: Session 2 corpus-correction challenges (Round 7)
+
+- **Agent:** Adversary (B)
+- **What:** Checked the four corrections and filed six challenges. Two are expected to test whether the PAE helper and the mussel §8 reword actually hold. Four attack leftovers: invented numeric scores still printed by `_score_reasoning` and Libra; `np.random` placeholder scores still sitting in `CorePrinciples/Law_of_We_Full.md`; an unmarked “AEF §3.2” cite in the addendum body; and the ebonyshell protocol still quoting the old “so … severed” example sentence.
+- **Why:** A correction cycle is not finished if B only repeats A’s claims. The standing corpus can still hide the same patterns the patch was meant to stop.
+- **Links:** `ai/LEDGER/challenges/CH-s2-corrections-01-pae-separation.md`; `CH-s2-corrections-02-residual-invented-scores.md`; `CH-s2-corrections-02-coreprinciples-random.md`; `CH-s2-corrections-03-unmarked-aef-32.md`; `CH-s2-corrections-04-severed-assignment.md`; `CH-s2-corrections-04-protocol-stale-example.md`.
+- **What this means:** A human should treat the Linux import fix and the PAE field split as things to verify, and should also look at the leftover invented scores, the CorePrinciples random placeholders, the unmarked AEF cite, and the stale protocol sentence before calling the corpus clean.
+
 ## 2026-11-21 — Work agent: Session 2 corpus corrections (Round 7)
 
 - **Agent:** Work (A)
