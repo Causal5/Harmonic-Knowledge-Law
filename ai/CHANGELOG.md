@@ -113,6 +113,21 @@ checked.
   accepted proposal files should be removed after the verdict.
 
 
+## 2026-11-21 — Round 7: Session 2 corpus corrections (accept-with-revisions)
+
+Patched `_apply_pae` so expenditure is recorded separately from
+correction; fixed `src/` imports for case-sensitive Linux and replaced
+`np.random` placeholder scores with `None`; added a status banner and
+in-place dead-cite marks to the unpromoted Sahel logistic addendum;
+reworded mussel example §8 item 3 as qualitative/provisional, citing
+the 30 October record. Verifier revisions: leftover invented scores in
+`_score_reasoning` and Libra; `np.random` placeholders in
+`CorePrinciples/Law_of_We_Full.md`; unmarked AEF §3.2 body cite; stale
+“so … severed” quote in the ebonyshell protocol. Scripts were run on
+this Linux box. No η or Sahel series was invented.
+
+C commit lands with this entry.
+
 ## 2026-11-21 — Round 6: application-quantity inheritance firewall (accept-with-revisions)
 
 Branch-local note at `ai/NOTES/application-quantity-inheritance-v0.1.md`.

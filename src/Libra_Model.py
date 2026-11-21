@@ -21,9 +21,9 @@ class LibraModel:
         
         # HKL Metrics integration (for OIE monitoring)
         self.hkl_metrics = {
-            "EGR": 0.0,  # Entropy Generation Ratio
-            "GDS": 0.0,  # Geometric Distribution Score
-            "OIE": 0.0   # Observer-Induced Entropy
+            "EGR": None,  # not implemented
+            "GDS": None,  # not implemented
+            "OIE": 0.0,   # accumulator; only updated when a real OIE impact exists
         }
         
         # Performance tracking
@@ -35,13 +35,10 @@ class LibraModel:
     def compute_entropy_score(self, input_data):
         """
         Stage 1: Coherence Check (HKL)
-        Computes an entropy score based on symbolic structure.
-        Returns: Entropy score (0 to 1, lower is better).
+        Not implemented. String length is not an entropy measurement.
+        Returns: None.
         """
-        symbolic_complexity = len(str(input_data))  
-        max_complexity = 1000  
-        entropy_score = min(symbolic_complexity / max_complexity, 1.0)
-        return entropy_score
+        return None
 
     def compute_oie_impact(self, input_data):
         """
@@ -64,15 +61,11 @@ class LibraModel:
     def update_hkl_metrics(self, input_data, oie_impact):
         """
         Updates HKL metrics (EGR, GDS, OIE) based on input processing.
+        EGR and GDS are not implemented; do not invent them from hardcoded
+        flops, thermal waste, or heat-resource lists.
         """
-        flops = 10**9  
-        thermal_waste = 1000  
-        self.hkl_metrics["EGR"] = flops / thermal_waste
-
-        heat_resources = [500000, 300000, 200000]  
-        mean = np.mean(heat_resources)
-        std = np.std(heat_resources)
-        self.hkl_metrics["GDS"] = 1 - (std / mean) if mean > 0 else 0
+        self.hkl_metrics["EGR"] = None
+        self.hkl_metrics["GDS"] = None
 
         if oie_impact is not None:
             self.hkl_metrics["OIE"] += oie_impact
@@ -86,6 +79,11 @@ class LibraModel:
         start_time = time.time()
 
         entropy_score = self.compute_entropy_score(input_data)
+        if entropy_score is None:
+            return "not_implemented", {
+                "reason": "Entropy score is not implemented; no invented score",
+                "entropy_score": None,
+            }
         if entropy_score >= self.entropy_threshold:
             self.rejected_inputs += 1
             self.checksum_database.append(input_data)
