@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-21 — Adversary: challenges to the Niger cereal-yield fill (Round 15)
+
+- **Agent:** Adversary (B)
+- **What:** Filed two challenges: the yield indicator was chosen after it was seen to vary, following Round 14; and national cereal yield is not an FMNR, rainfall, or HKL-correction result, including the 1984 minimum and 1964 maximum.
+- **Why:** Session 3 asks B to attack provenance, cherry-picking, and whether the results actually test anything.
+- **Links:** `ai/LEDGER/challenges/CH-niger-yield-02-chosen-after-variation-seen.md`; `CH-niger-yield-02-national-yield-not-fmnr.md`. No pull request. `main` was not changed.
+- **What this means:** The official yield numbers can be re-run, but they are still a national agricultural series chosen after Round 14, not a completed Sahel test.
+
 ## 2026-11-21 — Work agent: Niger World Bank / FAO cereal-yield series (Round 15)
 
 - **Agent:** Work (A)
