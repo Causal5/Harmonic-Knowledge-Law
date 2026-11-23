@@ -22,6 +22,10 @@ Each arm record has:
 
 Do not develop an arm in the same cycle that first assesses it, unless Jordan directs otherwise. A `drop` or `wait` is a complete outcome. A `wait` is not an `explore` and is not permission to score Bite 5, choose weights, or construct \(V\). It expires only after a new assessment written when the missing official series and predeclarations are actually in hand. “Reward signal” in this file is qualitative prose, not a computed score, prior, or regret bound.
 
+## Round 17 note (2026-11-23)
+
+Round 17 opens `ai/GLOSSARY.md` as a terminology map / erratum against Registry v0.3.2 and the reconciled papers. It invents no definitions, restores no withdrawn claims, and does not extend the premise. It is therefore **not registered as an arm** and no arm is developed in that cycle.
+
 ## Arm records
 
 ### ARM-2026-11-21-01 — Spatial above/below Keokuk contrast as sink-impairment

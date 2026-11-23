@@ -6,6 +6,8 @@ is opened. Status starts as `proposed`.
 
 | Claim ID | Date | Proposal | Claim | Challenges | Verdict | Commit | Files |
 |---|---|---|---|---|---|---|---|
+| C-term-01 | 2026-11-23 | 2026-11-23-terminology-erratum | Glossary is mapping-only; no invented definitions; needs-definition flagged; not a theory arm | (pending B) | (pending C) | [A] this commit | `ai/GLOSSARY.md`; `ai/LEDGER/claims/C-term-01.md` |
+| C-term-02 | 2026-11-23 | 2026-11-23-terminology-erratum | Working-draft marks and CorePrinciples banners in place; Layer 0/1 official papers not rewritten | (pending B) | (pending C) | [A] this commit | `ai/LEDGER/claims/C-term-02.md`; working drafts and CorePrinciples banners |
 | C-theory-mab-01 | 2026-11-21 | 2026-11-21-theory-mab | THEORY_MAB.md is a ratification-pending process aid with assessments written before development; not Layer 0; not a numeric algorithm | CH-theory-mab-01-not-a-bandit-algorithm (hit as summary risk) | accepted-with-revisions | [A] cfe371c; [B] aa3d38b; [C] this commit | `ai/LEDGER/claims/C-theory-mab-01.md`; `ai/THEORY_MAB.md` |
 | C-theory-mab-02 | 2026-11-21 | 2026-11-21-theory-mab | ARM-01–04 drop, ARM-05 wait; no arm developed; no Bite 5 / eta / severed / withdrawn Sahel restoration | CH-theory-mab-02-wait-is-not-explore (hit as summary risk) | accepted-with-revisions | [A] cfe371c; [B] aa3d38b; [C] this commit | `ai/LEDGER/claims/C-theory-mab-02.md` |
 | C-niger-yield-01 | 2026-11-21 | 2026-11-21-niger-cereal-yield | WDI/FAOSTAT cereal yield for Niger 1961–2022: 62 years, mean 423.82 kg/ha, min 257.1 (1984), max 599.3 (1964) | (none) | accepted | [A] e57b248; [B] 9a6b7b1; [C] this commit | `ai/LEDGER/claims/C-niger-yield-01.md` |

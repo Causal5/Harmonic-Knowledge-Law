@@ -1,5 +1,12 @@
 # Harmonic Knowledge Law (HKL)
 
+> **Status (ai/evolution, 2026-11-23, Round 17, proposed).** Working / preserved proposal. Not current HKL or AEF authority. Current definitions are in `Release/HKL/hkl-lyapunov.md` and `Release/Papers/absorbic-effort-framework.md`. Citations or wording below that do not match those current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers or formulas are invented here.
+> - “the Lyapunov condition $dV/dt \le 0$” treated as a required basin condition — current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
+> - Effort-accounting symbols written as if $PAE$ and $OIE$ were the current measured quantities — current AEF §2: PAE is a principle and OIE is a process; neither is a number.
+> - “Stability requires $dV/dt \le 0$” and $V^*$ written as a least-action / PCB identity — current HKL §4 / §7 withdraw necessary-monotonic-drift wording; current HKL §3 and the 16 October record separate $V^*$, $V_{PCB}$, and $V_{max}$.
+> Version numbers inside this draft do not supersede Registry v0.3.1 / v0.3.2 or the reconciled core papers (`Release/Working/README.md`). Term mapping: `ai/GLOSSARY.md`.
+
+
 ## Lyapunov Basin Formalism — v2
 ### Aligned to Δ-Self Worldline Formalization
 ---
@@ -90,6 +97,8 @@ $$
 \frac{dV}{dt} \le 0
 $$
 
+**[STALE / WITHDRAWN: current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording; no replacement necessary-condition formula is invented here]**
+
 Interpretation:
 
 * $\frac{dV}{dt} < 0$: corrective drift toward stability.
@@ -104,7 +113,7 @@ $$
 \frac{d}{dt} \mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}
 $$
 
-Since $\mathcal{E}_i$ is the primary burden component, the Lyapunov condition $\frac{dV}{dt} \le 0$ requires (at minimum):
+Since $\mathcal{E}_i$ is the primary burden component, the Lyapunov condition $\frac{dV}{dt} \le 0$ requires (at minimum): **[STALE / WITHDRAWN: current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording; no replacement necessary-condition formula is invented here]**
 
 $$
 \mathcal{F}_{PAE} \ge \mathcal{F}_{OIE} + \frac{1}{w_0} \sum_{k \ge 1} w_k \dot{B}_k(t)
@@ -141,6 +150,8 @@ $V^*$ corresponds to the burden profile along the Passive Cost Baseline trajecto
 $$
 V^* = V\big|_{\gamma = \gamma_{PCB}}
 $$
+
+**[STALE: current HKL §3 and the 16 October record separate $V^*$, $V_{PCB}$, and $V_{max}$; no universal identity $V^*=V_{PCB}$ is assumed. No replacement identity is invented here.]**
 
 That is: the least-action envelope is the stability burden accumulated by a system following the trajectory absent recursive deviation. Any ΔSelf ≠ 0 introduces additional burden that must be absorbed (see AEF) or the system diverges from the basin.
 
