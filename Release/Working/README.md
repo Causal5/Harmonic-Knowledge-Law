@@ -1,5 +1,7 @@
 # Working and historical research
 
+> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
+
 These recovered documents are public for inspection, revision, and historical continuity. Their original bodies are preserved. Current definitions are in Registry v0.3.1 and the reconciled core papers. Version numbers inside a draft do not supersede them. On `ai/evolution`, Round 10 marks dead or stale section citations in `absorbic-effort-framework-v2.md` and `buffer-as-temporal-dimension.md` in place; Round 17 extends those marks (including leftover PAE-as-number, AU, and $PAE=E-C_{pae}$ wording) and adds a status banner plus a withdrawn necessary-$dV/dt\le 0$ mark to `hkl-lyapunov-v2.md`. No replacement section numbers or formulas are invented. The branch term map is [`ai/GLOSSARY.md`](../../ai/GLOSSARY.md).
 
 | Document | Publication status |

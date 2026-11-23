@@ -1,6 +1,8 @@
 # Buffer as Temporal Dimension
 ## Cross-Corpus Re-Anchor
 
+> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
+
 > **Status (ai/evolution, 2026-11-21, Round 10; marks extended 2026-11-23, Round 17, proposed).** Working addendum. Not current HKL, AEF, or Sahel authority. Current HKL already has a buffer definition in §6; current Sahel §6 is a bounded test recipe, not a demonstration that this formalism was applied. Citations below that do not match the current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers are invented here.
 > - “Sahel §5.3” — current Sahel has no §5.3; §5 withdraws completion claims.
 > - “Sahel Worked Example §6 demonstrates the buffer formalism” — current Sahel §6 is “Bounded test” and does not demonstrate this draft.

@@ -1,5 +1,7 @@
 # Harmonic Knowledge Law (HKL)
 
+> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
+
 > **Status (ai/evolution, 2026-11-23, Round 17, proposed).** Working / preserved proposal. Not current HKL or AEF authority. Current definitions are in `Release/HKL/hkl-lyapunov.md` and `Release/Papers/absorbic-effort-framework.md`. Citations or wording below that do not match those current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers or formulas are invented here.
 > - “the Lyapunov condition $dV/dt \le 0$” treated as a required basin condition — current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
 > - Effort-accounting symbols written as if $PAE$ and $OIE$ were the current measured quantities — current AEF §2: PAE is a principle and OIE is a process; neither is a number.

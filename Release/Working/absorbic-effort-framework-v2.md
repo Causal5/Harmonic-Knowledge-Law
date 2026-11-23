@@ -1,5 +1,7 @@
 # Absorbic Ethics Framework (AEF)
 
+> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
+
 > **Status (ai/evolution, 2026-11-21, Round 10; marks extended 2026-11-23, Round 17, proposed).** Working / preserved proposal. Not current AEF or HKL authority. Current definitions are in `Release/Papers/absorbic-effort-framework.md` and `Release/HKL/hkl-lyapunov.md`. Citations below that do not match those current papers are marked **[DEAD CITE]** in place. No replacement section numbers are invented here.
 > - “HKL §5.1” — current HKL has no §5.1; §5 is “Effect accounting.”
 > - “the Lyapunov condition $dV/dt \le 0$” — current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
