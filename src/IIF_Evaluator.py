@@ -14,6 +14,13 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+
+# Experimental code, not an official implementation of current Registry,
+# HKL, or AEF definitions. The name "HKL-AI Score" and any 0.4/0.3/0.3
+# weighting are historical / unofficial; they are not in Registry v0.3.2.
+# See src/README.md and ai/GLOSSARY.md. No replacement official metric
+# is invented here.
+
 import numpy as np
 
 # Explicit sentinel for scores and corrections that are not implemented.
@@ -98,12 +105,14 @@ class IIFEvaluator:
             return NOT_IMPLEMENTED
 
     def _calculate_hkl_ai_score(self, efficiency, impact, coherence):
-        if efficiency is None or impact is None or coherence is None:
-            return NOT_IMPLEMENTED
-        try:
-            return round((0.4 * efficiency) + (0.3 * impact) + (0.3 * coherence), 2)
-        except TypeError:
-            return NOT_IMPLEMENTED
+        """Not implemented. Returns None.
+
+        A previous unofficial weighting (0.4 efficiency + 0.3 impact +
+        0.3 coherence, with informal 0.3 / 0.6-0.8 thresholds) is not a
+        Registry v0.3.2 definition and is not computed here. No
+        replacement official score is invented.
+        """
+        return NOT_IMPLEMENTED
 
     def _infer_causal_tags(self, contribution, foresight_score, impact_score):
         tags = []

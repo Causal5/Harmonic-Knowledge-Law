@@ -27,3 +27,12 @@ correction.
 These scripts can be run, but their numeric “HKL-AI” outputs are not
 measurements. A later cycle may implement real scorers against the
 current registry; that work is not done here.
+
+**Round 19 clarification (23 November 2026).** Function and variable names
+such as *SRI*, *HRS*, and *HKL-AI Score* remain in this folder as historical
+experimental labels. They are not official Registry vocabulary. The former
+hardcoded `0.1` resource cut in `GILN_AI.distill_knowledge` (a 90% reduction)
+and the former `+0.5` connection increment are disabled; they were not
+measurements. `_calculate_hkl_ai_score` now always returns `None`; the old
+0.4/0.3/0.3 weighting is not computed and is not adopted as a definition.
+No replacement official metrics, weights, or units are invented here.

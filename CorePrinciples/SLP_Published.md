@@ -1,3 +1,9 @@
+# SLP Published (historical recovered source)
+
+> **Status (ai/evolution, 2026-11-23, Round 19).** Historical / recovered SLP source. Not current Registry, HKL, or AEF authority, and not a Layer 0 document. The body below is preserved unedited. Current official wording is in `Release/` on `main`. A term map is in `ai/GLOSSARY.md`. No replacement definitions are invented here.
+
+---
+
 
 
 Feb 20, 2025
