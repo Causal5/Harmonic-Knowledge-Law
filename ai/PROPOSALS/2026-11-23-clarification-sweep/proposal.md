@@ -2,7 +2,7 @@
 
 **TL;DR.** `main` moved: Jordan corrected mussel §8 item 4. This cycle re-pulls that tree, follows it where the branch was behind, finishes the leftover clarifications that do not need a new definition, audits `Release/` on `main` for overreach a reviewer could use, and writes `ai/REVIEW_FOR_JORDAN.md` as the single list of terms he must define, wording only he can fix on `main`, and pending decisions. No definition is invented. No theory arm is developed. `main` is not edited.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** 19 (23 November 2026, America/New_York). Jordan-directed run after his §8 item 4 fix (t17u).
 
@@ -29,3 +29,7 @@ In scope: re-pull and reconcile; residual banners and experimental-code clarific
 - `ai/LEDGER/errata/2026-11-23-main-270942c-reconciliation.md`
 - Mussel example (item 4 + banners), other diverging / added `Release/` banners, `CorePrinciples/SLP_Published.md`, `src/` clarifications, charter / `ai/README.md` / glossary pointer updates
 - This proposal, claims, trail, and ledger index
+
+## Verifier revisions (Round 19 C)
+
+Accepted with revisions. The one challenge hit: branch-only data files had no unpublished notice. C added folder-level `UNPUBLISHED.md` notices and a companion notice beside the freshwater dictionary CSV. No definition was invented. `main` was not edited.
