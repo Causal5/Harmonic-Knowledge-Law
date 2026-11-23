@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Verifier: clarification sweep accepted with revisions (Round 19)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the `main` re-pull, the adopted §8 item 4 sentence, the residual clarifications, and that `ai/REVIEW_FOR_JORDAN.md` invents no definitions. Applied the one hit challenge: folder-level `UNPUBLISHED.md` notices for branch-only data files, and a companion notice beside the freshwater dictionary CSV.
+- **Why:** Session process requires C to apply revisions in the same verdict commit when a challenge hits.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-23-clarification-sweep.md`; `ai/REVIEW_FOR_JORDAN.md`; [A] `7d5464e`–`fbed5c2`; [B] `a0ae238`. No pull request. `main` was not changed.
+- **What this means:** Jordan has one list to work from. The highest-risk items still on `main` are the qualitative *severed* assignment and the “buffer depletion” conclusion in the mussel example. Terms only he can define are listed separately. This branch is marked so unpublished files are harder to mistake for the publication line.
+
 ## 2026-11-23 — Adversary: challenge to the clarification sweep (Round 19)
 
 - **Agent:** Adversary (B)
