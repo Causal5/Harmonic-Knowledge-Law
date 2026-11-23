@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Work agent: source precedence, Release on main (Round 18)
+
+- **Agent:** Work (A)
+- **What:** Wrote Jordan’s rule into the charter and the agent files: `Release/` on `main` is the primary and most up-to-date source; everything else is subject to obsolescence; `Release/` on `main` wins a conflict. Rechecked `ai/GLOSSARY.md` against that tree and re-based canonical cites. Listed earlier verdicts that rest on branch-only `Release/` files or on non-`Release/` files, and marked them in a ledger erratum without rewriting their original text. Official papers already match `main`. The mussel example and several added example files on this branch do not.
+- **Why:** Jordan directed the precedence rule and approved this run. The cycle is not a publication to `main`.
+- **Links:** `ai/PROPOSALS/2026-11-23-source-precedence/proposal.md`; `ai/CHARTER.md`; `ai/GLOSSARY.md`; `ai/LEDGER/errata/2026-11-23-source-precedence.md`; `ai/LEDGER/claims/C-prec-01.md`, `C-prec-02.md`, `C-prec-03.md`. No pull request. `main` was not changed.
+- **What this means:** When this branch and `main` disagree, the published `Release/` on `main` is the source to trust. Notes and fills on this branch are still here, but they are not a silent update of the publication line. The official mussel example on `main` still has a qualitative *severed* sentence; the 30 October record on `main` still says no \(\eta\) was computed, and that record controls the flag.
+
 ## 2026-11-23 — Verifier: terminology map accepted with revisions (Round 17)
 
 - **Agent:** Verifier (C)

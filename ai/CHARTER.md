@@ -6,7 +6,13 @@ It does not alter `main`. Agents may extend theory, examples, and code only on
 this branch, and only under the rules below.
 
 **Amendments to this file may be made only by Jordan (GitHub: Causal5).**
-No agent may edit `ai/CHARTER.md`.
+No agent may edit `ai/CHARTER.md`, except when Jordan has expressly directed
+a specific amendment.
+
+**23 November 2026 amendment (Jordan).** Jordan directed that the files in
+`Release/` on `main` are the primary and most up-to-date source, and that
+everything else is subject to obsolescence. The source-precedence rule below
+records that direction. This amendment does not write to `main`.
 
 ## Pinned snapshot
 
@@ -21,6 +27,31 @@ compared. It is not a claim that the corpus is scientifically validated.
 `CHANGELOG.md` on `main` already states that publication dates “do not imply
 scientific validation or the completion of a draft's proposed work.”
 
+## Source precedence — `Release/` on `main`
+
+Jordan’s rule (23 November 2026): the files in `Release/` as published on
+`main` are the primary and most up-to-date source. Every other file is
+subject to obsolescence. If wording conflicts, `Release/` on `main` wins.
+
+- The authoritative tree is `Release/` at `main` (currently the pinned
+  snapshot `c9e12778aba0014732a8add3c90c5676e5785bf7` until `main` itself
+  moves). Which documents *inside* that tree are current definitions, and
+  which are drafts or historical sources, is already decided there:
+  Registry v0.3.2 and the reconciled papers control; `Release/Working/`,
+  `Release/archive/`, and the v0.4 draft do not override them. That
+  division is itself stated in `Release/ARCHITECTURE.md` and the 16 October
+  record on `main`.
+- Files outside that tree — including `CorePrinciples/`, `src/`, root
+  historical files, `START_HERE.md` as a file, and the whole `ai/`
+  directory — are subject to obsolescence and do not override `Release/`
+  on `main`.
+- A copy, edit, or addition under `Release/` on `ai/evolution` does not,
+  by itself, become the published `Release/` on `main`. It is branch work.
+  A commit on this branch is not a publication to `main`.
+- Layer 0 quotations in this charter remain locked. The source *files*
+  those quotes were taken from do not otherwise outrank `Release/` on
+  `main`. Only Jordan may change the locked quotations.
+
 ## Layer 0 — Immutable premise
 
 Agents may not redefine, weaken, or override the following. Challenges may
@@ -29,7 +60,7 @@ Layer 0 is rejected. Only Jordan may amend this layer, by editing this charter.
 
 ### Causal Integrity Axiom
 
-From `CorePrinciples/Causal_Integrity_Axiom.md`:
+Quoted in this charter from the historical file `CorePrinciples/Causal_Integrity_Axiom.md`. The quotation is locked here. The file as a whole does not override `Release/` on `main`:
 
 > **No constituent can break reality.**
 
@@ -128,7 +159,11 @@ the pinned snapshot, including:
 - `Release/Papers/fallacy-of-large-scale-absorbic-effort.md`
 - `Release/Papers/continuation-filter.md`
 - `Release/Examples/` (mussel, Central Valley, and Sahel applications as
-  currently statused in `Release/Examples/README.md`)
+  currently statused in `Release/Examples/README.md` **on `main`**)
+
+These Layer 1 paths are the files as they stand in `Release/` on `main`.
+Branch-only additions or edits under `Release/` on `ai/evolution` are not,
+by themselves, a publication of Layer 1.
 
 Layer 1 may be extended or revised only through the cycle in
 `ai/AGENTS/CYCLE.md`. Preferred form of change is *additive*, in the same
@@ -158,6 +193,9 @@ It does not mean:
 - Silently rewriting a v0.3.1 definition.
 - Treating a new symbol or application quantity as a universal law because it
   appeared in an example.
+- Treating a non-`Release/` file, or a branch-only edit or addition under
+  `Release/` on `ai/evolution`, as equal to or higher than `Release/` on
+  `main`.
 - Declaring empirical validation from consistency checks, publication, or
   definition adoption alone. This is the same limit already recorded in
   `Release/Reviews/definition-validation-2026-10-16.md`: those checks
