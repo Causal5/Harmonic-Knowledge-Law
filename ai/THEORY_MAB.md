@@ -26,6 +26,10 @@ Do not develop an arm in the same cycle that first assesses it, unless Jordan di
 
 Round 17 opens `ai/GLOSSARY.md` as a terminology map / erratum against Registry v0.3.2 and the reconciled papers. It invents no definitions, restores no withdrawn claims, and does not extend the premise. It is therefore **not registered as an arm** and no arm is developed in that cycle.
 
+## Round 18 note (2026-11-23)
+
+Round 18 records Jordan’s source-precedence rule (`Release/` on `main` is primary; everything else is subject to obsolescence) and rechecks the glossary against that tree. It invents no definitions and does not extend the premise. It is **not registered as an arm** and no arm is developed in that cycle.
+
 ## Arm records
 
 ### ARM-2026-11-21-01 — Spatial above/below Keokuk contrast as sink-impairment
