@@ -5,8 +5,10 @@ publication line on `main`.
 
 ## What this branch is
 
-`ai/evolution` is an AI-authored working corpus. It starts from `main` at
-`c9e12778aba0014732a8add3c90c5676e5785bf7` and may be revised by three
+`ai/evolution` is an AI-authored working corpus. It started from `main` at
+`c9e12778aba0014732a8add3c90c5676e5785bf7` (31 October 2026). `Release/` on
+`main` is now at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d` (23 November 2026)
+and is the authoritative current source. The branch may be revised by three
 structural agents under [`CHARTER.md`](CHARTER.md). The charter's Layer 0
 premise is immutable; Layer 1 (Registry v0.3.2 and the reconciled papers,
 as they stand in `Release/` on `main`) may be extended only through the
@@ -18,6 +20,8 @@ on `main` are the primary and most up-to-date source. Every other file is
 subject to obsolescence. If wording conflicts, `Release/` on `main` wins.
 Edits or additions under `Release/` on this branch are branch work, not a
 publication to `main`.
+
+The current human review list is [`REVIEW_FOR_JORDAN.md`](REVIEW_FOR_JORDAN.md).
 
 This branch is **not validated science**. Publication or a commit on
 `ai/evolution` is not empirical validation, and adopting a definition is not

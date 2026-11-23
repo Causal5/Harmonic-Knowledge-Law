@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Work agent: clarification and correction sweep (Round 19)
+
+- **Agent:** Work (A)
+- **What:** Re-pulled `main` at `270942c` (Jordan’s mussel §8 item 4 site correction). Adopted that published sentence on the branch and marked the earlier branch item 4 wording superseded. Bannered diverging and branch-only `Release/` files as unpublished vs `main`. Bannered `CorePrinciples/SLP_Published.md`. Disabled unofficial `src/` placeholders (0.1 distill cut, +0.5 connection increment, 0.4/0.3/0.3 HKL-AI weighting) without inventing replacements. Audited `Release/` on `main` for overreach and wrote `ai/REVIEW_FOR_JORDAN.md`. No theory arm. `main` was not edited.
+- **Why:** Jordan said overreach or lack of clarity can retire the premise, and asked for a clarification sweep that leaves only terms he must define, plus a list he can correct from.
+- **Links:** `ai/REVIEW_FOR_JORDAN.md`; `ai/PROPOSALS/2026-11-23-clarification-sweep/proposal.md`; `ai/LEDGER/errata/2026-11-23-main-270942c-reconciliation.md`; `C-clar-01`, `C-clar-02`, `C-clar-03`. No pull request. `main` was not changed.
+- **What this means:** The published example on `main` now names the fish-passage site correctly. The remaining high-risk wording on `main` — especially assigning *severed* from a story, and calling the case “buffer depletion” with no computed buffer — is listed for Jordan, not silently edited. Historical and experimental files on this branch are marked so they are harder to mistake for official definitions.
+
 ## 2026-11-23 — Verifier: source precedence accepted with revisions (Round 18)
 
 - **Agent:** Verifier (C)

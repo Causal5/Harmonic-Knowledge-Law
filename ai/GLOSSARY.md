@@ -2,7 +2,7 @@
 
 **TL;DR.** This file is a map, not a new glossary of invented meanings. It lines up current official wording in `Release/` as published on `main` (Registry v0.3.2, the 16 and 30 October decision records, and the reconciled HKL and AEF papers) with stale or drifted wording still sitting in working drafts, recovered CorePrinciples files, and earlier cycle notes. Where a draft still talks as if \(dV/dt\le 0\) were required, or treats PAE as a number, or uses *severed* as a qualitative label, this map points at the current source and, for working drafts and `ai/` / CorePrinciples historical files, at the in-place mark or banner added in this cycle. Official Layer 0 and Layer 1 papers are not rewritten. If a term has no definition in those official sources, it is flagged `needs-definition` — nothing is made up to fill the gap.
 
-**Status:** `accepted-with-revisions` (Round 17) as amended in Round 18 (23 November 2026, America/New_York) for source precedence. Ratification-pending branch note on `ai/evolution`. This is not a registry amendment, not a new official vocabulary, and not a base-theory move. Canonical citations are to `Release/` on `main`. No arm is registered or developed in `ai/THEORY_MAB.md` for this cycle.
+**Status:** `accepted-with-revisions` (Round 17) as amended in Round 18 for source precedence and in Round 19 (23 November 2026, America/New_York) after `main` moved to `270942c`. Ratification-pending branch note on `ai/evolution`. This is not a registry amendment, not a new official vocabulary, and not a base-theory move. Canonical citations are to `Release/` on `main`. No arm is registered or developed in `ai/THEORY_MAB.md` for this cycle.
 
 **Authority (Round 18 source precedence).**
 
@@ -81,8 +81,9 @@
 ### A8. The *severed* flag is a computed assignment
 
 - **Canonical.** Registry §VII.1 line 327 (identical on `main`): the independent *severed* flag is “set when \(\eta^{nat}_{TM}=0\) apart from declared episodic events; occurs with *net mining* or *substituted*, never *covered*.” The 30 October record on `main` (`Release/Registry/definition-decisions-2026-10-30.md` line 306) states that no field \(\eta_{TM}\) has been computed for the mussel case. Renewal coverage is a screen, not a viability result (Registry line 330).
-- **Published example on `main` (still current official example text).** In `Release/Examples/ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example.md` on `main`, §8 item 3 (line 152) still says that natural renewal coverage “for ebonyshell above Keokuk after 1913 is effectively zero … so the population carries the registry’s *severed* flag.” That sentence conflicts with the 30 October record (also `Release/` on `main`). The record and Registry §VII.1 control the flag. The example sentence is not a computed assignment and is not treated as one.
-- **Branch-only alignment, not a publication.** On `ai/evolution`, the same §8 item was rewritten (Round 7) so that the qualitative narrative does not assign the flag, and a protocol file not present on `main` was added. Those edits are unpublished branch work. They do not replace the `main` example.
+- **Published example on `main` (still current official example text).** In `Release/Examples/ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example.md` on `main` at `270942c` (23 November 2026), §8 item 3 (line 152) still says that natural renewal coverage “for ebonyshell above Keokuk after 1913 is effectively zero … so the population carries the registry’s *severed* flag.” That sentence conflicts with the 30 October record (also `Release/` on `main`). The record and Registry §VII.1 control the flag. The example sentence is not a computed assignment and is not treated as one.
+- **Item 4 on `main` is now corrected.** Jordan’s commit `270942c` (23 November 2026) rewrote §8 item 4 so citation [38] names Lock and Dam 22 near Saverton, Missouri, not a fish passage being prepared at Keokuk. The branch copy of item 4 now follows that published sentence. The earlier branch wording of item 4 is superseded.
+- **Branch-only alignment, not a publication.** On `ai/evolution`, §8 item 3 was rewritten (Round 7) so that the qualitative narrative does not assign the flag, and a protocol file not present on `main` was added. Those item-3 and protocol edits remain unpublished branch work. They do not replace the `main` example.
 - **Ordinary language, not the flag.** “If that link is severed” (example line 40 on both branches) describes a life-cycle / host-fish break. That is not the registry flag.
 - **Rule of use (existing, not new, from Registry / 30 October on `main`).** Use *severed* as the registry flag only after \(\eta^{nat}_{TM}\) is computed on a locked protocol, or leave it unassigned. Do not promote ordinary-language “severed,” or the still-published `main` example sentence, to a computed status.
 
@@ -184,8 +185,8 @@ No new definitions were invented in this recheck.
 
 **Known residual risk (not silently cleaned).**
 
-- `CorePrinciples/SLP_Published.md` has no Round 17 banner; it is a historical SLP source, not current Registry authority, and is not `Release/` on `main`.
-- Experimental `src/` still contains *SRI* / *HRS* / *HKL-AI Score* function names and some hardcoded scalings noted in Session 2. Those are experimental code, not official metrics; this cycle does not invent replacement scores. `src/README.md` already describes experimental status.
+- `CorePrinciples/SLP_Published.md` now has a Round 19 historical-source banner (body preserved). It is not current Registry authority and is not `Release/` on `main`.
+- Experimental `src/` still contains *SRI* / *HRS* / *HKL-AI Score* function *names*. Those names are unofficial. Round 19 disabled the hardcoded `0.1` distill scaling and `+0.5` connection increment, and made `_calculate_hkl_ai_score` return `None`. No replacement official metrics were invented. `src/README.md` records this.
 - Ordinary-language “severed” (“If that link is severed,” example line 40 on both branches) is not the registry flag. Separately, the published example on `main` still contains the qualitative flag-assignment sentence at §8 item 3 (line 152); the 30 October record and Registry §VII.1 control the flag (A8). This map does not rewrite Layer 1 on `main`.
 - Historical reviews and audits (`Release/Reviews/`, `ai/AUDITS/`) describe past wording; they are records, not current definitions.
 
@@ -193,7 +194,7 @@ No new definitions were invented in this recheck.
 
 ## D. Visibility of the `ai/` directory
 
-Jordan reported not seeing “that dir.” The `ai/` tree — including `ai/THEORY_MAB.md`, `ai/PROPOSALS/`, and this file — exists on `ai/evolution` and does **not** exist on `main` (verified at `origin/main` = `c9e12778aba0014732a8add3c90c5676e5785bf7`). A GitHub view of `main` will not show it. On this branch:
+Jordan reported not seeing “that dir.” The `ai/` tree — including `ai/THEORY_MAB.md`, `ai/PROPOSALS/`, and this file — exists on `ai/evolution` and does **not** exist on `main` (verified at `origin/main` = `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). A GitHub view of `main` will not show it. On this branch:
 
 - https://github.com/Causal5/Harmonic-Knowledge-Law/tree/ai/evolution/ai
 - https://github.com/Causal5/Harmonic-Knowledge-Law/blob/ai/evolution/ai/THEORY_MAB.md
