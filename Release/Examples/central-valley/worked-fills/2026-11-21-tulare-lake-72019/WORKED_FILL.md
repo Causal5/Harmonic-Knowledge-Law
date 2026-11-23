@@ -1,5 +1,7 @@
 # Worked fill: Bulletin 118 Tulare Lake (5-022.12) spring DTW contrast, and retrieved CVHM2 storage-loss figures
 
+> **Unpublished branch work (ai/evolution, Round 19, 23 November 2026).** This file does not exist in `Release/` on `main` (`270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). It is not part of the published example set. `Release/` on `main` is the authoritative current source.
+
 **Status:** accepted-with-revisions (Round 13 / Session 3). Not a Bite 5 score. Not a \(V_W\) computation. Not an independent rerun of CVHM2.
 
 **Retrieval date:** 2026-11-21, America/New_York. See `retrieval_log.md`.

@@ -1,5 +1,7 @@
 # Worked fill: Niger country cereal yield (World Bank / FAOSTAT QCL)
 
+> **Unpublished branch work (ai/evolution, Round 19, 23 November 2026).** This file does not exist in `Release/` on `main` (`270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). It is not part of the published example set. `Release/` on `main` is the authoritative current source.
+
 **Status:** accepted-with-revisions (Round 15 / Session 3). Country-scale precursor agricultural-outcome series only. Not rainfall. Not \(V\). Not an FMNR or Great Green Wall evaluation. Not a lock of comparable locations.
 
 **Retrieval date:** 2026-11-21, America/New_York. WDI `lastupdated` 2026-11-11.

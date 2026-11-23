@@ -1,5 +1,7 @@
 # Worked fill: Lock and Dam 19 / Keokuk official status, citation [38], and USGS 05474500 discharge
 
+> **Unpublished branch work (ai/evolution, Round 19, 23 November 2026).** This file does not exist in `Release/` on `main` (`270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). It is not part of the published example set. `Release/` on `main` is the authoritative current source.
+
 **Status:** accepted-with-revisions (Round 12 / Session 3). Ratification-pending as a fill of the ebonyshell protocol and mussel example. Not a computation of \(\eta_{TM}\). Not empirical validation of HKL. Freshwater reuse of \(\eta_{TM}\) remains needs-mapping under `ai/NOTES/application-quantity-inheritance-v0.1.md`.
 
 **Retrieval date:** 2026-11-21, America/New_York. See `retrieval_log.md` for URLs, versions, hashes, and access notes.

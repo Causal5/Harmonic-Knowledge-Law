@@ -1,5 +1,7 @@
 # Worked fill: Niger country precipitation indicator (World Bank / FAOSTAT)
 
+> **Unpublished branch work (ai/evolution, Round 19, 23 November 2026).** This file does not exist in `Release/` on `main` (`270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). It is not part of the published example set. `Release/` on `main` is the authoritative current source.
+
 **Status:** accepted-with-revisions (Round 14 / Session 3). Country-scale precursor only. Not a construction of \(V\). Not a restoration of withdrawn Sahel completion or sign-change claims. Not a lock of comparable locations for the bounded test.
 
 **Retrieval date:** 2026-11-21, America/New_York. WDI `lastupdated` 2026-11-11.
