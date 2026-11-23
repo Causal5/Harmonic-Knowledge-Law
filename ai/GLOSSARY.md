@@ -17,9 +17,9 @@
 | Kind of file | Treatment |
 |---|---|
 | Layer 0 / official Layer 1 papers and the registry | Not rewritten. This map is the erratum / mapping pointer. |
-| Working drafts under `Release/Working/` | Original wording kept; stale presentations marked in place (Round 10 marks extended; HKL v2 bannered and marked). |
-| `CorePrinciples/` historical files (not the axiom text) | Original wording kept; a status banner points here. |
-| Already-corrected examples, `src/_apply_pae`, mussel §8, Sahel addendum marks | Inventoried as already aligned; not re-edited. |
+| Working drafts under `Release/Working/` | Original wording kept; stale presentations marked in place on this branch only (Round 10 marks extended; HKL v2 bannered and marked). The same Working drafts on `main` remain unmarked and already are not override authority. |
+| `CorePrinciples/` historical files (not the axiom text) | Original wording kept; a status banner points here. These files are not `Release/` on `main`. |
+| Branch-only example/addendum edits (mussel §8 rewrite, Sahel addendum marks, ebonyshell protocol) and experimental `src/_apply_pae` | Not published `Release/` on `main`. Inventoried as unpublished branch work (A8). Not re-edited in Round 18. |
 
 ---
 
@@ -161,7 +161,8 @@ No new definitions were invented in this recheck.
 
 ## C. Inventory of files touched or explicitly left alone
 
-**Marked or bannered in Round 17 (original wording preserved).**
+**Marked or bannered in Round 17 (original wording preserved).** The Working-draft marks listed here exist only on this branch; the same files on `main` are unmarked and already are not override authority.
+
 
 - `Release/Working/hkl-lyapunov-v2.md` — first status banner; lines 100, 116, and 154 marks.
 - `Release/Working/absorbic-effort-framework-v2.md` — leftover PAE-as-number / AU / ELQ / \(PAE=E-C_{pae}\) marks; banner date extended.
@@ -170,18 +171,22 @@ No new definitions were invented in this recheck.
 - `CorePrinciples/Glossary.md`, `Law_of_We_Full.md`, and `CausalEthicsAxis.md` — historical-source banners from A. C revisions bannered `HKL_Water_Metric.md`, `HKL_Geometric_Intelligence_Updated.md`, and `Law_of_We_Causal_Ethics.md`. `CorePrinciples/Causal_Integrity_Axiom.md` is **not** edited (Layer 0 source). `SLP_Published.md` remains an unbannered historical source (residual).
 - `ai/GLOSSARY.md` (this file), `ai/README.md` (visibility and reading-list pointers), root `README.md` banner on this branch only (the `ai/` tree is not on `main`), `ai/THEORY_MAB.md` (Round 17 is not an arm).
 
-**Already aligned; not rewritten in this cycle.**
+**Already aligned on `main` (identical official text; not rewritten in this cycle).**
 
-- Current Layer 1 papers and the registry (canonical sources).
-- `Release/Examples/sahel_worked_example.md` §5 withdrawal; unpromoted logistic addendum marks (Round 7).
-- Mussel example §8 item 3 and ebonyshell protocol §1 (Rounds 7–8, 12).
-- `src/IIF_Evaluator._apply_pae` expenditure/correction split (Round 7).
+- Current Layer 1 papers and the registry (canonical sources; identical on this branch).
+- `Release/Examples/sahel_worked_example.md` §5 withdrawal (identical on `main`).
+
+**Branch-only; not “already aligned” as published `Release/` on `main`.**
+
+- Unpromoted logistic addendum marks (Round 7): branch-only. The addendum on `main` is unmarked and already is not an override authority.
+- Mussel example §8 item 3 rewrite and ebonyshell protocol §1 (Rounds 7–8, 12): unpublished branch work. On `main`, §8 item 3 still contains the qualitative *severed* sentence (A8); the protocol file does not exist.
+- `src/IIF_Evaluator._apply_pae` expenditure/correction split (Round 7): experimental code, not `Release/` on `main`.
 
 **Known residual risk (not silently cleaned).**
 
-- `CorePrinciples/SLP_Published.md` has no Round 17 banner; it is a historical SLP source, not current Registry authority.
+- `CorePrinciples/SLP_Published.md` has no Round 17 banner; it is a historical SLP source, not current Registry authority, and is not `Release/` on `main`.
 - Experimental `src/` still contains *SRI* / *HRS* / *HKL-AI Score* function names and some hardcoded scalings noted in Session 2. Those are experimental code, not official metrics; this cycle does not invent replacement scores. `src/README.md` already describes experimental status.
-- Ordinary-language “severed” in the mussel example (A8) is left in the official example body, with the mapping stated here rather than a Layer 1 rewrite.
+- Ordinary-language “severed” (“If that link is severed,” example line 40 on both branches) is not the registry flag. Separately, the published example on `main` still contains the qualitative flag-assignment sentence at §8 item 3 (line 152); the 30 October record and Registry §VII.1 control the flag (A8). This map does not rewrite Layer 1 on `main`.
 - Historical reviews and audits (`Release/Reviews/`, `ai/AUDITS/`) describe past wording; they are records, not current definitions.
 
 ---

@@ -17,20 +17,26 @@ currently stands: theory, formalizations, worked examples, and code, under
   published source and the branch text as unpublished branch work. Check
   that difference before citing a branch `Release/` path as current.
 - Start from the current `ai/evolution` corpus and from gaps already named in
-  the standing documents, including:
+  the standing documents as they stand in `Release/` on `main`, including:
   - `Release/Reviews/publication-notes-2026-10-16.md` (“The immediate empirical
     step is the freshwater data dictionary and aligned physical series under
     the v0.2 protocol. Model coefficients, source verification, held-out
     comparisons, the logistic mapping, broader v0.4 promotion, and FRF/SLP
-    implementation remain open.”)
-  - `Release/Examples/central-valley/README.md` (bounded subbasin series;
-    distinguish age from renewal and gross withdrawal from net depletion;
-    held-out evaluation before an aggregate score)
-  - `Release/Examples/ohio-mississippi-mussels/README.md` (renewal coverage
-    for ebonyshell above and below Keokuk, if recruitment data exist;
-    planned Keokuk fish passage as a pathway-restoration test)
+    implementation remain open.”) This file is identical on both branches.
+  - `Release/Examples/central-valley/README.md` on `main` (bounded subbasin
+    series; distinguish age from renewal and gross withdrawal from net
+    depletion; held-out evaluation before an aggregate score). The copy on
+    this branch has an added row pointing at the unpublished Bite 5
+    checklist; use the `main` text as the published standing document.
+  - `Release/Examples/ohio-mississippi-mussels/README.md` on `main` (renewal
+    coverage for ebonyshell above and below Keokuk, if recruitment data
+    exist; planned Keokuk fish passage as a pathway-restoration test). The
+    copy on this branch has an added row pointing at the unpublished
+    ebonyshell protocol; use the `main` text as the published standing
+    document.
   - `Release/Examples/sahel_worked_example.md` (source-verified, held-out
-    test plan; withdrawn completion claims stay withdrawn)
+    test plan; withdrawn completion claims stay withdrawn). This file is
+    identical on both branches.
 - Open exactly one proposal per cycle, committed straight to `ai/evolution`
   with message prefix `[A]` and status `proposed`. Follow `ai/AGENTS/CYCLE.md`.
 - Every proposal must state parent documents, scope, version or status, and a

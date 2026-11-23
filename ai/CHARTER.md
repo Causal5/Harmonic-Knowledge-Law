@@ -76,14 +76,16 @@ The document calls this axiom “the immovable center.” Local or dependency
 collapse is not manifold collapse. Agents may not treat an agent, observer,
 civilization, or AI system as able to undo that structure.
 
-### Distinctions retained from the current introduction and definition records
+### Distinctions retained from the definition records
 
-These distinctions are already stated in `START_HERE.md` and locked as
-corpus conventions in
+These distinctions are locked in this charter. They are also stated in
 `Release/Registry/definition-decisions-2026-10-16.md` and
-`Release/Reviews/publication-notes-2026-10-16.md`. Agents may not collapse them.
+`Release/Reviews/publication-notes-2026-10-16.md` on `main`. Agents may not
+collapse them. The block quotations below were taken from `START_HERE.md`,
+a root file that is not under `Release/` and does not override `Release/`
+on `main`. Only Jordan may change the locked quotations.
 
-From `START_HERE.md`:
+From `START_HERE.md` (locked quotation; the file is not a higher source):
 
 > Reality, a selected system state, an observation, and an agent's model are different objects.
 
