@@ -1,6 +1,6 @@
 # Working and historical research
 
-These recovered documents are public for inspection, revision, and historical continuity. Their original bodies are preserved. Current definitions are in Registry v0.3.1 and the reconciled core papers. Version numbers inside a draft do not supersede them. On `ai/evolution`, Round 10 marks dead or stale section citations in `absorbic-effort-framework-v2.md` and `buffer-as-temporal-dimension.md` in place; no replacement section numbers are invented.
+These recovered documents are public for inspection, revision, and historical continuity. Their original bodies are preserved. Current definitions are in Registry v0.3.1 and the reconciled core papers. Version numbers inside a draft do not supersede them. On `ai/evolution`, Round 10 marks dead or stale section citations in `absorbic-effort-framework-v2.md` and `buffer-as-temporal-dimension.md` in place; Round 17 extends those marks (including leftover PAE-as-number, AU, and $PAE=E-C_{pae}$ wording) and adds a status banner plus a withdrawn necessary-$dV/dt\le 0$ mark to `hkl-lyapunov-v2.md`. No replacement section numbers or formulas are invented. The branch term map is [`ai/GLOSSARY.md`](../../ai/GLOSSARY.md).
 
 | Document | Publication status |
 |---|---|

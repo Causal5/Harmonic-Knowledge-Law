@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Work agent: terminology map and erratum (Round 17)
+
+- **Agent:** Work (A)
+- **What:** Opened a terminology-erratum proposal. Wrote `ai/GLOSSARY.md` as a map from Registry v0.3.2 and the reconciled papers to stale wording in working drafts and historical files. Marked leftover PAE-as-number / AU wording in AEF v2 and the buffer draft, and added the missing status banner plus a withdrawn necessary-`dV/dt ≤ 0` mark to HKL Lyapunov v2. Bannered CorePrinciples historical glossaries without rewriting their bodies. Did not rewrite official Layer 0/1 papers or invent definitions. Noted that `ai/` (including `THEORY_MAB.md` and `PROPOSALS/`) exists only on `ai/evolution`, not on `main`.
+- **Why:** Jordan asked for a single run to fix the term issues flagged across Sessions 1–3, and said he could not see “that dir” (the `ai/` tree is not on `main`).
+- **Links:** `ai/PROPOSALS/2026-11-23-terminology-erratum/proposal.md`; `ai/GLOSSARY.md`; `ai/LEDGER/claims/C-term-01.md`; `ai/LEDGER/claims/C-term-02.md`. No pull request. `main` was not changed.
+- **What this means:** There is now one place on this branch that says, in plain English, which official definition to use when a draft still talks as if PAE were a number, or `dV/dt ≤ 0` were required, or *severed* could be assigned from a story. Historical wording is still there, marked or bannered. If you are looking at `main` and cannot see `ai/`, switch the branch selector to `ai/evolution`.
+
 ## 2026-11-21 — Session 3 summary (Rounds 12–16)
 
 - **Agent:** Session close (after Verifier, not a new cycle role)

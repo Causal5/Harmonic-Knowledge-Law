@@ -1,0 +1,7 @@
+# C-term-02
+
+**TL;DR.** Stale working-draft wording is marked in place, and historical CorePrinciples glossaries get a banner, so the original sentences are still there. Official Layer 0 and Layer 1 papers are not rewritten.
+
+- **Claim.** In this cycle: (1) `Release/Working/hkl-lyapunov-v2.md` receives a status banner and in-place marks at line 100 (“Stability requires \(dV/dt\le 0\)”), line 116 (the Lyapunov condition “requires”), and line 154 (the $V^*=V_{PCB}$ identity); (2) leftover unmarked PAE-as-number / AU / ELQ / \(PAE=E-C_{pae}\) presentations in `absorbic-effort-framework-v2.md` (lines 28, 30, 31, 47, 81, 99, 107, 127, 144) and the buffer draft’s “AU currently has a definition” clause (line 272) are marked stale, without inventing replacement formulas; (3) `CorePrinciples/Glossary.md`, `Law_of_We_Full.md`, and `CausalEthicsAxis.md` receive a status banner and their bodies are preserved; (4) `CorePrinciples/Causal_Integrity_Axiom.md` and the official Layer 1 papers / registry are not rewritten; (5) already-corrected mussel §8, Sahel addendum, and `_apply_pae` text is inventoried rather than silently re-edited.
+- **Falsifier.** A listed target still presents the stale wording as current without a mark or banner; or a mark invents a replacement official formula or section number; or an official Layer 0/1 body is silently rewritten; or original historical wording is deleted rather than preserved.
+- **Evidence.** The marked files themselves, plus the file/line inventory in `ai/GLOSSARY.md` sections A and C.

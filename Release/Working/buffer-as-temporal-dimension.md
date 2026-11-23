@@ -1,7 +1,7 @@
 # Buffer as Temporal Dimension
 ## Cross-Corpus Re-Anchor
 
-> **Status (ai/evolution, 2026-11-21, Round 10, proposed).** Working addendum. Not current HKL, AEF, or Sahel authority. Current HKL already has a buffer definition in §6; current Sahel §6 is a bounded test recipe, not a demonstration that this formalism was applied. Citations below that do not match the current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers are invented here.
+> **Status (ai/evolution, 2026-11-21, Round 10; marks extended 2026-11-23, Round 17, proposed).** Working addendum. Not current HKL, AEF, or Sahel authority. Current HKL already has a buffer definition in §6; current Sahel §6 is a bounded test recipe, not a demonstration that this formalism was applied. Citations below that do not match the current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers are invented here.
 > - “Sahel §5.3” — current Sahel has no §5.3; §5 withdraws completion claims.
 > - “Sahel Worked Example §6 demonstrates the buffer formalism” — current Sahel §6 is “Bounded test” and does not demonstrate this draft.
 > - “HKL §4.1” — current HKL has no §4.1; §4 is “Viability, drift, and stability.”
@@ -269,7 +269,7 @@ The Filter's "Cellular Requirement" (§VII) and "Parallel Stabilization vs. Inte
 
 # 10. Operational Substrate: Fresh Water as Plugin Currency
 
-The Absorbic Unit (AEF §3.3) **[DEAD CITE: current AEF has no §3.3 heading; AU remains reserved and undefined]** currently has a thermodynamic-analog definition ($1 \, AU = 1 \, J / 1 \, \Delta S_{abs}$) that is conceptually clean but operationally hard to measure across cases.
+The Absorbic Unit (AEF §3.3) **[DEAD CITE: current AEF has no §3.3 heading; AU remains reserved and undefined]** currently has a thermodynamic-analog definition ($1 \, AU = 1 \, J / 1 \, \Delta S_{abs}$) **[STALE: that identity is not a current definition; AU remains reserved and undefined; no ethical joule is established]** that is conceptually clean but operationally hard to measure across cases.
 
 **Fresh water throughput is the candidate operational currency.** Civilization runs on fresh water. Even where water is not the *direct* substrate of a system's stability, it is the *operational* substrate: power generation, cooling, manufacturing, food, sanitation, survival. Fresh water is the natural gold standard currency for civilizational basin maintenance. It is the resource whose throughput is most directly tied to basin maintenance at every scale from household to civilization.
 

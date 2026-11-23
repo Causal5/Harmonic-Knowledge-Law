@@ -1,3 +1,5 @@
+> **Status (ai/evolution, 2026-11-23, Round 17, proposed).** Historical / recovered source. Not current Registry, HKL, or AEF authority, and not itself the Layer 0 text (Layer 0 quotes the Causal Integrity Axiom from `CorePrinciples/Causal_Integrity_Axiom.md` and the locked distinctions in `ai/CHARTER.md`). The body is preserved. Current definitions are in Registry v0.3.2 and the reconciled core papers. The “Updated Glossary of Key Terms” section below duplicates `CorePrinciples/Glossary.md` and has the same conflicts (PAE/OIE as scalar mechanisms; *HKL-AI Score*, *SRI*, *HRS*; DeepSeek figures). See `ai/GLOSSARY.md`. No replacement definitions are invented here.
+
 A Natural Law Framework for Technological Evolution: Causal Ethics
 Foreword
 
