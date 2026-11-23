@@ -1,5 +1,7 @@
 # V-2026-11-21-session2-corpus-corrections
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. Substance follows AEF and the 16/30 October records on `main`. The mussel-example and Sahel-addendum *edits* are not on `main`. On `main`, §8 item 3 still assigns *severed* qualitatively; the 30 October record controls the flag. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The four Session 1 corrections Jordan asked for are in, and
 they were checked on this Linux box. Expenditure is no longer subtracted
 from delta; the `src/` imports run; random placeholders in `src/` return

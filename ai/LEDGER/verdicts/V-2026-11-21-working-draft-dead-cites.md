@@ -1,5 +1,7 @@
 # V-2026-11-21-working-draft-dead-cites
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The dead-cite marks are branch-only. The same Working drafts on `main` are unmarked and, by `Release/`-on-`main` rules, are not override authorities. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The recovered AEF v2 and buffer drafts now carry status
 banners and in-place marks for dead section numbers and for withdrawn
 “necessary dV/dt ≤ 0” wording. Official papers were not rewritten, and

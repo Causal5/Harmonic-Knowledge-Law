@@ -1,5 +1,7 @@
 # V-2026-11-21-computed-status-assignment
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The procedure is an `ai/` note. It applies the 30 October / Registry test, which is on `main`. It referred to a mussel-example rewrite that is not on `main`. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The branch may keep a procedure that says a flag defined by
 a computed quantity cannot be assigned from a qualitative story. It is
 not a registry amendment and no values were computed. All three

@@ -1,5 +1,7 @@
 # V-2026-11-23-terminology-erratum
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The map remains a branch note. Canonical cites are re-based to `Release/` on `main` in Round 18. Branch example/Working marks are not a publication to `main`. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** Accept with revisions. The new map does not invent definitions, and official Layer 0/1 papers were not rewritten. Two challenges hit: AEF v2’s ELQ Triangle table still presented \(dV/dt\) and ELQ as current official readings, and three historical CorePrinciples files still offered the *HKL-AI Score* with no banner. Those are marked or bannered in this verdict commit. Undefined terms stay `needs-definition`. This is not a theory arm.
 
 **Verdict:** `accepted-with-revisions`
