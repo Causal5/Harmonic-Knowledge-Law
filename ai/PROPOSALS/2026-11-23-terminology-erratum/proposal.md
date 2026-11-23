@@ -2,7 +2,7 @@
 
 **TL;DR.** This cycle writes `ai/GLOSSARY.md` as a map from current Registry v0.3.2 / reconciled-paper wording to stale wording still in working drafts and historical CorePrinciples files. It does not invent definitions. Official Layer 0 and Layer 1 papers are not rewritten. Working drafts get in-place marks (HKL v2 is finally bannered; leftover PAE-as-number, AU, and \(PAE=E-C_{pae}\) wording in AEF v2 and the buffer draft is marked). Historical glossaries get a status banner that preserves the original text. Terms with no official definition are flagged `needs-definition`. This is not a base-theory arm. The `ai/` directory, including `THEORY_MAB.md` and `PROPOSALS/`, exists on `ai/evolution` and not on `main`; branch READMEs now say that plainly so the folder is findable if someone is looking at `main`.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** 17 (23 November 2026, America/New_York). One terminology cycle after Session 3.
 
