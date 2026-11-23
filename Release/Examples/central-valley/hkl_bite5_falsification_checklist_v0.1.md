@@ -1,5 +1,7 @@
 # HKL Bite 5 falsification checklist v0.1
 
+> **Unpublished branch work (ai/evolution, Round 19, 23 November 2026).** This file does not exist in `Release/` on `main` (`270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). It is not part of the published example set. `Release/` on `main` is the authoritative current source.
+
 **TL;DR.** This is a predeclared score sheet for later Bite 5 work, not a
 completed test. It splits two questions the protocol already asks: when
 the Temporal Mining story itself is weakened, and when an HKL burden
