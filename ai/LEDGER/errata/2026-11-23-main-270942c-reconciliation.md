@@ -2,7 +2,7 @@
 
 **TL;DR.** Jordan fixed mussel §8 item 4 on `main` (23 November 2026, 5:07 PM America/New_York): the 2023 fish-passage project named in citation [38] is at Lock and Dam 22 near Saverton, not at Keokuk. Official papers are still identical on both branches. This file records that fix, what the branch did to follow it, and which earlier branch wording is now superseded. It does not rewrite earlier verdict bodies or edit `main`.
 
-**Status:** proposed with the Round 19 cycle.
+**Status:** `accepted-with-revisions` with the Round 19 cycle.
 
 ## What changed on `main`
 
