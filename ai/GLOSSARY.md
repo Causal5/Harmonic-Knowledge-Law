@@ -2,7 +2,7 @@
 
 **TL;DR.** This file is a map, not a new glossary of invented meanings. It lines up current official wording (Registry v0.3.2, the 16 and 30 October decision records, `START_HERE.md`, and the reconciled HKL and AEF papers) with stale or drifted wording still sitting in working drafts, recovered CorePrinciples files, and earlier cycle notes. Where a draft still talks as if \(dV/dt\le 0\) were required, or treats PAE as a number, or uses *severed* as a qualitative label, this map points at the current source and, for working drafts and `ai/` / CorePrinciples historical files, at the in-place mark or banner added in this cycle. Official Layer 0 and Layer 1 papers are not rewritten. If a term has no definition in those official sources, it is flagged `needs-definition` — nothing is made up to fill the gap.
 
-**Status:** `proposed` (Round 17, 23 November 2026, America/New_York). Ratification-pending branch note on `ai/evolution`. This is not a registry amendment, not Layer 0, not a new official vocabulary, and not a base-theory move. No arm is registered or developed in `ai/THEORY_MAB.md` for this cycle.
+**Status:** `accepted-with-revisions` (Round 17, 23 November 2026, America/New_York). Ratification-pending branch note on `ai/evolution`. This is not a registry amendment, not Layer 0, not a new official vocabulary, and not a base-theory move. No arm is registered or developed in `ai/THEORY_MAB.md` for this cycle.
 
 **Authority (nothing here overrides a higher layer).**
 
@@ -69,7 +69,7 @@
 
 - **Canonical.** Registry §VI lines 211–224 and AEF §4: ACR is matched achieved correction divided by attributed OIE burden. “\(\mathrm{ACR}\ge 1\) records coverage within this accounting model. It does not establish ethical legitimacy, overall viability, complete recovery, or non-externalization.” 16 October: replace current raw ELQ/AU accounting with defined, boundary-matched ACR.
 - **Drift.** Inferring ethical legitimacy from \(ELQ=PAE/\Delta S_{abs}\) or from a raw effort/entropy ratio; treating ACR as a complete ethical or viability judgment.
-- **Fixes this cycle.** AEF v2 ELQ symbol-table row, line 30, and the displayed equation at line 47, newly marked. Legacy dispositions already in Registry lines 226–230. No new “ethical score” is defined here.
+- **Fixes this cycle.** AEF v2 ELQ symbol-table row, line 30, and the displayed equation at line 47, marked in A; §6 ELQ Triangle (lines 169–181) marked in C revisions. Legacy dispositions already in Registry lines 226–230. No new “ethical score” is defined here.
 
 ### A7. AU remains reserved and undefined
 
@@ -151,7 +151,7 @@ These strings appear in historical or experimental files and have **no current o
 - `Release/Working/absorbic-effort-framework-v2.md` — leftover PAE-as-number / AU / ELQ / \(PAE=E-C_{pae}\) marks; banner date extended.
 - `Release/Working/buffer-as-temporal-dimension.md` — AU “currently has a definition” clause marked; banner date extended.
 - `Release/Working/README.md` — pointer to this file and to the HKL v2 marks.
-- `CorePrinciples/Glossary.md`, `Law_of_We_Full.md`, and `CausalEthicsAxis.md` — historical-source banners. `CorePrinciples/Causal_Integrity_Axiom.md` is **not** edited (Layer 0 source). Other CorePrinciples historical files (`HKL_Water_Metric.md`, `HKL_Geometric_Intelligence_Updated.md`, `Law_of_We_Causal_Ethics.md`, `SLP_Published.md`) are not current authority; they were left unbannered in this cycle and are listed as residual risk.
+- `CorePrinciples/Glossary.md`, `Law_of_We_Full.md`, and `CausalEthicsAxis.md` — historical-source banners from A. C revisions bannered `HKL_Water_Metric.md`, `HKL_Geometric_Intelligence_Updated.md`, and `Law_of_We_Causal_Ethics.md`. `CorePrinciples/Causal_Integrity_Axiom.md` is **not** edited (Layer 0 source). `SLP_Published.md` remains an unbannered historical source (residual).
 - `ai/GLOSSARY.md` (this file), `ai/README.md` (visibility and reading-list pointers), root `README.md` banner on this branch only (the `ai/` tree is not on `main`), `ai/THEORY_MAB.md` (Round 17 is not an arm).
 
 **Already aligned; not rewritten in this cycle.**
@@ -163,6 +163,7 @@ These strings appear in historical or experimental files and have **no current o
 
 **Known residual risk (not silently cleaned).**
 
+- `CorePrinciples/SLP_Published.md` has no Round 17 banner; it is a historical SLP source, not current Registry authority.
 - Experimental `src/` still contains *SRI* / *HRS* / *HKL-AI Score* function names and some hardcoded scalings noted in Session 2. Those are experimental code, not official metrics; this cycle does not invent replacement scores. `src/README.md` already describes experimental status.
 - Ordinary-language “severed” in the mussel example (A8) is left in the official example body, with the mapping stated here rather than a Layer 1 rewrite.
 - Historical reviews and audits (`Release/Reviews/`, `ai/AUDITS/`) describe past wording; they are records, not current definitions.

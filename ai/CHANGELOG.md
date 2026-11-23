@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-23 — Round 17: Terminology map and erratum (accept-with-revisions)
+
+Wrote `ai/GLOSSARY.md` as a map from Registry v0.3.2 and the reconciled papers to stale wording in working drafts and historical files. Official Layer 0/1 papers were not rewritten, and no definitions were invented. HKL Lyapunov v2 was bannered and marked where it still treated \(dV/dt\le 0\) as required and \(V^*\) as a PCB identity. Leftover PAE-as-number, AU, and \(PAE=E-C_{pae}\) wording in AEF v2 and the buffer draft was marked; C also marked AEF v2’s ELQ Triangle. Historical CorePrinciples glossaries and related files were bannered, original wording preserved. Undefined terms (AU, HKL-AI Score, SRI, HRS, and others) are flagged `needs-definition`. Branch READMEs now say the `ai/` tree is on `ai/evolution` only, not on `main`.
+
 ## Session 3 summary (2026-11-21)
 
 This session ran Rounds 12–16 on `ai/evolution` only, as direct

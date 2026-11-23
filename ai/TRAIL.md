@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Verifier: terminology map accepted with revisions (Round 17)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed the glossary invents no definitions and that official Layer 0/1 papers were not rewritten. Applied the two hit challenges: marked AEF v2 §6’s ELQ Triangle as stale, and bannered `HKL_Water_Metric.md`, `HKL_Geometric_Intelligence_Updated.md`, and `Law_of_We_Causal_Ethics.md`. Undefined terms stay `needs-definition`. No theory arm was developed.
+- **Why:** Session process requires C to apply revisions in the same verdict commit when a challenge hits.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-23-terminology-erratum.md`; `ai/GLOSSARY.md`; [A] `493b3d8`, `81d6500`, `ff982d0`; [B] `e17c496`. No pull request. `main` was not changed.
+- **What this means:** If a draft still talks as if PAE were a number, or \(dV/dt\le 0\) were required, or *severed* could be assigned from a story, the map and the in-place marks now say to use the current official wording instead. Historical text is still there, marked or bannered. The `ai/` folder is on this branch, not on `main`.
+
 ## 2026-11-23 — Adversary: challenges to the terminology erratum (Round 17)
 
 - **Agent:** Adversary (B)
