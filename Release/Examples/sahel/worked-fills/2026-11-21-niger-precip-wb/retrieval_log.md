@@ -1,5 +1,7 @@
 # Retrieval log — World Bank / FAOSTAT precipitation indicator for Niger
 
+> **Unpublished branch work (ai/evolution, Round 19, 23 November 2026).** This file does not exist in `Release/` on `main` (`270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`). It is not part of the published example set. `Release/` on `main` is the authoritative current source.
+
 Retrieval date: 2026-11-21, America/New_York. World Development Indicators page metadata `lastupdated`: 2026-11-11.
 
 - Indicator metadata: https://api.worldbank.org/v2/indicator/AG.LND.PRCP.MM?format=json
