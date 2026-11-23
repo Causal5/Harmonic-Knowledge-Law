@@ -33,9 +33,12 @@ Jordan’s rule (23 November 2026): the files in `Release/` as published on
 `main` are the primary and most up-to-date source. Every other file is
 subject to obsolescence. If wording conflicts, `Release/` on `main` wins.
 
-- The authoritative tree is `Release/` at `main` (currently the pinned
-  snapshot `c9e12778aba0014732a8add3c90c5676e5785bf7` until `main` itself
-  moves). Which documents *inside* that tree are current definitions, and
+- The authoritative tree is `Release/` at `main`, currently
+  `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d` (23 November 2026,
+  “Correct the fish passage site in mussel example §8”). The original
+  starting pin of this branch remains
+  `c9e12778aba0014732a8add3c90c5676e5785bf7` (31 October 2026). Which
+  documents *inside* that tree are current definitions, and
   which are drafts or historical sources, is already decided there:
   Registry v0.3.2 and the reconciled papers control; `Release/Working/`,
   `Release/archive/`, and the v0.4 draft do not override them. That
