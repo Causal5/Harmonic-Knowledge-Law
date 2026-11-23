@@ -130,7 +130,7 @@ These are not wording errors. They wait on you.
 - Re-pulled `main`. It moved only in the mussel example: commit `270942c` (23 November 2026, 5:07 PM America/New_York), §8 item 4 now names Lock and Dam 22 near Saverton. Official papers, Registry, and decision records are still identical on both branches.
 - Branch §8 item 4 adopted the published `main` sentence. The earlier branch wording of item 4, and the part of the Session 3 note that was only correcting that typo, are marked superseded. The LD19 / uADS retrieval remains as unpublished branch work.
 - `CorePrinciples/SLP_Published.md` now has a historical-source banner; body preserved.
-- Diverging and branch-only `Release/` files on this branch now carry an “unpublished vs `main`” banner. `main` was not edited.
+- Diverging and branch-only `Release/` markdown and scripts on this branch now carry an “unpublished vs `main`” banner. Folder-level `UNPUBLISHED.md` notices were added for branch-only data files (CSV, JSON, source excerpts) and beside the freshwater dictionary CSV, because a markdown banner would break those formats. `main` was not edited.
 - Experimental `src/`: unofficial SRI / HRS / HKL-AI *names* are documented; the hardcoded 0.1 distill scaling, +0.5 connection increment, and 0.4/0.3/0.3 HKL-AI weighting no longer run. No replacement official metrics were invented.
 - Overreach audit of `Release/` on `main` completed; findings that only you can fix are in §B. Official HKL and AEF papers are already hedged (“Law” names the research program; a publication checkpoint is not empirical validation).
 - This file. No theory arm was developed.
