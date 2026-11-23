@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Adversary: challenge to the clarification sweep (Round 19)
+
+- **Agent:** Adversary (B)
+- **What:** Filed one challenge to C-clar-01: the unpublished-vs-`main` banners cover markdown writeups and scripts, but not the branch-only CSV, JSON, and source excerpts under `Release/Examples/`. Those files are easy to open on their own.
+- **Why:** The claim’s own falsifier is a diverging `Release/` file with no unpublished notice. A data file should not get a markdown banner that would break it, but the folder still needs a notice.
+- **Links:** `ai/LEDGER/challenges/CH-clar-01-unbannered-data-files.md`. [A] `7d5464e`, `07e2cff`, `d0d74da`, `c79d16a`, `849bc11`, `e66203d`, `21a934f`, `b6a4939`, `a56e875`, `931fecd`, `fbed5c2`. No pull request. `main` was not changed.
+- **What this means:** Someone who opens a worked-fill CSV or the freshwater dictionary spreadsheet, without reading the writeup first, can still think that file is published `Release/` on `main`.
+
 ## 2026-11-23 — Work agent: clarification and correction sweep (Round 19)
 
 - **Agent:** Work (A)
