@@ -1,5 +1,9 @@
 # Glossary of Key Terms
 
+> **Status (ai/evolution, 2026-11-23, Round 17, proposed).** Historical / recovered glossary. Not current Registry, HKL, or AEF authority, and not a Layer 0 document. The body below is preserved. Current definitions are in `Release/Registry/causal-ethics-master-symbol-registry.md` (v0.3.2), the 16 and 30 October decision records, `START_HERE.md`, `Release/HKL/hkl-lyapunov.md`, and `Release/Papers/absorbic-effort-framework.md`. A term-by-term map, including entries that conflict with those sources, is in `ai/GLOSSARY.md`. No replacement definitions are invented here.
+> Entries that treat PAE or OIE as a scalar mechanism, introduce an *HKL-AI Score* (0–1 with 0.3 / 0.6–0.8 thresholds), a *Systemic Resonance Index (SRI)*, or a *Harmonic Resonance Score (HRS)*, or present DeepSeek scores or a “90% resource reduction” as current HKL results, are not in Registry v0.3.2 and are not current official metrics.
+
+
 **Axis (A)**: The universal constant at the heart of *Causal Ethics*, defined as a one-dimensional equilibrium manifold within the high-dimensional knowledge/physical manifold \(g_{ij}\). It serves as the invariant reference point that minimizes systemic entropy, around which all uncertainty and variation (\(\Delta\)) oscillate. Cognitive agents can deviate from the Axis to achieve systemic good, using the *Principle of Absorbic Effort (PAE)* to reduce \(\Delta\) and align with natural laws.
 
 **Causal Ethics (CE)**: An ethical framework that aligns human and AI actions with natural laws (e.g., thermodynamics, Principle of Least Action) to preserve systemic coherence. It emphasizes minimizing *Observer-Induced Entropy (OIE)* through the *Axis* as a universal constant and the *Principle of Absorbic Effort (PAE)* as a cognitive mechanism for ethical decision-making. CE ensures that actions contribute to long-term systemic stability, as measured by metrics like the *HKL-AI Score*.

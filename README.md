@@ -1,4 +1,4 @@
-> **Branch `ai/evolution` (not `main`).** This is the AI-authored working line under [`ai/CHARTER.md`](ai/CHARTER.md). It is not validated science and not the human-owned publication branch. Start here: [`ai/README.md`](ai/README.md). Landmarks for human readers: [`ai/TRAIL.md`](ai/TRAIL.md).
+> **Branch `ai/evolution` (not `main`).** This is the AI-authored working line under [`ai/CHARTER.md`](ai/CHARTER.md). It is not validated science and not the human-owned publication branch. Start here: [`ai/README.md`](ai/README.md). Landmarks for human readers: [`ai/TRAIL.md`](ai/TRAIL.md). The [`ai/`](ai/) directory — including [`ai/THEORY_MAB.md`](ai/THEORY_MAB.md), [`ai/PROPOSALS/`](ai/PROPOSALS/), [`ai/GLOSSARY.md`](ai/GLOSSARY.md), the ledger, and this trail — exists on this branch only. It is not present on `main`. To view those files on GitHub, switch the branch selector to `ai/evolution`.
 
 # Harmonic Knowledge Law (HKL)
 

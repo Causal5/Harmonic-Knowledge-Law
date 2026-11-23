@@ -22,6 +22,13 @@ work **only** on `ai/evolution`, by direct commit. They must not write to
 `main`, open pull requests, or create other branches. Charter Layer 0
 amendments are only by Jordan.
 
+**Visibility.** The entire `ai/` tree is on `ai/evolution` only. It does not exist on `main`. If a GitHub view of `main` has no `ai/` folder, that is expected. Direct links (this branch):
+
+- https://github.com/Causal5/Harmonic-Knowledge-Law/tree/ai/evolution/ai
+- https://github.com/Causal5/Harmonic-Knowledge-Law/blob/ai/evolution/ai/THEORY_MAB.md
+- https://github.com/Causal5/Harmonic-Knowledge-Law/tree/ai/evolution/ai/PROPOSALS
+- https://github.com/Causal5/Harmonic-Knowledge-Law/blob/ai/evolution/ai/GLOSSARY.md
+
 ## How the three agents work
 
 Each cycle is one proposal, committed straight to `ai/evolution`:
@@ -54,6 +61,8 @@ plain-English TL;DR.
 5. The ledger: [`LEDGER/index.md`](LEDGER/index.md).
 6. This branch's changelog: [`CHANGELOG.md`](CHANGELOG.md) (not the root
    `CHANGELOG.md`, which records `main` publications).
+7. Term map / erratum: [`GLOSSARY.md`](GLOSSARY.md) (Round 17). Not a registry amendment.
+8. Theory-move gate: [`THEORY_MAB.md`](THEORY_MAB.md) (Round 16).
 
 ## License
 

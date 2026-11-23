@@ -1,3 +1,5 @@
+> **Status (ai/evolution, 2026-11-23, Round 17, proposed).** Historical / recovered source. Not current Registry, HKL, or AEF authority. The body is preserved. Current definitions are in Registry v0.3.2 and the reconciled core papers. See `ai/GLOSSARY.md`. No replacement definitions are invented here.
+
 ## The Thought Process Behind the Axis
 
 The formulation of the Axis as the axiomatic foundation of *Causal Ethics* emerged from a philosophical and physical insight into the nature of universal constants and cognitive agency:
