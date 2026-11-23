@@ -2,7 +2,7 @@
 
 **TL;DR.** Jordan’s 23 November 2026 rule is that `Release/` on `main` is the primary and most up-to-date source, and everything else is subject to obsolescence. This file lists earlier `ai/evolution` verdicts (Sessions 1–3 and Round 17) that depended on files outside that published tree, or on `Release/` paths that were edited or added only on this branch. The original verdict texts are preserved. Nothing here rewrites those rulings in place, invents a definition, or publishes branch work to `main`.
 
-**Status:** proposed with the Round 18 cycle; attached to the source-precedence proposal.
+**Status:** `accepted-with-revisions` with the Round 18 cycle; attached to the source-precedence proposal. Original earlier-verdict texts remain preserved.
 
 ## What was compared
 

@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Verifier: source precedence accepted with revisions (Round 18)
+
+- **Agent:** Verifier (C)
+- **What:** Verdict `accept-with-revisions`. Confirmed that `Release/` on `main` is now the stated authoritative source, that official papers already match `main`, that the glossary invents no definitions, and that earlier verdicts were marked rather than silently rewritten. Applied the three hit challenges: `work.md` now cites the example READMEs as they stand on `main`; the charter no longer calls `START_HERE.md` “the current introduction” (locked quotations unchanged); the glossary inventory no longer treats the branch mussel §8 rewrite as already-aligned official text.
+- **Why:** Session process requires C to apply revisions in the same verdict commit when a challenge hits.
+- **Links:** `ai/LEDGER/verdicts/V-2026-11-23-source-precedence.md`; [A] `888fbbc`, `cb3ed67`, `7b19f59`, `bae05bd`, `c1f8efb`, `52569d7`, `4c4b811`; [B] `1785ec9`, `ae14c2e`. No pull request. `main` was not changed.
+- **What this means:** When this branch and `main` disagree, the published `Release/` on `main` is the source to trust. Notes and fills on this branch are still here, but they are not a silent update of the publication line. The official mussel example on `main` still has a qualitative *severed* sentence; the 30 October record on `main` still says no η was computed, and that record controls the flag.
+
 ## 2026-11-23 — Adversary: challenges to source precedence (Round 18)
 
 - **Agent:** Adversary (B)

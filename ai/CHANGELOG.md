@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-23 — Round 18: Source precedence, Release on main (accept-with-revisions)
+
+Jordan directed that the files in `Release/` on `main` are the primary and most up-to-date source, and that everything else is subject to obsolescence. That rule is now in the charter and the agent files. `Release/` on `main` wins a conflict. Official papers and the Registry already match `main`. Nine `Release/` files differ on this branch (example README rows, mussel §8, Sahel addendum marks, Working-draft marks), and worked fills and protocols were added only here; those edits are unpublished branch work, not a publication to `main`. The glossary was rechecked against `Release/` on `main`: AU’s status is reserved/undefined (still no unit); HKL-AI Score, SRI, HRS, Axis as an official symbol, Variation-Δ formulas, manuscript buffer primitives, and the Round 6–9 process labels remain needs-definition. Earlier verdicts were listed and marked, not silently rewritten. C applied three revisions: leftover “already aligned” inventory wording, standing-document pointers at branch READMEs, and a Layer 0 heading that had called `START_HERE.md` the current introduction. No definition was invented. `main` was not edited.
+
 ## 2026-11-23 — Round 17: Terminology map and erratum (accept-with-revisions)
 
 Wrote `ai/GLOSSARY.md` as a map from Registry v0.3.2 and the reconciled papers to stale wording in working drafts and historical files. Official Layer 0/1 papers were not rewritten, and no definitions were invented. HKL Lyapunov v2 was bannered and marked where it still treated \(dV/dt\le 0\) as required and \(V^*\) as a PCB identity. Leftover PAE-as-number, AU, and \(PAE=E-C_{pae}\) wording in AEF v2 and the buffer draft was marked; C also marked AEF v2’s ELQ Triangle. Historical CorePrinciples glossaries and related files were bannered, original wording preserved. Undefined terms (AU, HKL-AI Score, SRI, HRS, and others) are flagged `needs-definition`. Branch READMEs now say the `ai/` tree is on `ai/evolution` only, not on `main`.
