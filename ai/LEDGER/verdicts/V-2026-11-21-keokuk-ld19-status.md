@@ -1,5 +1,7 @@
 # Verdict: Keokuk / Lock 19 official status and USGS 05474500 discharge (Round 12)
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The worked fill and the Session 3 note in the mussel example are not on `main`. Unpublished branch work. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** Accept with revisions. Citation [38] does locate the first-of-its-kind passage at Lock and Dam 22, not Keokuk, and official records describe a carp deterrent at Lock 19 rather than a fish passage there. The verifier re-ran the discharge script and confirmed the cited URLs (the live USACE page is still denied). Revisions: date the river-mile and FY21/2027 wording to the January 2025 snapshot; attribute the Lock 22 2027 date only to the DVIDS story; say plainly that the primary discharge service was chosen after gaps appeared; report means with and without estimated days; keep discharge as context, not an HKL test. The *severed* flag and \(\eta\) stay unassigned.
 
 **Verdict:** `accepted-with-revisions`

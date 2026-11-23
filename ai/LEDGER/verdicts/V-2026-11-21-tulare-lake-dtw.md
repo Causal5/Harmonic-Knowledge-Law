@@ -1,5 +1,7 @@
 # Verdict: Tulare Lake 5-022.12 DTW contrast and retrieved CVHM2 figures (Round 13)
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The worked fill is not in `Release/` on `main`. Unpublished branch work. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** Accept with revisions. The official 5-022.12 polygon is on the branch, the locked USGS 72019 script re-runs to n=0 paired wells, and the 158 km³ sentence is on the retrieved USGS Publications Warehouse page. Revisions keep three points unmissable: n=0 is coverage, not “no change”; March–May is a declared window; 158 km³ is an abstract quotation, not a model rerun or a Tulare Lake 2015–2024 result. Bite 5 and \(V_W\) were not scored.
 
 **Verdict:** `accepted-with-revisions`

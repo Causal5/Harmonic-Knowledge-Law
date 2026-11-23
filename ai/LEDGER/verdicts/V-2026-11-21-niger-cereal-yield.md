@@ -1,5 +1,7 @@
 # Verdict: Niger WDI/FAOSTAT cereal-yield series (Round 15)
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The worked fill is not in `Release/` on `main`. Unpublished branch work. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** Accept with revisions. The official 1961–2022 yield series re-runs: 62 years, mean 423.82 kg/ha, minimum 257.1 kg/ha in 1984, maximum 599.3 kg/ha in 1964. Revisions keep the post–Round 14 source choice visible and forbid treating national yield, or those years, as rainfall, FMNR, or HKL correction. CHIRPS was not retrieved. No \(V\) was constructed.
 
 **Verdict:** `accepted-with-revisions`

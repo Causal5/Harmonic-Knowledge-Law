@@ -1,5 +1,7 @@
 # Verdict: Niger WDI/FAOSTAT precipitation indicator (Round 14)
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The worked fill is not in `Release/` on `main`. Unpublished branch work. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** Accept with revisions. The official indicator really is 151.0 mm per year, repeated across 1961–2022, and really is a long-term average. Revisions: it is not a site or southern-Sahel rainfall value, and CHIRPS was not retrieved, so interannual rainfall and bounded-test environmental setting remain unfilled. No \(V\) was constructed and withdrawn Sahel claims were not restored.
 
 **Verdict:** `accepted-with-revisions`
