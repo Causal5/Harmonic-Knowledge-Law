@@ -1,5 +1,7 @@
 # V-2026-11-21-hkl-bite5-falsification-checklist
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The checklist file is not in `Release/` on `main`. Unpublished branch work. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The blank checklist is a real tightening of how Bite 5 should
 be reported, and it computed no scores. All three challenges hit and
 were fixed: the comparison metric must be a held-out score on the

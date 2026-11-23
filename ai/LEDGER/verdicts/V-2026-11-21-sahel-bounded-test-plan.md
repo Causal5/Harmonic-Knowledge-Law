@@ -1,5 +1,7 @@
 # V-2026-11-21-sahel-bounded-test-plan
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The test-plan file is not in `Release/` on `main`. Unpublished branch work. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The plan is a genuine blank recipe for the current Sahel
 paper’s six-step test. Withdrawn wording was not restored, the logistic
 addendum was not used as authority, and no series were invented. All

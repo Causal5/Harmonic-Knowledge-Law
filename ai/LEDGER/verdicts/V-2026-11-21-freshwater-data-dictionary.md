@@ -1,5 +1,7 @@
 # V-2026-11-21-freshwater-data-dictionary
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The dictionary files sit under `Release/Examples/` on this branch only. They are unpublished branch work, not `Release/` on `main`. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The dictionary is a useful, honest schema and it does not pretend
 to be a finished water study or a test of the framework. Two of the
 adversary’s hits were real: some things the protocol says to keep separate

@@ -1,5 +1,7 @@
 # V-2026-11-21-ebonyshell-renewal-coverage-protocol
 
+> **Source-precedence note (Round 18, 23 November 2026).** Original verdict text is preserved. The protocol file is not in `Release/` on `main`. Unpublished branch work. The *severed* definition itself is in the Registry on `main`. See `ai/LEDGER/errata/2026-11-23-source-precedence.md`.
+
 **TL;DR.** The protocol is a genuine blank recipe for the already-registered
 renewal-coverage ratios, not a completed measurement. No rates were
 invented. Two challenges hit and were fixed: life stage and loss
