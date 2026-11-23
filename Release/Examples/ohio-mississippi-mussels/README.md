@@ -1,5 +1,7 @@
 # Ohio–Mississippi freshwater mussels
 
+> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
+
 | Document | Status |
 |---|---|
 | [Worked example](ohio-mississippi-mussels-worked-example.md) | Source-qualified illustration; not an empirical validation or HKL score |

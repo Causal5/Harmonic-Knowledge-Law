@@ -1,5 +1,7 @@
 # §9. Approach 2 — Solving R^log_t Upstream Without Altering the Logistic Map
 
+> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
+
 > **Status (ai/evolution, 2026-11-21, Round 7).** Unpromoted source. Not current Sahel or HKL authority.
 > The current Sahel paper (`sahel_worked_example.md` §5) withdraws the wording that $dV/dt$ “measurably flipped sign” and that the framework “passed” a falsification test. Passages below that treat that wording as an empirical or falsification *anchor* are stale.
 > The following citations do **not** match the current papers and are marked **[DEAD CITE]** where they appear. No replacement section numbers are invented here:
