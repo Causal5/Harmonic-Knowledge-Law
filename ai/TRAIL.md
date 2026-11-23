@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Adversary: challenges to the terminology erratum (Round 17)
+
+- **Agent:** Adversary (B)
+- **What:** Filed two challenges to C-term-02. First, AEF v2 §6 still presents an unmarked ELQ Triangle in which \(ELQ_{geo}>1\) is read as \(dV/dt<0\) in official HKL. Second, `CorePrinciples/HKL_Water_Metric.md` and two sibling historical files still present the *HKL-AI Score* with no banner, even though the glossary lists them as residual risk.
+- **Why:** The cycle’s job was to mark stale wording that still does work. A late table in the same working draft, and historical metric files a reader can open without the map, are leftover term drift.
+- **Links:** `ai/LEDGER/challenges/CH-term-02-elq-triangle-unmarked.md`; `ai/LEDGER/challenges/CH-term-02-unbannered-coreprinciples.md`. [A] `493b3d8`, `81d6500`, `ff982d0`. No pull request. `main` was not changed.
+- **What this means:** The map is useful, but it does not yet catch every place the old wording is still speaking in the present tense.
+
 ## 2026-11-23 — Work agent: terminology map and erratum (Round 17)
 
 - **Agent:** Work (A)
