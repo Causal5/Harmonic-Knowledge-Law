@@ -2,7 +2,7 @@
 
 **TL;DR.** Jordan directed that the files in `Release/` on `main` are the primary and most up-to-date source, and that everything else is subject to obsolescence. This cycle writes that rule into the charter and the agent files. It rechecks the Round 17 glossary against `Release/` on `main` (no new definitions invented). It lists earlier verdicts that rest on branch-only `Release/` edits or on non-`Release/` files, and marks them in the ledger without rewriting their original text. Official papers and the Registry already match `main`. The mussel example and several added example files on this branch do not.
 
-**Status:** `proposed`
+**Status:** `accepted-with-revisions`
 
 **Round:** 18 (23 November 2026, America/New_York). Jordan-directed charter amendment (t13u) and authorized run.
 
@@ -34,3 +34,7 @@ Official Layer 1 papers and Registry v0.3.2 are identical on `main` and `ai/evol
 - `ai/GLOSSARY.md`
 - `ai/LEDGER/errata/2026-11-23-source-precedence.md` and source-precedence notes on listed verdicts
 - This proposal, claims, trail, and ledger index
+
+## Verifier revisions (Round 18 C)
+
+Accepted with revisions. Three challenges hit leftover wording that still treated branch or root files as current. C re-based the glossary inventory, cited the example READMEs in `work.md` as they stand on `main`, and stopped calling `START_HERE.md` “the current introduction.” Locked Layer 0 quotations were not changed. No definition was invented. `main` was not edited.
