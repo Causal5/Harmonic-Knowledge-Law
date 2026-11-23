@@ -10,6 +10,12 @@ currently stands: theory, formalizations, worked examples, and code, under
   unless Jordan has directed a specific process amendment. Do not write to
   `main`. Do not open a pull request. Do not create any other branch.
   Work only by direct commit to `ai/evolution`.
+- Source precedence: `Release/` as published on `main` is the authoritative
+  current source. Every other file is subject to obsolescence. If wording
+  conflicts, `Release/` on `main` wins. When a path under `Release/` on this
+  branch differs from the same path on `main`, treat the `main` text as the
+  published source and the branch text as unpublished branch work. Check
+  that difference before citing a branch `Release/` path as current.
 - Start from the current `ai/evolution` corpus and from gaps already named in
   the standing documents, including:
   - `Release/Reviews/publication-notes-2026-10-16.md` (“The immediate empirical

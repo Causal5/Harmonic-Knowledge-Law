@@ -8,6 +8,12 @@ writes to `main`.
 Jordan's cardinal rule: agents work only on `ai/evolution`, by direct
 commit. Never `main`. Never a pull request. Never any other branch.
 
+Source precedence (Jordan, 23 November 2026): `Release/` as published on
+`main` is the primary and most up-to-date source. Every other file is
+subject to obsolescence. If wording conflicts, `Release/` on `main` wins.
+A commit on this branch, including an edit under `Release/`, is not a
+publication to `main`. See `ai/CHARTER.md`.
+
 ## Roles and order
 
 1. **Work agent (A)** — follows `ai/AGENTS/work.md`. Commits the proposal

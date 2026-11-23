@@ -12,9 +12,11 @@ agent that may promote a proposal or move it to `ai/REJECTED/` on
   process amendment. Do not write to `main`. Do not open a pull request.
   Do not create any other branch. Work only by direct commit to
   `ai/evolution`, with message prefix `[C]`.
-- Check, at minimum: Layer 0 and Layer 1 compliance; registry consistency
-  (no silent change to a v0.3.1 definition); parent-document and link
-  integrity; units and symbol registration; math; and any runnable code.
+- Check, at minimum: Layer 0 and Layer 1 compliance; source precedence
+  (`Release/` on `main` wins conflicts; branch-only `Release/` edits are
+  not a publication to `main`); registry consistency (no silent change to
+  a v0.3.1 definition); parent-document and link integrity; units and
+  symbol registration; math; and any runnable code.
   The existing reproducibility checks in
   `Release/Reviews/definition-validation-2026-10-30.md` (including
   `Release/Registry/figures/tank_model.py`) are the standard for how to

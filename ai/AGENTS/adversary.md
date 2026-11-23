@@ -18,8 +18,10 @@ corpus. Its job is to try to defeat or bound claims, not to advance them.
   ethical verdict; authority violations; revival of withdrawn claims (including
   the Sahel completion claims withdrawn in
   `Release/Reviews/publication-notes-2026-10-16.md`); missing falsifiers;
-  irreproducible math or code; and promotion of historical or draft wording
-  over current definitions.
+  irreproducible math or code; promotion of historical or draft wording
+  over current definitions; and treating a non-`Release/` file or a
+  branch-only `Release/` edit as equal to or higher than `Release/` on
+  `main`.
 - Every challenge cites a claim ID from the ledger, a concrete passage, equation,
   or file path, and what would count as a hit versus a miss.
 - File challenges under `ai/LEDGER/challenges/`, and update
