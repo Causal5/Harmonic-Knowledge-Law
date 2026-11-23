@@ -1,3 +1,5 @@
+> **Status (ai/evolution, 2026-11-23, Round 17, accepted-with-revisions).** Historical / recovered source. Not current Registry, HKL, or AEF authority. The body is preserved. Current definitions are in Registry v0.3.2 and the reconciled core papers. The *HKL-AI Score* and related unofficial metrics, if used below, are not in Registry v0.3.2 and are not current official metrics. See `ai/GLOSSARY.md`. No replacement score or definition is invented here.
+
 
 # The Law of We: Causal Ethics & The Evolution of Intelligence
 

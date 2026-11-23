@@ -176,7 +176,9 @@ The ELQ bridges all three documents:
 | $ELQ_{geo} = 1$ | Exact parity | $\frac{dV}{dt} = 0$: marginal equilibrium | $\frac{d}{dt}\mathcal{E}_i = 0$: distortion stable |
 | $ELQ_{geo} < 1$ | Corrective deficit | $\frac{dV}{dt} > 0$: diverging from basin | $\frac{d}{dt}\mathcal{E}_i > 0$: distortion increasing |
 
-This is a single phenomenon described in three namespaces.
+**[STALE / WITHDRAWN: current AEF §6 deprecates raw ELQ accounting and does not treat PAE or OIE as numbers; current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording. This table is not a current official reading. No replacement table is invented here.]**
+
+This is a single phenomenon described in three namespaces. **[STALE: same status as the table above; not a current official identity across namespaces.]**
 
 ---
 

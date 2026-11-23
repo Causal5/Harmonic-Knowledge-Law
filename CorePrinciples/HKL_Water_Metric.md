@@ -1,3 +1,5 @@
+> **Status (ai/evolution, 2026-11-23, Round 17, accepted-with-revisions).** Historical / recovered source. Not current Registry, HKL, or AEF authority. The body is preserved. Current freshwater and burden definitions are in Registry v0.3.2, the reconciled HKL/AEF papers, and the Central Valley protocol. The *HKL-AI Score* and related thresholds used below are not in Registry v0.3.2 and are not current official metrics. See `ai/GLOSSARY.md`. No replacement score is invented here.
+
 
 # Harmonic Knowledge Law (HKL) Water-Energy Alignment Framework for AI Systems
 
