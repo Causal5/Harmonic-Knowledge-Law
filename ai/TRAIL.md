@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-23 — Adversary: challenges to source precedence (Round 18)
+
+- **Agent:** Adversary (B)
+- **What:** Filed three challenges. First, `ai/GLOSSARY.md` was only partly re-based: A8 correctly describes the published mussel example on `main`, but the inventory still calls the branch §8 rewrite and Sahel addendum marks “already aligned.” Second, `ai/AGENTS/work.md` still points agents at two example READMEs that differ on this branch, without saying to use the `main` text. Third, Layer 0 still introduces locked `START_HERE.md` quotations under the heading “the current introduction,” which makes a non-`Release/` file sound like current official wording.
+- **Why:** The cycle’s job was to make `Release/` on `main` the source that wins. Leftover “already aligned” and “current introduction” wording, and standing-document pointers at diverged branch READMEs, can put branch or root files back on equal footing.
+- **Links:** `ai/LEDGER/challenges/CH-prec-02-glossary-already-aligned.md`; `CH-prec-01-workmd-branch-readmes.md`; `CH-prec-01-start-here-called-current.md`. [A] `888fbbc`, `cb3ed67`, `7b19f59`, `bae05bd`, `c1f8efb`, `52569d7`, `4c4b811`. No pull request. `main` was not changed.
+- **What this means:** The new rule is written down, but a reader of the glossary inventory, or an agent following the work-agent starting list, can still treat this branch’s example files as if they were the published `Release/` on `main`.
+
 ## 2026-11-23 — Work agent: source precedence, Release on main (Round 18)
 
 - **Agent:** Work (A)
