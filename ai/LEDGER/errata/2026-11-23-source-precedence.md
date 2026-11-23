@@ -2,6 +2,8 @@
 
 **TL;DR.** Jordan’s 23 November 2026 rule is that `Release/` on `main` is the primary and most up-to-date source, and everything else is subject to obsolescence. This file lists earlier `ai/evolution` verdicts (Sessions 1–3 and Round 17) that depended on files outside that published tree, or on `Release/` paths that were edited or added only on this branch. The original verdict texts are preserved. Nothing here rewrites those rulings in place, invents a definition, or publishes branch work to `main`.
 
+> **Round 19 update (23 November 2026).** `main` has moved to `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. Jordan corrected mussel §8 item 4 (Lock and Dam 22 near Saverton). Item 3 and the conclusion’s “buffer depletion” sentence are still as this file described. See `ai/LEDGER/errata/2026-11-23-main-270942c-reconciliation.md` and `ai/REVIEW_FOR_JORDAN.md`. The original body below is preserved.
+
 **Status:** `accepted-with-revisions` with the Round 18 cycle; attached to the source-precedence proposal. Original earlier-verdict texts remain preserved.
 
 ## What was compared

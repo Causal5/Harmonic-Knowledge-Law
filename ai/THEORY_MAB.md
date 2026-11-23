@@ -30,6 +30,8 @@ Round 17 opens `ai/GLOSSARY.md` as a terminology map / erratum against Registry 
 
 Round 18 records Jordan’s source-precedence rule (`Release/` on `main` is primary; everything else is subject to obsolescence) and rechecks the glossary against that tree. It invents no definitions and does not extend the premise. It is **not registered as an arm** and no arm is developed in that cycle.
 
+Round 19 is a clarification and correction sweep after `main` moved to `270942c`. It invents no definitions, develops no arm, and does not extend the premise. It is **not registered as an arm**.
+
 ## Arm records
 
 ### ARM-2026-11-21-01 — Spatial above/below Keokuk contrast as sink-impairment
