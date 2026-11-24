@@ -2,7 +2,7 @@
 
 In-place archive of the 19 proposals accepted with revisions through Round 19. Carried over from the Adversary review on `ai/evolution`, 24 November 2026. Original verdicts and paths are preserved.
 
-**Tree note (24 November 2026 sync / Launch Pad Session 1).** The freshwater-dictionary proposal *folder* is not in the current working tree. The first row links the accepted proposal and its revision in Git history at [`6797c98`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/6797c98/ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/proposal.md). The later Tulare pumping-storage proposal (`2026-11-24-tulare-pumping-storage/`) is on the branch and is not one of these 19; its verdict, once issued, will be recorded in this file or in the ledger.
+**Tree note (24 November 2026 sync / Launch Pad Session 1).** The freshwater-dictionary proposal *folder* is not in the current working tree. The first row links the accepted proposal and its revision in Git history at [`6797c98`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/6797c98/ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/proposal.md). A later proposal, accepted after those 19, is listed below.
 
 | Proposal | Decision and evidence | Outstanding work or limit |
 |---|---|---|
@@ -25,3 +25,9 @@ In-place archive of the 19 proposals accepted with revisions through Round 19. C
 | [Terminology erratum](2026-11-23-terminology-erratum/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-23-terminology-erratum.md) · [Evidence](../LEDGER/claims/C-term-01.md) | Reserved or historical terms need author decisions. |
 | [Source precedence](2026-11-23-source-precedence/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-23-source-precedence.md) · [Evidence](../LEDGER/claims/C-prec-01.md) | Consult published Release files on main. |
 | [Clarification sweep](2026-11-23-clarification-sweep/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-23-clarification-sweep.md) · [Evidence](../LEDGER/claims/C-clar-01.md) | Remaining terminology decisions are in the author review. |
+
+## Accepted after Round 19
+
+| Proposal | Decision and evidence | Outstanding work or limit |
+|---|---|---|
+| [Tulare pumping and storage](2026-11-24-tulare-pumping-storage/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-24-tulare-pumping-storage.md) · [Evidence](../LEDGER/claims/C-tulare-periods-01.md) | Six descriptive water-year pairs, not a closed budget. 2017 sign change is not season-only. Bite 5 remains unscored. |

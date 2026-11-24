@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Verifier: Tulare pumping-storage accepted with revisions
+
+Housekeeping [C] on [2026-11-24-tulare-pumping-storage](PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). Verdict `accepted-with-revisions`: [V-2026-11-24-tulare-pumping-storage](LEDGER/verdicts/V-2026-11-24-tulare-pumping-storage.md). The crosswalk totals match published v0.2 (2,538,548 AF extraction; −468,635 AF storage change). Evidence is retargeted at v0.2. The six pairs stay descriptive, not a closed budget; the 2017 sign change is not treated as season-only. `main` was not edited.
+
+**What this means.** The pending reconciliation is now closed against the published worked example, with the adversary’s caveats written into the claim record.
+
 ## 2026-11-24 — Adversary: Tulare pumping-storage proposal vs published v0.2
 
 Housekeeping [B] on the still-pending [proposal](PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). Two challenges: [interval alignment](LEDGER/challenges/CH-tulare-periods-01-interval-alignment.md) (the six pairs are not a closed water budget) and [2017 sign change / evidence path](LEDGER/challenges/CH-tulare-periods-02-not-season-alone.md) (not season alone; published evidence is now v0.2 on `main` at `56c6ab5`). Does not accept or reject the claims. `main` was not edited.

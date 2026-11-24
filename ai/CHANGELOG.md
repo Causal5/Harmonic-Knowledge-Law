@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Housekeeping: Tulare pumping-storage accepted with revisions
+
+Ruled on the pending 24 November Tulare pumping-storage proposal against Central Valley worked example v0.2 on `main`. Accepted with revisions: published evidence is v0.2; the six water-year pairs are descriptive, not a closed budget; the 2017 sign change is not season-only. `main` was not edited.
+
 ## 2026-11-24 — Housekeeping: adopted process-aid status lines
 
 Updated the four `ai/NOTES/` sheets so their body status lines say they were adopted as research procedures on 24 November 2026. Noted in `ai/PROPOSALS/README.md` that the freshwater-dictionary proposal folder is only in Git history (`6797c98`). `main` was not edited.
