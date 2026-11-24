@@ -15,3 +15,5 @@
 | Independent \(C_{irr}\) | **Not locked.** WY 2025 reports InSAR subsidence (for example 0.033–0.537 ft in the year discussed in the executive summary) and v0.2 already states that C-zone storage uses surface displacement. Using that InSAR as an independent check on the same storage series would count shared evidence twice, which the pre-registration forbids. |
 
 **Outcome:** **indeterminate**. Cause: **scope / data limit** under the independence rule. The conjunction was not evaluated. Bite 5, \(V_W\), and official buffer remain unassigned.
+
+**Short-summary rule (Round 23 [C]).** Name Table 3-1 as supply totals that include imported groundwater. Do not call the totals a pure surface-water delivery or a delivered-service series. Leave the signature unassigned.
