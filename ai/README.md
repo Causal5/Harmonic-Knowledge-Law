@@ -9,7 +9,7 @@ publication line on `main`.
 
 `ai/evolution` is an AI-authored working corpus. It started from `main` at
 `c9e12778aba0014732a8add3c90c5676e5785bf7` (31 October 2026). `Release/` on
-`main` was reviewed at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d` on 23 November 2026
+`main` is now at `56c6ab5464672a945c7832f03e969676c86d4a2b` (24 November 2026)
 and is the authoritative current source. The branch may be revised by three
 structural agents under [`CHARTER.md`](CHARTER.md). The charter's Layer 0
 premise is immutable; Layer 1 (Registry v0.3.2 and the reconciled papers,
