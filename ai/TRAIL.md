@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Work agent: Round 20 DWR head-sign stress test (holds)
+
+Launch Pad Session 1, Round 20 [A]. Pre-registered a sign test of v0.2’s net Tulare Lake storage *loss* against independent DWR wells in 5-022.12, October–November 2019 vs 2025, Good quality, \(n_G \ge 5\). The [pre-registration](../Release/Examples/central-valley/worked-fills/2026-11-24-tulare-dwr-head-contrast/PREREG.md) was written before signed differences were computed. Result: **holds** — 15 paired wells, median depth to water +19.03 ft (13 deeper, 2 shallower). A companion spring 2015–2024 contrast, not the decision, has the opposite sign. η, *severed*, buffer, \(V_W\), and Bite 5 were not assigned. Scoreboard: [ai/STRESS_TESTS.md](STRESS_TESTS.md). `main` was not edited.
+
+**What this means.** An independent well network, under a locked fall window, points the same way as the published storage-direction claim. The spring companion shows that a different window can flip the sign, which is why the window was locked first.
+
 ## 2026-11-24 — Verifier: Tulare pumping-storage accepted with revisions
 
 Housekeeping [C] on [2026-11-24-tulare-pumping-storage](PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). Verdict `accepted-with-revisions`: [V-2026-11-24-tulare-pumping-storage](LEDGER/verdicts/V-2026-11-24-tulare-pumping-storage.md). The crosswalk totals match published v0.2 (2,538,548 AF extraction; −468,635 AF storage change). Evidence is retargeted at v0.2. The six pairs stay descriptive, not a closed budget; the 2017 sign change is not treated as season-only. `main` was not edited.
