@@ -1,5 +1,7 @@
 # Tulare Lake pumping and storage, 2015–2025
 
+> **Superseded as the published narrative (24 November 2026 sync).** On `main` at `56c6ab5464672a945c7832f03e969676c86d4a2b`, this standalone writeup was integrated into [`central-valley-worked-example-v0.2.md`](../../../central-valley-worked-example-v0.2.md) and removed from the live Examples path. The [annual crosswalk CSV](outputs/tulare_lake_pumping_storage_crosswalk.csv) remains on `main`. This file is kept on `ai/evolution` as unpublished branch text. It is not the current official worked example.
+
 **Unpublished research-branch reconciliation, 24 November 2026.** The five Tulare Lake agencies' reports support six annual comparisons for Bulletin 118 subbasin 5-022.12. The extraction totals cover October–September. The storage estimates span one fall survey to the next, with dates that can vary by well. The [year-by-year crosswalk](outputs/tulare_lake_pumping_storage_crosswalk.csv) retains earlier calendar-year rows and both storage series for inspection. Units are acre-feet (AF).
 
 ## What can be compared

@@ -2,6 +2,18 @@
 
 This log records repository changes. Publication dates do not imply scientific validation or the completion of a draft's proposed work.
 
+## 2026-11-24 — Central Valley worked example v0.2
+
+Integrated the Tulare Lake results into the [current worked example](Release/Examples/central-valley/central-valley-worked-example-v0.2.md). The [archive note](archive/worked-examples/README.md) records why v0.1 was superseded. The standalone reconciliation remains accessible in the preceding commit.
+
+## 2026-11-24 — Tulare Lake source reconciliation
+
+Published the [pumping and storage reconciliation](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/d51828d792f66fb01f071e860734d9bdc52a4206/Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) and [annual crosswalk](Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/outputs/tulare_lake_pumping_storage_crosswalk.csv) from the [`ai/evolution` proposal](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/b623ee9b5af17af42e19df96220a44f7fe5c6d41/ai/PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). The figures retain their source editions and reporting windows for independent review.
+
+## 2026-11-24 — Adversary review carryover from `ai/evolution`
+
+Corrected the [mussel interpretation](Release/Examples/ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example.md), marked superseded passages in the Sahel, AEF, HKL and buffer drafts, adopted the [empirical review procedure](Release/Examples/empirical-review-procedure.md), and recorded the [freshwater study boundaries](Release/Examples/central-valley/README.md). The [GILN / IIF code](archive/examples/giln-iif/) is archived as an example. [Source review](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
+
 ## 2026-10-30 — Registry v0.3.2 (additive)
 
 - Added the [Ohio–Mississippi freshwater-mussel worked example](Release/Examples/ohio-mississippi-mussels/README.md), revision 3.1, as a source-qualified illustration.
