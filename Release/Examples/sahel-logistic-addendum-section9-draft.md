@@ -1,20 +1,10 @@
 # §9. Approach 2 — Solving R^log_t Upstream Without Altering the Logistic Map
 
-> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
-
-> **Status (ai/evolution, 2026-11-21, Round 7).** Unpromoted source. Not current Sahel or HKL authority.
-> The current Sahel paper (`sahel_worked_example.md` §5) withdraws the wording that $dV/dt$ “measurably flipped sign” and that the framework “passed” a falsification test. Passages below that treat that wording as an empirical or falsification *anchor* are stale.
-> The following citations do **not** match the current papers and are marked **[DEAD CITE]** where they appear. No replacement section numbers are invented here:
-> - “Sahel §5.1”, “Sahel §5.3”, and “extends Sahel §§5–8” — current Sahel §5 is “Claims that require calculation”; there is no §5.1, §5.3, or §8, and no §4.3.
-> - “HKL §5.1” basin-maintenance margin — current `Release/HKL/hkl-lyapunov.md` has no §5.1; §5 is “Effect accounting.” The current margin is $M_{V,\Omega}=V_{max,\Omega}-V_\Omega$. A resembling formula appears only in the superseded Working draft `Release/Working/hkl-lyapunov-v2.md`.
-> - “HKL Lyapunov v2” / “AEF v2” in the header’s authoritative chain — current HKL §7 says the recovered v2 draft is historical and does not override current definitions. AEF v2 is a Working draft, not the current AEF paper. “AEF §3.2” has no such subsection heading in the current AEF paper.
-> - Terms written $\lambda_{PAE}(t)\,PAE(t)$ treat PAE as a number, which current AEF §2 and the 16 October 2026 decision record reject.
-> Calibration and model decisions remain pending (`Release/Examples/README.md`).
-
+> **Status.** Unpromoted addendum. The [current Sahel paper, §§5–6](sahel_worked_example.md) withdraws the completed drift-sign and falsification claims and describes the test still required. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
 
 ### Addendum to: The Sahel as Worked Example
-### Cross-references: Δ-Self Worldline Formalization, Δ-Self Extension, HKL Lyapunov v2 **[DEAD CITE: superseded / does not override current HKL]**, AEF v2 **[DEAD CITE: Working draft, not the current AEF paper]**, Fallacy of Large-Scale Absorbic Effort, Continuation Filter
-### Authoritative chain: Worldline → Extension → Sahel (this addendum extends Sahel §§5–8) **[DEAD CITE: current Sahel has no §8; §5 withdraws completion claims; this draft is not current authority]**
+### Cross-references: Δ-Self Worldline Formalization, Δ-Self Extension, HKL Lyapunov v2, AEF v2, Fallacy of Large-Scale Absorbic Effort, Continuation Filter
+### Authoritative chain: Worldline → Extension → Sahel (this addendum extends Sahel §§5–8)
 
 ---
 
@@ -49,7 +39,7 @@ The framework already uses reachability notation. The following distinctions are
 | Logistic control parameter | $R^{\log}_t$ | $[0,4]$ |
 | Causal Ethics architecture gain | $g_{CE}(t)$ | $\mathbb{R}$ |
 | Rainfall / seasonal-water adequacy | $R_f(t)$ | normalized $[0,1]$ |
-| Basin-maintenance margin (HKL §5.1) **[DEAD CITE: no HKL §5.1 in the current paper]** | $M(t)$ | $\mathbb{R}$ (signed slack) |
+| Basin-maintenance margin (HKL §5.1) | $M(t)$ | $\mathbb{R}$ (signed slack) |
 
 This addendum does **not** introduce $R$ as a bare symbol anywhere; the logistic parameter is always written $R^{\log}_t$.
 
@@ -87,7 +77,7 @@ where $\mathcal{R}_{\text{stable}}(t)$ is the subset of reachable futures that r
 
 Interpretation: $\rho \to 1$ → stabilizing futures broadly accessible; $\rho \to 0$ → stabilizing futures structurally excised.
 
-**Resolution declaration (audit finding 4).** $\rho(t)$ is a *basin-aggregate scalar shadow of the deformation operator $\Psi$*. Two structurally distinct $\Psi$-deformations of $S_\Phi$ can produce identical $\rho$. $\rho$ is therefore honest as an aggregate accessibility ratio and dishonest as a deformation-mechanism description — exactly parallel to the OIE field/scalar relationship established in Sahel §5.1, §6. **[DEAD CITE: current Sahel has no §5.1]** Where the deformation *mode* (not merely its magnitude) is required, $\Psi$ must be carried explicitly and $\rho$ is insufficient. This addendum operates at aggregate resolution by construction (see §9.5, resolution declaration).
+**Resolution declaration (audit finding 4).** $\rho(t)$ is a *basin-aggregate scalar shadow of the deformation operator $\Psi$*. Two structurally distinct $\Psi$-deformations of $S_\Phi$ can produce identical $\rho$. $\rho$ is therefore honest as an aggregate accessibility ratio and dishonest as a deformation-mechanism description — exactly parallel to the OIE field/scalar relationship established in Sahel §5.1, §6. Where the deformation *mode* (not merely its magnitude) is required, $\Psi$ must be carried explicitly and $\rho$ is insufficient. This addendum operates at aggregate resolution by construction (see §9.5, resolution declaration).
 
 In the Sahel case: distributed architectures preserve or expand $\rho$; centralized architectures contract $\rho$ by restricting local adaptation, tenure flexibility, mobility, and ecological model fidelity.
 
@@ -99,8 +89,6 @@ The architecture-sensitive gain is computed outside the logistic map:
 
 $$
 g_{CE}(t) = b_0 + b_R R_f(t) + b_\rho\, \rho(t) + b_P\big[\lambda_{PAE}(t)\,PAE(t)\big] - b_O\, OIE_\int(t) - b_C\, C(t) - b_V\, \frac{dV}{dt}\bigg|_t
-
-**[DEAD CITE on $\lambda_{PAE}(t)\,PAE(t)$:** treats PAE as a number, rejected by current AEF §2.]
 $$
 
 | Term | Meaning |
@@ -108,15 +96,17 @@ $$
 | $b_0$ | baseline viability/growth offset |
 | $R_f(t)$ | rainfall adequacy / seasonal water support, normalized |
 | $\rho(t)$ | normalized reachable stabilizing futures (§9.4) |
-| $\lambda_{PAE}(t)\,PAE(t)$ | effective corrective effort after model-fidelity coupling (AEF §3.2, §5; Sahel §5.3) **[DEAD CITE: treats PAE as a number; current AEF has no §3.2 heading; current Sahel has no §5.3]** |
-| $OIE_\int(t)$ | basin-aggregate OIE (Sahel §5.1 integral form, see below) **[DEAD CITE: current Sahel has no §5.1]** |
+| $\lambda_{PAE}(t)\,PAE(t)$ | effective corrective effort after model-fidelity coupling (AEF §3.2, §5; Sahel §5.3) |
+| $OIE_\int(t)$ | basin-aggregate OIE (Sahel §5.1 integral form, see below) |
 | $C(t)$ | centralization / homogenization pressure |
 | $dV/dt\,\big|_t$ | HKL basin-burden **drift** (HKL §5; corpus-grounded, see below) |
 | $b_k$ | basin-margin sensitivity coefficients (structurally grounded, §9.5.1) |
 
-**Resolution declaration — OIE term (audit finding 1, corpus-grounded).** Sahel §5.1 already commits OIE to being a measure over $S_\Phi$ **[DEAD CITE: current Sahel has no §5.1; current text says OIE is a process]**, with the scalar defined explicitly as the integral $OIE_\int = \int_{S_\Phi} OIE(x)\, d\mu(x)$. The gain-function term is therefore written $OIE_\int(t)$, **not** an independent scalar. The gain layer operates at basin-aggregate resolution *by construction*, because Approach 2's output $R^{\log}_t$ is itself a scalar; a basin-aggregate input to a scalar output is a declared and consistent type-reduction, not a silent re-scalarization of the field. The same declaration applies to $\rho(t)$ (§9.4) and to $C(t)$. Where mechanism-level (cell-by-cell) resolution is required, Approach 2 is not the appropriate layer — the multi-patch field extension (anticipated §10) is.
+**Resolution declaration — OIE term (audit finding 1, corpus-grounded).** Sahel §5.1 already commits OIE to being a measure over $S_\Phi$, with the scalar defined explicitly as the integral $OIE_\int = \int_{S_\Phi} OIE(x)\, d\mu(x)$. The gain-function term is therefore written $OIE_\int(t)$, **not** an independent scalar. The gain layer operates at basin-aggregate resolution *by construction*, because Approach 2's output $R^{\log}_t$ is itself a scalar; a basin-aggregate input to a scalar output is a declared and consistent type-reduction, not a silent re-scalarization of the field. The same declaration applies to $\rho(t)$ (§9.4) and to $C(t)$. Where mechanism-level (cell-by-cell) resolution is required, Approach 2 is not the appropriate layer — the multi-patch field extension (anticipated §10) is.
 
-**Resolution declaration — basin term (audit finding 5, corpus-grounded).** The Sahel example's empirical anchor is derivative-based: §1 identifies the case's distinguishing feature as the architectural pivot "in which $dV/dt$ flipped sign," and §4.3 records that "$dV/dt$ measurably flipped sign after the architectural pivot." **[STALE / WITHDRAWN: current Sahel §5 withdraws this wording; current paper has no §4.3]** A static $V(t)$ term would contradict the document's own falsification anchor. The gain function therefore uses $dV/dt$. Level and drift may be carried jointly ($-b_{V_0} V(t) - b_V\, dV/dt$) if a future revision requires both; the drift term is mandatory because it is what makes §9.7's directional claims predictive rather than descriptive.
+> **Editorial note.** The claimed empirical anchor below was withdrawn. The current Sahel paper provides no computed drift series for this comparison.
+
+**Resolution declaration — basin term (audit finding 5, corpus-grounded).** The Sahel example's empirical anchor is derivative-based: §1 identifies the case's distinguishing feature as the architectural pivot "in which $dV/dt$ flipped sign," and §4.3 records that "$dV/dt$ measurably flipped sign after the architectural pivot." A static $V(t)$ term would contradict the document's own falsification anchor. The gain function therefore uses $dV/dt$. Level and drift may be carried jointly ($-b_{V_0} V(t) - b_V\, dV/dt$) if a future revision requires both; the drift term is mandatory because it is what makes §9.7's directional claims predictive rather than descriptive.
 
 The logistic parameter is then bounded:
 
@@ -132,9 +122,9 @@ preserving the normalized logistic map's valid control-parameter range. See §9.
 
 > **Status:** This subsection is a proposed structural account submitted for the framework author's ratification. It is *not* load-bearing by default. If rejected, the $b_k$ revert to declared free parameters and §9.5 must carry an explicit "free-parameter layer" disclosure. If ratified, this subsection closes audit finding 2 and dissolves audit finding 3.
 
-The framework eliminated $\lambda_{PAE}$ as a free parameter by grounding it as a manifold property (Sahel §5.3 **[DEAD CITE: current Sahel has no §5.3]**: the Conant–Ashby homomorphism efficiency $\Phi(G_i, S_\Phi)$). By parallel reasoning, the gain-function weights $b_k$ must not be free parameters, or Approach 2 merely displaces the tuning problem one layer upward.
+The framework eliminated $\lambda_{PAE}$ as a free parameter by grounding it as a manifold property (Sahel §5.3: the Conant–Ashby homomorphism efficiency $\Phi(G_i, S_\Phi)$). By parallel reasoning, the gain-function weights $b_k$ must not be free parameters, or Approach 2 merely displaces the tuning problem one layer upward.
 
-**Proposed grounding.** Define the basin-maintenance margin from HKL §5.1 **[DEAD CITE: no HKL §5.1 in the current paper; formula resembles superseded Working/hkl-lyapunov-v2.md]**:
+**Proposed grounding.** Define the basin-maintenance margin from HKL §5.1:
 
 $$
 M(t) := \mathcal{F}_{PAE} - \mathcal{F}_{OIE} - \frac{1}{w_0}\sum_{k\ge 1} w_k\, \dot{B}_k(t)
@@ -168,19 +158,21 @@ $$
 x_{n+1} = R^{\log}_t \, x_n (1 - x_n)
 $$
 
-This is the defining feature of Approach 2. HKL burden, AEF effort accounting, Δ-Self reachability, and OIE/PAE coupling are not inserted into the recurrence as extra terms; they determine $R^{\log}_t$, and the logistic map then propagates the resulting viability state. HKL defines stability through $V(t) = \sum_k w_k B_k(t)$ with stability requiring $dV/dt \le 0$ (HKL §5); AEF defines the effort accounting layer with $\lambda_{PAE}$, $\lambda_{OIE}$ as the effort↔geometry bridge (AEF §3.2, §5) **[DEAD CITE: current AEF has no §3.2 heading; no replacement section is invented here]**. Approach 2 respects those namespaces by keeping them strictly upstream of the logistic recurrence.
+This is the defining feature of Approach 2. HKL burden, AEF effort accounting, Δ-Self reachability, and OIE/PAE coupling are not inserted into the recurrence as extra terms; they determine $R^{\log}_t$, and the logistic map then propagates the resulting viability state. HKL defines stability through $V(t) = \sum_k w_k B_k(t)$ with stability requiring $dV/dt \le 0$ (HKL §5); AEF defines the effort accounting layer with $\lambda_{PAE}$, $\lambda_{OIE}$ as the effort↔geometry bridge (AEF §3.2, §5). Approach 2 respects those namespaces by keeping them strictly upstream of the logistic recurrence.
 
 ---
 
 ## 9.7 Sahel Interpretation
 
-The same biome generates divergent trajectories because the upstream solution for $R^{\log}_t$ changes under different architectures. (Directional claims below are stated in terms of *drift*, $dV/dt$, consistent with §9.5's corpus-grounded basin term and Sahel §4.3's empirical anchor. **[STALE / WITHDRAWN: current Sahel has no §4.3; the sign-change wording is withdrawn]**)
+> **Editorial note.** The directions below are predictions of this draft. The historical architectural change alone does not establish a sign change in burden drift.
+
+The same biome generates divergent trajectories because the upstream solution for $R^{\log}_t$ changes under different architectures. (Directional claims below are stated in terms of *drift*, $dV/dt$, consistent with §9.5's corpus-grounded basin term and Sahel §4.3's empirical anchor.)
 
 **Centralized architecture.** Imposes low-variety regulation, collapses transhumance corridors, restricts local decision space, applies a model $G_i \not\cong S_\Phi$. Consequently: $\rho \downarrow$, $\lambda_{PAE} \downarrow$, $OIE_\int \uparrow$, $dV/dt > 0$ (divergent drift). Therefore $g_{CE} \downarrow$ and $R^{\log}_t \downarrow$. The logistic map propagates collapse or low-viability recurrence — with no alteration to the map.
 
 **Distributed architecture.** Preserves local regulator variety, maintains patch-level model fidelity, keeps stabilizing futures accessible. Consequently: $\rho \uparrow$, $\lambda_{PAE} \uparrow$, $OIE_\int \downarrow$, $dV/dt < 0$ (convergent drift). Therefore $g_{CE} \uparrow$ and $R^{\log}_t \uparrow$. The logistic map propagates recovery or basin-compatible recurrence.
 
-The architectural pivot (GGW v1 → FMNR) is the point at which the sign of $dV/dt$ flips (Sahel §4.3) **[STALE / WITHDRAWN: current Sahel has no §4.3; sign-change wording is withdrawn]**; under Approach 2 this is precisely the point at which $g_{CE}$ crosses its inflection and $R^{\log}_t$ transits regimes.
+The architectural pivot (GGW v1 → FMNR) is the point at which the sign of $dV/dt$ flips (Sahel §4.3); under Approach 2 this is precisely the point at which $g_{CE}$ crosses its inflection and $R^{\log}_t$ transits regimes.
 
 ---
 
@@ -195,6 +187,8 @@ This positions the framework as a **parameter-origin theory**, not a replacement
 ---
 
 ## 9.9 Test Criterion (strengthened — audit finding 8)
+
+> **Editorial note.** The proposed timing and sign-change checks remain open. The cited mid-2010s sign change has yet to be measured.
 
 The weak form ("reproduces the *qualitative* bifurcation") is insufficient: almost any monotone $g_{CE}$ pushed through $\sigma$ into the logistic map produces *some* bifurcation. Approach 2 succeeds only if the preserved recurrence reproduces the **quantitative** Sahel bifurcation structure under the upstream-derived $R^{\log}_t$ alone:
 
