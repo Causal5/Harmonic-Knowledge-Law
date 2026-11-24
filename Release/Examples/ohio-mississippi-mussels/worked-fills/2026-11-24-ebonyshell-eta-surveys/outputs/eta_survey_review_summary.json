@@ -1,0 +1,12 @@
+{
+  "protocol": "PREREG.md",
+  "outcome": "indeterminate",
+  "reason": "no locked source supplied recruitment and loss rates",
+  "cause": "data gap",
+  "assigned": "none; eta and severed remain unassigned",
+  "sources": [
+    "kelner_sietman_2000_abstract.txt",
+    "usgs_99t001_ch11_excerpt.txt",
+    "usgs_psr_2000_04_excerpt.txt"
+  ]
+}
