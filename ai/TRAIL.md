@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Verifier: Round 24 mapping review accepted with revisions
+
+Round 24 [C]. Verdict `accepted-with-revisions` ([V-2026-11-24-tulare-table3-1-mapping](LEDGER/verdicts/V-2026-11-24-tulare-table3-1-mapping.md)). The Total **breaks** as a scope / object-class limit, not a Layer 0 failure. The ex-Imported subset is not a dictionary fill. Launch Pad Session 1 (Rounds 20–24) is complete. `main` was not edited.
+
+**What this means.** The first break of the session is an object-class mismatch, not a crack in the base theory. Short summaries should keep that distinction.
+
 ## 2026-11-24 — Adversary: Round 24 Table 3-1 mapping
 
 Round 24 [B]. Challenges: [not a theory failure](LEDGER/challenges/CH-map-02-not-theory-failure.md) and [the ex-Imported subset is not a dictionary fill](LEDGER/challenges/CH-map-02-subset-not-fill.md). Does not accept or reject the claims. `main` was not edited.

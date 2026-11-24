@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Round 24: Table 3-1 mapping onto Q_sw / D_W (breaks; accept-with-revisions)
+
+Pre-registered a mapping test of WY 2025 Table 3-1 totals onto protocol \(Q_{sw}\) or \(D_W\). The totals include imported groundwater (2.0%–50.4% of the Total; 18.2%–50.4% in Dry years) and are supply accounting, not a declared delivered-service series. The test **breaks**. Cause: scope / object-class, not a Layer 0 failure. The ex-Imported subset is a candidate only. ARM-05 stays `wait`; ARM-06 and ARM-07 opened at `wait` and were not developed. `main` was not edited.
+
 ## 2026-11-24 — Round 23: Tulare temporal-mining signature completeness (indeterminate; accept-with-revisions)
 
 Pre-registered a completeness test of protocol §5 against the WY 2025 filing. Table 3-1 supplies a six-year series (imported groundwater included), but independent \(C_{irr}\) cannot be locked because C-zone storage already uses InSAR. The signature is **indeterminate** and is left unassigned. `main` was not edited.
@@ -25,6 +29,28 @@ Pre-registered a test of whether CHIRPS v2.0 shows interannual rainfall over Nig
 ## 2026-11-24 — Round 20: DWR head-sign stress test (holds; accept-with-revisions)
 
 Pre-registered a sign test of Central Valley v0.2’s net Tulare Lake storage loss against independent DWR wells in 5-022.12, October–November 2019 vs 2025. The test **holds** (15 Good-quality pairs, median depth to water +19.03 ft). A companion spring 2015–2024 contrast, not the decision, has the opposite sign. The result is not a volume confirmation and not a Bite 5 score. `main` was not edited.
+
+## Launch Pad Session 1 summary (2026-11-24)
+
+This session ran Rounds 20–24 on `ai/evolution` only, as direct `[A]` / `[B]` / `[C]` commits, after housekeeping that recorded the four process-aid sheets as adopted research procedures, accepted the pending Tulare pumping-storage proposal with revisions against v0.2, and noted that the freshwater-dictionary proposal folder is only in history at `6797c98`. No pull requests. `main` was not modified and remains at `56c6ab5`. Official papers and the Registry were not rewritten. A1–A8 stay undefined and were not used as if defined. Bite 5 and \(V_W\) were not scored. \(V\) was not constructed. Withdrawn Sahel claims were not restored. The temporal-mining signature, \(\eta\), and *severed* remain unassigned.
+
+Scoreboard: **holds 2, breaks 1, indeterminate 2.** See [STRESS_TESTS.md](STRESS_TESTS.md).
+
+### What moved
+
+- **Round 20 — DWR head-sign test, Tulare 5-022.12.** `accept-with-revisions`. **Holds** on the locked October–November 2019 vs 2025 window (15 Good-quality pairs, median depth-to-water +19.03 ft). Not a volume confirmation of the v0.2 −468,635 AF figure. A companion spring 2015–2024 contrast, not the decision, has the opposite sign (median −42.97 ft, n=11).
+- **Round 21 — CHIRPS vs WDI Niger rainfall.** `accept-with-revisions`. **Holds** the diagnosis that WDI AG.LND.PRCP.MM is not interannual (CHIRPS national mean CV 0.171; 71.94–190.45 mm, 1981–2022). The series is a national mean, not a site contrast. Sahel step 1 remains unfilled.
+- **Round 22 — ebonyshell \(\eta\) from published surveys.** `accept-with-revisions`. **Indeterminate** (data gap). Retrieved Kelner abstract and two USGS texts do not supply recruitment and loss rates. The Kelner publisher PDF was not retrieved (HTTP 403). Flags stay unassigned.
+- **Round 23 — Tulare temporal-mining signature completeness.** `accept-with-revisions`. **Indeterminate** (scope / data limit). Table 3-1 supplies a six-year series that includes imported groundwater, but independent \(C_{irr}\) cannot be locked because C-zone storage already uses InSAR. The signature was not declared to have fired or failed.
+- **Round 24 — Table 3-1 mapping onto \(Q_{sw}\) / \(D_W\).** `accept-with-revisions`. **Breaks** (scope / object-class, not a Layer 0 failure). The Total cannot be \(Q_{sw}\) under the dictionary’s separation from groundwater withdrawal, and cannot be \(D_W\) without inventing a delivered-service identification. The ex-Imported subset is a candidate only.
+
+### Theory MAB
+
+ARM-05 was reassessed and stays `wait` (weights, held-out metric, and zone-locked volume conversion still missing). ARM-06 (CHIRPS at predeclared Sahel step-1 locations) and ARM-07 (independent \(C_{irr}\) for the Tulare signature) were opened at `wait` and were not developed.
+
+### Still for Jordan
+
+A1–A8 remain open. Bite 5 remains unscored. The Kelner 2000 PDF remains unretrieved. No arm is ready to develop.
 
 ## 2026-11-24 — Housekeeping: Tulare pumping-storage accepted with revisions
 
