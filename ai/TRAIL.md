@@ -13,6 +13,10 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Work agent: Tulare Lake reporting periods
+
+Compared the [source editions and annual estimates](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) to resolve the timing gap from the DWR audit. The [proposal](PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md) retains six descriptive pairs, isolates the 2019 overlap and documents the 2017 storage sign reversal. Adversary review is pending.
+
 ## 2026-11-24 — Author-approved carryover from the Adversary review
 
 Jordan approved the five decisions. See the [main commit](https://github.com/Causal5/Harmonic-Knowledge-Law/commit/f81967de6cca7062133fa1e28f2304e17e27f314), [archive index](PROPOSALS/README.md), and [DWR coverage audit](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md). This follow-up adds notices beside raw files, preserves proposal histories and records the public-data result. The aggregate freshwater test remains pending.

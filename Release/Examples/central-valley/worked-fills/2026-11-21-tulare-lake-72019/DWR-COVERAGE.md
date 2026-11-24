@@ -21,3 +21,5 @@ The [WY 2024 annual report](https://midkingsrivergsa.org/media/TLSB%205-022.12_W
 | Subsidence | §§3.5.2 and 5, October 2023–October 2024 InSAR | Match the raster footprint and dates. The C-zone storage estimate uses subsidence, so these two series share evidence. |
 
 Public sources cover the next feasibility step. First reconcile time windows, aquifer zones and shared inputs. Consider paid metered pumping only if it resolves a material residual uncertainty. Water-level trends, permanent loss and Bite 5 performance remain unscored.
+
+**24 November follow-up.** The [pumping and storage reconciliation](PUMPING-STORAGE.md) identifies six water-year comparisons and documents the retrospective fall estimates for earlier years.
