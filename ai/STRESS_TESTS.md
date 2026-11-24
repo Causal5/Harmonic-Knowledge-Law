@@ -8,4 +8,4 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 
 **Counts so far:** holds 1, breaks 0, indeterminate 0.
 
-**Note on Round 20.** A companion spring 2015–2024 contrast, pre-registered as not the decision, has the opposite sign (median −42.97 ft). Window choice matters. That observation is in the fill; it is not a break of the locked test.
+**Note on Round 20.** A companion spring 2015–2024 contrast, pre-registered as not the decision, has the opposite sign (median −42.97 ft, n=11). Window choice matters. Any short summary must name the locked October–November 2019–2025 window and this companion. The hold is a median of 15 qualifying Good pairs, not a spatially weighted subbasin head and not confirmation of the 468,635 AF figure.

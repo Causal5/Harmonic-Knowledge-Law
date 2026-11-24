@@ -2,7 +2,7 @@
 
 > **Unpublished branch work (ai/evolution, Launch Pad Session 1, Round 20, 24 November 2026).** This path does not exist in `Release/` on `main` (`56c6ab5464672a945c7832f03e969676c86d4a2b`). It is not a publication to `main`.
 
-**TL;DR.** Under the pre-registered fall window, 15 Good-quality DWR wells inside 5-022.12 have paired October–November measurements in 2019 and 2025. The median depth to water increased 19.03 feet (13 deeper, 2 shallower). That is the same direction as the v0.2 net storage loss, so the pre-registered sign test **holds**. A companion spring 2015–2024 contrast, which was not the decision, has the opposite sign. η, *severed*, buffer, \(V_W\), and Bite 5 were not assigned.
+**TL;DR.** Under the pre-registered fall window, 15 qualifying Good-quality DWR *pairs* inside 5-022.12 have October–November measurements in both 2019 and 2025 (a subset of 687 in-polygon station records, unweighted, aquifer zone not locked). The median depth to water of those 15 pairs increased 19.03 feet (13 deeper, 2 shallower). That is the same direction as the v0.2 net storage loss, so the pre-registered sign test **holds**. It is not a spatially weighted subbasin head and not a confirmation of 468,635 acre-feet. A companion spring 2015–2024 contrast, which was not the decision, has the opposite sign. η, *severed*, buffer, \(V_W\), and Bite 5 were not assigned.
 
 **Pre-registration:** [PREREG.md](PREREG.md) was written before signed paired differences were computed.
 
@@ -48,3 +48,5 @@ python3 scripts/compute_tulare_dwr_head_contrast.py --offline
 ```
 
 Or pass the DWR zip with SHA-256 `d606e9cff7762d6dac0dd0f9b4baa88e69a541bc45694c08b95a95096d341b0d`.
+
+**Verifier revision (Round 20 [C]).** Short summaries must name the locked October–November 2019–2025 window, call the statistic a median of 15 qualifying Good pairs, and mention the opposite-sign spring 2015–2024 companion.
