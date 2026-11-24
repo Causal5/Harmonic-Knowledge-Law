@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Adversary: Round 21 CHIRPS vs WDI
+
+Round 21 [B]. Challenges: [offline replay](LEDGER/challenges/CH-chirps-01-rerun.md) and [national mean is not a site series](LEDGER/challenges/CH-chirps-02-national-not-site.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** Interannual national rainfall is now in hand; that still is not a Sahel bounded test.
+
 ## 2026-11-24 — Work agent: Round 21 CHIRPS vs WDI Niger rainfall (holds)
 
 Launch Pad Session 1, Round 21 [A]. Pre-registered a test of whether CHIRPS v2.0 shows interannual rainfall over Niger after Round 14 found WDI AG.LND.PRCP.MM is 151 mm every year. [PREREG](../Release/Examples/sahel/worked-fills/2026-11-24-niger-chirps/PREREG.md) was written before the national mean was computed. Result: **holds** — CV 0.171, range 71.94 mm (1984) to 190.45 mm (1994). The series is a national mean, not a site contrast; \(V\) was not constructed. `main` was not edited.
