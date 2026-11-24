@@ -2,9 +2,13 @@
 
 This log records repository changes. Publication dates do not imply scientific validation or the completion of a draft's proposed work.
 
+## 2026-11-24 — Central Valley worked example v0.2
+
+Integrated the Tulare Lake results into the [current worked example](Release/Examples/central-valley/central-valley-worked-example-v0.2.md). The [archive note](archive/worked-examples/README.md) records why v0.1 was superseded. The standalone reconciliation remains accessible in the preceding commit.
+
 ## 2026-11-24 — Tulare Lake source reconciliation
 
-Published the [pumping and storage reconciliation](Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) and [annual crosswalk](Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/outputs/tulare_lake_pumping_storage_crosswalk.csv) from the [`ai/evolution` proposal](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/b623ee9b5af17af42e19df96220a44f7fe5c6d41/ai/PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). The figures retain their source editions and reporting windows for independent review.
+Published the [pumping and storage reconciliation](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/d51828d792f66fb01f071e860734d9bdc52a4206/Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) and [annual crosswalk](Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/outputs/tulare_lake_pumping_storage_crosswalk.csv) from the [`ai/evolution` proposal](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/b623ee9b5af17af42e19df96220a44f7fe5c6d41/ai/PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). The figures retain their source editions and reporting windows for independent review.
 
 ## 2026-11-24 — Adversary review carryover from `ai/evolution`
 

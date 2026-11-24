@@ -18,7 +18,7 @@ Original file bodies are preserved exactly. Names were normalized for stable rep
 
 | Document | Recovered filename | Status |
 |---|---|---|
-| [Central Valley freshwater analysis v0.1](Examples/central-valley/central-valley-worked-example-v0.1.md) | `central-valley-worked-example-v0.1.md` | Observed-data working example; HKL quantities not computed |
+| [Central Valley freshwater analysis v0.1](../archive/worked-examples/central-valley-worked-example-v0.1.md) | `central-valley-worked-example-v0.1.md` | Observed-data working example; HKL quantities not computed |
 | [Temporal Mining freshwater protocol v0.1](Examples/central-valley/temporal-mining-freshwater-protocol-v0.1.md) | `temporal-mining-freshwater-protocol-v0.1(2).md` | Study protocol; empirical execution pending |
 | [Buffer as Temporal Dimension](Working/buffer-as-temporal-dimension.md) | `buffer_temporal_dimension_cross_corpus(3).md` | Working addendum; audit corrections pending |
 | [Master Symbol Registry v0.4](Registry/causal-ethics-master-symbol-registry-v0.4-draft.md) | `causal-ethics-master-symbol-registry-v0.4-draft.md` | Research draft for authorial ratification; not canonical |

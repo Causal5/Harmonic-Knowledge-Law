@@ -7,7 +7,7 @@ the source measurements or execute the study.
 Read the [current registry](../../Registry/causal-ethics-master-symbol-registry.md)
 and [HKL](../../HKL/hkl-lyapunov.md) with the
 [v0.2 working protocol](temporal-mining-freshwater-protocol-v0.2.md).
-The original [v0.1 example](central-valley-worked-example-v0.1.md),
+The original [v0.1 example](../../../archive/worked-examples/central-valley-worked-example-v0.1.md),
 [v0.1 protocol](temporal-mining-freshwater-protocol-v0.1.md), and
 [Buffer manuscript](../../Working/buffer-as-temporal-dimension.md) remain
 unchanged source records.
