@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Verifier: Round 22 ebonyshell η review accepted with revisions
+
+Round 22 [C]. Verdict `accepted-with-revisions`: [V-2026-11-24-ebonyshell-eta-surveys](LEDGER/verdicts/V-2026-11-24-ebonyshell-eta-surveys.md). Outcome remains **indeterminate**. Revision: do not generalize beyond the retrieved texts; the Kelner PDF is still a residual gap. `main` was not edited.
+
+**What this means.** The protocol correctly stayed uncomputed. Getting the 2000 paper in full is still outstanding work, not a theory move.
+
 ## 2026-11-24 — Adversary: Round 22 ebonyshell η review
 
 Round 22 [B]. Challenges: [Kelner PDF unretrieved](LEDGER/challenges/CH-eta-surv-02-pdf-unretrieved.md) and [live counts are not rates](LEDGER/challenges/CH-eta-surv-02-counts-not-rates.md). Does not accept or reject the claims. `main` was not edited.

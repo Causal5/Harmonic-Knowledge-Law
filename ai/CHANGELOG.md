@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Round 22: ebonyshell η from published surveys (indeterminate; accept-with-revisions)
+
+Pre-registered a test of whether published surveys supply the rates needed to compute ebonyshell η. The retrieved Kelner abstract and two USGS texts do not. The test is **indeterminate**. Flags stay unassigned. The Kelner PDF was not retrieved. `main` was not edited.
+
 ## 2026-11-24 — Round 21: CHIRPS vs WDI Niger rainfall (holds; accept-with-revisions)
 
 Pre-registered a test of whether CHIRPS v2.0 shows interannual rainfall over Niger after WDI AG.LND.PRCP.MM proved to be a repeated 151 mm climatology. The test **holds** (CV 0.171; 71.94–190.45 mm, 1981–2022). The series is a national mean, not a site contrast; \(V\) was not constructed. `main` was not edited.

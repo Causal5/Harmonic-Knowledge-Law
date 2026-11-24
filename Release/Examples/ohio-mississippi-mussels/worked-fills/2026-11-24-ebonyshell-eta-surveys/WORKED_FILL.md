@@ -17,3 +17,5 @@
 **Outcome:** **indeterminate**. Cause: **data gap** in the retrieved publications (the Kelner PDF remains unretrieved; the public USGS texts are qualitative). Not a Layer 0 theory failure. Procedure check: flags were not assigned, so there was no procedure break.
 
 Replay is a document review, not a numeric script. The committed excerpts and this fill are the record.
+
+**Verifier revision.** This indeterminate finding is limited to the retrieved abstract and USGS texts. It does not prove that the unretrieved Kelner and Sietman (2000) PDF lacks rates.
