@@ -32,3 +32,5 @@ Excluding the Imported column, the remaining river, SWP, and CVP columns are des
 ## What was not done
 
 The temporal-mining conjunction was not evaluated. Bite 5, \(V_W\), official buffer, and the freshwater dictionary remain unfilled. No mixed symbol was invented.
+
+**Short-summary rule (Round 24 [C]).** Say the Total **breaks** as a scope / object-class limit, not a Layer 0 failure. Do not call the totals \(Q_{sw}\) or delivered service. The ex-Imported subset is a candidate only; the dictionary stays unfilled.
