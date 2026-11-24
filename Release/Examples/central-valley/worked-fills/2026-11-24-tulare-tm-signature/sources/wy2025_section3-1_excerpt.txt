@@ -1,0 +1,83 @@
+Excerpt from Tulare Lake Subbasin WY 2025 Annual Report, §3.1 and Table 3-1.
+PDF SHA-256 32c080a3a4972730b94ce7d047ffcec90de16348f50abc166c55465096395be9
+Retrieved 24 November 2026 via pdftotext -layout.
+
+groundwater level recovery in most wells. WATER YEAR 2024 and WATER YEAR 2025
+were normal water years, which has led to a slight decline in groundwater levels.
+
+In addition, two of the Tulare Lake Subbasin GSAs implemented groundwater pumping
+allocations in 2021 and 2022. The remainder of the GSAs implemented groundwater pumping
+allocations in 2025 and 2026. The effectiveness of the groundwater pumping allocations will
+be evaluated as part of the Water Year 2026 Annual Report.
+
+
+
+
+Water Year 2025 Annual Report                   10                                    April 2026
+
+3. WATER SUPPLY ACCOUNTING
+
+3.1 Surface Water Supply
+
+   §356.2(b) A detailed description and graphical representation of the following conditions of the basin
+   managed by the Plan:
+               (3) Surface water supply used or available for use, for groundwater recharge, or in-lieu use
+   shall be reported based on quantitative data that describes the annual volume and sources for the
+   preceding water year.
+
+
+Surface water comes from a variety of sources as listed in Table 3-1. On average, the Kings
+River provides the largest source of surface water to the Tulare Lake Subbasin followed by the
+State Water Project (SWP). SWP water includes both state and federal water transferred
+through the California Aqueduct. In wet years, the Subbasin can also receive surface water
+deliveries from Deer Creek, White River, Poso Creek, the Kern River, and Central Valley
+Project (CVP) water. For the purposes of this report, groundwater extracted outside the Tulare
+Lake Subbasin but utilized within the Tulare Lake Subbasin is treated as a surface water
+delivery for the purpose of calculating groundwater pumping within the Tulare Lake Subbasin.
+                        Table 3-1: Surface Water Supplies and Water Year Types
+
+                                    Surface Water Source (Acre-Feet)
+             Water      Kings    Kaweah    Tule      Deer          Poso
+  Water      Year                                                            SWP          CVP   Imported
+                        River     River    River     Creek         Creek
+  Year       Type                                                                                           Total:
+   WY15       Dry       54,074     0         0         0             0      16,698         0     71,956    142,728
+
+   WY16       Dry      195,642    356        0         0             0      13,909         0     84,439    294,346
+
+   WY17       Wet      504,934   44,063    73,456    22,452        16,334   28,216         0     54,704    744,159
+
+   WY18      Normal    316,536     0        2,923    5,006          727     73,793         0     59,119    458,104
+
+   WY19       Wet      418,544   21,939    13,615    8,199          902     41,592         0     21,730    526,521
+
+   WY20       Dry      212,594     0         0         0             0      45,190         0     57,478    315,262
+
+   WY21       Dry       66,866     0         0         0             0      41,212         0     48,776    156,854
+
+   WY22       Dry      113,117     0        1,682      0             0      21,010         0     68,649    204,458
+
+  WY2023      Wet      581,640   365,342   194,224   22,350        13,131   28,667         0     33,883    1,239,237
+
+  WY2024     Normal    374,722     0       19,096      0             0      20,343         0      8,460    422,621
+                                                                                      1
+  WY2025     Normal    236,349     0         0         0             0      122,229        0     16,361    374,939
+
+     Averages:        279,547    39,245    27,727    5,273         2,827    41,169         0    47,778     443,566
+
+Notes: Surface Water Delivery includes a conveyance efficiency correction to account for on-farm surface water
+delivery. Seepage losses are assumed to occur between the headgates of these sources and the farm turnouts.
+Conveyance efficiency is incorporated into the farm demand calculations described in the GSP Appendix D,
+Section D2-3.
+WY: water year.
+SWP: State Water Project.
+CVP: Central Valley Project.
+1
+  : Includes water delivered through the California Aqueduct
+
+
+
+Water Year 2025 Annual Report                                 11                                            April 2026
+
+Surface water supplies for Water Year 2025 were provided by the GSAs and various water
+agencies, irrigation districts, or private mutual water companies. Surface water supplies within
