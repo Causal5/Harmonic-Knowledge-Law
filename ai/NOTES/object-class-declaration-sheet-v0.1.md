@@ -9,17 +9,20 @@ either computed or qualitative/provisional. Mixing those classes is how
 a definition, a story, or a placeholder score gets treated as a
 measurement.
 
-**Status:** ratification-pending branch instrument on `ai/evolution`.
-Not a registry amendment, not official vocabulary, not a completed
-fill, and not empirical validation. Parent distinctions are already in
+**Status:** **Adopted 24 November 2026 as a research procedure** (see
+`Release/Examples/empirical-review-procedure.md` on `main` at `56c6ab5`).
+Not a registry amendment, not official Registry vocabulary, not a
+completed fill, and not empirical validation. Use this worksheet when a
+symbol could refer to several kinds of object, as the published
+procedure directs. Parent distinctions are already in
 Layer 0 / `START_HERE.md` and the 16 October record.
 
 ## When to use
 
-This sheet is a **proposed aid** for a later fill of the freshwater
-dictionary, the Bite 5 checklist, the Sahel bounded test, or the
-ebonyshell protocol. It is not a `CYCLE.md` or charter requirement
-unless Jordan adopts it. It does not replace those sheets. It does not
+This sheet is the research-procedure worksheet for object-class
+declaration, for use in a later fill of the freshwater dictionary, the
+Bite 5 checklist, the Sahel bounded test, or the ebonyshell protocol.
+It does not replace those sheets. It does not
 assign a computed flag (see `ai/NOTES/computed-status-assignment-v0.1.md`).
 
 ## Required declarations (all unfilled here)

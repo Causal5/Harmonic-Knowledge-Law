@@ -10,10 +10,11 @@ new primitives, does not rewrite Registry v0.3.1, and does not promote
 v0.3.2. Three trial uses are classified: one is not eligible, two need
 an explicit mapping before anyone computes a number.
 
-**Status:** accepted-with-revisions (Round 6). **Ratification-pending,
-`ai/evolution` only.** This is not a registry amendment, not a
+**Status:** accepted-with-revisions (Round 6). **Adopted 24 November 2026
+as a research procedure** (see `Release/Examples/empirical-review-procedure.md`
+on `main` at `56c6ab5`). This is not a registry amendment, not a
 promotion under `Release/ARCHITECTURE.md`, and not adopted Layer 1
-definition vocabulary.
+definition vocabulary. The worksheet labels have procedural status only.
 
 Parents: `Release/Examples/README.md` (“Application quantities do not
 become universal primitives by appearing in an example.”);
@@ -33,12 +34,12 @@ citing superseded section numbers. A later user can easily treat any of
 these as if they were Layer 0 law. This note is a procedure, not a new
 law.
 
-## 2. Decision statuses (unadopted procedure only)
+## 2. Decision statuses (research-procedure labels, not Registry vocabulary)
 
-These three labels are **ratification-pending branch procedure**. They
-are not registry terms, not Layer 1 definitions, and not available to be
-cited as if Jordan had adopted them. Later ledger entries must not treat
-them as official vocabulary unless and until he ratifies them.
+These three labels are **research-procedure worksheet labels** adopted
+24 November 2026 (see `Release/Examples/empirical-review-procedure.md`).
+They are not Registry terms and not Layer 1 definitions. Later ledger
+entries must not treat them as official Registry vocabulary.
 
 For a proposed use of an already-registered *application* quantity in a
 domain that is not the quantity’s source example, record exactly one of:
@@ -116,5 +117,6 @@ mapping is a new proposal.
 It does not amend the registry, promote v0.3.2, demote a current paper,
 compute a field quantity, invent data, or fill the freshwater
 dictionary. Future uses still need evidence for their mappings and
-measurements, and they need Jordan’s ratification if these status words
-are to become official vocabulary.
+measurements. These status words have procedural status only; they
+are not official Registry vocabulary unless Jordan later defines them
+as such (Review item A8).

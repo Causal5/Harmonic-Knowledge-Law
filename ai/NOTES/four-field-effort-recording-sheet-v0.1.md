@@ -7,10 +7,11 @@ four already-locked records it means: allocation, expenditure,
 achieved correction, or side burden. Spending is not correction. This
 sheet is blank. Nothing has been recorded. No values are filled.
 
-**Status:** ratification-pending branch instrument on `ai/evolution`.
-Not a registry amendment, not official vocabulary, and not empirical
-validation. This is a **proposed aid**, not a `CYCLE.md` or charter
-requirement unless Jordan adopts it. Parent: 16 October record
+**Status:** **Adopted 24 November 2026 as a research procedure** (see
+`Release/Examples/empirical-review-procedure.md` on `main` at `56c6ab5`).
+Not a registry amendment, not official Registry vocabulary, and not
+empirical validation. Use this worksheet when making an effort claim, as
+the published procedure directs. Parent: 16 October record
 (`Release/Registry/definition-decisions-2026-10-16.md`) and current
 AEF §2, which already define allocation, expenditure, achieved
 correction, and side burden. This sheet does not invent new meanings

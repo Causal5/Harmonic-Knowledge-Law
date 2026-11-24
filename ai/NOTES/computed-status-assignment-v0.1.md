@@ -8,12 +8,12 @@ what the case looks like, but you have to say that description is
 provisional and leave the official assignment blank until the quantity
 is actually computed — or say the evidence is not there.
 
-**Status:** ratification-pending branch note on `ai/evolution`. This is
-not a registry amendment, not official vocabulary, and not empirical
-validation. The word “procedure” (and any leftover “rule”) is not
-adopted registry vocabulary unless Jordan adopts this note. It applies
-Layer 0 and the 16 / 30 October records; it does
-not add a new primitive or a cutoff.
+**Status:** **Adopted 24 November 2026 as a research procedure** (see
+`Release/Examples/empirical-review-procedure.md` on `main` at `56c6ab5`).
+This is not a registry amendment, not official Registry vocabulary, and
+not empirical validation. The published procedure is the adopted text;
+this file preserves the reviewed proposal. It applies Layer 0 and the
+16 / 30 October records; it does not add a new primitive or a cutoff.
 
 ## Parent documents
 
@@ -25,8 +25,8 @@ not add a new primitive or a cutoff.
   events; no field \(\eta_{TM}\) has been computed for the mussel case.
 - Round 7 mussel example §8 item 3 (provisional wording) and verdict
   `V-2026-11-21-session2-corpus-corrections`.
-- Round 6 inheritance firewall (ratification-pending; this note does not
-  adopt those status words as official).
+- Round 6 inheritance firewall (now an adopted research procedure; this
+  note does not adopt those status words as official Registry vocabulary).
 
 ## Proposed procedure
 
