@@ -4,6 +4,9 @@
 
 > **Round 19 update (23 November 2026).** `main` has moved to `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. Jordan corrected mussel §8 item 4 (Lock and Dam 22 near Saverton). Item 3 and the conclusion’s “buffer depletion” sentence are still as this file described. See `ai/LEDGER/errata/2026-11-23-main-270942c-reconciliation.md` and `ai/REVIEW_FOR_JORDAN.md`. The original body below is preserved.
 
+> **24 November 2026 sync.** `main` is now `56c6ab5464672a945c7832f03e969676c86d4a2b`. Item 3 and the conclusion were corrected on `main` in `f81967d`. See `ai/LEDGER/errata/2026-11-24-main-56c6ab5-sync.md`. The original body below is preserved.
+
+
 **Status:** `accepted-with-revisions` with the Round 18 cycle; attached to the source-precedence proposal. Original earlier-verdict texts remain preserved.
 
 ## What was compared

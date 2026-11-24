@@ -21,3 +21,7 @@
 
 - `V-2026-11-21-keokuk-ld19-status` (Round 12) found the [38] mislocation. That finding is now reflected on `main` by Jordan’s own edit. The verdict body is preserved. The worked fill remains unpublished branch work.
 - `V-2026-11-21-session2-corpus-corrections` (Round 7) and the Round 18 source-precedence erratum still correctly describe item 3. Item 4’s site typo is no longer outstanding on `main`.
+
+## Addendum, 24 November 2026
+
+`main` has since moved to `56c6ab5464672a945c7832f03e969676c86d4a2b`. Commit `f81967d` also corrected §8 item 3 (no qualitative *severed* assignment), the Yangtze wording, ordinary-language “severed,” and the conclusion’s “buffer depletion” sentence. Those items are no longer outstanding on `main`. See `ai/LEDGER/errata/2026-11-24-main-56c6ab5-sync.md`. The original body above is preserved.
