@@ -37,6 +37,6 @@ Legacy copies are frozen. Some match current papers exactly; the registry and Wo
 | [SLP harness](slp_gdelta_harness/README.md) | Prototype implementation |
 | [CorePrinciples](../CorePrinciples/) | Earlier foundational and supporting material |
 | [Physics](../Physics/) | Adjacent physical-analogy and computation research |
-| [src](../src/) | Experimental implementation work |
+| [Archived GILN / IIF example](../archive/examples/giln-iif/) | Historical experimental code |
 
 Version promotion requires an explicit status decision and reconciliation of affected documents. See [Architecture](ARCHITECTURE.md) and [Changelog](../CHANGELOG.md).

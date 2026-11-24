@@ -18,6 +18,6 @@ The [publication index](Release/PUBLICATION-INDEX.md) is the complete map of the
 | Earlier versions | [Archive](Release/archive/README.md), [versioned math](Release/V1.0-FullBranch/Docs/Math/README.md) | Historical copies and mathematical material |
 | Foundations | [CorePrinciples](CorePrinciples/) | Earlier supporting documents |
 | Adjacent research | [Physics](Physics/) | Neutrino and prime/torque work |
-| Experiments | [src](src/) | GILN / IIF code |
+| Archive | [GILN / IIF example](archive/examples/giln-iif/) | Historical experimental code |
 
 The earlier organization branch was already consolidated into `main`; the recovered source publication adds work that was outside those branch contents. See [architecture](Release/ARCHITECTURE.md) for document authority and promotion rules.

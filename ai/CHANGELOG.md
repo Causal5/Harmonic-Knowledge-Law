@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Adversary review carryover
+
+Indexed the 19 accepted proposals, marked nested data directories, archived the reviewed GILN/IIF example and recorded adoption of the four empirical aids. The [Tulare Lake inventory](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md) reports well coverage and series limitations. [Author-approved main changes](https://github.com/Causal5/Harmonic-Knowledge-Law/commit/f81967de6cca7062133fa1e28f2304e17e27f314).
+
 ## 2026-11-23 — Round 19: Clarification and correction sweep (accept-with-revisions)
 
 `main` moved to `270942c` when Jordan corrected mussel §8 item 4 (the 2023 fish-passage project is at Lock and Dam 22 near Saverton). This cycle adopted that published sentence on the branch and marked the earlier branch wording superseded. Leftover clarifications that do not need a new definition were finished: `SLP_Published.md` bannered; unpublished-vs-`main` banners on diverging `Release/` markdown and scripts; folder notices for branch-only data files; unofficial `src/` placeholders (0.1 distill cut, +0.5 connection increment, 0.4/0.3/0.3 HKL-AI weighting) disabled without replacements. An overreach audit of `Release/` on `main` is written up in `ai/REVIEW_FOR_JORDAN.md` for Jordan to work from (8 terms to define, 7 `main`-only wording items, 5 pending decisions). Official papers were not rewritten. No definition was invented. No theory arm was developed. `main` was not edited.

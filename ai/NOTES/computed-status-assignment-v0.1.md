@@ -1,5 +1,7 @@
 # Computed-status assignment procedure v0.1
 
+> **Adoption, 24 November 2026.** The [published research procedure](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/empirical-review-procedure.md) records the approved scope. This file preserves the proposal reviewed on `ai/evolution`.
+
 **TL;DR.** If a status or flag is defined by a computed quantity, a
 qualitative story is not enough to assign it. You can still describe
 what the case looks like, but you have to say that description is

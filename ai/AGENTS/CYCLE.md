@@ -14,6 +14,10 @@ subject to obsolescence. If wording conflicts, `Release/` on `main` wins.
 A commit on this branch, including an edit under `Release/`, is not a
 publication to `main`. See `ai/CHARTER.md`.
 
+## Empirical review procedure
+
+The [procedure adopted on 24 November](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/empirical-review-procedure.md) applies to computed Registry flags. Use its transfer, object-class and effort worksheets where the corresponding issue arises. Keep accepted proposals at their original paths and add their verdict, evidence and outstanding work to the [archive index](../PROPOSALS/README.md).
+
 ## Roles and order
 
 1. **Work agent (A)** — follows `ai/AGENTS/work.md`. Commits the proposal

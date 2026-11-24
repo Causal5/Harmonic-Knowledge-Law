@@ -1,5 +1,7 @@
 # Theory multi-armed bandit (MAB) registry
 
+**24 November disposition for ARM-05.** The [study boundaries](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/central-valley/README.md#study-boundaries-adopted-24-november-2026) are fixed. The [public-data inventory](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md) found paired DWR records and a calendar-year/water-year break in pumping totals. Continue source matching and uncertainty accounting. Bite 5 scoring remains at `wait` pending matched series and prespecified limits, weights and held-out comparisons.
+
 **Status:** accepted-with-revisions (Round 16 / Session 3). Ratification-pending as a process aid on `ai/evolution`. It is not Layer 0, not a registry amendment, and not an official HKL primitive. It is not a fitted bandit algorithm and it does not assign numeric rewards.
 
 **Opened:** 2026-11-21, America/New_York (Session 3, Round 16), after four worked-example rounds (12–15).

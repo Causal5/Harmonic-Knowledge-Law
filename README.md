@@ -35,7 +35,7 @@ This repository contains the Causal Ethics, Harmonic Knowledge Law, Delta-Self, 
 | [Archive](Release/archive/README.md) | Frozen legacy copies, some predating subsequent edits |
 | [CorePrinciples](CorePrinciples/) | Earlier foundational and supporting documents |
 | [Physics](Physics/) | Neutrino-causality and prime/torque working material |
-| [src](src/) | Experimental GILN / IIF implementation material |
+| [Archived GILN / IIF example](archive/examples/giln-iif/) | Historical experimental code |
 
 The existing [interactive map](https://causal5.github.io/Harmonic-Knowledge-Law/) covers the earlier corpus. Use the Release index and definition decision record for the current hierarchy.
 

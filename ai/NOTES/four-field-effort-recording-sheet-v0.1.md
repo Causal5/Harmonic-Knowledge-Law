@@ -1,5 +1,7 @@
 # Four-field effort declaration sheet v0.1
 
+> **Adoption, 24 November 2026.** The [published research procedure](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/empirical-review-procedure.md) records the approved scope. This file preserves the proposal reviewed on `ai/evolution`.
+
 **TL;DR.** When later work talks about “effort,” it should say which of
 four already-locked records it means: allocation, expenditure,
 achieved correction, or side burden. Spending is not correction. This

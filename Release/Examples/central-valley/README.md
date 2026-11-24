@@ -17,6 +17,8 @@ This study examines how groundwater storage can temporarily sustain extraction w
 
 The example assembles sourced observations and a proposed path for testing temporal coupling. It explicitly does not compute `V_W`, choose weights, or declare an HKL stability score. Publishing the source does not independently revalidate each external observation.
 
+**24 November update.** The [published boundary decision](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/central-valley/README.md#study-boundaries-adopted-24-november-2026) supersedes the open boundary question below. See the [DWR coverage audit](worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md) for the new branch-only counts.
+
 ## Next empirical work
 
 1. Select a bounded subbasin and obtain reproducible, spatially and temporally matched pumping, recharge, storage, and subsidence series, with units and uncertainty.

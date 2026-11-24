@@ -1,5 +1,7 @@
 # Application-quantity inheritance firewall v0.1
 
+> **Adoption, 24 November 2026.** The [published research procedure](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/empirical-review-procedure.md) records the approved scope. This file preserves the proposal reviewed on `ai/evolution`.
+
 **TL;DR.** Some later definitions were born in a particular example — for
 instance renewal coverage and the severed flag in the mussel case, or
 sink-impairment accounting. This note is a decision sheet for when those

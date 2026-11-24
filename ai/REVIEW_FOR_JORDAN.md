@@ -1,5 +1,7 @@
 # Review for Jordan — remaining definitions, main-only fixes, and decisions
 
+> **Disposition, 24 November 2026.** Jordan approved all five decisions in §C. The [publication commit](https://github.com/Causal5/Harmonic-Knowledge-Law/commit/f81967de6cca7062133fa1e28f2304e17e27f314) records the mussel corrections, four annotated drafts, freshwater boundaries, empirical review procedure and code archive. [Accepted proposals](PROPOSALS/README.md) remain here. The [DWR inventory](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md) advances the pilot. The dated review below preserves the original findings. The §A terminology questions remain separate.
+
 **TL;DR.** `Release/` on `main` (now `270942c`, 23 November 2026, America/New_York) is the published source. You already fixed mussel §8 item 4 (the fish-passage site is Lock and Dam 22 near Saverton). What is left for you is: (A) terms only you can define, retire, or leave unofficial; (B) a short list of wording on `main` that a hostile reviewer could use against the premise, with suggested replacement text; (C) a few pending decisions. This branch has done the agent-fixable clarifications. Nothing here invents a definition, and nothing here is a publication to `main`.
 
 **How to use this.** Work A and B first; they are the ones that can sink the premise. Suggestions in B are suggestions only — you edit `main`. Prioritized by reviewer risk.

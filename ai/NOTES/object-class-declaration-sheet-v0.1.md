@@ -1,5 +1,7 @@
 # Object-class declaration sheet v0.1
 
+> **Adoption, 24 November 2026.** The [published research procedure](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/empirical-review-procedure.md) records the approved scope. This file preserves the proposal reviewed on `ai/evolution`.
+
 **TL;DR.** Before anyone fills an empirical claim on this branch, each
 symbol or reported quantity should be labeled as one of: reality, a
 selected system state, an observation, or an agent’s model — and as

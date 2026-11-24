@@ -13,6 +13,10 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Author-approved carryover from the Adversary review
+
+Jordan approved the five decisions. See the [main commit](https://github.com/Causal5/Harmonic-Knowledge-Law/commit/f81967de6cca7062133fa1e28f2304e17e27f314), [archive index](PROPOSALS/README.md), and [DWR coverage audit](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md). This follow-up adds notices beside raw files, preserves proposal histories and records the public-data result. The aggregate freshwater test remains pending.
+
 ## 2026-11-23 — Verifier: clarification sweep accepted with revisions (Round 19)
 
 - **Agent:** Verifier (C)

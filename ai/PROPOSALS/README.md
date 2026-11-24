@@ -1,0 +1,25 @@
+# Accepted proposal archive
+
+In-place archive of the 19 proposals accepted with revisions through Round 19. Carried over from the Adversary review on `ai/evolution`, 24 November 2026. Original verdicts and paths are preserved. The first dictionary proposal links to its accepted revision in Git history.
+
+| Proposal | Decision and evidence | Outstanding work or limit |
+|---|---|---|
+| [Freshwater data dictionary](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/6797c98/ai/PROPOSALS/2026-11-21-freshwater-data-dictionary/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-freshwater-data-dictionary.md) · [Evidence](../LEDGER/claims/C-freshwater-data-dictionary-01.md) | Complete matched series and uncertainty rules. |
+| [Layer 1 consistency audit](2026-11-21-layer1-consistency-audit/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-layer1-consistency-audit.md) · [Evidence](../LEDGER/claims/C-layer1-consistency-01.md) | Apply individual dispositions against current papers. |
+| [Ebonyshell renewal](2026-11-21-ebonyshell-renewal-coverage-protocol/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-ebonyshell-renewal-coverage-protocol.md) · [Evidence](../LEDGER/claims/C-ebonyshell-renewal-01.md) | Recruitment and losses remain unmeasured. |
+| [Bite 5 checklist](2026-11-21-hkl-bite5-falsification-checklist/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-hkl-bite5-falsification-checklist.md) · [Evidence](../LEDGER/claims/C-bite5-falsification-01.md) | Held-out metric, hard limits and inputs remain open. |
+| [Sahel bounded test](2026-11-21-sahel-bounded-test-plan/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-sahel-bounded-test-plan.md) · [Evidence](../LEDGER/claims/C-sahel-test-01.md) | Obtain comparable local series. |
+| [Cross-domain transfer](2026-11-21-application-quantity-inheritance/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-application-quantity-inheritance.md) · [Evidence](../LEDGER/claims/C-inheritance-01.md) | Each new use needs a causal mapping. |
+| [Corpus corrections](2026-11-21-session2-corpus-corrections/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-session2-corpus-corrections.md) · [Evidence](../LEDGER/claims/C-s2-corrections-01.md) | Only selected corrections carried to main. |
+| [Computed status](2026-11-21-computed-status-assignment/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-computed-status-assignment.md) · [Evidence](../LEDGER/claims/C-computed-status-01.md) | Apply per measured claim. |
+| [Object class](2026-11-21-object-class-declaration/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-object-class-declaration.md) · [Evidence](../LEDGER/claims/C-object-class-01.md) | Apply when a quantity has ambiguous roles. |
+| [Working-draft citations](2026-11-21-working-draft-dead-cites/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-working-draft-dead-cites.md) · [Evidence](../LEDGER/claims/C-working-cites-01.md) | Historical drafts retain superseded text. |
+| [Effort recording](2026-11-21-four-field-effort-recording/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-four-field-effort-recording.md) · [Evidence](../LEDGER/claims/C-four-field-01.md) | Fill only with case-specific evidence. |
+| [Keokuk LD19](2026-11-21-keokuk-ld19-status/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-keokuk-ld19-status.md) · [Evidence](../LEDGER/claims/C-keokuk-ld19-01.md) | Discharge alone cannot establish recruitment. |
+| [Tulare Lake well contrast](2026-11-21-tulare-lake-dtw/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-tulare-lake-dtw.md) · [Evidence](../LEDGER/claims/C-tulare-dtw-01.md) | USGS extract had zero pairs. See the separate DWR inventory. |
+| [Niger precipitation](2026-11-21-niger-precip-wb/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-niger-precip-wb.md) · [Evidence](../LEDGER/claims/C-niger-precip-01.md) | National rainfall cannot resolve site or treatment effects. |
+| [Niger cereal yield](2026-11-21-niger-cereal-yield/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-niger-cereal-yield.md) · [Evidence](../LEDGER/claims/C-niger-yield-01.md) | National yield cannot establish local FMNR effects. |
+| [Theory exploration decisions](2026-11-21-theory-mab/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-21-theory-mab.md) · [Evidence](../LEDGER/claims/C-theory-mab-01.md) | Open arms retain their recorded prerequisites. |
+| [Terminology erratum](2026-11-23-terminology-erratum/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-23-terminology-erratum.md) · [Evidence](../LEDGER/claims/C-term-01.md) | Reserved or historical terms need author decisions. |
+| [Source precedence](2026-11-23-source-precedence/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-23-source-precedence.md) · [Evidence](../LEDGER/claims/C-prec-01.md) | Consult published Release files on main. |
+| [Clarification sweep](2026-11-23-clarification-sweep/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-23-clarification-sweep.md) · [Evidence](../LEDGER/claims/C-clar-01.md) | Remaining terminology decisions are in the author review. |
