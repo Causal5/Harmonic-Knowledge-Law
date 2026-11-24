@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Verifier: Round 23 TM-signature review accepted with revisions
+
+Round 23 [C]. Verdict `accepted-with-revisions` ([V-2026-11-24-tulare-tm-signature](LEDGER/verdicts/V-2026-11-24-tulare-tm-signature.md)). The signature stays unassigned. Short summaries must name Table 3-1 as supply totals that include imported groundwater. `main` was not edited.
+
+**What this means.** The public filing does not complete the signature. That is a scope and data limit, not a finding that the signature fired or failed.
+
 ## 2026-11-24 — Adversary: Round 23 TM-signature completeness
 
 Round 23 [B]. Challenges: [imported column is not pure surface water](LEDGER/challenges/CH-tm-sig-02-imported-column.md) and [do not evaluate the conjunction](LEDGER/challenges/CH-tm-sig-02-not-evaluated.md). Does not accept or reject the claims. `main` was not edited.

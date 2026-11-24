@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Round 23: Tulare temporal-mining signature completeness (indeterminate; accept-with-revisions)
+
+Pre-registered a completeness test of protocol §5 against the WY 2025 filing. Table 3-1 supplies a six-year series (imported groundwater included), but independent \(C_{irr}\) cannot be locked because C-zone storage already uses InSAR. The signature is **indeterminate** and is left unassigned. `main` was not edited.
+
 ## 2026-11-24 — Round 22: ebonyshell η from published surveys (indeterminate; accept-with-revisions)
 
 Pre-registered a test of whether published surveys supply the rates needed to compute ebonyshell η. The retrieved Kelner abstract and two USGS texts do not. The test is **indeterminate**. Flags stay unassigned. The Kelner PDF was not retrieved. `main` was not edited.
