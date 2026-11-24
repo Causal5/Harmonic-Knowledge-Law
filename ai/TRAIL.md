@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Sync: main 56c6ab5, Central Valley v0.2 duplicate
+
+Jordan (t18u) published Central Valley worked example v0.2 on `main` and asked that it be duplicated onto `ai/evolution`. This is a sync, not a full A→B→C round. `main` was fetched at `56c6ab5464672a945c7832f03e969676c86d4a2b` (24 November 2026, 4:40 PM America/New_York). v0.2, the archived v0.1, protocol and crosswalk updates, the empirical review procedure, MANIFEST, publication index, root publication changelog, and the selectively marked Sahel / AEF / HKL / buffer drafts were copied from `main`. Study-guide READMEs start from the published text and keep labeled branch-only rows. The standalone `PUMPING-STORAGE.md` writeup is marked superseded as the published narrative by v0.2. Mussel §8 now follows the published `main` corrections (B1–B5). `ai/REVIEW_FOR_JORDAN.md` closes §B1–B7 and §C1–C5 against that tree; §A terms remain open. Erratum: `ai/LEDGER/errata/2026-11-24-main-56c6ab5-sync.md`. Branch-only `ai/` notes and proposals were not overwritten. `main` was not edited.
+
+**What this means.** The branch’s official Central Valley example is now the same v0.2 Jordan published. Remaining work for him is the §A definitions. Bite 5 is still unscored, as he directed.
+
 ## 2026-11-24 — Work agent: Tulare Lake reporting periods
 
 Compared the [source editions and annual estimates](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) to resolve the timing gap from the DWR audit. The [proposal](PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md) retains six descriptive pairs, isolates the 2019 overlap and documents the 2017 storage sign reversal. Adversary review is pending.

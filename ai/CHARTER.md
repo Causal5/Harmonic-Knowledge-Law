@@ -34,8 +34,8 @@ Jordan’s rule (23 November 2026): the files in `Release/` as published on
 subject to obsolescence. If wording conflicts, `Release/` on `main` wins.
 
 - The authoritative tree is `Release/` at `main`, currently
-  `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d` (23 November 2026,
-  “Correct the fish passage site in mussel example §8”). The original
+  `56c6ab5464672a945c7832f03e969676c86d4a2b` (24 November 2026,
+  “Integrate Tulare Lake results into the Central Valley worked example and archive v0.1”). The original
   starting pin of this branch remains
   `c9e12778aba0014732a8add3c90c5676e5785bf7` (31 October 2026). Which
   documents *inside* that tree are current definitions, and

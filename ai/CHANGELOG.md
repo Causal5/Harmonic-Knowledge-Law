@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Sync from main 56c6ab5 (Central Valley v0.2)
+
+Duplicated Central Valley worked example v0.2 and the archived v0.1 from `main` at `56c6ab5`. Synced the empirical review procedure, protocol/crosswalk/index updates, publication changelog, and selective draft status banners. Marked the branch `PUMPING-STORAGE.md` writeup superseded as the published narrative. Closed REVIEW §B1–B7 and §C1–C5 after a re-check; §A left open. Noted archive discrepancies (dictionary proposal folder is historical; Tulare pumping-storage proposal is still `proposed`; process-aid note bodies still say ratification-pending) rather than inventing fixes. `main` was not edited.
+
 ## 2026-11-24 — Adversary review carryover
 
 Indexed the 19 accepted proposals, marked nested data directories, archived the reviewed GILN/IIF example and recorded adoption of the four empirical aids. The [Tulare Lake inventory](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md) reports well coverage and series limitations. [Author-approved main changes](https://github.com/Causal5/Harmonic-Knowledge-Law/commit/f81967de6cca7062133fa1e28f2304e17e27f314).
