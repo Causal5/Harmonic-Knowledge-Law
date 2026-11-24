@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Round 20: DWR head-sign stress test (holds; accept-with-revisions)
+
+Pre-registered a sign test of Central Valley v0.2’s net Tulare Lake storage loss against independent DWR wells in 5-022.12, October–November 2019 vs 2025. The test **holds** (15 Good-quality pairs, median depth to water +19.03 ft). A companion spring 2015–2024 contrast, not the decision, has the opposite sign. The result is not a volume confirmation and not a Bite 5 score. `main` was not edited.
+
 ## 2026-11-24 — Housekeeping: Tulare pumping-storage accepted with revisions
 
 Ruled on the pending 24 November Tulare pumping-storage proposal against Central Valley worked example v0.2 on `main`. Accepted with revisions: published evidence is v0.2; the six water-year pairs are descriptive, not a closed budget; the 2017 sign change is not season-only. `main` was not edited.

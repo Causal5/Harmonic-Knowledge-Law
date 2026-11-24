@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Verifier: Round 20 DWR head-sign test accepted with revisions
+
+Round 20 [C]. Verdict `accepted-with-revisions`: [V-2026-11-24-tulare-dwr-head-contrast](LEDGER/verdicts/V-2026-11-24-tulare-dwr-head-contrast.md). Offline replay confirms **holds** (n=15, median +19.03 ft). Revisions: call the statistic a median of 15 qualifying Good pairs, not a subbasin head or a volume confirmation; short summaries must name the locked fall window and the opposite-sign spring companion. `main` was not edited.
+
+**What this means.** The published storage-direction claim survived this independent sign test, with the limits of that test written into the record.
+
 ## 2026-11-24 — Adversary: Round 20 DWR head-sign test
 
 Round 20 [B]. Three challenges: [offline replay](LEDGER/challenges/CH-dwr-head-01-rerun.md), [sign is not volume or a subbasin head](LEDGER/challenges/CH-dwr-head-02-sign-not-volume.md), and [window dependence / spring companion](LEDGER/challenges/CH-dwr-head-03-window-dependence.md). Does not accept or reject the claims. `main` was not edited.
