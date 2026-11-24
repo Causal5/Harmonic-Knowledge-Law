@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Housekeeping: adopted process-aid status lines
+
+Updated the four `ai/NOTES/` sheets so their body status lines say they were adopted as research procedures on 24 November 2026. Noted in `ai/PROPOSALS/README.md` that the freshwater-dictionary proposal folder is only in Git history (`6797c98`). `main` was not edited.
+
 ## 2026-11-24 — Sync from main 56c6ab5 (Central Valley v0.2)
 
 Duplicated Central Valley worked example v0.2 and the archived v0.1 from `main` at `56c6ab5`. Synced the empirical review procedure, protocol/crosswalk/index updates, publication changelog, and selective draft status banners. Marked the branch `PUMPING-STORAGE.md` writeup superseded as the published narrative. Closed REVIEW §B1–B7 and §C1–C5 after a re-check; §A left open. Noted archive discrepancies (dictionary proposal folder is historical; Tulare pumping-storage proposal is still `proposed`; process-aid note bodies still say ratification-pending) rather than inventing fixes. `main` was not edited.

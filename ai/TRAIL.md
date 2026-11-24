@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Housekeeping: process-aid status lines and archive index note
+
+Launch Pad Session 1 housekeeping, before Round 20's stress test. The four `ai/NOTES/` process-aid sheets now say **adopted as research procedures** in their body status lines, matching `Release/Examples/empirical-review-procedure.md` on `main` at `56c6ab5`. They are still not Registry vocabulary (Review A8). `ai/PROPOSALS/README.md` now states explicitly that the freshwater-dictionary proposal folder is missing from the working tree and is indexed at historical commit `6797c98`. The pending Tulare pumping-storage proposal is not yet among the 19; a separate [B]/[C] follows to rule on it against v0.2. `main` was not edited.
+
+**What this means.** The notes no longer contradict the published adoption. The archive index no longer leaves the missing dictionary folder as an unstated gap.
+
 ## 2026-11-24 — Sync: main 56c6ab5, Central Valley v0.2 duplicate
 
 Jordan (t18u) published Central Valley worked example v0.2 on `main` and asked that it be duplicated onto `ai/evolution`. This is a sync, not a full A→B→C round. `main` was fetched at `56c6ab5464672a945c7832f03e969676c86d4a2b` (24 November 2026, 4:40 PM America/New_York). v0.2, the archived v0.1, protocol and crosswalk updates, the empirical review procedure, MANIFEST, publication index, root publication changelog, and the selectively marked Sahel / AEF / HKL / buffer drafts were copied from `main`. Study-guide READMEs start from the published text and keep labeled branch-only rows. The standalone `PUMPING-STORAGE.md` writeup is marked superseded as the published narrative by v0.2. Mussel §8 now follows the published `main` corrections (B1–B5). `ai/REVIEW_FOR_JORDAN.md` closes §B1–B7 and §C1–C5 against that tree; §A terms remain open. Erratum: `ai/LEDGER/errata/2026-11-24-main-56c6ab5-sync.md`. Branch-only `ai/` notes and proposals were not overwritten. `main` was not edited.
