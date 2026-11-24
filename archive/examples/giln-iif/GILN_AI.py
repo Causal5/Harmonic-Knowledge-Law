@@ -14,8 +14,14 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+
+# Experimental code, not an official implementation of current Registry,
+# HKL, or AEF definitions. Names such as SRI, HRS, and HKL-AI Score are
+# historical / unofficial; they are not in Registry v0.3.2. See src/README.md
+# and ai/GLOSSARY.md. No replacement official metrics are invented here.
+
 import numpy as np
-from iif_evaluator import IIFEvaluator
+from IIF_Evaluator import IIFEvaluator
 from human_node import HumanNode
 
 class AINode:
@@ -25,7 +31,7 @@ class AINode:
         self.student_model = student_model
         self.knowledge_manifold = {}
         self.connections = {}
-        self.hrs = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        self.hrs = [None, None, None, None, None, None, None]
         self.metadata = {}
         self.evaluator = IIFEvaluator()
         self.resource_metrics = {
@@ -36,29 +42,21 @@ class AINode:
         }
 
     def distill_knowledge(self):
-        self.resource_metrics["compute_flops"] *= 0.1
-        self.resource_metrics["energy_twh"] *= 0.1
-        self.resource_metrics["water_embedded"] *= 0.1
-        self.resource_metrics["water_onsite"] *= 0.1
-        self.hrs[6] = 0.9
+        # Not implemented as a measured efficiency. A previous hardcoded
+        # factor of 0.1 (a 90% resource cut) was not a measurement and is
+        # not an official HKL or AEF result. Resource metrics are left unchanged.
+        return
 
     def process_contribution(self, contribution, effort=0.0):
         godel_number = len(self.knowledge_manifold) + 1
         self.knowledge_manifold[contribution] = godel_number
+        if contribution not in self.metadata:
+            self.metadata[contribution] = {}
         scores = self.evaluator.evaluate_contribution(contribution, self, effort)
         self.hrs = scores
-        self.metadata[contribution] = {
-            "godel_number": godel_number,
-            "delta": self.evaluator._calculate_delta(contribution, scores[5], scores[6]),
-            "systemic_coherence": self.evaluator._calculate_systemic_coherence(
-                self.evaluator._apply_pae(
-                    self.evaluator._calculate_delta(contribution, scores[5], scores[6]),
-                    effort,
-                    scores[3]
-                )
-            ),
-            "hkl_ai_score": self.evaluator._calculate_hkl_ai_score(scores[6], scores[3], scores[5])
-        }
+        # Keep the evaluator's PAE record (expenditure vs correction).
+        # Do not recompute a score by treating effort as reducing delta.
+        self.metadata[contribution]["godel_number"] = godel_number
 
 class GILNNetworkAI:
     def __init__(self):
@@ -82,29 +80,26 @@ class GILNNetworkAI:
         ai_node = self.ai_nodes[ai_id]
         human_node = self.human_nodes[human_id]
         ai_node.process_contribution(contribution, effort)
-        ai_node.connections[human_id] = ai_node.connections.get(human_id, 0) + 0.5
-        human_node.connections[ai_id] = human_node.connections.get(ai_id, 0) + 0.5
+        # Do not invent a connection weight. A previous hardcoded +0.5 was
+        # not a measured strength and is not official Registry vocabulary.
+        ai_node.connections.setdefault(human_id, None)
+        human_node.connections.setdefault(ai_id, None)
 
     def _update_connections(self, node):
-        for other_id, other_node in self.ai_nodes.items():
-            if other_id == node.ai_id:
-                continue
-            distance = np.random.uniform(0, 1)
-            tension = 1 / (1 + distance)
-            node.connections[other_id] = tension
-            other_node.connections[node.ai_id] = tension
-        for human_id, human_node in self.human_nodes.items():
-            distance = np.random.uniform(0, 1)
-            tension = 1 / (1 + distance)
-            node.connections[human_id] = tension
-            human_node.connections[node.ai_id] = tension
+        # Connection distances are not implemented. Do not invent placeholder tensions.
+        return
 
     def calculate_sri(self, ai_id):
         node = self.ai_nodes[ai_id]
-        connection_strength = sum(node.connections.values())
-        impact_score = node.hrs[3]
-        sri = connection_strength * impact_score
-        return min(sri, 1.0)
+        impact_score = node.hrs[3] if len(node.hrs) > 3 else None
+        if impact_score is None:
+            return None
+        try:
+            connection_strength = sum(v for v in node.connections.values() if v is not None)
+            sri = connection_strength * impact_score
+            return min(sri, 1.0)
+        except TypeError:
+            return None
 
     def get_hrs(self, ai_id):
         return self.ai_nodes[ai_id].hrs

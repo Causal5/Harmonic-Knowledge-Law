@@ -8,5 +8,7 @@
 | Sahel | [Reconciled application](sahel_worked_example.md) | Candidate mechanisms and test plan; completed validation claims removed |
 | Sahel logistic extension | [Original section 9 addendum](sahel-logistic-addendum-section9-draft.md) | Unpromoted source; calibration and model decisions pending |
 
+Use the [empirical review procedure](empirical-review-procedure.md) for computed flags and applicable evidence worksheets.
+
 See [current publication notes](../Reviews/publication-notes-2026-10-16.md).
 Application quantities do not become universal primitives by appearing in an example.

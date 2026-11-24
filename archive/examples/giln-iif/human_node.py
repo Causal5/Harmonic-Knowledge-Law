@@ -4,7 +4,7 @@ class HumanNode:
         self.contributions = contributions if contributions else []
         self.godel_map = {}
         self.connections = {}
-        self.hrs = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+        self.hrs = [None, None, None, None, None, None, None]
         self.metadata = {}
 
     def add_contribution(self, contribution, causal_tags=None):

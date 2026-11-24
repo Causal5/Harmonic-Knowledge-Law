@@ -1,5 +1,7 @@
 # Absorbic Ethics Framework (AEF)
 
+> **Status.** Historical AEF draft. Use the [current AEF](../Papers/absorbic-effort-framework.md) and [HKL](../HKL/hkl-lyapunov.md) for definitions. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
+
 ## v2 — Aligned to Δ-Self Worldline Formalization
 ---
 
@@ -32,6 +34,8 @@ AEF operates as the applied accounting layer over a stability formalism (HKL Lya
 # 3. Core Relations
 
 ## 3.1 Ethical Legitimacy Quotient
+
+> **Editorial note.** Current AEF §§2 and 6 separate expenditure, achieved correction and side burden. Raw ELQ ratios and the scalar PAE products in §§3.1–3.4 are historical proposals.
 
 $$
 ELQ = \frac{PAE}{\Delta S_{abs}}
@@ -90,6 +94,8 @@ The familiar constraint. Asymmetric coupling ($\lambda_{PAE} \ne \lambda_{OIE}$)
 ---
 
 ## 3.3 Absorbic Unit Definition
+
+> **Editorial note.** AU is reserved and undefined in the current Registry. The equation below is historical.
 
 One Absorbic Unit ($AU$) represents normalized corrective effort per absorbed entropy unit.
 
@@ -152,6 +158,8 @@ In principle, both are derivable from the metric structures $g^{(G_i)}_{ij}$ and
 ---
 
 # 6. ELQ Triangle (Cross-Document Integration)
+
+> **Editorial note.** The table below proposed an identity between ELQ, burden drift and distortion. Current AEF §6 retires raw ELQ, and HKL §4 permits temporary positive drift inside the viable region.
 
 The ELQ bridges all three documents:
 

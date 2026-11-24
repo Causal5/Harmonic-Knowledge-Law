@@ -1,4 +1,6 @@
 # Buffer as Temporal Dimension
+
+> **Status.** Historical working addendum. See [current HKL §6](../HKL/hkl-lyapunov.md) for the scenario-dependent first-exit buffer and [current AEF §6](../Papers/absorbic-effort-framework.md) for the status of AU. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
 ## Cross-Corpus Re-Anchor
 
 ### Cross-references: Δ-Self Worldline Formalization, Δ-Self Extension, HKL Lyapunov v2, AEF v2, Fallacy of Large-Scale Absorbic Effort, Continuation Filter, Sahel Worked Example
@@ -51,6 +53,8 @@ All quantities are patch-wise unless explicitly integrated.
 # 4. Buffer
 
 ## 4.1 Definition
+
+> **Editorial note.** The expression below uses a local drift approximation. Current HKL §6 defines buffer by first exit from a declared viable region under a specified scenario.
 
 For a patch $x$ at time $t$ with stability function $V(x, t)$ (HKL §4) and basin envelope $V^*(x)$ (HKL §7):
 
@@ -217,6 +221,8 @@ Epistemic distortion $\mathcal{E}_i = \|g^{(G_i)} - g^{(S_\Phi)}\|$ can grow wit
 
 ## 9.2 HKL Lyapunov v2
 
+> **Editorial note.** The necessary monotonic-drift condition in this passage and the scalar effort accounting in §9.3 come from superseded drafts. See current HKL §4 and AEF §2.
+
 $V(t)$ is instantaneous burden. Its temporal interpretation requires buffer:
 
 $$
@@ -259,6 +265,8 @@ The Filter's "Cellular Requirement" (§VII) and "Parallel Stabilization vs. Inte
 ---
 
 # 10. Operational Substrate: Fresh Water as Plugin Currency
+
+> **Editorial note.** AU remains reserved and undefined. The conversion and freshwater currency proposed below have historical status.
 
 The Absorbic Unit (AEF §3.3) currently has a thermodynamic-analog definition ($1 \, AU = 1 \, J / 1 \, \Delta S_{abs}$) that is conceptually clean but operationally hard to measure across cases.
 

@@ -1,5 +1,7 @@
 # Harmonic Knowledge Law (HKL)
 
+> **Status.** Historical HKL draft. The [current HKL paper](../HKL/hkl-lyapunov.md) gives the governing definitions of viability, drift and buffer. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
+
 ## Lyapunov Basin Formalism — v2
 ### Aligned to Δ-Self Worldline Formalization
 ---
@@ -78,6 +80,8 @@ Where $B_{k \ge 1}$ represent additional burden terms (resource depletion, coord
 
 # 5. Stability Condition
 
+> **Editorial note.** Current HKL §§4 and 7 withdraw the universal monotonic-drift requirement used in §§5 and 5.1 below. Viability can persist through an interval of increasing burden.
+
 Define basin deviation:
 
 $$
@@ -135,6 +139,8 @@ AEF defines *what it costs to remain inside it*.
 ---
 
 # 7. Least-Action Envelope and PCB Correspondence
+
+> **Editorial note.** Current HKL §3 distinguishes the reference burden, passive-baseline burden and viability ceiling. The identity below belongs to this draft.
 
 $V^*$ corresponds to the burden profile along the Passive Cost Baseline trajectory $\gamma_{PCB}(t)$ (Δ-Self §4):
 

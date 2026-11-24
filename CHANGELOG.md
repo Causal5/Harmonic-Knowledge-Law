@@ -2,6 +2,10 @@
 
 This log records repository changes. Publication dates do not imply scientific validation or the completion of a draft's proposed work.
 
+## 2026-11-24 — Adversary review carryover from `ai/evolution`
+
+Corrected the [mussel interpretation](Release/Examples/ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example.md), marked superseded passages in the Sahel, AEF, HKL and buffer drafts, adopted the [empirical review procedure](Release/Examples/empirical-review-procedure.md), and recorded the [freshwater study boundaries](Release/Examples/central-valley/README.md). The [GILN / IIF code](archive/examples/giln-iif/) is archived as an example. [Source review](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
+
 ## 2026-10-30 — Registry v0.3.2 (additive)
 
 - Added the [Ohio–Mississippi freshwater-mussel worked example](Release/Examples/ohio-mississippi-mussels/README.md), revision 3.1, as a source-qualified illustration.

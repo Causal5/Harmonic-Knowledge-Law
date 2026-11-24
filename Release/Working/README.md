@@ -1,6 +1,6 @@
 # Working and historical research
 
-These recovered documents are public for inspection, revision, and historical continuity. Their original bodies are preserved. Current definitions are in Registry v0.3.1 and the reconciled core papers. Version numbers inside a draft do not supersede them.
+These recovered documents are public for inspection, revision, and historical continuity. Dated editorial notes mark superseded passages in the AEF, HKL and buffer drafts. The original editions remain in Git history. Current definitions are in Registry v0.3.1 and the reconciled core papers. Version numbers inside a draft do not supersede them.
 
 | Document | Publication status |
 |---|---|

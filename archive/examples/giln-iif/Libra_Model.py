@@ -21,9 +21,9 @@ class LibraModel:
         
         # HKL Metrics integration (for OIE monitoring)
         self.hkl_metrics = {
-            "EGR": 0.0,  # Entropy Generation Ratio
-            "GDS": 0.0,  # Geometric Distribution Score
-            "OIE": 0.0   # Observer-Induced Entropy
+            "EGR": None,  # not implemented
+            "GDS": None,  # not implemented
+            "OIE": 0.0,   # accumulator; only updated when a real OIE impact exists
         }
         
         # Performance tracking
@@ -35,13 +35,10 @@ class LibraModel:
     def compute_entropy_score(self, input_data):
         """
         Stage 1: Coherence Check (HKL)
-        Computes an entropy score based on symbolic structure.
-        Returns: Entropy score (0 to 1, lower is better).
+        Not implemented. String length is not an entropy measurement.
+        Returns: None.
         """
-        symbolic_complexity = len(str(input_data))  
-        max_complexity = 1000  
-        entropy_score = min(symbolic_complexity / max_complexity, 1.0)
-        return entropy_score
+        return None
 
     def compute_oie_impact(self, input_data):
         """
@@ -49,9 +46,8 @@ class LibraModel:
         Evaluates potential OIE increase using Ricci curvature changes.
         Returns: OIE impact score (0 to 1, lower is better).
         """
-        ricci_change = np.random.uniform(0, 0.5)  
-        oie_impact = ricci_change / 0.5  
-        return oie_impact
+        # Not implemented. Do not invent an OIE impact score.
+        return None
 
     def compute_decision_balance(self, input_data):
         """
@@ -59,24 +55,20 @@ class LibraModel:
         Verifies logical consistency using Symbolic Language Processing.
         Returns: Decision balance score (0 to 1, higher is better).
         """
-        prior_knowledge_match = np.random.uniform(0.5, 1.0)  
-        decision_balance = prior_knowledge_match
-        return decision_balance
+        # Not implemented. Do not invent a decision-balance score.
+        return None
 
     def update_hkl_metrics(self, input_data, oie_impact):
         """
         Updates HKL metrics (EGR, GDS, OIE) based on input processing.
+        EGR and GDS are not implemented; do not invent them from hardcoded
+        flops, thermal waste, or heat-resource lists.
         """
-        flops = 10**9  
-        thermal_waste = 1000  
-        self.hkl_metrics["EGR"] = flops / thermal_waste
+        self.hkl_metrics["EGR"] = None
+        self.hkl_metrics["GDS"] = None
 
-        heat_resources = [500000, 300000, 200000]  
-        mean = np.mean(heat_resources)
-        std = np.std(heat_resources)
-        self.hkl_metrics["GDS"] = 1 - (std / mean) if mean > 0 else 0
-
-        self.hkl_metrics["OIE"] += oie_impact
+        if oie_impact is not None:
+            self.hkl_metrics["OIE"] += oie_impact
 
     def process_input(self, input_data):
         """
@@ -87,6 +79,11 @@ class LibraModel:
         start_time = time.time()
 
         entropy_score = self.compute_entropy_score(input_data)
+        if entropy_score is None:
+            return "not_implemented", {
+                "reason": "Entropy score is not implemented; no invented score",
+                "entropy_score": None,
+            }
         if entropy_score >= self.entropy_threshold:
             self.rejected_inputs += 1
             self.checksum_database.append(input_data)
@@ -94,11 +91,23 @@ class LibraModel:
 
         oie_impact = self.compute_oie_impact(input_data)
         self.update_hkl_metrics(input_data, oie_impact)
+        if oie_impact is None:
+            return "not_implemented", {
+                "reason": "OIE impact score is not implemented; no invented score",
+                "oie_impact": None,
+                "entropy_score": entropy_score,
+            }
         if oie_impact > self.oie_impact_threshold:
             self.flagged_inputs += 1
             return "flag", {"reason": "High OIE impact", "oie_impact": oie_impact}
 
         decision_balance = self.compute_decision_balance(input_data)
+        if decision_balance is None:
+            return "not_implemented", {
+                "reason": "Decision-balance score is not implemented; no invented score",
+                "decision_balance": None,
+                "oie_impact": oie_impact,
+            }
         if decision_balance >= self.decision_balance_threshold:
             self.accepted_inputs += 1
             self.giln_knowledge_manifold[input_data] = decision_balance

@@ -1,5 +1,7 @@
 # §9. Approach 2 — Solving R^log_t Upstream Without Altering the Logistic Map
 
+> **Status.** Unpromoted addendum. The [current Sahel paper, §§5–6](sahel_worked_example.md) withdraws the completed drift-sign and falsification claims and describes the test still required. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
+
 ### Addendum to: The Sahel as Worked Example
 ### Cross-references: Δ-Self Worldline Formalization, Δ-Self Extension, HKL Lyapunov v2, AEF v2, Fallacy of Large-Scale Absorbic Effort, Continuation Filter
 ### Authoritative chain: Worldline → Extension → Sahel (this addendum extends Sahel §§5–8)
@@ -102,6 +104,8 @@ $$
 
 **Resolution declaration — OIE term (audit finding 1, corpus-grounded).** Sahel §5.1 already commits OIE to being a measure over $S_\Phi$, with the scalar defined explicitly as the integral $OIE_\int = \int_{S_\Phi} OIE(x)\, d\mu(x)$. The gain-function term is therefore written $OIE_\int(t)$, **not** an independent scalar. The gain layer operates at basin-aggregate resolution *by construction*, because Approach 2's output $R^{\log}_t$ is itself a scalar; a basin-aggregate input to a scalar output is a declared and consistent type-reduction, not a silent re-scalarization of the field. The same declaration applies to $\rho(t)$ (§9.4) and to $C(t)$. Where mechanism-level (cell-by-cell) resolution is required, Approach 2 is not the appropriate layer — the multi-patch field extension (anticipated §10) is.
 
+> **Editorial note.** The claimed empirical anchor below was withdrawn. The current Sahel paper provides no computed drift series for this comparison.
+
 **Resolution declaration — basin term (audit finding 5, corpus-grounded).** The Sahel example's empirical anchor is derivative-based: §1 identifies the case's distinguishing feature as the architectural pivot "in which $dV/dt$ flipped sign," and §4.3 records that "$dV/dt$ measurably flipped sign after the architectural pivot." A static $V(t)$ term would contradict the document's own falsification anchor. The gain function therefore uses $dV/dt$. Level and drift may be carried jointly ($-b_{V_0} V(t) - b_V\, dV/dt$) if a future revision requires both; the drift term is mandatory because it is what makes §9.7's directional claims predictive rather than descriptive.
 
 The logistic parameter is then bounded:
@@ -160,6 +164,8 @@ This is the defining feature of Approach 2. HKL burden, AEF effort accounting, �
 
 ## 9.7 Sahel Interpretation
 
+> **Editorial note.** The directions below are predictions of this draft. The historical architectural change alone does not establish a sign change in burden drift.
+
 The same biome generates divergent trajectories because the upstream solution for $R^{\log}_t$ changes under different architectures. (Directional claims below are stated in terms of *drift*, $dV/dt$, consistent with §9.5's corpus-grounded basin term and Sahel §4.3's empirical anchor.)
 
 **Centralized architecture.** Imposes low-variety regulation, collapses transhumance corridors, restricts local decision space, applies a model $G_i \not\cong S_\Phi$. Consequently: $\rho \downarrow$, $\lambda_{PAE} \downarrow$, $OIE_\int \uparrow$, $dV/dt > 0$ (divergent drift). Therefore $g_{CE} \downarrow$ and $R^{\log}_t \downarrow$. The logistic map propagates collapse or low-viability recurrence — with no alteration to the map.
@@ -181,6 +187,8 @@ This positions the framework as a **parameter-origin theory**, not a replacement
 ---
 
 ## 9.9 Test Criterion (strengthened — audit finding 8)
+
+> **Editorial note.** The proposed timing and sign-change checks remain open. The cited mid-2010s sign change has yet to be measured.
 
 The weak form ("reproduces the *qualitative* bifurcation") is insufficient: almost any monotone $g_{CE}$ pushed through $\sigma$ into the logistic map produces *some* bifurcation. Approach 2 succeeds only if the preserved recurrence reproduces the **quantitative** Sahel bifurcation structure under the upstream-derived $R^{\log}_t$ alone:
 
