@@ -5,7 +5,10 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 | Round | Example | Data | Pre-registered criterion | Outcome | Cause | Link |
 |---|---|---|---|---|---|---|
 | 20 | Tulare Lake 5-022.12, v0.2 storage-direction sign | DWR periodic GWL, Good quality, Oct–Nov 2019 vs 2025, locked 5-022.12 polygon | \(n_G \ge 5\) and median \(\Delta\) DTW \(> 0\) holds; \(< 0\) breaks; \(n_G < 5\) or median 0 is indeterminate. Sign only; no volume conversion; no Bite 5. | **Holds** (\(n_G=15\), median +19.03 ft) | — | [Fill](../Release/Examples/central-valley/worked-fills/2026-11-24-tulare-dwr-head-contrast/WORKED_FILL.md) · [PREREG](../Release/Examples/central-valley/worked-fills/2026-11-24-tulare-dwr-head-contrast/PREREG.md) |
+| 21 | Niger rainfall, Sahel environmental precursor | CHIRPS v2.0 annual national mean (Natural Earth Niger polygon) vs committed WDI 1981–2022 | CV > 0.05 or >2 distinct values holds the “WDI is not interannual” diagnosis; CV ≤ 0.01 and ≤2 distinct values breaks it; else indeterminate. No V, no withdrawn claims. | **Holds** (CV 0.171; 71.94–190.45 mm) | — | [Fill](../Release/Examples/sahel/worked-fills/2026-11-24-niger-chirps/WORKED_FILL.md) · [PREREG](../Release/Examples/sahel/worked-fills/2026-11-24-niger-chirps/PREREG.md) |
 
-**Counts so far:** holds 1, breaks 0, indeterminate 0.
+**Counts so far:** holds 2, breaks 0, indeterminate 0.
 
 **Note on Round 20.** A companion spring 2015–2024 contrast, pre-registered as not the decision, has the opposite sign (median −42.97 ft, n=11). Window choice matters. Any short summary must name the locked October–November 2019–2025 window and this companion. The hold is a median of 15 qualifying Good pairs, not a spatially weighted subbasin head and not confirmation of the 468,635 AF figure.
+
+**Note on Round 21.** The CHIRPS series is a national spatial mean, not a site or FMNR/non-FMNR contrast. Sahel bounded-test step 1 locations remain unfilled. \(V\) was not constructed.

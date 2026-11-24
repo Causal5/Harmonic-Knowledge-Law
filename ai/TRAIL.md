@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Work agent: Round 21 CHIRPS vs WDI Niger rainfall (holds)
+
+Launch Pad Session 1, Round 21 [A]. Pre-registered a test of whether CHIRPS v2.0 shows interannual rainfall over Niger after Round 14 found WDI AG.LND.PRCP.MM is 151 mm every year. [PREREG](../Release/Examples/sahel/worked-fills/2026-11-24-niger-chirps/PREREG.md) was written before the national mean was computed. Result: **holds** — CV 0.171, range 71.94 mm (1984) to 190.45 mm (1994). The series is a national mean, not a site contrast; \(V\) was not constructed. `main` was not edited.
+
+**What this means.** There is now a committed, rerunnable interannual rainfall precursor for Niger. It does not by itself let anyone run the Sahel bounded test or restore withdrawn claims.
+
 ## 2026-11-24 — Verifier: Round 20 DWR head-sign test accepted with revisions
 
 Round 20 [C]. Verdict `accepted-with-revisions`: [V-2026-11-24-tulare-dwr-head-contrast](LEDGER/verdicts/V-2026-11-24-tulare-dwr-head-contrast.md). Offline replay confirms **holds** (n=15, median +19.03 ft). Revisions: call the statistic a median of 15 qualifying Good pairs, not a subbasin head or a volume confirmation; short summaries must name the locked fall window and the opposite-sign spring companion. `main` was not edited.
