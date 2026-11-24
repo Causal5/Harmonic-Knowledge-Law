@@ -277,6 +277,8 @@ map each variable to an authoritative source before transformation.
 
 **Deliverable:** `freshwater_data_dictionary_v0.2.csv`
 
+The [24 November boundary decision](README.md#study-boundaries-adopted-24-november-2026) fixes the three spatial scopes and the annual reporting convention. Record coverage and uncertainty separately for each series.
+
 ### Bite 2: Stock and subsidence reconstruction
 
 Reproduce published storage-change estimates and align head, storage, pumping,
@@ -296,6 +298,8 @@ covariance and displaced burdens.
 
 Pre-register normalization, weights, thresholds, and held-out periods. Compare
 `V_W` with simpler baselines and report failure as clearly as success.
+
+Record the source, units and operational or physical meaning of each consequential limit, including the tolerance for stable service. Distinguish measurement precision from service requirements. Predeclare defensible alternatives and report whether the conclusion reverses across them. Lock the hard-threshold list and held-out comparison metric before scoring. Report the physical evidence and the incremental performance of the aggregate index separately.
 
 ### Bite 6: Cross-scale extension
 
