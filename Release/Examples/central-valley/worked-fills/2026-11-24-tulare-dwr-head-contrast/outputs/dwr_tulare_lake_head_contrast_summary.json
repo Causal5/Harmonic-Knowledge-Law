@@ -1,0 +1,123 @@
+{
+  "protocol": "PREREG.md",
+  "boundary": "DWR Bulletin 118 5-022.12",
+  "geojson": "../2026-11-21-tulare-lake-72019/sources/b118_5-022.12_tulare_lake.geojson",
+  "source_zip_sha256": "offline",
+  "n_in_polygon_stations": 687,
+  "unit": "feet, depth to water (gse_gwe); positive delta = deeper water / lower head",
+  "contrasts": {
+    "primary_fall_octnov_2019_2025": {
+      "left_window": "fall_2019_octnov",
+      "right_window": "fall_2025_octnov",
+      "quality": {
+        "good": {
+          "n": 15,
+          "median_delta_ft": 19.03,
+          "mean_delta_ft": 19.290000000000003,
+          "p25_delta_ft": 7.170000000000016,
+          "p75_delta_ft": 27.279999999999973,
+          "n_deeper": 13,
+          "n_shallower": 2,
+          "n_zero": 0
+        },
+        "numeric": {
+          "n": 22,
+          "median_delta_ft": 15.849999999999998,
+          "mean_delta_ft": 21.15,
+          "p25_delta_ft": -1.8500000000000014,
+          "p75_delta_ft": 27.279999999999973,
+          "n_deeper": 16,
+          "n_shallower": 6,
+          "n_zero": 0
+        }
+      }
+    },
+    "sensitivity_fall_sepnov_2019_2025": {
+      "left_window": "fall_2019_sepnov",
+      "right_window": "fall_2025_sepnov",
+      "quality": {
+        "good": {
+          "n": 18,
+          "median_delta_ft": 18.765,
+          "mean_delta_ft": 16.40777777777778,
+          "p25_delta_ft": 5.6299999999999955,
+          "p75_delta_ft": 22.850000000000023,
+          "n_deeper": 14,
+          "n_shallower": 4,
+          "n_zero": 0
+        },
+        "numeric": {
+          "n": 25,
+          "median_delta_ft": 13.199999999999996,
+          "mean_delta_ft": 18.851599999999998,
+          "p25_delta_ft": -2.0900000000000034,
+          "p75_delta_ft": 22.850000000000023,
+          "n_deeper": 17,
+          "n_shallower": 8,
+          "n_zero": 0
+        }
+      }
+    },
+    "sensitivity_fall_octnov_2019_2024": {
+      "left_window": "fall_2019_octnov",
+      "right_window": "fall_2024_octnov",
+      "quality": {
+        "good": {
+          "n": 13,
+          "median_delta_ft": 9.0,
+          "mean_delta_ft": 9.065384615384614,
+          "p25_delta_ft": 2.0199999999999996,
+          "p75_delta_ft": 17.400000000000006,
+          "n_deeper": 10,
+          "n_shallower": 3,
+          "n_zero": 0
+        },
+        "numeric": {
+          "n": 22,
+          "median_delta_ft": 9.885000000000005,
+          "mean_delta_ft": 13.263636363636364,
+          "p25_delta_ft": -3.5,
+          "p75_delta_ft": 18.960000000000008,
+          "n_deeper": 15,
+          "n_shallower": 7,
+          "n_zero": 0
+        }
+      }
+    },
+    "companion_spring_2015_2024": {
+      "left_window": "spring_2015",
+      "right_window": "spring_2024",
+      "quality": {
+        "good": {
+          "n": 11,
+          "median_delta_ft": -42.96799999999999,
+          "mean_delta_ft": -35.218545454545456,
+          "p25_delta_ft": -51.226,
+          "p75_delta_ft": -4.565000000000001,
+          "n_deeper": 2,
+          "n_shallower": 9,
+          "n_zero": 0
+        },
+        "numeric": {
+          "n": 15,
+          "median_delta_ft": -46.28200000000001,
+          "mean_delta_ft": -49.42359999999999,
+          "p25_delta_ft": -80.19999999999999,
+          "p75_delta_ft": -4.565000000000001,
+          "n_deeper": 3,
+          "n_shallower": 12,
+          "n_zero": 0
+        }
+      }
+    }
+  },
+  "decision": {
+    "test": "primary_fall_octnov_2019_2025, Good quality",
+    "outcome": "holds",
+    "reason": "median depth to water increased (same direction as published net storage loss)",
+    "n_G": 15,
+    "median_delta_ft": 19.03,
+    "cause_if_breaks": null,
+    "assigned_flags": "none; eta, severed, buffer, V_W, and Bite 5 remain unassigned"
+  }
+}
