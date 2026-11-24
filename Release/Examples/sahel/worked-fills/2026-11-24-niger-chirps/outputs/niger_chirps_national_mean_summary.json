@@ -1,0 +1,20 @@
+{
+  "protocol": "PREREG.md",
+  "product": "CHIRPS v2.0 annual, 0.05\u00b0, mm/year, 1981-2022",
+  "erddap_dataset": "chirps20GlobalAnnualP05",
+  "polygon": "sources/ne_50m_niger.geojson (Natural Earth Admin 0 50m, version 5.1.1, ADMIN=Niger, ISO_A3=NER)",
+  "source_nc_sha256": "207ec71e966b9eb00bfa5b3d62d76053df5d7524be678b15120aa41cc56f338e",
+  "geojson_sha256": "27ea9d6af85f57050bafb1757561bb661cf1ad2f91ad6c373acbd6862b520a65",
+  "decision": {
+    "n_years": 42,
+    "mean_mm": 142.87960874299108,
+    "std_mm": 24.44186341679936,
+    "cv": 0.17106614185068833,
+    "n_distinct_0.1mm": 41,
+    "min_mm": 71.9381790120942,
+    "max_mm": 190.45020457981002,
+    "outcome": "holds",
+    "reason": "CHIRPS national mean is interannual; WDI is not"
+  },
+  "assigned": "none; V, withdrawn Sahel claims, and A1-A8 remain unused"
+}
