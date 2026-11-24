@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Adversary: Round 20 DWR head-sign test
+
+Round 20 [B]. Three challenges: [offline replay](LEDGER/challenges/CH-dwr-head-01-rerun.md), [sign is not volume or a subbasin head](LEDGER/challenges/CH-dwr-head-02-sign-not-volume.md), and [window dependence / spring companion](LEDGER/challenges/CH-dwr-head-03-window-dependence.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** A hold on a 15-well sign test can still be over-read as confirming the acre-foot loss or as “water levels fell” in every window.
+
 ## 2026-11-24 — Work agent: Round 20 DWR head-sign stress test (holds)
 
 Launch Pad Session 1, Round 20 [A]. Pre-registered a sign test of v0.2’s net Tulare Lake storage *loss* against independent DWR wells in 5-022.12, October–November 2019 vs 2025, Good quality, \(n_G \ge 5\). The [pre-registration](../Release/Examples/central-valley/worked-fills/2026-11-24-tulare-dwr-head-contrast/PREREG.md) was written before signed differences were computed. Result: **holds** — 15 paired wells, median depth to water +19.03 ft (13 deeper, 2 shallower). A companion spring 2015–2024 contrast, not the decision, has the opposite sign. η, *severed*, buffer, \(V_W\), and Bite 5 were not assigned. Scoreboard: [ai/STRESS_TESTS.md](STRESS_TESTS.md). `main` was not edited.
