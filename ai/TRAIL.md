@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Work agent: Round 22 ebonyshell η from published surveys (indeterminate)
+
+Launch Pad Session 1, Round 22 [A]. Pre-registered a test of whether published surveys supply the recruitment and loss rates the ebonyshell protocol needs to compute η. Result: **indeterminate**. Kelner and Sietman (2000) abstract, USGS 1999 Chapter 11, and USGS PSR 2000-04 are qualitative or count-only; the Kelner PDF was not retrieved (HTTP 403). η and *severed* remain unassigned. `main` was not edited.
+
+**What this means.** Public survey narratives still do not unlock the renewal-coverage ratio. That is a data gap, not a license to assign the flag from a relic hypothesis.
+
 ## 2026-11-24 — Verifier: Round 21 CHIRPS test accepted with revisions
 
 Round 21 [C]. Verdict `accepted-with-revisions`: [V-2026-11-24-niger-chirps](LEDGER/verdicts/V-2026-11-24-niger-chirps.md). Offline replay confirms **holds** (CV 0.171; 71.94–190.45 mm). Revision: keep the national mean from being read as a site series or as permission to construct \(V\). `main` was not edited.
