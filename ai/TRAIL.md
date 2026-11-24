@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Adversary: Round 23 TM-signature completeness
+
+Round 23 [B]. Challenges: [imported column is not pure surface water](LEDGER/challenges/CH-tm-sig-02-imported-column.md) and [do not evaluate the conjunction](LEDGER/challenges/CH-tm-sig-02-not-evaluated.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** Table 3-1 is useful and messy. It does not, by itself, complete or falsify the signature.
+
 ## 2026-11-24 — Work agent: Round 23 temporal-mining signature completeness (indeterminate)
 
 Launch Pad Session 1, Round 23 [A]. Pre-registered a completeness test of protocol §5 against the WY 2025 filing. Table 3-1 provides a six-year surface-water supply series, but irreversible compaction cannot be locked independently of InSAR already used in C-zone storage. Result: **indeterminate**. The signature was not declared to have fired or failed. `main` was not edited.
