@@ -6,6 +6,7 @@ This study examines how groundwater storage can temporarily sustain extraction w
 |---|---|---|
 | [Definition crosswalk v0.3.1](definition-crosswalk-v0.3.1.md) | Corrects inherited stock, timescale, buffer, and transfer definitions | Current interpretation |
 | [Temporal Mining Freshwater Study Protocol v0.2](temporal-mining-freshwater-protocol-v0.2.md) | Physical-first study with reconciled definitions | Current working protocol; execution pending |
+| [Tulare Lake pumping and storage reconciliation](worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) | Source tables and year-by-year data for subbasin 5-022.12 | Six descriptive water-year comparisons, 2020–2025. Bite 5 remains open. |
 | [Original protocol v0.1](temporal-mining-freshwater-protocol-v0.1.md) | Recovered source | Preserved historical protocol |
 | [Central Valley Freshwater — Working Example v0.1](central-valley-worked-example-v0.1.md) | Reconstructs reported observations for the Central Valley, with a San Joaquin Valley focus | Observed-data report; no computed HKL score |
 | [Buffer as Temporal Dimension](../../Working/buffer-as-temporal-dimension.md) | Cross-corpus interpretation of buffer, renewal, and depletion | Working formalism with unresolved audit corrections |

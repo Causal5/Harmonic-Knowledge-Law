@@ -1,0 +1,12 @@
+ending_year,pumping_period,pumping_start,pumping_end,extraction_af_wy25_table3_2,pump_magnitude_af_wy25_table3_4,storage_change_af_fall_to_fall_wy25_table3_4,storage_change_af_spring_to_spring_wy22_table6_1,comparison
+2015,CY,2015-01-01,2015-12-31,534910,534910,,,storage baseline
+2016,CY,2016-01-01,2016-12-31,437299,437299,-200965,-153278,period mismatch
+2017,CY,2017-01-01,2017-12-31,166110,166100,91703,-100927,period mismatch
+2018,CY,2018-01-01,2018-12-31,713435,713615,-174803,-57662,period mismatch
+2019,CY,2019-01-01,2019-12-31,480390,480390,-13838,-84640,period mismatch
+2020,WY,2019-10-01,2020-09-30,375293,375293,-128781,-65344,annual descriptive pair
+2021,WY,2020-10-01,2021-09-30,652488,652488,-206939,-175946,annual descriptive pair
+2022,WY,2021-10-01,2022-09-30,549066,549066,-187665,-115759,annual descriptive pair
+2023,WY,2022-10-01,2023-09-30,213863,213863,131719,,annual descriptive pair
+2024,WY,2023-10-01,2024-09-30,355005,355005,-28755,,annual descriptive pair
+2025,WY,2024-10-01,2025-09-30,392833,392833,-48214,,annual descriptive pair

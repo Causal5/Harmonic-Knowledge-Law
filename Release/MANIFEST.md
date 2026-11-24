@@ -7,7 +7,7 @@ This manifest maps the established corpus. The [publication index](PUBLICATION-I
 1. [Current publication notes](Reviews/publication-notes-2026-10-16.md) and [definition decisions](Registry/definition-decisions-2026-10-16.md).
 2. [Current registry](Registry/causal-ethics-master-symbol-registry.md) and [Worldline parent](Delta-Self/delta-self-worldline-formalization.md).
 3. [Papers](Papers/README.md), [HKL](HKL/README.md), and related [Delta-Self documents](Delta-Self/README.md).
-4. [Examples](Examples/README.md), including the Central Valley physical-first study and the [empirical review procedure](Examples/empirical-review-procedure.md).
+4. [Examples](Examples/README.md), including the [Tulare Lake pumping and storage reconciliation](Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/PUMPING-STORAGE.md) in the Central Valley study and the [empirical review procedure](Examples/empirical-review-procedure.md).
 5. [Working drafts](Working/README.md) and the [v0.4 registry proposal](Registry/causal-ethics-master-symbol-registry-v0.4-draft.md), read with the [audits](Reviews/README.md).
 
 ## Established papers and legacy locations
