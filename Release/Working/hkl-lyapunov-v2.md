@@ -1,13 +1,6 @@
 # Harmonic Knowledge Law (HKL)
 
-> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
-
-> **Status (ai/evolution, 2026-11-23, Round 17, proposed).** Working / preserved proposal. Not current HKL or AEF authority. Current definitions are in `Release/HKL/hkl-lyapunov.md` and `Release/Papers/absorbic-effort-framework.md`. Citations or wording below that do not match those current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers or formulas are invented here.
-> - “the Lyapunov condition $dV/dt \le 0$” treated as a required basin condition — current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
-> - Effort-accounting symbols written as if $PAE$ and $OIE$ were the current measured quantities — current AEF §2: PAE is a principle and OIE is a process; neither is a number.
-> - “Stability requires $dV/dt \le 0$” and $V^*$ written as a least-action / PCB identity — current HKL §4 / §7 withdraw necessary-monotonic-drift wording; current HKL §3 and the 16 October record separate $V^*$, $V_{PCB}$, and $V_{max}$.
-> Version numbers inside this draft do not supersede Registry v0.3.1 / v0.3.2 or the reconciled core papers (`Release/Working/README.md`). Term mapping: `ai/GLOSSARY.md`.
-
+> **Status.** Historical HKL draft. The [current HKL paper](../HKL/hkl-lyapunov.md) gives the governing definitions of viability, drift and buffer. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
 
 ## Lyapunov Basin Formalism — v2
 ### Aligned to Δ-Self Worldline Formalization
@@ -87,6 +80,8 @@ Where $B_{k \ge 1}$ represent additional burden terms (resource depletion, coord
 
 # 5. Stability Condition
 
+> **Editorial note.** Current HKL §§4 and 7 withdraw the universal monotonic-drift requirement used in §§5 and 5.1 below. Viability can persist through an interval of increasing burden.
+
 Define basin deviation:
 
 $$
@@ -98,8 +93,6 @@ Stability requires:
 $$
 \frac{dV}{dt} \le 0
 $$
-
-**[STALE / WITHDRAWN: current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording; no replacement necessary-condition formula is invented here]**
 
 Interpretation:
 
@@ -115,7 +108,7 @@ $$
 \frac{d}{dt} \mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}
 $$
 
-Since $\mathcal{E}_i$ is the primary burden component, the Lyapunov condition $\frac{dV}{dt} \le 0$ requires (at minimum): **[STALE / WITHDRAWN: current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording; no replacement necessary-condition formula is invented here]**
+Since $\mathcal{E}_i$ is the primary burden component, the Lyapunov condition $\frac{dV}{dt} \le 0$ requires (at minimum):
 
 $$
 \mathcal{F}_{PAE} \ge \mathcal{F}_{OIE} + \frac{1}{w_0} \sum_{k \ge 1} w_k \dot{B}_k(t)
@@ -147,13 +140,13 @@ AEF defines *what it costs to remain inside it*.
 
 # 7. Least-Action Envelope and PCB Correspondence
 
+> **Editorial note.** Current HKL §3 distinguishes the reference burden, passive-baseline burden and viability ceiling. The identity below belongs to this draft.
+
 $V^*$ corresponds to the burden profile along the Passive Cost Baseline trajectory $\gamma_{PCB}(t)$ (Δ-Self §4):
 
 $$
 V^* = V\big|_{\gamma = \gamma_{PCB}}
 $$
-
-**[STALE: current HKL §3 and the 16 October record separate $V^*$, $V_{PCB}$, and $V_{max}$; no universal identity $V^*=V_{PCB}$ is assumed. No replacement identity is invented here.]**
 
 That is: the least-action envelope is the stability burden accumulated by a system following the trajectory absent recursive deviation. Any ΔSelf ≠ 0 introduces additional burden that must be absorbed (see AEF) or the system diverges from the basin.
 

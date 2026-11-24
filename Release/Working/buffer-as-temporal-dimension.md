@@ -1,16 +1,7 @@
 # Buffer as Temporal Dimension
+
+> **Status.** Historical working addendum. See [current HKL §6](../HKL/hkl-lyapunov.md) for the scenario-dependent first-exit buffer and [current AEF §6](../Papers/absorbic-effort-framework.md) for the status of AU. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
 ## Cross-Corpus Re-Anchor
-
-> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
-
-> **Status (ai/evolution, 2026-11-21, Round 10; marks extended 2026-11-23, Round 17, proposed).** Working addendum. Not current HKL, AEF, or Sahel authority. Current HKL already has a buffer definition in §6; current Sahel §6 is a bounded test recipe, not a demonstration that this formalism was applied. Citations below that do not match the current papers are marked **[DEAD CITE]** or **[STALE / WITHDRAWN]** in place. No replacement section numbers are invented here.
-> - “Sahel §5.3” — current Sahel has no §5.3; §5 withdraws completion claims.
-> - “Sahel Worked Example §6 demonstrates the buffer formalism” — current Sahel §6 is “Bounded test” and does not demonstrate this draft.
-> - “HKL §4.1” — current HKL has no §4.1; §4 is “Viability, drift, and stability.”
-> - “dV/dt ≤ 0 (HKL §5) is necessary” — current HKL §5 is “Effect accounting”; §4 states that \(\dot V\le 0\) is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
-> - “AEF §3.2” and “AEF §3.3” — current AEF has no such subsection headings; AU remains reserved and undefined; terms that treat PAE as a number conflict with current AEF §2.
-> This draft does not override `Release/Working/README.md`.
-
 
 ### Cross-references: Δ-Self Worldline Formalization, Δ-Self Extension, HKL Lyapunov v2, AEF v2, Fallacy of Large-Scale Absorbic Effort, Continuation Filter, Sahel Worked Example
 
@@ -22,7 +13,7 @@ This addendum formalizes the **temporal dimension** that the corpus has been ope
 
 The corpus to date has expressed temporal claims through instantaneous quantities — $dV/dt$, $d\mathcal{E}_i/dt$, $\mathcal{F}_{PAE} - \mathcal{F}_{OIE}$ — which are necessary but insufficient. Stability requires not only that these inequalities hold at a moment, but that they hold across the *runway* available before basin exit. The runway is buffer.
 
-This addendum supplies the buffer formalism and threads it back through Δ-Self, HKL, AEF, the Fallacy of Large-Scale Absorbic Effort, and the Continuation Filter. The Sahel Worked Example §6 demonstrates the buffer formalism in application **[DEAD CITE / STALE: current Sahel §6 is a bounded test recipe, not a demonstration of this formalism]**; this document is the structural commitment beneath it.
+This addendum supplies the buffer formalism and threads it back through Δ-Self, HKL, AEF, the Fallacy of Large-Scale Absorbic Effort, and the Continuation Filter. The Sahel Worked Example §6 demonstrates the buffer formalism in application; this document is the structural commitment beneath it.
 
 Buffer is corpus-wide infrastructure. It is not a Sahel-specific construct.
 
@@ -62,6 +53,8 @@ All quantities are patch-wise unless explicitly integrated.
 # 4. Buffer
 
 ## 4.1 Definition
+
+> **Editorial note.** The expression below uses a local drift approximation. Current HKL §6 defines buffer by first exit from a declared viable region under a specified scenario.
 
 For a patch $x$ at time $t$ with stability function $V(x, t)$ (HKL §4) and basin envelope $V^*(x)$ (HKL §7):
 
@@ -141,7 +134,7 @@ $$
 
 Three structural quantities bound regeneration, none reducible to the others:
 
-- **$\lambda_{PAE}$** — homomorphism efficiency (Sahel §5.3) **[DEAD CITE: current Sahel has no §5.3]**: the fidelity of the regulator's internal model $G_i$ to the manifold $S_\Phi$. Conant–Ashby coefficient. Collapses when the regulator does not contain a model of what it regulates.
+- **$\lambda_{PAE}$** — homomorphism efficiency (Sahel §5.3): the fidelity of the regulator's internal model $G_i$ to the manifold $S_\Phi$. Conant–Ashby coefficient. Collapses when the regulator does not contain a model of what it regulates.
 
 - **$\kappa_{coord}$** — coordination coherence density: phase-coherent regulator density at patch $x$. Captures whether multiple local regulators arrive in synchronized register or in destructive interference. Distinct from sheer headcount.
 
@@ -228,17 +221,19 @@ Epistemic distortion $\mathcal{E}_i = \|g^{(G_i)} - g^{(S_\Phi)}\|$ can grow wit
 
 ## 9.2 HKL Lyapunov v2
 
+> **Editorial note.** The necessary monotonic-drift condition in this passage and the scalar effort accounting in §9.3 come from superseded drafts. See current HKL §4 and AEF §2.
+
 $V(t)$ is instantaneous burden. Its temporal interpretation requires buffer:
 
 $$
 \tau_{buffer}(x, t) = \frac{V^*(x) - V(x, t)}{\dot{V}(x, t)} \quad \text{when } \dot{V}(x, t) > 0
 $$
 
-The basin maintenance inequality $dV/dt \le 0$ (HKL §5) is necessary but instantaneous **[STALE / WITHDRAWN: current HKL §5 is Effect accounting; §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording]**. Sustained basin maintenance requires $dV/dt \le 0$ across $\tau_{buffer}$ **[STALE / WITHDRAWN: not current HKL; same withdrawal as the preceding clause]** — the system must remain in basin over its runway, not merely at any moment. HKL §4.1 **[DEAD CITE: current HKL has no §4.1]**'s primary burden component $B_0 = \mathcal{E}_i$ acquires a temporal floor: $B_0$ must remain bounded across $\tau_{buffer}$, not merely at any moment.
+The basin maintenance inequality $dV/dt \le 0$ (HKL §5) is necessary but instantaneous. Sustained basin maintenance requires $dV/dt \le 0$ across $\tau_{buffer}$ — the system must remain in basin over its runway, not merely at any moment. HKL §4.1's primary burden component $B_0 = \mathcal{E}_i$ acquires a temporal floor: $B_0$ must remain bounded across $\tau_{buffer}$, not merely at any moment.
 
 ## 9.3 AEF v2
 
-The geometric ELQ constraint $\lambda_{PAE} \cdot PAE \ge \lambda_{OIE} \cdot OIE$ (AEF §3.2) **[DEAD CITE: current AEF has no §3.2 heading; the displayed product treats PAE as a number, which current AEF §2 rejects]** is instantaneous. Its time-resolved form is satisfied across $\tau_{buffer}$:
+The geometric ELQ constraint $\lambda_{PAE} \cdot PAE \ge \lambda_{OIE} \cdot OIE$ (AEF §3.2) is instantaneous. Its time-resolved form is satisfied across $\tau_{buffer}$:
 
 $$
 \int_0^{\tau_{buffer}} [\lambda_{PAE}(t) PAE(t) - \lambda_{OIE}(t) OIE(t)] \, dt \ge 0
@@ -271,7 +266,9 @@ The Filter's "Cellular Requirement" (§VII) and "Parallel Stabilization vs. Inte
 
 # 10. Operational Substrate: Fresh Water as Plugin Currency
 
-The Absorbic Unit (AEF §3.3) **[DEAD CITE: current AEF has no §3.3 heading; AU remains reserved and undefined]** currently has a thermodynamic-analog definition ($1 \, AU = 1 \, J / 1 \, \Delta S_{abs}$) **[STALE: that identity is not a current definition; AU remains reserved and undefined; no ethical joule is established]** that is conceptually clean but operationally hard to measure across cases.
+> **Editorial note.** AU remains reserved and undefined. The conversion and freshwater currency proposed below have historical status.
+
+The Absorbic Unit (AEF §3.3) currently has a thermodynamic-analog definition ($1 \, AU = 1 \, J / 1 \, \Delta S_{abs}$) that is conceptually clean but operationally hard to measure across cases.
 
 **Fresh water throughput is the candidate operational currency.** Civilization runs on fresh water. Even where water is not the *direct* substrate of a system's stability, it is the *operational* substrate: power generation, cooling, manufacturing, food, sanitation, survival. Fresh water is the natural gold standard currency for civilizational basin maintenance. It is the resource whose throughput is most directly tied to basin maintenance at every scale from household to civilization.
 

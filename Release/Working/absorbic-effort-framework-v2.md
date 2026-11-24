@@ -1,13 +1,6 @@
 # Absorbic Ethics Framework (AEF)
 
-> **Unpublished branch copy (ai/evolution, Round 19, 23 November 2026).** This path differs from `Release/` on `main` at `270942cd107ffc92a44b4be8d7fffa0e6c22fd1d`. The published text is the `main` file. Branch edits here are not a publication to `main`. If the two conflict, `Release/` on `main` wins.
-
-> **Status (ai/evolution, 2026-11-21, Round 10; marks extended 2026-11-23, Round 17, proposed).** Working / preserved proposal. Not current AEF or HKL authority. Current definitions are in `Release/Papers/absorbic-effort-framework.md` and `Release/HKL/hkl-lyapunov.md`. Citations below that do not match those current papers are marked **[DEAD CITE]** in place. No replacement section numbers are invented here.
-> - “HKL §5.1” — current HKL has no §5.1; §5 is “Effect accounting.”
-> - “the Lyapunov condition $dV/dt \le 0$” — current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording.
-> - Terms that type $PAE$ as $\mathbb{R}_{\ge 0}$ or write $\lambda_{PAE}\cdot PAE$ treat PAE as a number, which current AEF §2 and the 16 October record reject. No replacement formula is invented here.
-> Version numbers inside this draft do not supersede Registry v0.3.1 or the reconciled core papers (`Release/Working/README.md`).
-
+> **Status.** Historical AEF draft. Use the [current AEF](../Papers/absorbic-effort-framework.md) and [HKL](../HKL/hkl-lyapunov.md) for definitions. Carried over from the [Adversary review on `ai/evolution`](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/19a4aee7f6d5e3952b688dbba376b5cf26c2c849/ai/REVIEW_FOR_JORDAN.md).
 
 ## v2 — Aligned to Δ-Self Worldline Formalization
 ---
@@ -18,7 +11,7 @@ The Absorbic Ethics Framework (AEF) formalizes corrective effort required to off
 
 AEF operates as the applied accounting layer over a stability formalism (HKL Lyapunov basin structure). It does not define stability itself; it defines effort required to preserve it.
 
-**Inheritance:** AEF elaborates the effort dynamics introduced in Δ-Self §13 ($\frac{d}{dt}\mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}$) and the basin maintenance inequality derived in HKL §5.1 **[DEAD CITE: current HKL has no §5.1; no replacement section is invented here]**. Specifically, AEF provides the accounting structure that determines whether the Lyapunov condition $\frac{dV}{dt} \le 0$ is satisfied **[STALE / WITHDRAWN: current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording]**.
+**Inheritance:** AEF elaborates the effort dynamics introduced in Δ-Self §13 ($\frac{d}{dt}\mathcal{E}_i = \mathcal{F}_{OIE} - \mathcal{F}_{PAE}$) and the basin maintenance inequality derived in HKL §5.1. Specifically, AEF provides the accounting structure that determines whether the Lyapunov condition $\frac{dV}{dt} \le 0$ is satisfied.
 
 ---
 
@@ -26,11 +19,11 @@ AEF operates as the applied accounting layer over a stability formalism (HKL Lya
 
 | Symbol           | Name                              | Meaning in this document                                               | Type / Domain         | Units / Interpretation             |
 | ---------------- | --------------------------------- | ---------------------------------------------------------------------- | --------------------- | ---------------------------------- |
-| $PAE$            | Principle of Absorbic Effort      | Applied corrective effort to absorb/offset destabilizing externalities | $\mathbb{R}_{\ge 0}$ | Energy-equivalent effort           | **[STALE: current AEF §2 — PAE is a principle, not a number]**
-| $OIE$            | Observer-Induced Entropy          | Net destabilizing externality introduced by agentic deviation          | $\mathbb{R}_{\ge 0}$ | Perturbation magnitude             | **[STALE: current AEF §2 — OIE is a process, not a number]**
+| $PAE$            | Principle of Absorbic Effort      | Applied corrective effort to absorb/offset destabilizing externalities | $\mathbb{R}_{\ge 0}$ | Energy-equivalent effort           |
+| $OIE$            | Observer-Induced Entropy          | Net destabilizing externality introduced by agentic deviation          | $\mathbb{R}_{\ge 0}$ | Perturbation magnitude             |
 | $\Delta S_{abs}$ | Absorbed Entropy                  | Total entropy absorbed or redirected from system degradation           | $\mathbb{R}_{\ge 0}$ | Disorder-equivalent measure        |
-| $ELQ$            | Ethical Legitimacy Quotient       | Ratio of applied effort to absorbed destabilization                    | $\mathbb{R}_{\ge 0}$ | Dimensionless                      | **[STALE: current AEF §6 and Registry §VI deprecate $ELQ=PAE/\Delta S_{abs}$; coverage is ACR, which is not an ethical verdict]**
-| $AU$             | Absorbic Unit                     | Unit representing corrective effort normalized to absorbed entropy     | scalar                | Ethical joule analog               | **[STALE: current AEF §6 and Registry §VI — AU remains reserved and undefined; no ethical joule is established]**
+| $ELQ$            | Ethical Legitimacy Quotient       | Ratio of applied effort to absorbed destabilization                    | $\mathbb{R}_{\ge 0}$ | Dimensionless                      |
+| $AU$             | Absorbic Unit                     | Unit representing corrective effort normalized to absorbed entropy     | scalar                | Ethical joule analog               |
 | $\lambda_{PAE}$  | PAE Coupling Coefficient          | Converts applied effort into geometric distortion reduction rate       | $\mathbb{R}_{> 0}$   | Effort-to-geometry bridge          |
 | $\lambda_{OIE}$  | OIE Coupling Coefficient          | Converts agentic perturbation into geometric distortion increase rate  | $\mathbb{R}_{> 0}$   | Perturbation-to-geometry bridge    |
 
@@ -42,11 +35,11 @@ AEF operates as the applied accounting layer over a stability formalism (HKL Lya
 
 ## 3.1 Ethical Legitimacy Quotient
 
+> **Editorial note.** Current AEF §§2 and 6 separate expenditure, achieved correction and side burden. Raw ELQ ratios and the scalar PAE products in §§3.1–3.4 are historical proposals.
+
 $$
 ELQ = \frac{PAE}{\Delta S_{abs}}
 $$
-
-**[STALE: current AEF §6 and Registry §VI deprecate $ELQ=PAE/\Delta S_{abs}$; coverage is ACR, which is not an ethical verdict. No replacement ratio is invented here.]**
 
 Interpretation:
 
@@ -66,8 +59,6 @@ AEF provides the bridge between effort-accounting quantities (PAE, OIE) and geom
 
 $$
 \mathcal{F}_{PAE} = \lambda_{PAE} \cdot PAE
-
-**[STALE: $\lambda_{PAE}\cdot PAE$ treats PAE as a number; current AEF §2 rejects that; no replacement formula is invented here. Later displayed products in this draft have the same status.]
 $$
 
 $$
@@ -80,7 +71,7 @@ $$
 \frac{d}{dt}\mathcal{E}_i = \lambda_{OIE} \cdot OIE - \lambda_{PAE} \cdot PAE
 $$
 
-The Lyapunov condition (HKL §5, $\frac{dV}{dt} \le 0$) is satisfied when: **[STALE / WITHDRAWN / DEAD CITE: current HKL §5 is Effect accounting; §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording]**
+The Lyapunov condition (HKL §5, $\frac{dV}{dt} \le 0$) is satisfied when:
 
 $$
 \lambda_{PAE} \cdot PAE \ge \lambda_{OIE} \cdot OIE
@@ -98,15 +89,15 @@ $$
 PAE \ge OIE
 $$
 
-**[STALE: current AEF §6 and Registry §VI — $PAE\ge OIE$ is not a current accounting equation / conceptual shorthand only; PAE and OIE are not numbers. No replacement inequality is invented here.]**
-
 The familiar constraint. Asymmetric coupling ($\lambda_{PAE} \ne \lambda_{OIE}$) captures systems where correction is harder or easier than destabilization — a structural property of the manifold, not an accounting artifact.
 
 ---
 
 ## 3.3 Absorbic Unit Definition
 
-One Absorbic Unit ($AU$) represents normalized corrective effort per absorbed entropy unit. **[STALE: current AEF §6 and Registry §VI — AU remains reserved and undefined; no ethical joule is established. The displayed identity is not a current definition.]**
+> **Editorial note.** AU is reserved and undefined in the current Registry. The equation below is historical.
+
+One Absorbic Unit ($AU$) represents normalized corrective effort per absorbed entropy unit.
 
 Conceptually:
 
@@ -114,7 +105,7 @@ $$
 1\, AU = \frac{1\, J}{1\, \Delta S_{abs}}
 $$
 
-This is an accounting normalization, not a physical thermodynamic identity. **[STALE: same reservation; this is not a current official unit.]**
+This is an accounting normalization, not a physical thermodynamic identity.
 
 ---
 
@@ -125,8 +116,6 @@ A model-dependent decomposition of $PAE$ may be expressed as:
 $$
 PAE = E - C_{pae}
 $$
-
-**[STALE: current AEF §6 lists $PAE=E-C_{pae}$ among expressions that are not current accounting equations. PAE is a principle, not a budget residual. No replacement decomposition is invented here.]**
 
 Where:
 
@@ -143,7 +132,7 @@ In a causally closed system:
 
 * Destabilizing externalities ($OIE$) propagate unless absorbed.
 * Absorption requires applied effort ($PAE$).
-* If $PAE < \Delta S_{abs}$, instability accumulates. **[STALE: compares PAE as a number to an entropy term; current AEF §2 and §6 reject that accounting.]**
+* If $PAE < \Delta S_{abs}$, instability accumulates.
 
 AEF therefore functions as a corrective accounting constraint layered atop a stability measure (HKL, $V(t)$), operating over the trajectory geometry defined by Δ-Self.
 
@@ -170,6 +159,8 @@ In principle, both are derivable from the metric structures $g^{(G_i)}_{ij}$ and
 
 # 6. ELQ Triangle (Cross-Document Integration)
 
+> **Editorial note.** The table below proposed an identity between ELQ, burden drift and distortion. Current AEF §6 retires raw ELQ, and HKL §4 permits temporary positive drift inside the viable region.
+
 The ELQ bridges all three documents:
 
 | Condition | AEF Reading | HKL Reading | Δ-Self Reading |
@@ -178,9 +169,7 @@ The ELQ bridges all three documents:
 | $ELQ_{geo} = 1$ | Exact parity | $\frac{dV}{dt} = 0$: marginal equilibrium | $\frac{d}{dt}\mathcal{E}_i = 0$: distortion stable |
 | $ELQ_{geo} < 1$ | Corrective deficit | $\frac{dV}{dt} > 0$: diverging from basin | $\frac{d}{dt}\mathcal{E}_i > 0$: distortion increasing |
 
-**[STALE / WITHDRAWN: current AEF §6 deprecates raw ELQ accounting and does not treat PAE or OIE as numbers; current HKL §4 says $\dot V\le 0$ is not a universal necessary condition; §7 withdraws necessary-monotonic-drift wording. This table is not a current official reading. No replacement table is invented here.]**
-
-This is a single phenomenon described in three namespaces. **[STALE: same status as the table above; not a current official identity across namespaces.]**
+This is a single phenomenon described in three namespaces.
 
 ---
 
@@ -200,7 +189,7 @@ They must not be conflated with:
 # 8. Normalization Changes Executed in v2
 
 * All v1 changes retained ($\Delta S_{abs}$ standardization, symbol scoping, model-dependent clarification)
-* Added inheritance statement linking AEF to Δ-Self §13 and HKL §5.1 **[DEAD CITE: current HKL has no §5.1]**
+* Added inheritance statement linking AEF to Δ-Self §13 and HKL §5.1
 * Added §3.2: Geometric interpretation of ELQ via coupling coefficients
 * Introduced $\lambda_{PAE}$ and $\lambda_{OIE}$ as bridge operators (effort → geometry)
 * Derived $ELQ_{geo}$ constraint and symmetric/asymmetric coupling cases
