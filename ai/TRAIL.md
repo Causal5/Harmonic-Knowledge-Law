@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Adversary: Tulare pumping-storage proposal vs published v0.2
+
+Housekeeping [B] on the still-pending [proposal](PROPOSALS/2026-11-24-tulare-pumping-storage/proposal.md). Two challenges: [interval alignment](LEDGER/challenges/CH-tulare-periods-01-interval-alignment.md) (the six pairs are not a closed water budget) and [2017 sign change / evidence path](LEDGER/challenges/CH-tulare-periods-02-not-season-alone.md) (not season alone; published evidence is now v0.2 on `main` at `56c6ab5`). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** The proposal can be judged against the published worked example, with the period and revision caveats made hard to miss.
+
 ## 2026-11-24 — Housekeeping: process-aid status lines and archive index note
 
 Launch Pad Session 1 housekeeping, before Round 20's stress test. The four `ai/NOTES/` process-aid sheets now say **adopted as research procedures** in their body status lines, matching `Release/Examples/empirical-review-procedure.md` on `main` at `56c6ab5`. They are still not Registry vocabulary (Review A8). `ai/PROPOSALS/README.md` now states explicitly that the freshwater-dictionary proposal folder is missing from the working tree and is indexed at historical commit `6797c98`. The pending Tulare pumping-storage proposal is not yet among the 19; a separate [B]/[C] follows to rule on it against v0.2. `main` was not edited.
