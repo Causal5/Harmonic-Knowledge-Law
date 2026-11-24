@@ -1,0 +1,8 @@
+Kelner, D. E., and B. E. Sietman. 2000. Relic Populations of the Ebony Shell, Fusconaia ebena (Bivalvia: Unionidae), in the Upper Mississippi River Drainage. Journal of Freshwater Ecology 15(3).
+DOI: https://doi.org/10.1080/02705060.2000.9663755
+Retrieved 24 November 2026 from OpenAlex (https://api.openalex.org/works/https://doi.org/10.1080/02705060.2000.9663755).
+The publisher PDF was not retrieved (HTTP 403). The publisher Crossref record had no abstract field.
+
+ABSTRACT
+
+The ebony shell (Fusconaia ebena) is extirpated from much of the upper Mississippi River drainage. Nonetheless, in the past 25 years 94 live individuals were collected at 23 sites in the upper Mississippi River between Lock and Dam 6 and 26, three sites in the lower St. Croix River, and one site in the lower Wisconsin River. Most of the recent records were from the lower St. Croix River and the lower reaches of the upper Mississippi River. These data support the hypothesis that Lock and Dam 19 inhibits F. ebena from recolonizing the Mississippi River above the dam by preventing its migratory host fish, skipjack herring (Alosa chrysochloris), from moving upstream. Populations above Lock and Dam 19 are probably pre-lock and dam remnants that have persisted for over a half century and are at risk of extirpation. Conservation efforts should focus on artificial propagation and dam modifications that allow the passage of migratory fishes.

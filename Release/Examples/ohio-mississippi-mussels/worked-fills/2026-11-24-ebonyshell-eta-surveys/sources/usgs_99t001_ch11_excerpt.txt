@@ -1,0 +1,49 @@
+USGS UMESC, Status and Trends of the Upper Mississippi River System (1999), Chapter 11 Freshwater Mussels.
+Source: https://www.umesc.usgs.gov/documents/reports/1999/status_and_trends/99t001_ch11lr.pdf
+SHA-256: 4e00098bae6c318d7eea07eceedd058285d973817fd842474fd9ee8a43ac0e3f
+Retrieved 24 November 2026. pdftotext -layout excerpt of lines mentioning ebonyshell, skipjack, or Lock and Dam 19.
+
+181: Wartyback Quadrula nodulata                                                 E             R               T
+182: Pimpleback Quadrula pustulosa
+183: Threeridge Amblema plicata
+184: Ebonyshell Fusconaia ebena                                    T                           E               E               E
+185: Wabash pigtoe Fusconaia flava
+186: Purple wartyback Cyclonaias tuberculata                                     T             T               T               E
+187: Sheepnose Plethobasus cyphyus                                 E             E             E               R               E
+188: Round pigtoe Pleurobema coccineum                                           E             T               E               SC
+189: Elephant-ear Elliptio crassidens                              T                           E               E               E
+
+----
+
+345: 
+346: hydraulics and many channel border mussel           Because dams slow current velocity, sedi-
+347: beds likely were destroyed.                         ments in suspension drop out of the
+348:   Lock and Dam 19 was the first UMRS                water column and accumulate in low-
+349: navigation dam. It differs from the other           current velocity areas. Mussel beds
+350: dams in that it has a hydroelectric power           located in the lower reaches of naviga-
+351: plant and creates a near-permanent obstruc-         tion pools are therefore likely to have
+352: tion for fish migrations. The blocked               been smothered by sediment.
+353: migration of skipjack herring, the only
+354: known host of the ebony shell mussel, has           Effects of Row Crop Agriculture (1950s)
+355: been implicated in the near eradication of          After World War II, agriculture experienced
+356: this mussel species above Lock and Dam 19           a dramatic shift toward row crop agricul-
+357: (Fuller 1974, 1980). The movements of               ture (corn and soybeans) that emphasized
+358: other fish species have been restricted by          mechanized farming and a heavy reliance
+359: dam construction (Joseph H. Wlosinski and           on agrichemicals. Land-use practices for         The blocked
+360: Scott Maracek, USGS Environmental                   much of the period between the 1950s and         migration of
+361: Management Technical Center, Onalaska,              the present have focused on getting the          skipjack herring,
+362: Wisconsin, unpublished data), possibly              maximum possible acreage into produc-            the only known
+363: affecting distribution and survival of juve-        tion. Wetlands were drained, fields were         host of the
+364: nile mussels in the UMRS as has occurred            tiled to drain water rapidly, and streams        ebony shell
+365: elsewhere (Williams et al. 1992; Neves 1993).       were channelized to speed tributary flow         mussel, has
+366:   Another dam-related impact is the alter-          to larger rivers. Deep plowing, which            been implicated
+367: ation of the river’s natural hydrology. Dams        leads to high soil erosion rates, also was a     in the near
+368: impound water and slow current velocity in          common practice.                                 eradication
+369: the lower one-half to two-thirds of each              The combination of intensive land use          of this mussel
+370: navigation pool. The modified hydrology             and stream channelization resulted in high       species above
+371: and reduced current velocity reduce habitat         rates of soil loss. The soil washed into         Lock and Dam 19.
+372: quality and may have a negative effect on           streams and larger rivers as fine silts and
+373: delivery of food and oxygen to the mussel           clay that filled interstitial spaces in gravel
+374: communities in the lower reaches of the             beds. In many areas siltation occurred at
+375: navigation pools. Tucker et al. (1996) sug-         such high rates that backwaters and side
+376: gest that closing off backwaters can reduce         channels were filled with fine sediment
