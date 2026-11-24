@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-24 — Round 21: CHIRPS vs WDI Niger rainfall (holds; accept-with-revisions)
+
+Pre-registered a test of whether CHIRPS v2.0 shows interannual rainfall over Niger after WDI AG.LND.PRCP.MM proved to be a repeated 151 mm climatology. The test **holds** (CV 0.171; 71.94–190.45 mm, 1981–2022). The series is a national mean, not a site contrast; \(V\) was not constructed. `main` was not edited.
+
 ## 2026-11-24 — Round 20: DWR head-sign stress test (holds; accept-with-revisions)
 
 Pre-registered a sign test of Central Valley v0.2’s net Tulare Lake storage loss against independent DWR wells in 5-022.12, October–November 2019 vs 2025. The test **holds** (15 Good-quality pairs, median depth to water +19.03 ft). A companion spring 2015–2024 contrast, not the decision, has the opposite sign. The result is not a volume confirmation and not a Bite 5 score. `main` was not edited.

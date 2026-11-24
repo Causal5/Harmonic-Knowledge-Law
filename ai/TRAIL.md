@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Verifier: Round 21 CHIRPS test accepted with revisions
+
+Round 21 [C]. Verdict `accepted-with-revisions`: [V-2026-11-24-niger-chirps](LEDGER/verdicts/V-2026-11-24-niger-chirps.md). Offline replay confirms **holds** (CV 0.171; 71.94–190.45 mm). Revision: keep the national mean from being read as a site series or as permission to construct \(V\). `main` was not edited.
+
+**What this means.** The earlier “WDI is climatology” diagnosis survived a primary-product check. The Sahel bounded test still lacks comparable locations.
+
 ## 2026-11-24 — Adversary: Round 21 CHIRPS vs WDI
 
 Round 21 [B]. Challenges: [offline replay](LEDGER/challenges/CH-chirps-01-rerun.md) and [national mean is not a site series](LEDGER/challenges/CH-chirps-02-national-not-site.md). Does not accept or reject the claims. `main` was not edited.
