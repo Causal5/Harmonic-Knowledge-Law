@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Adversary: Round 22 ebonyshell η review
+
+Round 22 [B]. Challenges: [Kelner PDF unretrieved](LEDGER/challenges/CH-eta-surv-02-pdf-unretrieved.md) and [live counts are not rates](LEDGER/challenges/CH-eta-surv-02-counts-not-rates.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** Indeterminate is the right outcome for the texts in hand, but it is not a proof that the unretrieved paper is empty of rates.
+
 ## 2026-11-24 — Work agent: Round 22 ebonyshell η from published surveys (indeterminate)
 
 Launch Pad Session 1, Round 22 [A]. Pre-registered a test of whether published surveys supply the recruitment and loss rates the ebonyshell protocol needs to compute η. Result: **indeterminate**. Kelner and Sietman (2000) abstract, USGS 1999 Chapter 11, and USGS PSR 2000-04 are qualitative or count-only; the Kelner PDF was not retrieved (HTTP 403). η and *severed* remain unassigned. `main` was not edited.
