@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Work agent: Round 24 Table 3-1 mapping (breaks)
+
+Launch Pad Session 1, Round 24 [A]. Pre-registered a mapping test of WY 2025 Table 3-1 totals onto protocol \(Q_{sw}\) or \(D_W\). The totals include imported groundwater and are supply accounting, so they cannot be assigned to either symbol. Result: **breaks**. Cause: scope / object-class, not a Layer 0 failure. No new symbol was invented. ARM-05 stays `wait`; ARM-06 and ARM-07 opened at `wait` and were not developed. `main` was not edited.
+
+**What this means.** A published supply table is not automatically a protocol delivery or service series. The model did not fail; the object does not match the symbol.
+
 ## 2026-11-24 — Verifier: Round 23 TM-signature review accepted with revisions
 
 Round 23 [C]. Verdict `accepted-with-revisions` ([V-2026-11-24-tulare-tm-signature](LEDGER/verdicts/V-2026-11-24-tulare-tm-signature.md)). The signature stays unassigned. Short summaries must name Table 3-1 as supply totals that include imported groundwater. `main` was not edited.

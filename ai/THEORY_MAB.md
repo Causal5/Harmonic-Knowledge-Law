@@ -2,6 +2,8 @@
 
 **24 November disposition for ARM-05.** The [study boundaries](https://github.com/Causal5/Harmonic-Knowledge-Law/blob/f81967de6cca7062133fa1e28f2304e17e27f314/Release/Examples/central-valley/README.md#study-boundaries-adopted-24-november-2026) are fixed. The [public-data inventory](../Release/Examples/central-valley/worked-fills/2026-11-21-tulare-lake-72019/DWR-COVERAGE.md) found paired DWR records and a calendar-year/water-year break in pumping totals. Continue source matching and uncertainty accounting. Bite 5 scoring remains at `wait` pending matched series and prespecified limits, weights and held-out comparisons.
 
+**Launch Pad Session 1 (24 November 2026, Rounds 20–24).** ARM-05 stays `wait`. Boundaries and a DWR signed head contrast are now in hand, but weights, a held-out metric, and a zone-locked volume conversion are not, and Round 24 shows that Table 3-1 totals do not instantiate \(Q_{sw}\) or \(D_W\). ARM-06 and ARM-07 are opened at `wait` and are not developed. Bite 5 remains unscored. \(V\) was not constructed.
+
 **Status:** accepted-with-revisions (Round 16 / Session 3). Ratification-pending as a process aid on `ai/evolution`. It is not Layer 0, not a registry amendment, and not an official HKL primitive. It is not a fitted bandit algorithm and it does not assign numeric rewards.
 
 **Opened:** 2026-11-21, America/New_York (Session 3, Round 16), after four worked-example rounds (12–15).
@@ -33,6 +35,11 @@ Round 17 opens `ai/GLOSSARY.md` as a terminology map / erratum against Registry 
 Round 18 records Jordan’s source-precedence rule (`Release/` on `main` is primary; everything else is subject to obsolescence) and rechecks the glossary against that tree. It invents no definitions and does not extend the premise. It is **not registered as an arm** and no arm is developed in that cycle.
 
 Round 19 is a clarification and correction sweep after `main` moved to `270942c`. It invents no definitions, develops no arm, and does not extend the premise. It is **not registered as an arm**.
+
+
+## Launch Pad Session 1 note (2026-11-24)
+
+Rounds 20–24 are pre-registered stress tests of the current Release model. Two held, two were indeterminate, and one broke as a scope / object-class limit (Table 3-1 totals). No arm is developed in this session. ARM-05 is reassessed below and stays `wait`. ARM-06 and ARM-07 are assessed for the first time and marked `wait`. A `wait` is not permission to score Bite 5, choose weights, construct \(V\), or invent a mixed surface-water symbol.
 
 ## Arm records
 
@@ -86,9 +93,33 @@ Round 19 is a clarification and correction sweep after `main` moved to `270942c`
 - **Reward signal.** Round 13’s n=0 and unretrieved DWR series, plus Jordan’s still-open official CV/SJV boundary question, say “not yet,” not “explore now.”
 - **Decision (2026-11-21):** `wait`. Do not develop in this cycle. Re-assess only after the missing official series and predeclarations are actually in hand.
 
+- **Reassessment (2026-11-24, Launch Pad Session 1).** Study boundaries are now locked (USGS CVHM2 footprint, the 19 Bulletin 118 5-022 subbasins, and Tulare Lake 5-022.12 for the pilot). Round 20 supplies a locked DWR Good-pair sign contrast (fall 2019–2025 holds; the spring companion, not the decision, has the opposite sign). That is not a volume conversion, not a spatially weighted subbasin head, and not a held-out metric. Round 24 shows that Table 3-1 totals cannot be assigned to \(Q_{sw}\) or \(D_W\) under published labels. Weights, a held-out comparison, and a zone-locked volume conversion remain missing.
+- **Decision (2026-11-24):** `wait`. Do not develop. Do not score Bite 5.
+
+
+### ARM-2026-11-24-06 — CHIRPS (or equivalent) at predeclared Sahel step-1 locations
+
+- **Premise / arm.** After Sahel bounded-test step 1 locations are predeclared, use a pre-locked rainfall product (for example CHIRPS v2.0) at those locations as an environmental precursor series. Round 21 already shows that a Niger national CHIRPS mean is interannual (CV 0.171) while WDI AG.LND.PRCP.MM is a repeated 151 mm climatology. That national-mean result is not a license to construct \(V\) or to pick locations after seeing the maps.
+- **Expected information value.** Potentially high *later*, once locations are locked, because a climatology series cannot support an interannual precursor test and CHIRPS can.
+- **Cost.** Moderate once locations are predeclared; high if location choice is left open and becomes a fishing expedition.
+- **Risk to Layer 0.** High if locations are chosen post hoc or if a national mean is treated as a site contrast. Low if step 1 is locked first and withdrawn Sahel claims stay withdrawn.
+- **Falsifiability.** If predeclared locations still cannot support a locked contrast (coverage, missing years, or an unusable polygon), the arm stays at wait or drops; it does not restore withdrawn claims.
+- **Reward signal.** Round 21 holds the “WDI is not interannual” diagnosis and also shows that a national mean leaves step 1 unfilled.
+- **Decision (2026-11-24):** `wait`. Do not develop until step 1 locations are predeclared.
+
+### ARM-2026-11-24-07 — Independent \(C_{irr}\) for the Tulare temporal-mining signature
+
+- **Premise / arm.** Lock an irreversible-compaction or storage-capacity-loss series that is independent of the InSAR already used in v0.2 C-zone storage (for example an extensometer or another product not already in that storage calculation), and only then test whether the protocol §5 conjunction is completable.
+- **Expected information value.** High *later*, because Round 23 shows the public WY 2025 filing cannot complete the signature under the independence rule.
+- **Cost.** High (source identification, overlap check against the v0.2 C-zone inputs, window lock).
+- **Risk to Layer 0.** High if the same InSAR is reused as if it were independent, or if deliveries are used to declare the signature fired or failed without both limbs. Low if the independence rule is kept and the signature stays unassigned until both limbs lock.
+- **Falsifiability.** If no independent public series can be locked, the arm stays at wait or drops; that is not a finding that the signature failed.
+- **Reward signal.** Round 23 is indeterminate (no independent \(C_{irr}\)). Round 24 further shows that Table 3-1 totals are not a locked \(D_W\).
+- **Decision (2026-11-24):** `wait`. Do not develop until an independent series is actually in hand. Do not evaluate the conjunction now.
+
 ## What this file does not do
 
 - It does not change Layer 0 or rewrite v0.3.1.
 - It does not invent a numeric reward, prior, or exploration rate.
-- It does not develop any arm in this opening cycle.
-- It does not treat “wait” as a hidden go-ahead to score Bite 5 or construct \(V\).
+- It does not develop any arm in the opening cycle or in Launch Pad Session 1.
+- It does not treat “wait” as a hidden go-ahead to score Bite 5, choose weights, construct \(V\), or invent a mixed surface-water symbol.
