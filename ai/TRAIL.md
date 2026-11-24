@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-24 — Adversary: Round 24 Table 3-1 mapping
+
+Round 24 [B]. Challenges: [not a theory failure](LEDGER/challenges/CH-map-02-not-theory-failure.md) and [the ex-Imported subset is not a dictionary fill](LEDGER/challenges/CH-map-02-subset-not-fill.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** The useful result is the object-class limit. It should not be inflated into a Layer 0 break or deflated into a completed \(Q_{sw}\) fill.
+
 ## 2026-11-24 — Work agent: Round 24 Table 3-1 mapping (breaks)
 
 Launch Pad Session 1, Round 24 [A]. Pre-registered a mapping test of WY 2025 Table 3-1 totals onto protocol \(Q_{sw}\) or \(D_W\). The totals include imported groundwater and are supply accounting, so they cannot be assigned to either symbol. Result: **breaks**. Cause: scope / object-class, not a Layer 0 failure. No new symbol was invented. ARM-05 stays `wait`; ARM-06 and ARM-07 opened at `wait` and were not developed. `main` was not edited.
