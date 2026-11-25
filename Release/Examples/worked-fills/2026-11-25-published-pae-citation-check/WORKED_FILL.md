@@ -35,3 +35,5 @@
 **Holds.** Every primary claim holds. No secondary claim is contradicted. Residual gaps are page-anchor offsets, closed or blocked full PDFs whose official abstracts already contain the claimed facts, and the unverified Qiaozigou timing clause.
 
 Cause: —. This is not a Bite 5 score, not a Tulare recharge volume, and not a rewrite of `main`.
+
+**Short-summary rule (Round 25 [C]).** Say the primary claims **hold**, and keep the residual gaps (page-anchor offsets; some full PDFs unretrieved; the Qiaozigou timing clause unverified from full text). Do not present this hold as a Tulare recharge volume or a Bite 5 score.
