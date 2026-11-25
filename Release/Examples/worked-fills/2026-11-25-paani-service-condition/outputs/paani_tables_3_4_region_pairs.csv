@@ -1,0 +1,6 @@
+zone,well_change_cup_m,well_change_comparison_m,rabi_pct_cup,rabi_pct_comparison,well_cup_better,rabi_cup_higher,evaluative_directions
+North Maharashtra,-0.72,-2.17,25.74,44.99,yes,no,opposite
+West Maharashtra,-0.53,-0.56,51.37,31.23,yes,yes,same
+Marathwada,-0.63,-0.42,36.17,24.90,no,yes,opposite
+Vidarbha,0.04,-0.11,91.28,90.00,yes,yes,same
+All regions as reported,-0.37,-0.45,53.97,47.40,yes,yes,same
