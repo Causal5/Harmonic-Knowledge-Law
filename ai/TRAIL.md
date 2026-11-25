@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: Round 25 citation check accepted with revisions
+
+Round 25 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-published-pae-citation-check](LEDGER/verdicts/V-2026-11-25-published-pae-citation-check.md)). The primary claims hold. Short summaries must keep the residual gaps and must not treat this as a Tulare volume or Bite 5 score. `main` was not edited.
+
+**What this means.** The new published citations are real. The Tulare accounting questions from Session 1 remain open.
+
 ## 2026-11-25 — Adversary: Round 25 published PAE citation check
 
 Round 25 [B]. Challenges: [keep the residual gaps](LEDGER/challenges/CH-pae-cite-02-residual-gaps.md) and [this is not a Tulare volume or Bite 5 score](LEDGER/challenges/CH-pae-cite-02-not-volume.md). Does not accept or reject the claims. `main` was not edited.

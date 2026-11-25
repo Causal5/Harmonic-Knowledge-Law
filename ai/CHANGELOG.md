@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-25 — Round 25: published PAE citation check (holds; accept-with-revisions)
+
+Compared `main` at `37522fc` with `ai/evolution`: the Paani PAE page and Central Valley v0.2 are already byte-identical. Updated the branch-only Examples README pin from stale `56c6ab5` to `37522fc`. Pre-registered, then checked the cited sources against retrieved PDFs or official abstracts. The test **holds**. Residual gaps: some page anchors, some unretrieved full PDFs, and one Qiaozigou timing clause not in the official abstract. This is not a Tulare recharge volume and not a Bite 5 score. `main` was not edited.
+
 ## 2026-11-24 — Round 24: Table 3-1 mapping onto Q_sw / D_W (breaks; accept-with-revisions)
 
 Pre-registered a mapping test of WY 2025 Table 3-1 totals onto protocol \(Q_{sw}\) or \(D_W\). The totals include imported groundwater (2.0%–50.4% of the Total; 18.2%–50.4% in Dry years) and are supply accounting, not a declared delivered-service series. The test **breaks**. Cause: scope / object-class, not a Layer 0 failure. The ex-Imported subset is a candidate only. ARM-05 stays `wait`; ARM-06 and ARM-07 opened at `wait` and were not developed. `main` was not edited.
