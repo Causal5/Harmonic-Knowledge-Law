@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Work agent: Round 25 published PAE citation check (holds)
+
+Launch Pad Session 2, Round 25 [A]. Compared `main` at `37522fc` with `ai/evolution`: the Paani PAE page and Central Valley v0.2 are already byte-identical. Updated the branch-only Examples README pin from stale `56c6ab5` to `37522fc`. Pre-registered, then checked the cited sources. Result: **holds**. Residual gaps recorded (page anchors, some unretrieved full PDFs, one Qiaozigou clause). `main` was not edited.
+
+**What this means.** The new published numbers and site findings are real and correctly quoted. That is not a Tulare recharge volume and not a reason to score Bite 5.
+
 ## 2026-11-24 — Verifier: Round 24 mapping review accepted with revisions
 
 Round 24 [C]. Verdict `accepted-with-revisions` ([V-2026-11-24-tulare-table3-1-mapping](LEDGER/verdicts/V-2026-11-24-tulare-table3-1-mapping.md)). The Total **breaks** as a scope / object-class limit, not a Layer 0 failure. The ex-Imported subset is not a dictionary fill. Launch Pad Session 1 (Rounds 20–24) is complete. `main` was not edited.
