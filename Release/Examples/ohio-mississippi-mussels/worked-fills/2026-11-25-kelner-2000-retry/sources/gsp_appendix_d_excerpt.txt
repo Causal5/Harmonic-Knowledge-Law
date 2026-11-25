@@ -1,0 +1,200 @@
+# Excerpts from 2022 Amended Tulare Lake Subbasin GSP, Part 3 (California Water Library).
+# URL: https://cawaterlibrary.net/wp-content/uploads/2023/11/Pt-3-from-2022-Tulare-Lake-Amended-GSP-and-Addendum-4.pdf
+# Parent library page: https://cawaterlibrary.net/document/tulare-lake-subbasin-groundwater-sustainability-plan-amended/
+# Retrieved: 25 November 2026 (America/New_York).
+# SHA-256 of the PDF: 47cafbd1f63cdcb000c04da750a906a14ebf1b2594616ce191d454fcc1e5aa2f
+
+----- Appendix D title pages -----
+APPENDIX D
+
+GROUNDWATER MODEL REPORT
+
+Tulare Lake Subbasin Hydrologic Model for
+Groundwater Sustainability Plan Development:
+Calibration and Predictive Simulations
+Tulare Lake Subbasin Hydrologic Model
+Kings County, California
+
+
+
+
+Prepared for:
+Mid-Kings River Groundwater Sustainability Agency       January 8, 2020
+Hanford, California                                 Project FR18161220
+
+                                                                                                             wood.
+Tulare Lake Subbasin Hydrologic Model for
+Groundwater Sustainability Plan Development:
+Calibration and Predictive Simulations
+Tulare Lake Subbasin Hydrologic Model
+Kings County, California
+
+Prepared for:
+Mid-Kings River Groundwater Sustainability Agency
+200 North Campus Drive
+Hanford, California 93230
+
+Prepared by:
+Wood Environment & Infrastructure Solutions, Inc.
+1281 East Alluvial Avenue, Su
+
+----- Appendix list (D1–D6) -----
+Appendix D1          Land Use and Crop Acreage
+Appendix D2          Monthly Surface Water Deliveries by GSA and Subbasin
+Appendix D3          Summary of Crop Demand
+Appendix D4          Annualized Specified Pumping by Well Field
+Appendix D5          Observed and Simulated Target Well Hydrographs
+Appendix D6          Peer Review of TLSBHM
+
+
+
+
+C:\Users\cheryl.baldwin\Desktop\FR18161220-001.docx                                                                         Page vi
+
+                       
+
+----- 2.8.1.2 Surface Water Diversions -----
+2.8.1.2 Surface Water Diversions
+Surface water diversion from external sources are the most significant source of water to the Subbasin
+and surrounding area. There are 34 rivers, streams, canals, and diversions entering and within the
+Subbasin that have recorded diversions (Figure D2-9a-c). Two primary data sources were employed for
+the surface water inflows and deliveries to the farms within the model domain:
+
+     •    For lands within the Subbasin itself, surface water delivery and diversion records were obtained by
+          via direct contacts with the various GSAs (and member water management agencies within the
+
+
+C:\Users\cheryl.baldwin\Desktop\FR18161220-001.docx                                                                         Page 10
+
+                                            Tulare Lake Subbasin Hydrologic Model for Groundwater Sustainability Plan Development:
+                                                                                             Calibration and Predictive Simulations
+                                                                    Tulare Lake Subbasin Hydrologic Model, Kings County, California
+
+
+          GSAs) within the Subbasin proper (Table D2-3). Those records were relatively complete from 1990
+          through 2016 for diversions off the Kings system and SWP. As shown on Table D2-3, during the
+          period 1998 through 2010, the Kings River had six below normal water years, four average water
+          years, and three above average water years. Over the 1998-2010 period is Kings River water years
+          average 96%
+
+----- 2.8.1.3 Imported Groundwater Supply -----
+2.8.1.3 Imported Groundwater Supply
+One unique feature of the Subbasin is the importation of groundwater supplies from adjacent subbasins.
+The ER GSA and TCWA GSA operated well fields in the adjacent Tule Subbasin and import the pumped
+groundwater into the Subbasin as an additional water supply. Between 1990 and 2016, ER GSA operated
+up to 52 wells in the Creighton Ranch well field, which delivered up to 68,730 AF in a dry year (2014) and
+as little as 0 AF in wet years (1996-1999) and averaged approximately 39,320 AF/Y in non-wet years
+(Table D2-4). The TCWA GSA operated up to 51 wells in the Angiola Water District (WD) well field, which
+delivered groundwater to TCWA GSA lands in both the Subbasin (about 60%) and Tule Subbasin (about
+40%). Between 1990 and 2016, the Angiola WD well field delivered up to 23,100 AF in a dry year (2009)
+and as little as 0 AF in wet years (1996-1999) and averaged approximately 15,950 AF/Y in non-wet years
+(Table D2-4).
+
+2.8.1.4 Lake Bottom Water Storage
+Another unique feature of the Subbasin is the utilization of certain portions of the historical lake bottom
+for storage of the excess surface water inflows that were not diverted by others. This stored surface water
+is later used as an irrigation supply. In some years, sufficient water can be stored in the lake bottom to
+eliminate the need for supplemental groundwater pumping to meet the irrigation 
+
+----- 2.8.1.4 Lake Bottom Water Storage -----
+2.8.1.4 Lake Bottom Water Storage
+Another unique feature of the Subbasin is the utilization of certain portions of the historical lake bottom
+for storage of the excess surface water inflows that were not diverted by others. This stored surface water
+is later used as an irrigation supply. In some years, sufficient water can be stored in the lake bottom to
+eliminate the need for supplemental groundwater pumping to meet the irrigation demand.
+
+As observed in historical aerial imagery, the area occupied and the locations of water storage changes
+from year to year, although certain areas to the south appear to be more regularly utilized by storage
+(Figure D2-18). This can result in significant volumes of stored water in some years. Permanent lakebed
+storage facilities have the capacity to store approximately 70,000 AF at any given time. During flood events,
+
+
+C:\Users\cheryl.baldwin\Desktop\F
+
+----- 2.8.1.6 River and Canal Seepage -----
+2.8.1.6 River and Canal Seepage
+Seepage losses from river and canals provide another source of water to the Subbasin and surrounding
+areas. There are over 290 miles of major streams and canals within the Subbasin, in addition to many
+more miles of small distribution ditches on individual farms (Figures D2-9b-d). Most to the stream and
+canals are unlined and can have significant seepage losses. Ownership of canal and river seepage is to be
+determined. There was little available information on seepage losses in the Subbasin, although anecdotal
+reports indicate the Old River Channel, Peoples Ditch, and Lakeland Canal all have substantial losses near
+the head gates at Peoples Weir (personal communication, Dennis Mills).
+
+2.8.2       Outflows
+Outflows consist of evapotranspiration, agricultural pumping, municipal pumping, and agricultural drains.
+
+
+
+
+C:\Users\cheryl.baldwin\Desktop\FR18161220-001.docx                                                                         Page 12
+
+                                            Tulare Lake Subbasin Hydrologic Model for Groundwater Sustainability Plan Development:
+                                                                                             Calibration and Predictive Simulations
+                                                                    Tulare Lake Subbasin Hydrologic Model, Kings County, California
+
+
+2.8.2.1 Evap
+
+----- 2.8.2.4 Estimated Agricultural Pumping (Surface Water Supplies include imported groundwater) -----
+2.8.2.4 Estimated Agricultural Pumping
+As noted above, agricultural pumping is typically not recorded over much of California, including the
+Subbasin. However, agricultural pumping by subbasin can be estimated using a simple water balance
+approach where:
+
+Irrigated Crop Demand (AF/Y)- Effective Precipitation (AF/Y) / Irrigation Efficiency (%) = Farm Demand (AF/Y)
+
+and
+
+Farm Demand (AF/Y) – Surface Water Supplies (AF/Y) = Estimated Agricultural Pumping Demand (AF/Y) (Figure D2-23)
+
+Note: Surface Water Supplies include Surface Water Deliveries, imported groundwater, and lake bottom water storage
+
+Although this simple water balance approach does not account for subtleties in the areal distribution of
+effective precipitation, irrigation efficiency, and surface water deliveries, it does provide a reasonable gross
+estimate of agricultural pumping on the subbasin scale. Based on this analysis, gross agricultural pumping
+demand in the Subbasin from 1990 through 2016 has ranged from 24,730 AF (1995) to 785,260 AF (1991)
+and averaged approximately 469,560 AF/Y (Figure D2-23).
+
+2.8.2.5 Agricultural Drains
+Agricultural drains are used in several areas across the model domain to keep soil from becoming
+waterlogged in the root zone. Typically, a tile or French drain system is used, with tiles buried
+approximately 4 to 6 feet bgs draining to sumps. Subsurface drainage collected in the sumps is pumped
+via pipeline to evaporation basins. Figure D2-24 shows the approximate location of known subsurface
+drains within the Subbasin.
+
+
+3.0         Simulation Code
+In order to meet the model object
+
+----- Irrigation Efficiency assumptions (Farm Demand) -----
+well pumping rates is summarized below.
+
+For each monthly stress period and each 40-acre model cell:
+
+     •    Area Weighted Crop Acreage (acres) x Crop ETc (feet per month [ft/m]) = ET Demand (acre-feet
+          per month [AF/M])
+     •    [-ET Demand (AF/M) + Effective Precipitation (ft/m)] / Irrigation Efficiency = -Farm Demand
+          (AF/M)
+          (Note: over most of the model domain, Irrigation Efficiency was assumed to be 75% from 1990 to
+          2000 and then increase to 85% from 2000 through 2016. Irrigation Efficiency from the lake bottom
+          area was assumed to be 95% from 1990 through 2016. Approximately 50% of excess Effective
+          Precipitation was assumed to infiltrate and 50% was assumed lost to evaporation. Farm Demand is
+          the volume of water needed to irrigate a field and meet crop demand due to inefficiencies in
+          irrigation methods)
+     •    -Farm Demand (AF/M) + Surface Water Deliveries (AF/M) + Lake Bottom Storage Water (AF/M) =
+          -Unmet Demand (AF/M) and +Tailwater Flow (AF/M)
+          (Note: monthly Surface Water Deliveries were summed by GSA and applied to irrigated areas within
+          each GSA. Lake Bottom Water Storage typically occurred only during and following very wet years
+          and was an addit
+
+----- Forecast Irrigation Efficiency -----
+(AF/M)
+     •    [-Service Area ET Demand (AF/M) + Effective Precipitation (ft/m)] / Irrigation Efficiency = -Service
+          Area Farm Demand (AF/M)
+          (Note: over most of the model domain, Irrigation Efficiency was assumed to be 85% from 2017 to
+          2070. In the lake bottom area Irrigation Efficiency from was assumed to be 95% from 2017 through
+          2070. Approximately 50% of excess Effective Precipitation was assumed to infiltrate and 50% was
+          assumed lost to evaporation).
+     •    -Service Area Farm Demand (AF/M) + Service Area Surface Water Deliveries (AF/M) + Service Area
+          Lake Bottom Storage Water (AF/M) +Service Area Project Water (AF/M) = -Serv
