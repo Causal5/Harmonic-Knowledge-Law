@@ -1,0 +1,10 @@
+# Excerpt only. Full public series not committed.
+# URL: https://geodesy.unr.edu/gps_timeseries/IGS20/tenv3/IGS20/CRCN.tenv3
+# Retrieved: 25 November 2026 (America/New_York).
+# SHA-256 of the full file: db79dbddec7e0f5b25a4647c53cc70b63aa79f841e609f393745b352302730d6
+# Full line count: 5104
+site YYMMMDD yyyy.yyyy __MJD week d reflon _e0(m) __east(m) ____n0(m) _north(m) u0(m) ____up(m) _ant(m) sig_e(m) sig_n(m) sig_u(m) __corr_en __corr_eu __corr_nu _latitude(deg) _longitude(deg) __height(m)
+CRCN 10SEP27 2010.7379 55466 1603 1 -119.6   2878  0.052197   3998190  0.563780    28  0.652255  0.0000 0.000772 0.000916 0.003276  0.058406 -0.122630 -0.185301  36.1139860032 -119.5680336326    28.65226
+CRCN 10SEP28 2010.7406 55467 1603 2 -119.6   2878  0.050486   3998190  0.562278    28  0.652420  0.0000 0.000757 0.000910 0.003232  0.059399 -0.102985 -0.190421  36.1139859896 -119.5680336516    28.65242
+...
+CRCN 25JUL28 2025.5715 60884 2377 1 -119.6   2878 -0.287914   3998190  0.638793    28 -2.126001  0.0000 0.001226 0.001451 0.005608 -0.057337 -0.127092 -0.217041  36.1139866792 -119.5680374099    25.87400

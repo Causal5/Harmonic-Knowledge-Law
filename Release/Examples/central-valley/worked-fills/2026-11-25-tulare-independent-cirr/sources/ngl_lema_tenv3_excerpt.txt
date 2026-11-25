@@ -1,0 +1,10 @@
+# Excerpt only. Full public series not committed.
+# URL: https://geodesy.unr.edu/gps_timeseries/IGS20/tenv3/IGS20/LEMA.tenv3
+# Retrieved: 25 November 2026 (America/New_York).
+# SHA-256 of the full file: d6b50d991d884758f09c53af90809d9acdb8b05fc8e95fcb82366d711ae01f93
+# Full line count: 5369
+site YYMMMDD yyyy.yyyy __MJD week d reflon _e0(m) __east(m) ____n0(m) _north(m) u0(m) ____up(m) _ant(m) sig_e(m) sig_n(m) sig_u(m) __corr_en __corr_eu __corr_nu _latitude(deg) _longitude(deg) __height(m)
+LEMA 05SEP11 2005.6947 53624 1340 0 -119.8   1582  0.075270   4017946  0.204277    35  0.228151  0.0083 0.000833 0.001051 0.003839 -0.023136 -0.017788 -0.209283  36.2920244637 -119.7823881391    35.22815
+LEMA 05SEP12 2005.6975 53625 1340 1 -119.8   1582  0.074175   4017946  0.203386    35  0.219884  0.0083 0.000812 0.001012 0.003579 -0.043024  0.022118 -0.197224  36.2920244557 -119.7823881512    35.21988
+...
+LEMA 25JUL28 2025.5715 60884 2377 1 -119.8   1582 -0.346117   4017946  0.305142    35 -2.352159  0.0000 0.000922 0.001023 0.004121 -0.057392  0.098773 -0.298007  36.2920253727 -119.7823928298    32.64784
