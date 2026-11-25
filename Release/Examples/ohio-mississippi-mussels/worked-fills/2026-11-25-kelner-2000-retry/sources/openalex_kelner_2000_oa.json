@@ -1,0 +1,36 @@
+{
+  "id": "https://openalex.org/W1999851244",
+  "doi": "https://doi.org/10.1080/02705060.2000.9663755",
+  "title": "Relic Populations of the Ebony Shell,Fusconaia ebena(Bivalvia: Unionidae), in the Upper Mississippi River Drainage",
+  "publication_year": 2000,
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/02705060.2000.9663755?needAccess=true&role=button",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author": "Daniel E. Kelner",
+      "affiliations": [
+        "Ecological Specialists, Inc., 114 Algana Court, St. Peters, Missouri, 63376, USA"
+      ]
+    },
+    {
+      "author": "Bernard E. Sietman",
+      "affiliations": [
+        "Ecological Specialists, Inc., 114 Algana Court, St. Peters, Missouri, 63376, USA"
+      ]
+    }
+  ],
+  "locations_summary": [
+    {
+      "is_oa": true,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/02705060.2000.9663755?needAccess=true&role=button",
+      "landing_page_url": "https://doi.org/10.1080/02705060.2000.9663755",
+      "version": "publishedVersion",
+      "license": null,
+      "source": "Journal of Freshwater Ecology"
+    }
+  ]
+}
