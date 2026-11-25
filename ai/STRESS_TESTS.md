@@ -16,7 +16,9 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 
 | 26 | Paani / Marathwada service vs groundwater-condition records | Water Cup 2019 report Tables 3–4 (Round 25 excerpt) | Justification holds only if the two series move independently (Limb A) and winter area can be assigned to D_W / water service under published labels (Limb B). Limb A holds and Limb B breaks => round breaks (scope / object-class). | **Breaks** | Scope / object-class (not Layer 0 failure) | [Fill](../Release/Examples/worked-fills/2026-11-25-paani-service-condition/WORKED_FILL.md) · [PREREG](../Release/Examples/worked-fills/2026-11-25-paani-service-condition/PREREG.md) |
 
-**Counts so far:** holds 3, breaks 2, indeterminate 2.
+| 27 | Tulare lag-justified DWR fall sign windows | Same DWR zip and 5-022.12 polygon as Round 20; windows W3/W2/W1 (2022/2023/2024 vs 2025, Oct–Nov, Good pairs) predeclared from Oro Grande and Tulare orchard lags | Each window holds if n_G≥5 and median ΔDTW>0, breaks if median<0; the round breaks if any determinate window breaks. | **Breaks** (W3 median −20.49 ft, n=36; W2 and W1 hold) | Scope / window-dependence (not Layer 0 failure) | [Fill](../Release/Examples/central-valley/worked-fills/2026-11-25-tulare-lag-windows/WORKED_FILL.md) · [PREREG](../Release/Examples/central-valley/worked-fills/2026-11-25-tulare-lag-windows/PREREG.md) |
+
+**Counts so far:** holds 3, breaks 3, indeterminate 2.
 
 **Note on Round 20.** A companion spring 2015–2024 contrast, pre-registered as not the decision, has the opposite sign (median −42.97 ft, n=11). Window choice matters. Any short summary must name the locked October–November 2019–2025 window and this companion. The hold is a median of 15 qualifying Good pairs, not a spatially weighted subbasin head and not confirmation of the 468,635 AF figure.
 
@@ -27,3 +29,5 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 **Note on Round 25.** The published Paani and Central Valley v0.2 pages already matched `main` at `37522fc`. This hold is a citation check, not a Tulare recharge volume and not a Bite 5 score. Short summaries must keep the residual gaps (page-anchor offsets; Izbicki and some secondary full PDFs unretrieved; the Qiaozigou “already during hillside work” clause unverified from full text).
 
 **Note on Round 26.** Limb A holds: Marathwada and North Maharashtra move the two series in opposite directions. The break is Limb B: rabi sown area is cropped area and a Foundation utilization/extraction indicator, not a protocol \(D_W\) record. Short summaries must not call the break a Layer 0 failure, and must not treat Table 4 as delivered service.
+
+**Note on Round 27.** W3 (fall 2022–2025) flips sign even though the season is the same October–November rule as the Round 20 hold. Window-dependence is not only a fall-versus-spring effect. Short summaries must name all three locked windows and must not convert the medians to a volume or treat the published site lags as Tulare travel times.

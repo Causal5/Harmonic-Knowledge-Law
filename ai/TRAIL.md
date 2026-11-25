@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Work agent: Round 27 lag-justified DWR windows (breaks)
+
+Launch Pad Session 2, Round 27 [A]. Pre-registered one-, two-, and three-year fall DWR sign windows from published recharge lags, then computed them. W1 and W2 hold; W3 breaks (median −20.49 ft, n=36). Result: **breaks**. Cause: scope / window-dependence. `main` was not edited.
+
+**What this means.** Even within the fall season, the sign of the Tulare DWR contrast depends on which multi-year length is locked. A six-year hold does not make a three-year fall window hold.
+
 ## 2026-11-25 — Verifier: Round 26 Paani review accepted with revisions
 
 Round 26 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-paani-service-condition](LEDGER/verdicts/V-2026-11-25-paani-service-condition.md)). The published justification breaks as a scope / object-class limit. Limb A remains a hold. `main` was not edited.
