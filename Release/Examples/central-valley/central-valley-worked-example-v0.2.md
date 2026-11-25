@@ -28,25 +28,9 @@ A contour swale[¹⁰](#term-10) intercepts rainwater moving downslope. A beaver
 
 Land cover also changes when water leaves a basin. In central Panama, a grazed pasture catchment had 1.7 times the peak storm runoff rate of a forested catchment, and dry-season flow receded more slowly in the forest. For Tulare Lake, surface retention is the starting mechanism. The three models below trace its possible effects on crop service, sediment export and recharge at depth. [Panama catchment comparison](https://doi.org/10.1002/2013WR013956)
 
-### 1. Paani Water Cup, Maharashtra — what did the water sustain?
+### 1. Paani Water Cup, Maharashtra — wells and winter planting
 
-The Water Cup rewarded work along the path of rainfall, from ridge to valley. The Foundation specified daily rain records, pre-monsoon well readings and village water budgets. The work score credited the storage potential of structures. To examine what happened after construction, the Foundation also followed dug wells and the area farmers sowed in the *rabi* season[¹¹](#term-11). These measures describe, respectively, what villagers built, how the water level changed and what land they could plant. [Water Cup marking system, §§3–5 and 10](https://www.paanifoundation.in/wp-content/uploads/2019/02/Satyamev-Jayate-Water-Cup-2019-Marking-System-1.pdf)
-
-For the **2019 competition**, the Foundation reported 4,706 participating villages and estimated 232.13 billion litres of added storage potential statewide. That figure describes what the works could hold. Actual filling, infiltration and recharge at depth would each require observations. [2019 competition results and conclusion](https://www.paanifoundation.in/wp-content/uploads/2021/01/Water-Cup-2019-Report.pdf#page=27)
-
-The groundwater and planting evaluation in that same report follows the **2018 Water Cup cohort**. Its network included 971 wells in 100 high-performing villages and 655 wells in 67 geographically matched comparison villages. It monitored wells before and after the monsoon. The published comparison runs from May 2018 to May 2019. Rainfall figures for the surrounding subdistricts (*talukas*) placed 96 of the 167 villages in areas more than 40% below normal rainfall. [Foundation evaluation, Tables 1–3](https://www.paanifoundation.in/wp-content/uploads/2021/01/Water-Cup-2019-Report.pdf#page=19)
-
-| Region | Change in well level, metres (Cup / comparison) | Winter area sown, % of previous winter (Cup / comparison) |
-|---|---:|---:|
-| North Maharashtra | −0.72 / −2.17 | 25.74 / 44.99 |
-| West Maharashtra | −0.53 / −0.56 | 51.37 / 31.23 |
-| Marathwada | −0.63 / −0.42 | 36.17 / 24.90 |
-| Vidarbha | +0.04 / −0.11 | 91.28 / 90.00 |
-| **All regions, as reported** | **−0.37 / −0.45** | **53.97 / 47.40** |
-
-For every 100 units of area sown the prior winter, the Cup group sowed about 54 in the drought winter and the comparison group about 47. Marathwada retained more planting while its wells fell farther. North Maharashtra showed the reverse pattern. For Tulare Lake, this is why the groundwater series needs a separate record of the irrigation or cooling service it supported. The Foundation suggests differences in irrigation demand. Its tables give area planted and well levels, with no metered withdrawals, crop yields or layer-specific recharge. Selection favored high-performing villages, comparison villages could have participated in government watershed works, and the report flagged pending data checks. These are descriptive group differences. [Foundation evaluation, Tables 3–4 and limitations](https://www.paanifoundation.in/wp-content/uploads/2021/01/Water-Cup-2019-Report.pdf#page=21)
-
-**Later monitoring.** In Paani’s subsequent Samruddha Gaon program, 734 villages recorded **18,649 readings from 7,359 distinct wells** between October–November 2020 and October–November 2021. Its 2021 rounds bracketed the monsoon and cropping seasons. A separate survey in 600 villages recorded crop, planted area and irrigation method, and estimated demand from crop water requirements. Village reports mapped wells and distinguished irrigation from drinking-water use. The published counts document a monitoring design for Tulare. Seasonal water levels can be paired by well with demand and service by use. A longer Water Cup impact estimate would require the dated well-level rows, stable well and village identifiers, and documented overlap with the original comparison cohort. The cited summaries give no such linked series. [2021–22 report, well measurements and crop survey](https://paanifoundation.in/wp-content/uploads/2022/06/Jan-2021-Feb-2022-Annual-Report_compressed-1.pdf#page=4) · [Village report design](https://paanifoundation.in/wp-content/uploads/2021/11/PF-Key-Initiatives-Dec-2019-Jan-2021.pdf#page=34)
+In Marathwada, Water Cup villages retained 36.17% of the previous winter’s sown area in the *rabi* season[¹¹](#term-11), compared with 24.90% in comparison villages. Over the same drought year their average dug-well level fell farther (0.63 versus 0.42 metres). This is why the Tulare analysis tracks service delivered and groundwater levels separately. [Paani Foundation, Tables 3–4](https://www.paanifoundation.in/wp-content/uploads/2021/01/Water-Cup-2019-Report.pdf#page=21) · [Hydrological PAE in Maharashtra](../paani-water-cup-hydrological-pae.md)
 
 ### 2. Qiaozigou, China’s Loess Plateau — what stayed on the hillside?
 
