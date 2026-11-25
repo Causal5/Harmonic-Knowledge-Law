@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-25 — Round 28: independent Tulare C_irr product search (indeterminate; accept-with-revisions)
+
+Pre-registered a four-part qualification rule, then searched USGS extensometers, DWR/SGMA InSAR, CGPS and benchmark surveys, the Brandt et al. 1958–2018 data-release landing page, and OpenET. None of the seven products qualifies. Zero of 17 California NWIS extensometer wells fall inside 5-022.12. CGPS stations LEMA and CRCN are independent displacement records inside the subbasin, not a locked volume. OpenET is evapotranspiration. Shared InSAR / C-zone storage fails independence. The round is **indeterminate** (data / scope gap). ARM-07 stays `wait`. The signature stays unassigned. `main` was not edited.
+
 ## 2026-11-25 — Round 27: lag-justified Tulare DWR sign windows (breaks; accept-with-revisions)
 
 Pre-registered one-, two-, and three-year fall October–November DWR Good-pair windows from published Oro Grande and Tulare orchard recharge lags, then computed them on the same zip and polygon as Round 20. W2 (2023–2025, median +14.20 ft, n=34) and W1 (2024–2025, median +2.72 ft, n=36) hold. W3 (2022–2025, median −20.49 ft, n=36, 33 of 36 shallower) breaks. The round therefore **breaks**. Cause: scope / window-dependence, not a Layer 0 failure and not a volume result. `main` was not edited.

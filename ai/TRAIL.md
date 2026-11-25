@@ -13,6 +13,10 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: Round 28 independent C_irr search accepted with revisions
+
+Round 28 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-tulare-independent-cirr](LEDGER/verdicts/V-2026-11-25-tulare-independent-cirr.md)). No locked-catalog product qualifies, so the round is indeterminate (data / scope gap). ARM-07 stays `wait`. Short summaries must not treat CGPS, benchmarks, OpenET, or the InSAR-derived C-zone volume as a locked independent \(C_{irr}\). `main` was not edited.
+
 ## 2026-11-25 — Verifier: Round 27 lag-window review accepted with revisions
 
 Round 27 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-tulare-lag-windows](LEDGER/verdicts/V-2026-11-25-tulare-lag-windows.md)). The round breaks because W3 flips sign. W1 and W2 hold. Short summaries must name all three windows and must remain sign-only. `main` was not edited.

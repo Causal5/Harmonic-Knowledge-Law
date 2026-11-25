@@ -114,8 +114,8 @@ Rounds 20–24 are pre-registered stress tests of the current Release model. Two
 - **Cost.** High (source identification, overlap check against the v0.2 C-zone inputs, window lock).
 - **Risk to Layer 0.** High if the same InSAR is reused as if it were independent, or if deliveries are used to declare the signature fired or failed without both limbs. Low if the independence rule is kept and the signature stays unassigned until both limbs lock.
 - **Falsifiability.** If no independent public series can be locked, the arm stays at wait or drops; that is not a finding that the signature failed.
-- **Reward signal.** Round 23 is indeterminate (no independent \(C_{irr}\)). Round 24 further shows that Table 3-1 totals are not a locked \(D_W\).
-- **Decision (2026-11-24):** `wait`. Do not develop until an independent series is actually in hand. Do not evaluate the conjunction now.
+- **Reward signal.** Round 23 is indeterminate (no independent \(C_{irr}\)). Round 24 further shows that Table 3-1 totals are not a locked \(D_W\). Round 28 searched the locked catalogs (USGS extensometers, DWR/SGMA InSAR, CGPS and benchmarks, the Brandt et al. data-release landing page, and OpenET) and found no qualifying independent series for 5-022.12.
+- **Decision (2026-11-24, reaffirmed 2026-11-25 after Round 28):** `wait`. The Round 28 search did not put an independent series in hand. Do not develop the arm and do not evaluate the conjunction.
 
 ## What this file does not do
 
