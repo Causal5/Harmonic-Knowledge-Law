@@ -18,7 +18,9 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 
 | 27 | Tulare lag-justified DWR fall sign windows | Same DWR zip and 5-022.12 polygon as Round 20; windows W3/W2/W1 (2022/2023/2024 vs 2025, Oct–Nov, Good pairs) predeclared from Oro Grande and Tulare orchard lags | Each window holds if n_G≥5 and median ΔDTW>0, breaks if median<0; the round breaks if any determinate window breaks. | **Breaks** (W3 median −20.49 ft, n=36; W2 and W1 hold) | Scope / window-dependence (not Layer 0 failure) | [Fill](../Release/Examples/central-valley/worked-fills/2026-11-25-tulare-lag-windows/WORKED_FILL.md) · [PREREG](../Release/Examples/central-valley/worked-fills/2026-11-25-tulare-lag-windows/PREREG.md) |
 
-**Counts so far:** holds 3, breaks 3, indeterminate 2.
+| 28 | Independent C_irr product search for Tulare Lake 5-022.12 (ARM-07) | USGS NWIS CA GW-EX inventory (17 sites); USGS CV subsidence page; Brandt et al. DOI 10.5066/P144BREY landing page; WY 2025 filing; NGL IGS20 series for LEMA and CRCN; OpenET “What is ET?” | A product qualifies only if it is C_irr-class, independent of the v0.2 InSAR, located in 5-022.12, and lockable. Holds if at least one qualifies; indeterminate if the locked catalogs are searched and none qualifies; treating OpenET or shared InSAR as C_irr is a procedure break. | **Indeterminate** | Data / scope gap (0 of 7 products qualify; 0 of 17 CA extensometers in the polygon) | [Fill](../Release/Examples/central-valley/worked-fills/2026-11-25-tulare-independent-cirr/WORKED_FILL.md) · [PREREG](../Release/Examples/central-valley/worked-fills/2026-11-25-tulare-independent-cirr/PREREG.md) |
+
+**Counts so far:** holds 3, breaks 3, indeterminate 3.
 
 **Note on Round 20.** A companion spring 2015–2024 contrast, pre-registered as not the decision, has the opposite sign (median −42.97 ft, n=11). Window choice matters. Any short summary must name the locked October–November 2019–2025 window and this companion. The hold is a median of 15 qualifying Good pairs, not a spatially weighted subbasin head and not confirmation of the 468,635 AF figure.
 
