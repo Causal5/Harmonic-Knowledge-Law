@@ -10,6 +10,26 @@ publication to `main` and is not scientific validation.
 
 
 
+## Launch Pad Session 2 summary (2026-11-25)
+
+Five rounds (R25–R29) on `ai/evolution` only. `Release/` on `main` at `37522fc` remained primary and was not edited. A1–A8 remain undefined. Scoreboard after this session: holds 3, breaks 3, indeterminate 4 (R20–R29 combined).
+
+- **Round 25 — published PAE citation check.** `accept-with-revisions`. **Holds.** The new Paani and Central Valley v0.2 pages already matched `main`. Retrieved sources support the primary claims. Residual gaps (page-anchor offsets; some full PDFs unretrieved; one Qiaozigou clause unverified from full text) stay in the record. This is not a Tulare volume or a Bite 5 score.
+- **Round 26 — Paani service vs groundwater-condition records.** `accept-with-revisions`. **Breaks** (scope / object-class, not a Layer 0 failure). Limb A holds: Marathwada and North Maharashtra move well change and winter area in opposite directions. Limb B breaks: rabi sown area is not protocol \(D_W\).
+- **Round 27 — lag-justified Tulare DWR sign windows.** `accept-with-revisions`. **Breaks** (scope / window-dependence, not a Layer 0 failure). W2 and W1 hold; W3 (fall 2022–2025) flips sign (median −20.49 ft, n=36). Window-dependence is not only a fall-versus-spring effect.
+- **Round 28 — independent \(C_{irr}\) product search (ARM-07).** `accept-with-revisions`. **Indeterminate** (data / scope gap). None of seven locked-catalog products qualifies. Zero of 17 California NWIS extensometers fall inside 5-022.12. CGPS stations LEMA and CRCN are independent displacement records, not a locked volume. OpenET is evapotranspiration. Shared InSAR / C-zone storage fails independence. ARM-07 stays `wait`. The signature stays unassigned.
+- **Round 29 — Kelner 2000 retry and Appendix D fallback.** `accept-with-revisions`. **Indeterminate** (data gap). The Kelner full text was unobtainable by legitimate routes (publisher 403; no repository copy). The retrieved 2022 GSP Appendix D (Wood 2020 model report) does not document a conveyance correction that can lock the Table 3-1 ex-Imported subset as \(Q_{sw}\). The 85% figure is irrigation efficiency in the farm-demand equation. \(\eta\) and the candidate \(Q_{sw}\) stay unassigned. ARM-06 stays `wait`.
+
+**MAB.** ARM-07 was searched and remains `wait`. ARM-06 remains `wait`; no Sahel sites were invented. No arm was developed.
+
+**Biggest finding.** Even after published recharge lags are used to predeclare fall windows, the DWR head-sign test is still window-dependent (Round 27). The service/condition and \(C_{irr}\) gaps also remain: winter area is not \(D_W\) (Round 26), and no independent Tulare \(C_{irr}\) product qualified (Round 28).
+
+**Adversary catches (summary risks, all hit).** Do not ignore residual citation gaps (R25). Do not call the Paani or lag-window breaks a Layer 0 failure, and name all three lag windows (R26–R27). Do not treat CGPS, OpenET, or shared InSAR as locked independent \(C_{irr}\) (R28). Do not claim the unretrieved Kelner paper lacks rates, and do not use 85% irrigation efficiency as a locked conveyance correction (R29).
+
+## 2026-11-25 — Round 29: Kelner 2000 retry and Appendix D fallback (indeterminate; accept-with-revisions)
+
+Stage 1 retried Kelner and Sietman (2000) by legitimate routes only. The publisher PDF returned a 403 Cloudflare challenge; Unpaywall and OpenAlex report no repository copy; author, IR, CORE, DOAJ, Internet Archive, and ORCID routes supplied no full text. Stage 1 is unobtainable, which is not a finding that the paper lacks rates. Stage 2 retrieved the 2022 GSP Appendix D groundwater-model report. Irrigation efficiency is documented (75%/85%/95%) in the farm-demand equation, but no conveyance-efficiency correction is documented that can lock the Table 3-1 ex-Imported subset as dictionary \(Q_{sw}\) without invention. The round is **indeterminate** (data gap). \(\eta\) and the candidate \(Q_{sw}\) stay unassigned. ARM-06 stays `wait`. `main` was not edited.
+
 ## 2026-11-25 — Round 28: independent Tulare C_irr product search (indeterminate; accept-with-revisions)
 
 Pre-registered a four-part qualification rule, then searched USGS extensometers, DWR/SGMA InSAR, CGPS and benchmark surveys, the Brandt et al. 1958–2018 data-release landing page, and OpenET. None of the seven products qualifies. Zero of 17 California NWIS extensometer wells fall inside 5-022.12. CGPS stations LEMA and CRCN are independent displacement records inside the subbasin, not a locked volume. OpenET is evapotranspiration. Shared InSAR / C-zone storage fails independence. The round is **indeterminate** (data / scope gap). ARM-07 stays `wait`. The signature stays unassigned. `main` was not edited.

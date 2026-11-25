@@ -13,6 +13,14 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: Round 29 Kelner retry and Appendix D fallback accepted with revisions
+
+Round 29 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-kelner-2000-retry](LEDGER/verdicts/V-2026-11-25-kelner-2000-retry.md)). Stage 1 unobtainable; Stage 2 leaves the ex-Imported \(Q_{sw}\) candidate unfilled. Short summaries must not claim the unretrieved paper lacks rates, and must not treat 85% irrigation efficiency as a locked conveyance correction. `main` was not edited.
+
+## 2026-11-25 — Launch Pad Session 2 closed
+
+Rounds 25–29 are on `ai/evolution` only. Combined scoreboard: holds 3, breaks 3, indeterminate 4. ARM-06 and ARM-07 remain `wait`. `Release/` on `main` at `37522fc` was not edited.
+
 ## 2026-11-25 — Verifier: Round 28 independent C_irr search accepted with revisions
 
 Round 28 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-tulare-independent-cirr](LEDGER/verdicts/V-2026-11-25-tulare-independent-cirr.md)). No locked-catalog product qualifies, so the round is indeterminate (data / scope gap). ARM-07 stays `wait`. Short summaries must not treat CGPS, benchmarks, OpenET, or the InSAR-derived C-zone volume as a locked independent \(C_{irr}\). `main` was not edited.
