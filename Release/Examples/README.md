@@ -1,6 +1,6 @@
 # Applied studies and worked examples
 
-> **Unpublished branch additions (ai/evolution, 24 November 2026 sync).** The published table is `Release/` on `main` at `56c6ab5464672a945c7832f03e969676c86d4a2b`. Branch-only rows are marked below. If wording conflicts, `Release/` on `main` wins.
+> **Unpublished branch additions (ai/evolution, 25 November 2026 sync).** The published table is `Release/` on `main` at `37522fc58eefe6b9d7948f41fa1332405acc1803`. The Paani PAE page and Central Valley v0.2 text are byte-identical with `main`. Branch-only rows are marked below. If wording conflicts, `Release/` on `main` wins.
 
 | Study | Documents | Status |
 |---|---|---|
