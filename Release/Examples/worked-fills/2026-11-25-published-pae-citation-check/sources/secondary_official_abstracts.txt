@@ -1,0 +1,18 @@
+Official abstracts retrieved 25 November 2026 for secondary Central Valley v0.2 citations.
+
+1. Graham, H.A., Puttock, A.K., Elliott, M., Anderson, K., and Brazier, R.E., 2022, Exploring the dynamics of flow attenuation at a beaver dam sequence, Hydrological Processes, doi:10.1002/hyp.14735.
+Retrieved from the PMC full-text HTML (PMC9828392). The Wiley PDF returned HTTP 403.
+Quote from the article body: "Lag times increased by 55.9% in the impacted site and declined by 17.5% in the control catchment." And: "this increase in lag times (55.9%), in contrast to the decrease (17.5%) at the control site, is a strong indication of flow attenuation." Crossref lists the authors and the SW England setting.
+
+2. Ogden, F.L., Crouch, T.D., Stallard, R.F., and Hall, J.S., 2013, Effect of land cover and use on dry season river runoff, runoff efficiency, and peak storm runoff in the seasonal tropics of Central Panama, Water Resources Research, doi:10.1002/2013WR013956.
+Official abstract reconstructed from the OpenAlex inverted index (identical DOI record). The Wiley PDF returned HTTP 403.
+Quote: "Dry season runoff from the forested catchment receded more slowly than from the mosaic and pasture catchments." "Peak runoff rates from the pasture and mosaic catchments were 1.7 and 1.4 times those of the forest catchment, respectively."
+
+3. Narayan, D., Biswas, H., and Kumar, P., 2019, Efficacy of contour bunds and vegetative barriers in resource conservation on sloping agricultural land in Bundelkhand region, Indian Journal of Soil Conservation 47(3): 280–285.
+Official citation_abstract from the journal landing page https://indianjournals.com/article/ijsc-47-3-010 (the article PDF endpoint returned an HTML wrapper, not a PDF).
+Quote: treatments included "farmer's practice (up and down cultivation without contour or vegetative barrier)" and "Results of 3 years indicated that the time of starting of runoff was delayed most (ranging from 9 to 72 min) under contour bunds at 0.7 m VI". The abstract locates the experiment at Datia, Madhya Pradesh, "in Central India."
+
+4. Luo, Q., Zhen, L., and Hu, Y., 2020, The Effects of Restoration Practices on a Small Watershed in China’s Loess Plateau: A Case Study of the Qiaozigou Watershed, Sustainability 12: 8376, doi:10.3390/su12208376.
+Official abstract reconstructed from the OpenAlex inverted index. The MDPI PDF returned HTTP 403.
+Quote: "We collected annual rainfall, runoff, and sediment transport data from 1988 to 2018" for "two adjacent watersheds (one restored and the other natural) in a hill and gully region of China’s Loess Plateau." "The restored watershed had lower runoff and sediment modulus values than the natural watershed, with greater effectiveness as rainfall increased. Revegetation and terrace construction contributed more to the retention of soil and water (65.6 and 69.7%, respectively) than check dams (<10%)."
+The published Central Valley sentence that the difference "was already evident during the hillside work" is not in this official abstract; the PDF was not retrieved.

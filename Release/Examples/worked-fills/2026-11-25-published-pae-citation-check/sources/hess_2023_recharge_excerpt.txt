@@ -1,0 +1,12 @@
+Excerpt from Perzan, Z., Osterman, G., and Maher, K., 2023, Controls on flood managed aquifer recharge through a heterogeneous vadose zone: hydrologic modeling at a site characterized with surface geophysics, Hydrol. Earth Syst. Sci., 27, 969–990, doi:10.5194/hess-27-969-2023.
+
+Retrieved 25 November 2026 from https://hess.copernicus.org/articles/27/969/2023/hess-27-969-2023.pdf
+PDF SHA-256 0fcd46e9e6b03852d13751d1f66262f2da238bc7d95306788825d37fed807833
+
+Site: "within the Tulare Irrigation District in the southern part of" the Central Valley (article text).
+
+Results (pdftotext):
+
+"Among all simulations, deep percolation increases rapidly following inundation. Fourteen days after the final inundation event, the increase in deep percolation accounts for 88.3 ± 17 % of the volume of water applied at the surface (Fig. 7a). By comparison, saturated-zone recharge efficiency is 32.7 ± 26.3 % after 2 years (Fig. 7b)."
+
+Figure 7 caption language also states that deep percolation is "the proportion of water applied at the surface that has moved beyond the root zone within 14 d" and that saturated-zone recharge efficiency at 2 years ranges "from 0.28 % to 87.7 % (median 32.7 %)" across all 284 simulations.

@@ -1,0 +1,9 @@
+Excerpt from Clark, J.F., Morrissey, S., Dadakis, J., Hutchinson, A., and Herndon, R., 2014, Investigation of Groundwater Flow Variations near a Recharge Pond with Repeat Deliberate Tracer Experiments, Water 6: 1826–1839, doi:10.3390/w6061826.
+
+Retrieved 25 November 2026 from the eScholarship OA copy https://escholarship.org/content/qt6dc9k5ms/qt6dc9k5ms.pdf
+PDF SHA-256 c7c40d14fd05239db66121f13396739022ad822266e950e1576138266fa66404
+(The MDPI pdf URL returned HTTP 403 in this check.)
+
+Abstract (as printed in the retrieved PDF):
+
+Determining hydraulic connections and travel times between recharge facilities and production wells has become increasingly important for permitting and operating managed aquifer recharge (MAR) sites, a water supply strategy that transfers surface water into aquifers for storage and later extraction. This knowledge is critical for examining water quality changes and assessing the potential for future contamination. Deliberate tracer experiments are the best method for determining travel times and identifying preferential flow paths between recharge sites over the time scales of weeks to a few years. This paper compares the results of two deliberate tracer experiments at Kraemer Basin, Orange County, CA, USA. Results from the first experiment, which was conducted in October 1998, showed that a region of highly transmissive sedimentary material extends down gradient from the basin for more than 3 km. Mean groundwater velocities were determined to be approximately 2 km/year in this region based on the arrival time of the tracer center of mass. A second experiment was initiated in January 2008 to determine if travel times from this basin to monitoring and production wells changed during the past decade in response to new recharge conditions. Results indicate that flow near Kraemer Basin was stable, and travel times to most wells determined during both experiments agree within the experimental uncertainty.

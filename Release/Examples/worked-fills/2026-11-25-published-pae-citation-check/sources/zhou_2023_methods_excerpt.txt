@@ -1,0 +1,12 @@
+Excerpt from Zhou, T., et al., 2023, Estimating the impact of vadose zone heterogeneity on agricultural managed aquifer recharge: A combined experimental and modeling study, Water Research 247: 120781, doi:10.1016/j.watres.2023.120781.
+
+Retrieved 25 November 2026 from https://www.maderacountywater.com/wp-content/uploads/2024/03/Zhou_et_al_2023_Bowman.pdf
+PDF SHA-256 669af1ce92df90807740990f95198974f4d5eeafcae994f8d4fbce9052056cd6
+
+Site (introduction / methods): "three groundwater wells (LS, MS, HS) at a fallowed almond orchard west of Modesto, California"
+
+Section 2.2 Field monitoring and data collection (pdftotext, PDF pages 3–4):
+
+The ponding level at the soil surface and the groundwater table depth were measured using pressure transducers (CS451, Campbell Scientific, UT, USA). Each recharge plot was instrumented with sensors at depths of 20, 60, 100, 250, and 500 cm at profile LS, 20, 60, 100, 300, and 450 cm at MS, and 20, 60, 100, 275, and 430 cm at HS measuring soil water content, electrical conductivity (EC), soil temperature (TEROS12, Meter, WA, USA), O2 (KE-25, Figaro, Japan), and oxidation–reduction potential (ORP) using constructed platinum electrodes. Hydrological (ponding level, soil moisture, soil temperature, groundwater table depth) and biogeochemical (O2, ORP, EC) measurements were logged (using CR1000 and CR800, Campbell Scientific, UT, USA) at a 10-min time interval. Breakthrough curve data, monitoring the transport of the KBr tracer, were collected at minimum 4 h using suction cups (LT-DBL, Irrometer, CA, USA) at the same depths as sensors.
+
+Observed BTCs at LS, from the results text: "At LS, simulated breakthrough curves (BTCs) at the bottom (250 and 500 cm) showed a slower response to flooding than those observed." And later: "lower simulated bromide concentrations than observed at the deeper depths (e.g., 250 and 500 cm of LS; 300 and 450 cm of MS, Fig. 6)."
