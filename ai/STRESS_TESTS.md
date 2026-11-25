@@ -14,7 +14,9 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 
 | 25 | Published PAE citations (Paani, Zhou, Izbicki, Clark, and secondary CV v0.2 cites) | Retrieved Foundation PDFs; Zhou and HESS and Clark PDFs; official abstracts for Izbicki, Ogden, Luo, and the Indian Journal article | Primary claims hold only if retrieved sources or official abstracts state the claimed facts; a contradicted or fabricated primary claim breaks the round; unretrieved sources without official abstracts are indeterminate. | **Holds** | — (residual gaps: page anchors; some full PDFs unretrieved; one Qiaozigou clause not in the abstract) | [Fill](../Release/Examples/worked-fills/2026-11-25-published-pae-citation-check/WORKED_FILL.md) · [PREREG](../Release/Examples/worked-fills/2026-11-25-published-pae-citation-check/PREREG.md) · [Sync](../Release/Examples/worked-fills/2026-11-25-published-pae-citation-check/SYNC_CHECK.md) |
 
-**Counts so far:** holds 3, breaks 1, indeterminate 2.
+| 26 | Paani / Marathwada service vs groundwater-condition records | Water Cup 2019 report Tables 3–4 (Round 25 excerpt) | Justification holds only if the two series move independently (Limb A) and winter area can be assigned to D_W / water service under published labels (Limb B). Limb A holds and Limb B breaks => round breaks (scope / object-class). | **Breaks** | Scope / object-class (not Layer 0 failure) | [Fill](../Release/Examples/worked-fills/2026-11-25-paani-service-condition/WORKED_FILL.md) · [PREREG](../Release/Examples/worked-fills/2026-11-25-paani-service-condition/PREREG.md) |
+
+**Counts so far:** holds 3, breaks 2, indeterminate 2.
 
 **Note on Round 20.** A companion spring 2015–2024 contrast, pre-registered as not the decision, has the opposite sign (median −42.97 ft, n=11). Window choice matters. Any short summary must name the locked October–November 2019–2025 window and this companion. The hold is a median of 15 qualifying Good pairs, not a spatially weighted subbasin head and not confirmation of the 468,635 AF figure.
 
@@ -23,3 +25,5 @@ Launch Pad Session 1 (Rounds 20–24). Each row is a pre-registered test of the 
 **Note on Round 24.** The break is that the public Total cannot instantiate the published symbols. It is not a falsification of Layer 0. Excluding Imported leaves a candidate \(Q_{sw}\) only; conveyance-efficiency corrections and the unretrieved Appendix D keep that subset unfilled. Short summaries must not call Table 3-1 totals “\(Q_{sw}\)” or “delivered service.”
 
 **Note on Round 25.** The published Paani and Central Valley v0.2 pages already matched `main` at `37522fc`. This hold is a citation check, not a Tulare recharge volume and not a Bite 5 score. Short summaries must keep the residual gaps (page-anchor offsets; Izbicki and some secondary full PDFs unretrieved; the Qiaozigou “already during hillside work” clause unverified from full text).
+
+**Note on Round 26.** Limb A holds: Marathwada and North Maharashtra move the two series in opposite directions. The break is Limb B: rabi sown area is cropped area and a Foundation utilization/extraction indicator, not a protocol \(D_W\) record. Short summaries must not call the break a Layer 0 failure, and must not treat Table 4 as delivered service.

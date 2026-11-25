@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Work agent: Round 26 Paani service vs condition (breaks)
+
+Launch Pad Session 2, Round 26 [A]. Pre-registered a two-limb test of the published Central Valley justification that the Marathwada contrast is why Tulare needs separate water-service and groundwater-condition records. Limb A holds (the two Foundation series can move independently). Limb B breaks (rabi sown area is not \(D_W\)). Result: **breaks**. Cause: scope / object-class, not a Layer 0 failure. `main` was not edited.
+
+**What this means.** The Marathwada numbers are real, and the two observations can diverge. That does not turn winter sown area into a protocol service record.
+
 ## 2026-11-25 — Verifier: Round 25 citation check accepted with revisions
 
 Round 25 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-published-pae-citation-check](LEDGER/verdicts/V-2026-11-25-published-pae-citation-check.md)). The primary claims hold. Short summaries must keep the residual gaps and must not treat this as a Tulare volume or Bite 5 score. `main` was not edited.
