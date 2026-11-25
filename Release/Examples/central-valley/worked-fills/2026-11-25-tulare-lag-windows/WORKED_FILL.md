@@ -23,3 +23,5 @@
 Already-published context, not used to change the scores: Round 20’s six-year fall 2019–2025 window held (median +19.03 ft, n=15), and its spring 2015–2024 companion, which was not the Round 20 decision, had the opposite sign.
 
 What was not done: no conversion of these medians to acre-feet, no assignment of Oro Grande or orchard-model lags to Tulare wells, and no rewrite of `main`.
+
+**Short-summary rule (Round 27 [C]).** Name all three locked windows: W3 (2022–2025) **breaks** at median −20.49 ft, n=36; W2 (2023–2025) holds at +14.20 ft, n=34; W1 (2024–2025) holds at +2.72 ft, n=36. The round breaks as scope / window-dependence, not a Layer 0 failure. Do not convert these medians to a volume, and do not treat the published site lags as Tulare travel times.
