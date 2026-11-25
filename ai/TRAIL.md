@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Adversary: Round 25 published PAE citation check
+
+Round 25 [B]. Challenges: [keep the residual gaps](LEDGER/challenges/CH-pae-cite-02-residual-gaps.md) and [this is not a Tulare volume or Bite 5 score](LEDGER/challenges/CH-pae-cite-02-not-volume.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** The sources check out. That finding still has limits, and it does not finish the Tulare accounting.
+
 ## 2026-11-25 — Work agent: Round 25 published PAE citation check (holds)
 
 Launch Pad Session 2, Round 25 [A]. Compared `main` at `37522fc` with `ai/evolution`: the Paani PAE page and Central Valley v0.2 are already byte-identical. Updated the branch-only Examples README pin from stale `56c6ab5` to `37522fc`. Pre-registered, then checked the cited sources. Result: **holds**. Residual gaps recorded (page anchors, some unretrieved full PDFs, one Qiaozigou clause). `main` was not edited.
