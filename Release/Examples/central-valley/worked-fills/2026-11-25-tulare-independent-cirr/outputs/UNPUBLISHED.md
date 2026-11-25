@@ -1,0 +1,1 @@
+This folder is unpublished work on `ai/evolution` (Launch Pad Session 2, Round 28). It is not a publication to `main`. It is not a fill of C_irr and not an evaluation of the temporal-mining signature.
