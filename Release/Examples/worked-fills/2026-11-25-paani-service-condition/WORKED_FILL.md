@@ -35,3 +35,5 @@ The locked excerpt states that the evaluation “measures the impact on groundwa
 **Breaks** (Limb A holds, Limb B breaks). The published sentence’s numbers are correct, and the two Foundation series can move independently. The inference that this contrast supplies “water service” and “groundwater condition” records, in the protocol sense that justifies a Tulare \(D_W\) identification, does not go through.
 
 What was not done: \(D_W\), \(\epsilon_{D_W}\), Bite 5, and \(V\) remain unassigned. The published Central Valley sentence was not rewritten.
+
+**Short-summary rule (Round 26 [C]).** Say the published justification **breaks** as a scope / object-class limit, not a Layer 0 failure. Keep Limb A as a hold (Marathwada and North Maharashtra are opposite pairings). Do not call Table 4 a delivered-service or \(D_W\) series.
