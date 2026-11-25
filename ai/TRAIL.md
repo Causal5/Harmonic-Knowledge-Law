@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: Round 26 Paani review accepted with revisions
+
+Round 26 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-paani-service-condition](LEDGER/verdicts/V-2026-11-25-paani-service-condition.md)). The published justification breaks as a scope / object-class limit. Limb A remains a hold. `main` was not edited.
+
+**What this means.** Keep winter area and well levels as separate observations if useful. Do not treat sown area as a protocol service series.
+
 ## 2026-11-25 — Adversary: Round 26 Paani service vs condition
 
 Round 26 [B]. Challenges: [not a theory failure](LEDGER/challenges/CH-paani-sc-02-not-theory-failure.md) and [keep Limb A as a hold](LEDGER/challenges/CH-paani-sc-02-limb-a-holds.md). Does not accept or reject the claims. `main` was not edited.

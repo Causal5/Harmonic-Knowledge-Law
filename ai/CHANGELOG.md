@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-25 — Round 26: Paani service vs groundwater-condition records (breaks; accept-with-revisions)
+
+Pre-registered a two-limb test of the published Central Valley justification that the Marathwada contrast is why Tulare needs separate water-service and groundwater-condition records. Limb A **holds** (Marathwada and North Maharashtra move the two series in opposite directions). Limb B **breaks**: rabi sown area is cropped area and a utilization/extraction indicator, not protocol \(D_W\). The justification therefore **breaks** as a scope / object-class limit, not a Layer 0 failure. `main` was not edited.
+
 ## 2026-11-25 — Round 25: published PAE citation check (holds; accept-with-revisions)
 
 Compared `main` at `37522fc` with `ai/evolution`: the Paani PAE page and Central Valley v0.2 are already byte-identical. Updated the branch-only Examples README pin from stale `56c6ab5` to `37522fc`. Pre-registered, then checked the cited sources against retrieved PDFs or official abstracts. The test **holds**. Residual gaps: some page anchors, some unretrieved full PDFs, and one Qiaozigou timing clause not in the official abstract. This is not a Tulare recharge volume and not a Bite 5 score. `main` was not edited.
