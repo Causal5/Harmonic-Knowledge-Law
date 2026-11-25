@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Adversary: Round 27 lag-justified DWR windows
+
+Round 27 [B]. Challenges: [not a theory failure or volume result](LEDGER/challenges/CH-lag-win-02-not-theory-failure.md) and [name all three locked windows](LEDGER/challenges/CH-lag-win-02-name-all-windows.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** The three-year fall window flips. The one- and two-year windows do not. That pattern is the result; it is not a storage volume and not a Layer 0 crack.
+
 ## 2026-11-25 — Work agent: Round 27 lag-justified DWR windows (breaks)
 
 Launch Pad Session 2, Round 27 [A]. Pre-registered one-, two-, and three-year fall DWR sign windows from published recharge lags, then computed them. W1 and W2 hold; W3 breaks (median −20.49 ft, n=36). Result: **breaks**. Cause: scope / window-dependence. `main` was not edited.
