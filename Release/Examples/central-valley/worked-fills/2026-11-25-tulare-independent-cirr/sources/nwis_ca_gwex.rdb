@@ -1,0 +1,48 @@
+#
+#
+# US Geological Survey
+# retrieved: 2026-11-25 18:23:13 -05:00	(caas01)
+#
+# The Site File stores location and general information about groundwater,
+# surface water, and meteorological sites
+# for sites in USA.
+#
+# File-format description:  http://help.waterdata.usgs.gov/faq/about-tab-delimited-output
+# Automated-retrieval info: http://waterservices.usgs.gov/rest/Site-Service.html
+#
+# Contact:   gs-w_support_nwisweb@usgs.gov
+#
+# The following selected fields are included in this output:
+#
+#  agency_cd       -- Agency
+#  site_no         -- Site identification number
+#  station_nm      -- Site name
+#  site_tp_cd      -- Site type
+#  dec_lat_va      -- Decimal latitude
+#  dec_long_va     -- Decimal longitude
+#  coord_acy_cd    -- Latitude-longitude accuracy
+#  dec_coord_datum_cd -- Decimal Latitude-longitude datum
+#  alt_va          -- Altitude of Gage/land surface
+#  alt_acy_va      -- Altitude accuracy
+#  alt_datum_cd    -- Altitude datum
+#  huc_cd          -- Hydrologic unit code
+#
+agency_cd	site_no	station_nm	site_tp_cd	dec_lat_va	dec_long_va	coord_acy_cd	dec_coord_datum_cd	alt_va	alt_acy_va	alt_datum_cd	huc_cd
+5s	15s	50s	7s	16s	16s	1s	10s	8s	3s	10s	16s
+USGS	344835117531305	008N010W01Q005S	GW-EX	34.80970416	-117.887844	F	NAD83	 2305	  5	NGVD29	18090206
+USGS	345056117501406	009N009W28A006S	GW-EX	34.84886964	-117.8381205	S	NAD83	 2271	  5	NGVD29	18090206
+USGS	353328119144401	027S025E26AU01M	GW-EX	35.557825	-119.24563056	5	NAD83	398.34	0.21	NAVD88	180300040403
+USGS	353328119144402	027S025E26AU02M	GW-EX	35.55786111	-119.24565833	5	NAD83	398.34	0.21	NAVD88	180300040403
+USGS	355933119062001	022S027E30D002M	GW-EX	35.99291667	-119.1065	1	NAD83	 409	4.3	NAVD88	18030005
+USGS	361334120035101	020S018E06D001M	GW-EX	36.22630556	-120.0651667	5	NAD83	 327	4.3	NAVD88	18030012
+USGS	361933120133601	018S016E34DU01M	GW-EX	36.325861	-120.226917	5	NAD83	319.0	1.0	NAVD88	180300090606
+USGS	361935120134501	018S016E33A001M	GW-EX	36.32655556	-120.2299167	5	NAD83	 323	4.3	NAVD88	18030009
+USGS	364358120314906	014S013E11D006M	GW-EX	36.73263889	-120.5315278	5	NAD83	288	1.6	NAVD88	18040001
+USGS	364518120222401	013S015E31J017M	GW-EX	36.75503889	-120.3732889	1	NAD83	 163	5.4	NAVD88	18030009
+USGS	364536120184301	013S015E35D005M	GW-EX	36.7601083	-120.313261	1	NAD83	 163	5.4	NAVD88	18030009
+USGS	365325120391501	012S012E16H002M	GW-EX	36.8903611	-120.6552222	5	NAD83	 165.00	1.0	NAVD88	18040001
+USGS	365325120391502	012S012E16H003M	GW-EX	36.890306	-120.655278	5	NAD83	165.0	1.6	NAVD88	180400012003
+USGS	374004122092001	003S003W14K015M	GW-EX	37.66788889	-122.1556667	5	NAD83	 7	  2	NGVD29	18050004
+USGS	374005122092001	003S003W14K016M	GW-EX	37.668	-122.155611	5	NAD83	 7	  2	NGVD29	18050004
+USGS	375811121341201	002N004E31R002M	GW-EX	37.96964529	-121.5710628	S	NAD83	 -7.5	 .1	NGVD29	18040003
+USGS	380208121372901	002N003E10H001M	GW-EX	38.0354765	-121.6257864	S	NAD83	 -10.1	 .1	NGVD29	18040003

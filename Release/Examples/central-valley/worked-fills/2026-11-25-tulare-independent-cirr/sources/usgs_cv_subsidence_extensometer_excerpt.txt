@@ -1,0 +1,7 @@
+# Excerpt from USGS California Water Science Center, Central Valley Subsidence Data.
+# URL: https://ca.water.usgs.gov/land_subsidence/central-valley-subsidence-data.html
+# Retrieved: 25 November 2026 (America/New_York).
+# SHA-256 of the retrieved HTML: 5280c0acf9ffefcaa2e97087f31ed9d810123e3af0ae9d5641617af9579d104a
+
+Extensometers 
+ Aquifer-system compaction has been monitored at selected locations for various periods with borehole extensometers by different agencies, including the USGS, DWR, SLDMWA, and CCID, and by Luhdorff and Scalmanini Consulting Engineers. A total of 35 extensometers have been monitored in the San Joaquin Valley, with most of the monitoring occurring in the 1950s and 1960s through the early 1980s. Four cable-type extensometers were refurbished: 12S/12E-16h3 (Oro Loma Deep, 305-m depth), 14S/13E-11D6 (Panoche, 414-m depth), 18S/16E-33A1 (DWR Yard, 314-m depth), and 20S/18E-6D1 (Rasta, 264-m depth). The refurbishment of the four selected extensometers was completed in early 2012. Since then, the sites have been maintained by USGS personnel who download the data, make manual dial-gauge and water-level measurements for quality control, and adjust equipment.
