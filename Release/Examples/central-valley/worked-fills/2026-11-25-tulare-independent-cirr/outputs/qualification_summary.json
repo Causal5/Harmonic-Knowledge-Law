@@ -1,0 +1,12 @@
+{
+  "nwis_sha256": "7b5e6ba2ac4acb56326007f6ed19325be04bd1b79285c991c50fa5eaa089f394",
+  "n_nwis_ca_gwex": 17,
+  "n_nwis_in_5_022_12": 0,
+  "n_products": 7,
+  "n_qualifying": 0,
+  "round_outcome": "indeterminate",
+  "cause": "data / scope gap",
+  "arm_07": "wait",
+  "signature": "unassigned",
+  "note": "Finding a qualifying product would not have developed ARM-07 or evaluated the protocol \u00a75 conjunction. None qualified."
+}

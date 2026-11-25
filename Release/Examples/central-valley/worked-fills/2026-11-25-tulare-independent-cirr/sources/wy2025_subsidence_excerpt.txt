@@ -1,0 +1,111 @@
+# Excerpts from Tulare Lake Subbasin Water Year 2025 Annual Report (April 2026).
+# Local copy: /tmp/hkl-data/tulare-pdfs/wy2025.pdf (not committed).
+# SHA-256 of that PDF: 32c080a3a4972730b94ce7d047ffcec90de16348f50abc166c55465096395be9
+# Official portal: https://sgma.water.ca.gov/portal/service/gspar/document/5821
+# Retrieved earlier in Session 1 / Round 23 work; re-used 25 November 2026.
+# pdftotext extraction. Form feed characters omitted in the excerpts below.
+
+----- Executive summary, Land Subsidence (CGPS and InSAR) -----
+e Radar (InSAR) recorded decreases between 0.033 and 0.537 feet. The
+               greatest subsidence occurred in South Fork Kings GSA, the southern region of
+               Mid-Kings River GSA, and the northeastern region of El Rico GSA (Figure 3-
+               4). Most other parts of the Subbasin measured no subsidence or small amounts
+               of rebound. This general pattern is spatially consistent with total subsidence
+               measured since 2015 (Figure 3-5).
+            o Continuous Global Position System (CGPS) RMS stations (LEMA and
+               CRCN)—showed subsidence decreases of 0.433 feet and 0.400 feet,
+               respectively.
+            o Benchmark survey RMS stations (not including LEMA and CRCN) showed an
+               average subsidence decrease of 0.2079 feet.
+            o None of the RMS sites exceeded the minimum threshold for total subsidence.
+
+Ongoing coordination among the five GSAs, along with the implementation of planned
+projects and
+
+
+----- Storage method: subsidence data are InSAR -----
+and subsidence data. The subsidence
+data, which covers most of the Subbasin, is derived from satellite-based InSAR measurements,
+as detailed in the following sections.
+In Fall 2025, the Becky Pease Well was temporarily inaccessible and, therefore, no
+measurement was taken (see Table A-1). However, as this is the only B-Zone well in Southwest
+Kings GSA, simply omitting this well from the storage ca
+
+----- Section 3.5.2 C-Zone storage from aquitard compression / subsidence -----
+low groundwater levels, often resulting from sustained
+pumping, can lead to the permanent compaction of aquitards. Persistent long-term declines in
+groundwater levels within the C-Zone have contributed to measurable land subsidence,
+primarily due to the compaction of the overlying confining layer.
+
+The change in storage within the C-Zone aquifer from fall 2024 to fall 2025 was calculated
+based on the volume of water released due to aquitard compression, using the following
+equation:
+
+                                          𝑉𝑉𝑉𝑉=𝐴𝐴Δ𝑏𝑏
+where:
+
+    •    𝑉𝑉𝑉𝑉 is the volume of water released from storage (acre-feet),
+    •    𝐴𝐴 is the affected surface area within the Tulare Lake Subbasin (acres), and
+
+Water Year 2025 Annual Report                    21                                     April 2026
+    •    Δ𝑏𝑏 represents the change in aquitard thickness due to subsidence (feet).
+The estimated change in storage for the C-Zone aquifer may be overstated if it is assumed that
+the expelled water originates solely from the C-Zone aquifer and its confining clay layers
+(particularly the Corcoran Clay). As more information becomes available regarding the vertical
+distribution of compaction across the Subbasin, adjustments to the calculation may be
+necessary.
+For the reporting year:
+    •    C-Zone storage decreased by 50,395 acre-feet.
+The estimated change in storage within the C-Zone aquifer during the reporting period is
+provided in Figures 3-2 and 3-3c.
+Accuracy:
+Using aerially extensive subsidence data provides a higher level of accuracy for estimating
+storage change compared to relying on groundwater level data. This method also offers greater
+accuracy than the approach used for the A-Zone and B-Zone aquifers. However, subsidence
+data still contains time-lag inaccuracies, which may result in the underestimation or
+overestimation of storage loss each year, depending on tre
+
+
+----- Extensometer data still needed -----
+ubsidence (instantaneous, cumulative, and differential) with groundwater extraction
+patterns.
+Subsidence-Affected Zones: While it is understood that most subsidence occurs below the
+Corcoran Clay due to the depressurization of fine-grained sediments, it remains unclear
+whether subsidence is concentrated within discrete clay lenses or occurs more broadly across
+an extensive stratigraphic interval. Additional high-resolution extensometer data is needed to
+determine which clay-rich zones are most susceptible to compaction and how they contribute
+to overall subsidence. Improved geotechnical characterization and stratigraphic correlation
+efforts could further refine the understanding of subsidence-prone zones.
+Well Collapse: Well integrity concerns have been reported through the DWR Dry Well
+Re
+
+
+----- El Rico study, possibly extensometers -----
+t.
+Project No. 9 – Subsidence Mitigation Plan
+2024 Draft GSP Description – The El Rico GSA is addressing subsidence impacts to canals
+and levees that reduce conveyance and flood protection. A Subsidence Study will evaluate
+causes, including groundwater pumping, using additional wells, benchmarks, and possibly
+extensometers. The study will assess regional impacts and inform a mitigation plan to protect
+critical infrastructure. In the interim, the GSA will respond to identified impacts, while the plan
+establishes criteria and actions for any subsidence-related damage.
+WATER YEAR 2025 Activity – A subsidence study for the area of El Rico GSA is currently
+underway. The study is evaluating the cause(s) of subsidence and corrective meas
+
+ures within
+and outside the GSA.
+
+
+
+
+Water Year 2025 Annual Report                     32                                       April 2026
+4.3.3    TCWA GSA
+The following text summarizes projects and management actions for the TCWA GSA
+presented in the Draft 2024 Tulare Lake Subbasin GSP, along with updates on activities
+completed during WATER YEAR 2025.
+Project No. 1 – Groundwater Allocations
+2024 Draft GSP Description – TCWA implemented a Groundwater Extraction Allocation
+
+----- Appendix RMS coordinates for CRCN and LEMA -----
+CRCN (RMS)                    36.113986          -119.568034 -0.0719                       -0.100                     -0.400
+LEMA (RMS)                    36.292025          -119.782390 -0.2712                       -0.114                     -0.433
