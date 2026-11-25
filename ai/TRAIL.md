@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Adversary: Round 26 Paani service vs condition
+
+Round 26 [B]. Challenges: [not a theory failure](LEDGER/challenges/CH-paani-sc-02-not-theory-failure.md) and [keep Limb A as a hold](LEDGER/challenges/CH-paani-sc-02-limb-a-holds.md). Does not accept or reject the claims. `main` was not edited.
+
+**What this means.** The useful result is the object-class limit. It should not be inflated into a Layer 0 break or used to deny the descriptive divergence in the table.
+
 ## 2026-11-25 — Work agent: Round 26 Paani service vs condition (breaks)
 
 Launch Pad Session 2, Round 26 [A]. Pre-registered a two-limb test of the published Central Valley justification that the Marathwada contrast is why Tulare needs separate water-service and groundwater-condition records. Limb A holds (the two Foundation series can move independently). Limb B breaks (rabi sown area is not \(D_W\)). Result: **breaks**. Cause: scope / object-class, not a Layer 0 failure. `main` was not edited.
