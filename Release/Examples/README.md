@@ -3,6 +3,7 @@
 | Study | Documents | Status |
 |---|---|---|
 | Central Valley freshwater | [Study guide](central-valley/README.md), [v0.2 protocol](central-valley/temporal-mining-freshwater-protocol-v0.2.md), [definition crosswalk](central-valley/definition-crosswalk-v0.3.1.md) | Current working protocol; empirical execution pending |
+| Hydrological PAE in Maharashtra | [Paani Foundation Water Cup](paani-water-cup-hydrological-pae.md) | Village conservation work, well levels, winter planting and field evidence for recharge. |
 | Central Valley worked example | [Central Valley freshwater and temporal mining v0.2](central-valley/central-valley-worked-example-v0.2.md) | Regional evidence and Tulare Lake pumping and storage, WY 2020–2025. Bite 5 remains open. |
 | Ohio–Mississippi freshwater mussels | [Study guide](ohio-mississippi-mussels/README.md), [worked example](ohio-mississippi-mussels/ohio-mississippi-mussels-worked-example.md) | Source-qualified worked example; no HKL quantities computed; definitions follow Registry v0.3.2 |
 | Sahel | [Reconciled application](sahel_worked_example.md) | Candidate mechanisms and test plan; completed validation claims removed |
