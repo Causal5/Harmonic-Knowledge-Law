@@ -10,6 +10,10 @@ publication to `main` and is not scientific validation.
 
 
 
+## 2026-11-25 — Round 27: lag-justified Tulare DWR sign windows (breaks; accept-with-revisions)
+
+Pre-registered one-, two-, and three-year fall October–November DWR Good-pair windows from published Oro Grande and Tulare orchard recharge lags, then computed them on the same zip and polygon as Round 20. W2 (2023–2025, median +14.20 ft, n=34) and W1 (2024–2025, median +2.72 ft, n=36) hold. W3 (2022–2025, median −20.49 ft, n=36, 33 of 36 shallower) breaks. The round therefore **breaks**. Cause: scope / window-dependence, not a Layer 0 failure and not a volume result. `main` was not edited.
+
 ## 2026-11-25 — Round 26: Paani service vs groundwater-condition records (breaks; accept-with-revisions)
 
 Pre-registered a two-limb test of the published Central Valley justification that the Marathwada contrast is why Tulare needs separate water-service and groundwater-condition records. Limb A **holds** (Marathwada and North Maharashtra move the two series in opposite directions). Limb B **breaks**: rabi sown area is cropped area and a utilization/extraction indicator, not protocol \(D_W\). The justification therefore **breaks** as a scope / object-class limit, not a Layer 0 failure. `main` was not edited.

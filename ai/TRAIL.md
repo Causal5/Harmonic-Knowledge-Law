@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: Round 27 lag-window review accepted with revisions
+
+Round 27 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-tulare-lag-windows](LEDGER/verdicts/V-2026-11-25-tulare-lag-windows.md)). The round breaks because W3 flips sign. W1 and W2 hold. Short summaries must name all three windows and must remain sign-only. `main` was not edited.
+
+**What this means.** A six-year fall hold does not make every shorter fall window hold. The sign depends on the locked length.
+
 ## 2026-11-25 — Adversary: Round 27 lag-justified DWR windows
 
 Round 27 [B]. Challenges: [not a theory failure or volume result](LEDGER/challenges/CH-lag-win-02-not-theory-failure.md) and [name all three locked windows](LEDGER/challenges/CH-lag-win-02-name-all-windows.md). Does not accept or reject the claims. `main` was not edited.
