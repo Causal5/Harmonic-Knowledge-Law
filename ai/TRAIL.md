@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Work agent: soil-domain claim table opened
+
+New-domain session [A]. Pre-registered a protocol for simple claims about industrial farming, soil loss, and humus / soil organic matter, and extracted nine rows (SOIL-01–SOIL-09) from retrieved specialist studies, with funding or affiliation recorded on every row. No row was ruled. Dust Bowl SCS as a SOM-rebuild study, Rodale as a best-fit trial, and “synthetic N fertilizer depletes SOM” were not extracted, because a retrieved source did not support those wordings as best-fit claims. THEORY_MAB arms were not developed. `main` was not edited.
+
+**What this means.** This is a second domain, not a water-round or a new theory arm. An adversarial pass comes next, from both the industry-messaging and advocacy sides; `ai/CLAIMS_SOIL.md` waits until after that pass.
+
 ## 2026-11-25 — Verifier: USGS subsidence follow-up accepted with revisions
 
 Follow-up [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-claims-usgs-subsidence](LEDGER/verdicts/V-2026-11-25-claims-usgs-subsidence.md)). CV-11 is now **supported-with-limit** (USGS San Joaquin Valley page retrieved; service and transfer limits kept). New row **CV-14** is **supported-with-limit** (roughly 9 m from 1925 to 1977 at the approximate point of maximum subsidence; 80 percent is national; BM S661 is not on the page). Updated counts in [`ai/CLAIMS.md`](CLAIMS.md): 2 supported, 27 supported-with-limit, 0 partial, 0 unsupported, 0 needs-definition; total 29. `main` was not edited.
