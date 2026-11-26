@@ -1,0 +1,8 @@
+# CH-claims-mislink-unverified
+
+**TL;DR.** Some rows point to a study, a page anchor, or a clause that has not been shown, in this record, to say what the claim uses it for. The clearest miss is the Lock and Dam 22 location claim, which has no link in the extraction row.
+
+- **Claim:** C-claims-02
+- **Challenge:** MU-05 must add and check the already-cited Waterways Council / Iowa Capital Dispatch page for Lock and Dam 22 near Saverton (https://waterwayscouncil.org/media/in-the-news/article/2023/05/fish-passage-project-a-first-of-its-kind), so the passage project is not misread as Keokuk (Lock and Dam 19). MU-03 must not leave Larson et al. 2022 carrying the “invader filtration is not native recovery” point if that paper is only a biofouling study. MU-06’s wild-consumption finding should link the already-cited Poulton et al. 2019 and 2021 papers ([24], [30]) if that finding is kept. PAE-02 / PAE-06 page fragments, the Qiaozigou timing clause (CV-05), the “thousands of years” clause (CV-12), and the official-abstract-only Oro Grande figures (PAE-04) need the residual gaps kept visible. A URL that returns 200 is not enough: the page must say what is claimed. Do not invent replacement studies; suggest a better best-fit only if its existence is verified in this session.
+- **Hit if:** C rules a row `supported` while its distinctive clause is still unchecked, or while a study is used for a point it does not make, or invents a citation.
+- **Miss if:** Every kept link is checked, clauses that cannot be confirmed are narrowed or flagged, and no new study is introduced without a verified source.
