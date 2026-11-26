@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Adversarial agent: soil-domain claims attacked
+
+New-domain session [B]. Filed three challenges on the nine-row extraction (`ce704b0` / `9484021`): overreach in both directions (fertilizer-depletion or complete decoupling; water-holding “underpinning”; uniform loss; high yield as proof that soil is fine); funding and advocacy (label TNC / Doris Duke / CGIAR; do not treat Powlson or Poulton as industry sources or as proof that practices fail; do not restore Khan, Rodale, or Dust Bowl SOM rates); and missing limits (abstract-only or handout-only retrieval, 22 cm cover-crop depth, unextracted structure claim, Marathwada parallel is analogical). No row was ruled and no theory arm was developed. `main` was not edited.
+
+**What this means.** The extraction already refused several popular wordings. Step C should keep those refusals, state the Oldfield and Thaler limits on decoupling, and then write `ai/CLAIMS_SOIL.md`.
+
 ## 2026-11-25 — Work agent: soil-domain claim table opened
 
 New-domain session [A]. Pre-registered a protocol for simple claims about industrial farming, soil loss, and humus / soil organic matter, and extracted nine rows (SOIL-01–SOIL-09) from retrieved specialist studies, with funding or affiliation recorded on every row. No row was ruled. Dust Bowl SCS as a SOM-rebuild study, Rodale as a best-fit trial, and “synthetic N fertilizer depletes SOM” were not extracted, because a retrieved source did not support those wordings as best-fit claims. THEORY_MAB arms were not developed. `main` was not edited.
