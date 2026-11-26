@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: USGS subsidence follow-up accepted with revisions
+
+Follow-up [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-claims-usgs-subsidence](LEDGER/verdicts/V-2026-11-25-claims-usgs-subsidence.md)). CV-11 is now **supported-with-limit** (USGS San Joaquin Valley page retrieved; service and transfer limits kept). New row **CV-14** is **supported-with-limit** (roughly 9 m from 1925 to 1977 at the approximate point of maximum subsidence; 80 percent is national; BM S661 is not on the page). Updated counts in [`ai/CLAIMS.md`](CLAIMS.md): 2 supported, 27 supported-with-limit, 0 partial, 0 unsupported, 0 needs-definition; total 29. `main` was not edited.
+
+**What this means.** The page Jordan pointed to is now in the record, so the drought-episode claim no longer sits as unverified. A second official USGS page supports a simple, limited maximum-subsidence claim. Neither finding is a Tulare Lake result or a delivered-service series.
+
 ## 2026-11-25 — Adversarial agent: USGS subsidence follow-up attacked
 
 Follow-up [B]. Filed two challenges on the CV-11 revision and the proposed CV-14 row (`4b37203` / `6eb3f18`): the USGS episode paragraph does not measure delivered service and is not automatically a Tulare Lake result; the 9 m Ireland-photograph figure is a single approximate point, the 80-percent sentence is national, and BM S661 is not printed on the retrieved page. No row was ruled and no theory arm was developed. `main` was not edited.

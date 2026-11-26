@@ -10,6 +10,16 @@ publication to `main` and is not scientific validation.
 
 
 
+## Follow-up to Session 3 — USGS subsidence pages (2026-11-25)
+
+A short A → B → C cycle on `ai/evolution` only, after Jordan pointed to the USGS San Joaquin Valley page that had timed out in Session 3 and supplied the Water Resources Mission Area Land Subsidence page. `Release/` on `main` at `37522fc` was not edited. A1–A8 remain undefined. THEORY_MAB arms were not developed.
+
+- **CV-11.** The cited URL, [Land Subsidence in the San Joaquin Valley](https://www.usgs.gov/centers/land-subsidence-in-california/science/land-subsidence-san-joaquin-valley) (17 October 2018), returned 200. Immediately above “Importance of Monitoring Subsidence,” the page states that reduced surface-water availability during 1976-77, 1986-92, 2007-09, and 2012-2015 caused groundwater-pumping increases, water-level declines, and renewed aquifer compaction. The row is now **supported-with-limit**. The limit, as pre-registered, is that whether pumping maintained delivered water service during those episodes remains open. The finding is not automatically a Tulare Lake 5-022.12 result.
+- **CV-14 (new).** From [Land Subsidence](https://www.usgs.gov/mission-areas/water-resources/science/land-subsidence), Water Resources Mission Area, 2 March 2019 (Jordan’s short link resolved to this canonical URL): land at the approximate point of maximum subsidence in the San Joaquin Valley subsided roughly 9 m from 1925 to 1977 due to aquifer-system groundwater withdrawals (Richard Ireland photograph). The same page states that more than 80 percent of known land subsidence in the U.S. is a consequence of groundwater use. The row is **supported-with-limit**: the 9 m figure is a single point, not valley-wide; the 80-percent sentence is national; the page does not print BM S661.
+- **Counts in `ai/CLAIMS.md`.** 2 supported, 27 supported-with-limit, 0 partial, 0 unsupported, 0 needs-definition; total 29 (was 28, with CV-11 partial).
+
+**Challenges.** Both hit: do not treat the episode wording as a delivered-service finding or a Tulare transfer; do not treat 9 m as valley-wide, or 80 percent as a local figure, or add BM S661 as a page finding.
+
 ## Launch Pad Session 3 summary (2026-11-25)
 
 Claim-table rescoping on `ai/evolution` only, A → B → C. `Release/` on `main` at `37522fc` remained primary and was not edited. A1–A8 remain undefined. This session did not increment the R20–R29 scoreboard (still holds 3, breaks 3, indeterminate 4). THEORY_MAB arms were not developed.
