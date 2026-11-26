@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Adversarial agent: Session 3 claim rows attacked
+
+Session 3 [B]. Filed three challenges on the 28-row extraction (`615aa69` / `3ee21a9`): overreach (especially MU-01, CV-01, SA-02, and rabi-as-service language), mislinked or unverified studies (especially the missing Lock and Dam 22 link, Larson carrying a filtration point, unchecked clauses and page anchors), and missing limits (Perzan uncertainties, all three DWR windows, Kelner “lacks rates,” and a reminder that no row needs A1–A8). No row was ruled and no theory arm was developed. `main` was not edited.
+
+**What this means.** The extraction was already careful, but a few sentences still say more than the cited study, or lean on a page that has not been checked for the clause in question. Step C should narrow those sentences and check every link, then write the master table.
+
 ## 2026-11-25 — Work agent: Session 3 claim-table protocol and extraction opened
 
 Session 3 [A]. Pre-registered a claim-table rescoping protocol and extracted 28 simple claims from the published Paani PAE, Central Valley v0.2 / Tulare, mussel / Keokuk, and Sahel examples, plus fill-stated results from Rounds 20–29, in Jordan's five-column format. No row was ruled. THEORY_MAB arms were not developed. `main` was not edited.
