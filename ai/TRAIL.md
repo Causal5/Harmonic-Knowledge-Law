@@ -13,6 +13,16 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Verifier: Session 3 claim-table rescoping accepted with revisions
+
+Session 3 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-claim-table-rescoping](LEDGER/verdicts/V-2026-11-25-claim-table-rescoping.md)). The master table is [`ai/CLAIMS.md`](CLAIMS.md): 2 supported, 25 supported-with-limit, 1 partial (CV-11, unresolved USGS subsidence URL), 0 unsupported, 0 needs-definition. All three challenges hit and were addressed by narrowing. `main` was not edited.
+
+**What this means.** The published examples now sit as a list of simple claims, each tied to a specialists' study already in the record, with a stated limit and a checked link. The work is not claiming new field data, and it is not treating the core axiom as something to break.
+
+## 2026-11-25 — Launch Pad Session 3 closed
+
+Claim-table rescoping on `ai/evolution` only, A → B → C. `Release/` on `main` at `37522fc` remained primary and was not edited. A1–A8 remain undefined. THEORY_MAB arms were not developed. The R20–R29 scoreboard is unchanged (holds 3, breaks 3, indeterminate 4).
+
 ## 2026-11-25 — Adversarial agent: Session 3 claim rows attacked
 
 Session 3 [B]. Filed three challenges on the 28-row extraction (`615aa69` / `3ee21a9`): overreach (especially MU-01, CV-01, SA-02, and rabi-as-service language), mislinked or unverified studies (especially the missing Lock and Dam 22 link, Larson carrying a filtration point, unchecked clauses and page anchors), and missing limits (Perzan uncertainties, all three DWR windows, Kelner “lacks rates,” and a reminder that no row needs A1–A8). No row was ruled and no theory arm was developed. `main` was not edited.

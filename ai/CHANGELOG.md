@@ -10,6 +10,19 @@ publication to `main` and is not scientific validation.
 
 
 
+## Launch Pad Session 3 summary (2026-11-25)
+
+Claim-table rescoping on `ai/evolution` only, A → B → C. `Release/` on `main` at `37522fc` remained primary and was not edited. A1–A8 remain undefined. This session did not increment the R20–R29 scoreboard (still holds 3, breaks 3, indeterminate 4). THEORY_MAB arms were not developed.
+
+Twenty-eight simple claims were extracted from the published Paani PAE, Central Valley v0.2 / Tulare, mussel / Keokuk, and Sahel examples, plus fill-stated results, in Jordan's five-column format. After an adversarial pass, wording was narrowed rather than dropped. Rulings in [`ai/CLAIMS.md`](CLAIMS.md): **2 supported, 25 supported-with-limit, 1 partial, 0 unsupported, 0 needs-definition.**
+
+- **Strongest confirmed claims.** Kraemer Basin tagged recharge reaching particular wells, with 1998 and 2008 travel times agreeing (PAE-05, eScholarship PDF). Oro Grande Wash arrival at a water table 117 m below ground in about three years, then one year after wetting (PAE-04, official USGS abstract re-confirmed). Modesto orchard tracer movement through soil layers to 5 m (PAE-03). Perzan orchard model, 88.3 ± 17% deep percolation at 14 days and 32.7 ± 26.3% saturated-zone recharge at two years (CV-03). Southeastern San Joaquin Valley wells drawing a mixture of modern and much older recharge (CV-12, SIR 2024-5009 wording confirmed).
+- **Weakest / partial.** CV-11 is partial because the cited USGS San Joaquin Valley subsidence URL timed out, so the drought-episode wording was not verified here (Faunt 158 km³ / 15% and Lees and Knight 14 km³ were confirmed on their own pages). SA-02 has no locked FMNR-versus-centralized-restoration study. MU-01 remains a source-qualified illustration. The Qiaozigou timing clause (CV-05) is still unverified from full text.
+- **Challenges.** All three hit: overreach (MU-01 necessity reading, six-year sums attributed to the agencies, unstudied equal-budget sentence, rabi-as-service language); mislink / unverified study (missing Lock and Dam 22 link, Larson carrying a filtration point, unchecked clauses); missing limits (Perzan uncertainties, all three DWR windows, “Kelner paper lacks rates”).
+- **MAB.** ARM-06 and ARM-07 remain `wait`. No arm was developed.
+
+**Biggest finding for the rescope.** The current work already supports Jordan's four hydrological exemplars as simple, limited claims. What it does not support, without a better or still-missing study, is a Tulare pond-to-well connection, an independent \(C_{irr}\), a declared Tulare \(D_W\) or \(Q_{sw}\) series, a computed ebonyshell \(\eta\), or a site-level Sahel intervention contrast.
+
 ## Launch Pad Session 2 summary (2026-11-25)
 
 Five rounds (R25–R29) on `ai/evolution` only. `Release/` on `main` at `37522fc` remained primary and was not edited. A1–A8 remain undefined. Scoreboard after this session: holds 3, breaks 3, indeterminate 4 (R20–R29 combined).
