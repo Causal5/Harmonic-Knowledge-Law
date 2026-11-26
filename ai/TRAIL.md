@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Work agent: USGS subsidence follow-up opened (CV-11 retry and CV-14)
+
+Follow-up [A] to Session 3. Pre-registered a retry of the USGS San Joaquin Valley subsidence page that left CV-11 partial, and extracted a proposed new row (CV-14) from the Water Resources Mission Area Land Subsidence page. The SJV URL cited on `main` returned 200 and contains the “Reduced surface-water availability” paragraph above “Importance of Monitoring Subsidence,” naming 1976-77, 1986-92, 2007-09, and 2012-2015. Jordan’s short link resolved to the canonical WRMA page, which states the roughly 9 m / 1925–1977 Ireland-photograph caption and the national 80-percent groundwater-use sentence. No row was ruled. `main` was not edited.
+
+**What this means.** The page that timed out in Session 3 is now in hand, and a second official USGS page has been checked for a simple maximum-subsidence claim. An adversarial pass comes next; `ai/CLAIMS.md` will be edited only after that pass.
+
 ## 2026-11-25 — Verifier: Session 3 claim-table rescoping accepted with revisions
 
 Session 3 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-claim-table-rescoping](LEDGER/verdicts/V-2026-11-25-claim-table-rescoping.md)). The master table is [`ai/CLAIMS.md`](CLAIMS.md): 2 supported, 25 supported-with-limit, 1 partial (CV-11, unresolved USGS subsidence URL), 0 unsupported, 0 needs-definition. All three challenges hit and were addressed by narrowing. `main` was not edited.
