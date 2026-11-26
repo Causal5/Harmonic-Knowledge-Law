@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Work agent: Session 3 claim-table protocol and extraction opened
+
+Session 3 [A]. Pre-registered a claim-table rescoping protocol and extracted 28 simple claims from the published Paani PAE, Central Valley v0.2 / Tulare, mussel / Keokuk, and Sahel examples, plus fill-stated results from Rounds 20–29, in Jordan's five-column format. No row was ruled. THEORY_MAB arms were not developed. `main` was not edited.
+
+**What this means.** The work is now organized as simple claims, each tied to a specialists' study already in the record, with an explicit limit and a link. An adversarial pass comes next; the master table in `ai/CLAIMS.md` waits until after that pass.
+
 ## 2026-11-25 — Verifier: Round 29 Kelner retry and Appendix D fallback accepted with revisions
 
 Round 29 [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-kelner-2000-retry](LEDGER/verdicts/V-2026-11-25-kelner-2000-retry.md)). Stage 1 unobtainable; Stage 2 leaves the ex-Imported \(Q_{sw}\) candidate unfilled. Short summaries must not claim the unretrieved paper lacks rates, and must not treat 85% irrigation efficiency as a locked conveyance correction. `main` was not edited.
