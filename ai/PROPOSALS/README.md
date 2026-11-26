@@ -30,6 +30,7 @@ In-place archive of the 19 proposals accepted with revisions through Round 19. C
 
 | Proposal | Decision and evidence | Outstanding work or limit |
 |---|---|---|
+| [Claim-table rescoping (Session 3)](2026-11-25-claim-table-rescoping/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-25-claim-table-rescoping.md) · [Evidence](../LEDGER/claims/C-claims-02.md) · [Master table](../CLAIMS.md) | 2 supported, 25 supported-with-limit, 1 partial, 0 unsupported, 0 needs-definition. Better studies still needed for a Tulare pond-to-well connection, independent C_irr, declared D_W / Q_sw, ebonyshell η, and a site-level Sahel contrast. |
 | [Tulare pumping and storage](2026-11-24-tulare-pumping-storage/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-24-tulare-pumping-storage.md) · [Evidence](../LEDGER/claims/C-tulare-periods-01.md) | Six descriptive water-year pairs, not a closed budget. 2017 sign change is not season-only. Bite 5 remains unscored. |
 | [DWR head-sign test (Round 20)](2026-11-24-tulare-dwr-head-contrast/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-24-tulare-dwr-head-contrast.md) · [Evidence](../LEDGER/claims/C-dwr-head-02.md) | Sign test holds on 15 Good pairs. Not a volume confirmation. Spring companion has the opposite sign. |
 | [CHIRPS vs WDI Niger (Round 21)](2026-11-24-niger-chirps/proposal.md) | [Verdict](../LEDGER/verdicts/V-2026-11-24-niger-chirps.md) · [Evidence](../LEDGER/claims/C-chirps-02.md) | National mean holds the WDI diagnosis. Not a site series. Step 1 still unfilled. |
