@@ -1,19 +1,19 @@
 # Simple claims currently supported by the published examples
 
-**TL;DR.** The current work supports a set of simple, specialist-backed statements, not a new field dataset and not a test of whether the core axiom can break. People can organize watershed works and then record wells and planting (Paani Water Cup), though selection of high-performing villages limits causal claims, and winter planted area is not delivered water. Applied water has been shown to move through soil layers (Modesto), to take years to reach a deep water table (Oro Grande Wash, 117 m, about three years at first), and to travel from a particular recharge basin to particular wells, with a repeat test agreeing (Kraemer Basin). Tulare Lake agencies’ published annual rows for water years 2020–2025 sum to 2,538,548 AF of reported extraction and 468,635 AF of estimated net storage loss; that is not a demonstrated temporal-mining signature, not a locked delivered-water series, and not an independent compaction volume. The mussel example supports a limited structural illustration — including the 1913 Keokuk dam blocking skipjack, which host ebonyshell — and leaves renewal coverage uncomputed. Earlier Sahel wording that a sign flip had been measured, or that the framework had passed a falsification test, stays withdrawn.
+**TL;DR.** The current work supports a set of simple, specialist-backed statements, not a new field dataset and not a test of whether the core axiom can break. People can organize watershed works and then record wells and planting (Paani Water Cup), though selection of high-performing villages limits causal claims, and winter planted area is not delivered water. Applied water has been shown to move through soil layers (Modesto), to take years to reach a deep water table (Oro Grande Wash, 117 m, about three years at first), and to travel from a particular recharge basin to particular wells, with a repeat test agreeing (Kraemer Basin). Tulare Lake agencies’ published annual rows for water years 2020–2025 sum to 2,538,548 AF of reported extraction and 468,635 AF of estimated net storage loss; that is not a demonstrated temporal-mining signature, not a locked delivered-water series, and not an independent compaction volume. The mussel example supports a limited structural illustration — including the 1913 Keokuk dam blocking skipjack, which host ebonyshell — and leaves renewal coverage uncomputed. On the USGS San Joaquin Valley subsidence page (17 October 2018), reduced surface-water availability during 1976–77, 1986–92, 2007–09, and 2012–2015 caused pumping increases, water-level declines, and renewed aquifer compaction; whether pumping maintained delivered water service during those episodes remains open. Land at the approximate point of maximum subsidence in that valley subsided roughly 9 m from 1925 to 1977 (Ireland photograph); that is a single point, not a valley-wide figure. Earlier Sahel wording that a sign flip had been measured, or that the framework had passed a falsification test, stays withdrawn.
 
-This table is the Session 3 product on `ai/evolution`. It is not a publication to `main`. Wording was narrowed after the adversarial pass rather than dropping rows. A1–A8 stay undefined. THEORY_MAB arms were not developed.
+This table is the Session 3 product on `ai/evolution`, with a 25 November 2026 follow-up on the USGS subsidence pages. It is not a publication to `main`. Wording was narrowed after the adversarial pass rather than dropping rows. A1–A8 stay undefined. THEORY_MAB arms were not developed.
 
 ## Counts by ruling
 
 | Ruling | Count | IDs |
 |---|---:|---|
 | supported | 2 | MU-04, SA-01 |
-| supported-with-limit | 25 | PAE-01–PAE-06, CV-01–CV-10, CV-12–CV-13, MU-01–MU-03, MU-05–MU-06, SA-02–SA-03 |
-| partial | 1 | CV-11 |
+| supported-with-limit | 27 | PAE-01–PAE-06, CV-01–CV-14, MU-01–MU-03, MU-05–MU-06, SA-02–SA-03 |
+| partial | 0 | — |
 | unsupported | 0 | — |
 | needs-definition | 0 | — |
-| **Total** | **28** | |
+| **Total** | **29** | |
 
 No row needed an undefined A1–A8 term.
 
@@ -95,9 +95,9 @@ No row needed an undefined A1–A8 term.
 
 ## 2. Central Valley v0.2 / Tulare Lake
 
-**What the current work supports cleanly.** The six-year sums of the agencies’ published annual rows (CV-01); the Perzan orchard model’s 14-day versus two-year figures, now with published uncertainties (CV-03); site-level runoff or lag results that are not deep-layer recharge (CV-04); the DWR sign result once all three lag windows are named, including the W3 break (CV-06); the completeness and object-class limits on a temporal-mining signature, \(C_{irr}\), \(Q_{sw}\), and \(D_W\) (CV-07, CV-08); zonal storage caveats and the C-zone double-count warning (CV-09, CV-10); southeastern San Joaquin Valley groundwater that can be a mixture of modern and much older recharge (CV-12, now confirmed in SIR 2024-5009); and the Esajian 80-acre site versus the 5,466 AF subbasin diversion total (CV-13). Winter area and well change can move independently, which is a reason to keep separate records, not to treat rabi area as delivered water (CV-02).
+**What the current work supports cleanly.** The six-year sums of the agencies’ published annual rows (CV-01); the Perzan orchard model’s 14-day versus two-year figures, now with published uncertainties (CV-03); site-level runoff or lag results that are not deep-layer recharge (CV-04); the DWR sign result once all three lag windows are named, including the W3 break (CV-06); the completeness and object-class limits on a temporal-mining signature, \(C_{irr}\), \(Q_{sw}\), and \(D_W\) (CV-07, CV-08); zonal storage caveats and the C-zone double-count warning (CV-09, CV-10); USGS-documented San Joaquin Valley drought-period pumping, water-level declines, and renewed compaction, with delivered service still open (CV-11); southeastern San Joaquin Valley groundwater that can be a mixture of modern and much older recharge (CV-12, confirmed in SIR 2024-5009); the Esajian 80-acre site versus the 5,466 AF subbasin diversion total (CV-13); and roughly 9 m of subsidence from 1925 to 1977 at the approximate point of maximum subsidence in the San Joaquin Valley (CV-14, Ireland photograph). Winter area and well change can move independently, which is a reason to keep separate records, not to treat rabi area as delivered water (CV-02).
 
-**Where a better best-fit study is needed.** A Tulare basin-to-well tracer study of Kraemer’s kind; an independent \(C_{irr}\) product that does not reuse C-zone InSAR (Round 28 found none that qualify); a declared Tulare delivered-service series that is not Table 3-1 (Rounds 24 and 29). The Qiaozigou timing clause still needs the full PDF (CV-05). The USGS San Joaquin Valley subsidence URL cited for drought-period episodes did not resolve in this session (CV-11), so that bullet remains unverified here; Faunt’s 158 km³ / 15% and Lees and Knight’s 14 km³ were confirmed on their own landing pages or OA texts. No new substitute study is named for the unresolved USGS page.
+**Where a better best-fit study is needed.** A Tulare basin-to-well tracer study of Kraemer’s kind; an independent \(C_{irr}\) product that does not reuse C-zone InSAR (Round 28 found none that qualify); a declared Tulare delivered-service series that is not Table 3-1 (Rounds 24 and 29). The Qiaozigou timing clause still needs the full PDF (CV-05). The USGS San Joaquin Valley episode page cited in v0.2 has now been retrieved and is no longer an open verification gap; Faunt’s 158 km³ / 15% and Lees and Knight’s 14 km³ were already confirmed in Session 3. Those regional findings still do not automatically transfer to Tulare Lake 5-022.12, and delivered service during the USGS episode windows remains unmeasured.
 
 ### CV-01 — supported-with-limit
 
@@ -209,16 +209,16 @@ No row needed an undefined A1–A8 term.
 | **Link** | [WY 2025 PDF](https://sgma.water.ca.gov/portal/service/gspar/document/5821) (200) |
 | **Support** | Published v0.2 transcription. |
 
-### CV-11 — partial
+### CV-11 — supported-with-limit
 
 | Field | Text |
 |---|---|
-| **Claim** | Regional Central Valley and San Joaquin Valley studies document large historical storage loss and a regional subsidence-volume estimate. Those findings are not automatically a Tulare Lake 5-022.12 result. |
-| **Best-fit study** | Faunt et al. / CVHM2, USGS publication 70253177 (about 158 km³ of storage loss from predevelopment to 2019; about 15% attributed to permanent subsidence loss — wording confirmed on the USGS warehouse page in this session); Lees and Knight, *Communications Earth & Environment*, 2024 (about 14 km³ of subsidence volume during 2006–2022 — wording confirmed in the OpenAlex abstract and the gold OA article). The USGS San Joaquin Valley subsidence page cited in v0.2 for the 1976–77, 1986–92, 2007–09, and 2012–15 episodes did not resolve in this session (timeout / 000), so that episode wording is unverified here. |
-| **What it shows** | Confirmed regional context from Faunt and from Lees and Knight, with the transfer limits already stated in v0.2: applying the 15% figure to Tulare Lake would require local evidence; translating Lees and Knight displacement into water released from a particular aquifer requires a model. |
-| **Limit** | Different geographic coverage from Tulare Lake. The cited USGS episode URL did not resolve (www.usgs.gov timeout, as in earlier rounds). DWR State Water Project 3% / 18–87% delivery-capability figures describe a different quantity from the local annual series and are not included as a Tulare claim. No substitute study for the unresolved USGS page is named. |
-| **Link** | [Faunt / CVHM2](https://pubs.usgs.gov/publication/70253177) (200; 158 km³ / 15% confirmed) · [Lees and Knight](https://doi.org/10.1038/s43247-024-01778-w) (200; 14 km³ confirmed) · [USGS SJV subsidence (did not resolve)](https://www.usgs.gov/centers/land-subsidence-in-california/science/land-subsidence-san-joaquin-valley) |
-| **Support** | v0.2 regional-setting table, plus Session 3 wording checks for Faunt and Lees only. |
+| **Claim** | During 1976–77, 1986–92, 2007–09, and 2012–2015, reduced surface-water availability caused groundwater-pumping increases in the San Joaquin Valley, water-level declines to near or beyond historic lows, and renewed aquifer compaction. Regional studies also document large historical Central Valley storage loss and a San Joaquin Valley subsidence-volume estimate. Those findings are not automatically a Tulare Lake 5-022.12 result. |
+| **Best-fit study** | USGS, *Land Subsidence in the San Joaquin Valley*, 17 October 2018, for the episode wording (the paragraph beginning “Reduced surface-water availability,” immediately above “Importance of Monitoring Subsidence”). Faunt et al. / CVHM2, USGS publication 70253177, for about 158 km³ of storage loss from predevelopment to 2019, about 15% attributed to permanent subsidence loss (confirmed in Session 3). Lees and Knight, *Communications Earth & Environment*, 2024, for about 14 km³ of subsidence volume during 2006–2022 (confirmed in Session 3). |
+| **What it shows** | The live USGS page, retrieved in this follow-up, uses “caused” for the four episode windows and writes the last window as 2012–2015 (the same period v0.2 abbreviated as 2012–15). It also notes that the resulting subsidence has reduced the freeboard and flow capacity of the Delta-Mendota Canal, the California Aqueduct, and other canals — a San Joaquin Valley canal finding, not a Tulare Lake delivery series. Faunt and Lees and Knight remain the sources for the regional volume figures already checked. |
+| **Limit** | Whether pumping maintained delivered water service during those episodes remains open. This is San Joaquin Valley / Central Valley evidence, not a Tulare Lake 5-022.12 result. Applying Faunt’s 15% figure to Tulare Lake would require local evidence; translating Lees and Knight displacement into water released from a particular aquifer requires a model. DWR State Water Project 3% / 18–87% delivery-capability figures describe a different quantity from the local annual series and are not included as a Tulare claim. |
+| **Link** | [USGS, Land Subsidence in the San Joaquin Valley](https://www.usgs.gov/centers/land-subsidence-in-california/science/land-subsidence-san-joaquin-valley) (200 in this follow-up; wording confirmed) · [Faunt / CVHM2](https://pubs.usgs.gov/publication/70253177) (200; 158 km³ / 15% confirmed) · [Lees and Knight](https://doi.org/10.1038/s43247-024-01778-w) (200; 14 km³ confirmed) |
+| **Support** | Published v0.2 already cited this USGS page. Session 3 left the episode bullet unverified because the URL timed out (000). This follow-up retrieved the same URL (200) and confirmed the target paragraph. Jordan pointed to that paragraph; the live page matches. |
 
 ### CV-12 — supported-with-limit
 
@@ -241,6 +241,17 @@ No row needed an undefined A1–A8 term.
 | **Limit** | Neither figure is the effective recharge area for a particular deep well. In this session the figures are supported by the v0.2 transcription, not a fresh re-extraction. |
 | **Link** | [WY 2025 PDF](https://sgma.water.ca.gov/portal/service/gspar/document/5821) (200) |
 | **Support** | Published v0.2 “Local recharge planning.” |
+
+### CV-14 — supported-with-limit
+
+| Field | Text |
+|---|---|
+| **Claim** | Land at the approximate point of maximum subsidence in the San Joaquin Valley subsided roughly 9 m from 1925 to 1977 due to aquifer-system groundwater withdrawals. More than 80 percent of known land subsidence in the United States is a consequence of groundwater use. |
+| **Best-fit study** | USGS, *Land Subsidence*, Water Resources Mission Area, 2 March 2019, including the Richard Ireland photograph caption on that page. |
+| **What it shows** | The caption describes an approximate point of maximum subsidence and attributes the roughly 9 m change to aquifer-system groundwater withdrawals. Signs on the telephone pole mark former land-surface elevations in 1925 and 1955. The 80-percent statement is a national overview sentence on the same page, not a measurement from that photograph. |
+| **Limit** | The 9 m figure is for a single approximate point of maximum subsidence, not a valley-wide average and not a Tulare Lake 5-022.12 result. The 80-percent figure is a national statement about known U.S. land subsidence, not a San Joaquin Valley or Tulare percentage. The page and its media-details caption credit Richard Ireland but do not print the bench-mark identifier BM S661; that identifier is not included as a finding of this page. |
+| **Link** | [USGS, Land Subsidence (WRMA, 2 March 2019)](https://www.usgs.gov/mission-areas/water-resources/science/land-subsidence) (200; wording confirmed). Jordan’s short link, `https://share.google/NTs3sZSCGsDBph3Vf`, resolved to this canonical URL. Photograph media details: [Land Subsidence in the San Joaquin Valley](https://www.usgs.gov/media/images/land-subsidence-san-joaquin-valley) (200). |
+| **Support** | Live page and media-details caption retrieved in this follow-up. |
 
 ---
 
@@ -359,11 +370,13 @@ No row needed an undefined A1–A8 term.
 
 ---
 
-## Link-check note (Session 3, 25 November 2026, America/New_York)
+## Link-check note (Session 3, 25 November 2026, America/New_York, with a same-day USGS follow-up)
 
-Unique extraction URLs were requested with a short GET, following redirects. A 200 means the URL resolved; it is not, by itself, a full-text confirmation. Wording checks done in this session are named in the rows above (USGS warehouse abstracts, SIR 2024-5009 PDF, Lees and Knight OA abstract, Crossref/OpenAlex abstracts, NPS page, Waterways Council page, and already-retrieved R25 PDFs that resolved again).
+Unique extraction URLs were requested with a short GET, following redirects. A 200 means the URL resolved; it is not, by itself, a full-text confirmation. Wording checks done in Session 3 are named in the rows above (USGS warehouse abstracts, SIR 2024-5009 PDF, Lees and Knight OA abstract, Crossref/OpenAlex abstracts, NPS page, Waterways Council page, and already-retrieved R25 PDFs that resolved again).
 
-Publisher 403 or 500 responses were recorded for several DOIs (Izbicki, Clark’s MDPI page, Luo’s MDPI HTML, Larson, Vaughn 2008, beaver, Panama). In those cases the row uses a previously retrieved official abstract, an OA PDF, or a Crossref/OpenAlex abstract, and says so. The USGS San Joaquin Valley subsidence URL timed out (000) and is the reason CV-11 is only partial.
+Publisher 403 or 500 responses were recorded for several DOIs (Izbicki, Clark’s MDPI page, Luo’s MDPI HTML, Larson, Vaughn 2008, beaver, Panama). In those cases the row uses a previously retrieved official abstract, an OA PDF, or a Crossref/OpenAlex abstract, and says so.
+
+The USGS San Joaquin Valley subsidence URL that timed out (000) in Session 3 returned 200 in this follow-up (standard browser user-agent). The target paragraph was confirmed, so CV-11 is no longer partial. The Water Resources Mission Area Land Subsidence page and the Ireland photograph media-details page also returned 200; wording for CV-14 was confirmed there. Jordan’s short link resolved to the canonical WRMA URL.
 
 Relative links to fills and to the Sahel example are in-tree on this branch.
 
