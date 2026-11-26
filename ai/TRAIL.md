@@ -13,6 +13,12 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Adversarial agent: USGS subsidence follow-up attacked
+
+Follow-up [B]. Filed two challenges on the CV-11 revision and the proposed CV-14 row (`4b37203` / `6eb3f18`): the USGS episode paragraph does not measure delivered service and is not automatically a Tulare Lake result; the 9 m Ireland-photograph figure is a single approximate point, the 80-percent sentence is national, and BM S661 is not printed on the retrieved page. No row was ruled and no theory arm was developed. `main` was not edited.
+
+**What this means.** The pages check out. Step C should keep the service, transfer, and point-versus-valley limits, leave BM S661 out of the claim, and then update the master table.
+
 ## 2026-11-25 — Work agent: USGS subsidence follow-up opened (CV-11 retry and CV-14)
 
 Follow-up [A] to Session 3. Pre-registered a retry of the USGS San Joaquin Valley subsidence page that left CV-11 partial, and extracted a proposed new row (CV-14) from the Water Resources Mission Area Land Subsidence page. The SJV URL cited on `main` returned 200 and contains the “Reduced surface-water availability” paragraph above “Importance of Monitoring Subsidence,” naming 1976-77, 1986-92, 2007-09, and 2012-2015. Jordan’s short link resolved to the canonical WRMA page, which states the roughly 9 m / 1925–1977 Ireland-photograph caption and the national 80-percent groundwater-use sentence. No row was ruled. `main` was not edited.
