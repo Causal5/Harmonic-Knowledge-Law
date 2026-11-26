@@ -10,6 +10,20 @@ publication to `main` and is not scientific validation.
 
 
 
+## New domain — industrial farming and soil loss (2026-11-25)
+
+A → B → C on `ai/evolution` only, after Jordan directed a second domain with humus / soil organic matter central, to test whether simple claims travel beyond water. `Release/` on `main` at `37522fc` was not edited. A1–A8 remain undefined. THEORY_MAB arms were not developed. The water-domain table in `ai/CLAIMS.md` and the R20–R29 scoreboard were not changed.
+
+Nine simple claims were extracted from retrieved specialist studies, with funding or affiliation recorded on every row, then attacked from both the industry-messaging and advocacy sides. Rulings in [`ai/CLAIMS_SOIL.md`](CLAIMS_SOIL.md): **0 supported, 9 supported-with-limit, 0 partial, 0 unsupported, 0 needs-definition.**
+
+- **Strongest claims.** Thaler et al. 2021: 35 ± 11% of cultivated Corn Belt area estimated to have lost its A-horizon (SOIL-02). Broadbalk official 2024 handout, with Poulton et al. 2018: high grain yields with fertilizers only or FYM plus fertilizer, while FYM more than doubled plough-layer SOM (SOIL-06). Poulton et al. 2018: early FYM rates can be high, then move toward equilibrium and can reverse (SOIL-09). Powlson et al. 2014: no overall SOC stock increase in 69 no-till pairs sampled to at least 40 cm (SOIL-07). Oldfield et al. 2019: maize and wheat yields level off at about 2% SOC (SOIL-05).
+- **Decoupling (SOIL-06).** Ruled **supported-with-limit**. High fertilized yields can coexist with much lower plough-layer SOM than under annual farmyard manure. This is not a finding that fertilizer depletes SOM relative to unfertilized cropland (the handout says mineral N enhanced SOM a little). It is not complete decoupling: Oldfield still finds a yield increase with SOC up to about 2%, and Thaler associates complete A-horizon loss with a 6 ± 2% yield reduction. One site; structure and biology were not measured in the cited handout sentences.
+- **Industry-funded sources.** None of the nine best-fit studies is agrochemical-manufacturer funded on the retrieved acknowledgments or metadata. Conservation-NGO and related funding is labeled: The Nature Conservancy and the Doris Duke Charitable Foundation (SOIL-03); Wood’s Nature Conservancy co-affiliation (SOIL-05); CGIAR CCAFS (SOIL-07).
+- **Challenges.** All three hit: overreach in both directions (fertilizer-depletion or complete decoupling; water-holding “underpinning”; high yield as proof that soil is fine); funding and advocacy (label NGO/CGIAR funding; do not treat Powlson or Poulton as industry sources or as proof that practices fail; do not restore Khan, Rodale, or Dust Bowl SOM rates); missing limits (abstract-only or handout-only retrieval; unextracted structure claim; Marathwada parallel is analogical).
+- **Cross-domain.** The strongest water parallel is service versus condition, and it is moderate and incomplete: Broadbalk is coexistence of high yield with lower SOM, not opposite movement of the two series. Fertilizer-as-incomplete-substitute and organized corrective effort with equilibrium and depth limits are moderate analogies. Time-lag versus stock-equilibrium is weaker. No protocol symbols were transferred.
+
+**MAB.** No soil arm was opened or developed. ARM-05, ARM-06, and ARM-07 remain `wait`.
+
 ## Follow-up to Session 3 — USGS subsidence pages (2026-11-25)
 
 A short A → B → C cycle on `ai/evolution` only, after Jordan pointed to the USGS San Joaquin Valley page that had timed out in Session 3 and supplied the Water Resources Mission Area Land Subsidence page. `Release/` on `main` at `37522fc` was not edited. A1–A8 remain undefined. THEORY_MAB arms were not developed.

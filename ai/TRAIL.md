@@ -13,6 +13,16 @@ Every agent action on this branch must append an entry here, as required by
 
 ---
 
+## 2026-11-25 — Launch Pad soil-domain session closed
+
+Industrial farming and soil-loss claim table on `ai/evolution` only, A → B → C. `Release/` on `main` at `37522fc` remained primary and was not edited. A1–A8 remain undefined. THEORY_MAB arms were not developed. The water-domain table and the R20–R29 scoreboard were not changed.
+
+## 2026-11-25 — Verifier: soil-domain claim table accepted with revisions
+
+New-domain session [C]. Verdict `accepted-with-revisions` ([V-2026-11-25-claims-soil-domain](LEDGER/verdicts/V-2026-11-25-claims-soil-domain.md)). The table is [`ai/CLAIMS_SOIL.md`](CLAIMS_SOIL.md): 0 supported, 9 supported-with-limit, 0 partial, 0 unsupported, 0 needs-definition. The key decoupling row (SOIL-06) is supported-with-limit as a Broadbalk coexistence claim, not fertilizer-caused SOM decline and not complete decoupling. All three challenges hit and were addressed by keeping limits. `main` was not edited.
+
+**What this means.** Simple SOM claims can be written in the same format as the water table, and the service-versus-condition idea has a real but incomplete soil analogue. It is not a new HKL law and not a license to treat high yield as proof that the soil is fine, or to treat fertilizer as the cause of organic-matter decline.
+
 ## 2026-11-25 — Adversarial agent: soil-domain claims attacked
 
 New-domain session [B]. Filed three challenges on the nine-row extraction (`ce704b0` / `9484021`): overreach in both directions (fertilizer-depletion or complete decoupling; water-holding “underpinning”; uniform loss; high yield as proof that soil is fine); funding and advocacy (label TNC / Doris Duke / CGIAR; do not treat Powlson or Poulton as industry sources or as proof that practices fail; do not restore Khan, Rodale, or Dust Bowl SOM rates); and missing limits (abstract-only or handout-only retrieval, 22 cm cover-crop depth, unextracted structure claim, Marathwada parallel is analogical). No row was ruled and no theory arm was developed. `main` was not edited.
